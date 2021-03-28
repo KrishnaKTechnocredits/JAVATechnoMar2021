@@ -2,8 +2,6 @@ package bhavana;
 
 public class TestFirst {
 
-	
-	
 	void  display(String person_name) {
 		
 		System.out.println("Name of the user is:");
