@@ -1,8 +1,8 @@
-package technocredits
+package siddhant;
 
 public class Display{
 
-	void displayName(String namae){
+	void displayName(String name){
 		System.out.println("User Name is: " + name);
 	}
 	
