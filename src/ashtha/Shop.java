@@ -25,7 +25,8 @@ public class Shop {
 		}else if (initialMaggieStocks == 0) {
 			System.out.println("Maggie is currently out of stock");
 		}else if (true) {
-			System.out.println("Only "+initialMaggieStocks+" maggie available in stock. Do you want to proceed with the cart?");
+			System.out.println("You requested for "+requestedMaggieQty +" maggie packets but only "+initialMaggieStocks+" packets available in stock. Do you want to proceed with the cart?");
+			System.out.println("Order placed successfully for "+initialMaggieStocks +" maggie packets.");
 			initialMaggieStocks = 0;
 		}
 		/*to update Dosa stock*/
@@ -34,7 +35,8 @@ public class Shop {
 		}else if (initialDosaStocks == 0) {
 			System.out.println("Dosa is currently out of stock");
 		}else if (true) {
-			System.out.println("Only "+initialDosaStocks+" dosa available in stock. Do you want to proceed with the cart?");
+			System.out.println("You requested for "+requestedDosaQty +" dosa but only "+initialDosaStocks+" available in stock. Do you want to proceed with the cart?");
+			System.out.println("Order placed successfully for "+initialDosaStocks +" dosa.");
 			initialDosaStocks = 0;
 		}
 		/*to update Pouches stock*/
@@ -43,7 +45,8 @@ public class Shop {
 		}else if (initialPouchesStocks == 0) {
 			System.out.println("Pouches are currently out of stock");
 		}else if (true) {
-			System.out.println("Only "+initialPouchesStocks+" oil pouches available in stock. Do you want to proceed with the cart?");
+			System.out.println("You requested for "+requestedPouchesQty +" oil pouches but only "+initialPouchesStocks+" available in stock. Do you want to proceed with the cart?");
+			System.out.println("Order placed successfully for "+initialPouchesStocks +" oil pouches.");
 			initialPouchesStocks = 0;
 		}
 		/*to update Panipuri stock*/
@@ -52,7 +55,8 @@ public class Shop {
 		}else if (initialPanipuriStocks == 0) {
 			System.out.println("Panipuri is currently out of stock");
 		}else if (true) {
-			System.out.println("Only "+initialPanipuriStocks+" panipuri available in stock. Do you want to proceed with the cart?");
+			System.out.println("You requested for "+ requestedPanipuriQty +" panipuri but only "+initialPanipuriStocks+" available in stock. Do you want to proceed with the cart?");
+			System.out.println("Order placed successfully for "+initialPanipuriStocks +" panipuri.");
 			initialPanipuriStocks = 0;
 		}
 		/*to update Masala stock*/
@@ -61,7 +65,8 @@ public class Shop {
 		}else if (initialMasalaStocks == 0) {
 			System.out.println("Masala is currently out of stock");
 		}else if (true) {
-			System.out.println("Only "+initialMasalaStocks+" masala packets available in stock. Do you want to proceed with the cart?");
+			System.out.println("You requested for "+ requestedMasalaQty +" masala packets but only "+initialMasalaStocks+" available in stock. Do you want to proceed with the cart?");
+			System.out.println("Order placed successfully for "+initialMasalaStocks +" masala packets.");
 			initialMasalaStocks = 0;
 		}
 	}
