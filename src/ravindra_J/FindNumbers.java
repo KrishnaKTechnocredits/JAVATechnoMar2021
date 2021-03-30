@@ -44,7 +44,7 @@ public class FindNumbers {
 	void printEvenNumber(int start,int end){
 		startNum = start;
 		endNum = end;
-		if(startNum >0 && endNum >= startNum){
+		if(startNum > 0 && endNum >= startNum){
 			System.out.print("Even numbers between "+startNum+ " & " +endNum+" are: ");
 
 			for(int index=0;index<=endNum && startNum<=endNum;index++){
@@ -124,9 +124,10 @@ public class FindNumbers {
 		findnumber.printAllNumberDiviFive(10, 30);
 		findnumber.printAllNumberDiviFive(30, 10);// invalid
 		findnumber.printAllNumberDiviFiveAndThree(5, 18);
-		findnumber.printAllNumberDiviFiveAndThree(-2, 0);// invalid
+		findnumber.printAllNumberDiviFiveAndThree(-2, -2);// invalid
 		findnumber.printAllNumberDiviSevenAndThirteen(5, 40);
 		findnumber.printAllNumberDiviSevenAndThirteen(50, 14);// invalid
+		findnumber.printAllNumberDiviSevenAndThirteen(-1, -4);// invalid
 	}
 
 }
