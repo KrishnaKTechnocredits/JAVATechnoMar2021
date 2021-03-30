@@ -48,7 +48,7 @@ class NumberActions {
 	int number4;
 	
 	void evenNumbers() {
-		System.out.println("The even Numbers are:-");
+		System.out.println("The even Numbers are:");
 		for(int number1 = 10; number1 <=15 ; number1++ ) { //Range -> 10 to 15
 			if((number1%2) == 0)
 				System.out.println(number1);
@@ -56,7 +56,7 @@ class NumberActions {
 	}
 	
 	void divisibleBy5() {
-		System.out.println("The numbers divisible by 5 are:-");
+		System.out.println("The numbers divisible by 5 are:");
 		for(int number2 = 10; number2 <=30; number2++ ) { //Range -> 10 to 15
 			if((number2%5) == 0)
 				System.out.println(number2);
@@ -64,7 +64,7 @@ class NumberActions {
 	}
 	
 	void divisibleBy5And3() {
-		System.out.println("The numbers divisible by 5 & 3 are:-");
+		System.out.println("The numbers divisible by 5 & 3 are:");
 		for(int number3 = 5; number3 <=18; number3++ ) { //Range -> 5 to 18
 			if((number3%5) == 0 && (number3%3) == 0)
 				System.out.println(number3);
@@ -72,7 +72,7 @@ class NumberActions {
 	}
 	
 	void divisibleBy7Or13() {
-		System.out.println("The numbers divisible by 7 or 13 are:-");
+		System.out.println("The numbers divisible by 7 or 13 are:");
 		for(int number4 = 5; number4 <=40; number4++ ) { //Range -> 5 to 40
 			if((number4%7) == 0 || (number4%13) == 0) {
 				if ((number4%7) == 0)
