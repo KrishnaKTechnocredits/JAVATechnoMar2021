@@ -39,14 +39,20 @@ public class Shop {
 	}
 	
 	void quantityPicked (int maggiPicked, int dosaPicked, int oilPouchPicked, int panipuriPicked, int masalaPicked) {
-		if (maggiPicked>0) {
+		if (maggiPicked>0){
 			maggiQuantity= maggiQuantity-maggiPicked;
+			if (maggiQuantity <0) {
+				System.out.println("Insufficient maggi stock available");
+			}
 			if (maggiQuantity == 0) {
 				System.out.println("Maggi running our of stock");
 			}
 		}
 		
 		if (dosaPicked>0) {
+			if (dosaQuantity <0) {
+				System.out.println("Insufficient dosa stock");
+			}
 			dosaQuantity= dosaQuantity-dosaPicked;
 			if (dosaQuantity == 0) {
 				System.out.println("Dosa running our of stock");
@@ -55,6 +61,9 @@ public class Shop {
 		
 		if (oilPouchQuantity>0) {
 			oilPouchQuantity= oilPouchQuantity-oilPouchPicked;
+			if (oilPouchQuantity <0) {
+				System.out.println("Insufficient oil pouch stock");
+			}
 			if (oilPouchQuantity == 0) {
 				System.out.println("Oil pouch running our of stock");
 			}
@@ -62,6 +71,9 @@ public class Shop {
 		
 		if (panipuriQuantity>0) {
 			panipuriQuantity= panipuriQuantity-panipuriPicked;
+			if (panipuriQuantity <0) {
+				System.out.println("Insufficient panipuri stock");
+			}
 			if (panipuriQuantity == 0) {
 				System.out.println("Panipuri running our of stock");
 			}
@@ -69,6 +81,9 @@ public class Shop {
 		
 		if (masalaQuantity>0) {
 			masalaQuantity= masalaQuantity-masalaPicked;
+			if (masalaQuantity <0) {
+				System.out.println("Insufficient masala stock");
+			}
 			if (masalaQuantity == 0) {
 				System.out.println("Masala running our of stock");
 			}
@@ -124,7 +139,7 @@ public class Shop {
 	public static void main (String[] args) {
 		Shop shop= new Shop();
 		shop.setInitialQuantity(100,80,0,40,20);
-		shop.quantityPicked(100,0,0,30,20);
+		shop.quantityPicked(100,0,0,30,30);
 		shop.remainingQuantity();
 		shop.outOfStock();
 	}
