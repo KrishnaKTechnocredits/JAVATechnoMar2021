@@ -28,7 +28,8 @@ public class Shop {
 					totalMaggieQty -= maggieRequiredQty;
 				else {
 					System.out.println("For Maggie, customer requested " + maggieRequiredQty + " quantity"
-							+ " but we have provided " + totalMaggieQty + " quantity which were available with us."	+ "\n");
+							+ " but we have provided " + totalMaggieQty + " quantity which were available with us."
+							+ "\n");
 					totalMaggieQty = 0;
 				}
 			} else
@@ -43,8 +44,9 @@ public class Shop {
 				if (dosaRequiredQty <= totalDosaQty)
 					totalDosaQty -= dosaRequiredQty;
 				else {
-					System.out.println("For Dosa, customer requested " + dosaRequiredQty + " quantity" 
-							+ " but we have provided " + totalDosaQty + " quantity which were available with us." + "\n");
+					System.out.println(
+							"For Dosa, customer requested " + dosaRequiredQty + " quantity" + " but we have provided "
+									+ totalDosaQty + " quantity which were available with us." + "\n");
 					totalDosaQty = 0;
 				}
 			} else
@@ -59,8 +61,9 @@ public class Shop {
 				if (oilRequiredQty <= totalOilQty)
 					totalOilQty -= oilRequiredQty;
 				else {
-					System.out.println("For Oil, customer requested " + oilRequiredQty + " quantity" 
-							+ " but we have provided " + totalOilQty + " quantity which were available with us." + "\n");
+					System.out.println(
+							"For Oil, customer requested " + oilRequiredQty + " quantity" + " but we have provided "
+									+ totalOilQty + " quantity which were available with us." + "\n");
 					totalOilQty = 0;
 				}
 			} else
@@ -76,7 +79,8 @@ public class Shop {
 					totalPanipuriQty -= panipuriRequiredQty;
 				else {
 					System.out.println("For Panipuri, customer requested " + panipuriRequiredQty + " quantity"
-							+ " but we have provided " + totalPanipuriQty + " quantity which were available with us." + "\n");
+							+ " but we have provided " + totalPanipuriQty + " quantity which were available with us."
+							+ "\n");
 					totalPanipuriQty = 0;
 				}
 			} else
@@ -92,7 +96,8 @@ public class Shop {
 					totalMasalaQty -= masalaRequiredQty;
 				else {
 					System.out.println("For Masala, customer requested " + masalaRequiredQty + " quantity"
-							+ " but we have provided " + totalMasalaQty + " quantity which were available with us."	+ "\n");
+							+ " but we have provided " + totalMasalaQty + " quantity which were available with us."
+							+ "\n");
 					totalMasalaQty = 0;
 				}
 			} else
