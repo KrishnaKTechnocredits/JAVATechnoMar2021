@@ -1,5 +1,7 @@
-//WAP to convert temperature from Fahrenheit to celsius degree
-//Celsius = (Fahrenheit-32)*5/9
+/*
+ * WAP to convert temperature from Fahrenheit to celsius degree
+ * //Celsius = (Fahrenheit-32)*5/9
+ */
 package sangeeta;
 
 class TempratureConvertor{

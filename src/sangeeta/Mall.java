@@ -1,5 +1,8 @@
-//Sample Output: Harsh buys 12 items and payment done using visa card in section 1B.
+/*
+ * Sample Output: Harsh buys 12 items and payment done using visa card in section 1B.
+ */
 package sangeeta;
+
 class Mall{
 	int itemAddedToCart;
 	String customerName;

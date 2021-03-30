@@ -1,11 +1,14 @@
-//WAP to find the area and perimeter of Rectangle and Circle.
-//Note: One method to find area and another for Perimeter.
-//Hint: Area of Rectangle = Length * Width
-// Perimeter f Rectangle = 2*Lenth + 2*Width
-//Area of Circle = Pi*r*r, r is radius
-//Perimeter of Circle = 2*Pi*r, where Pi = 3.116
+/*
+WAP to find the area and perimeter of Rectangle and Circle.
+Note: One method to find area and another for Perimeter.
+Hint: Area of Rectangle = Length * Width
+Perimeter f Rectangle = 2*Lenth + 2*Width
+Area of Circle = Pi*r*r, r is radius
+Perimeter of Circle = 2*Pi*r, where Pi = 3.116
+ */
+
 package sangeeta;
-class areaPerimeter{
+class AreaPerimeter{
 	
 	void area(int L, int W, double r){
 		double area_rectangle = L*W;
@@ -22,7 +25,7 @@ class areaPerimeter{
 	}
 	
 	public static void main(String[] a){
-		areaPerimeter areaPerimeter = new areaPerimeter();
+		AreaPerimeter areaPerimeter = new AreaPerimeter();
 		areaPerimeter.area(2,3,4);
 		areaPerimeter.perimeter(2,3,4);
 	}

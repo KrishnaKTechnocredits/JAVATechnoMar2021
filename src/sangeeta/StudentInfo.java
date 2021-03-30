@@ -1,5 +1,8 @@
-// Print all details of student like Name, Middle name, Surname, Birthdate, Address and Roll number.
+/*
+ * Print all details of student like Name, Middle name, Surname, Birthdate, Address and Roll number.
+ */
 package sangeeta;
+
 class StudentInfo{
 	String name = "Sangeeta";
 	String Middlename = "Kartik";

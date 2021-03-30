@@ -1,4 +1,5 @@
 package sangeeta;
+
 class Student{
 	int age=31;
 	String name="Sangeeta";

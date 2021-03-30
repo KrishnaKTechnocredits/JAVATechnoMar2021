@@ -1,5 +1,7 @@
-//WAP to find the square and cube of a number
-// Note: Oe method to fine square and one method to find cube
+/*
+ * WAP to find the square and cube of a number
+ * // Note: One method to fine square and one method to find cube
+ */
 package sangeeta;
 class SquareCube{
 	int num;
