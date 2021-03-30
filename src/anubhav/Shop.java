@@ -134,12 +134,14 @@ public class Shop {
 		if (masalaQuantity<=0) {
 			System.out.println("Masala");
 		}
+		
+		else System.out.println("Everything is in stock");
 	}
 	
 	public static void main (String[] args) {
 		Shop shop= new Shop();
-		shop.setInitialQuantity(100,80,0,40,20);
-		shop.quantityPicked(100,0,0,30,30);
+		shop.setInitialQuantity(100,80,80,40,30);
+		shop.quantityPicked(20,20,20,20,20);
 		shop.remainingQuantity();
 		shop.outOfStock();
 	}
