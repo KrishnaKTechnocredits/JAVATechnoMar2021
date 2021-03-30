@@ -1,11 +1,11 @@
 package ashtha;
 
-class Student {
+class StudentMarks {
 	int marks;
 	String nameOfStudent;
 	
-	void studentName(String name, int studentMarks){
-		marks = studentMarks;
+	void studentName(String name, int marksObtained){
+		marks = marksObtained;
 		nameOfStudent = name;
 		System.out.println("Student name - "+nameOfStudent +" , marks - "+marks);
 	}
@@ -26,8 +26,8 @@ class Student {
 	}
 	
 	public static void main(String[] args){
-		Student student = new Student();
-		student.studentName("Astha",80);
-		student.gainedMark();
+		StudentMarks studentMarks = new StudentMarks();
+		studentMarks.studentName("Astha",80);
+		studentMarks.gainedMark();
 	}	
 }
