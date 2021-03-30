@@ -43,7 +43,7 @@ Output : Divisible by 7 or 13, numbers are:
 		 39 is divisible by 13
 
  */
-public class AdvCalculator {
+public class AdvCalculatorprog {
 	void evenNumbers(int startIndex, int endIndex) {
 		System.out.println("Even number in range of " +startIndex+ " to " +endIndex+ " are");
 		for(;startIndex<=endIndex;startIndex++) 
@@ -77,7 +77,7 @@ public class AdvCalculator {
 	}
 
 public static void main(String[] args) {
-	AdvCalculator advCalculator = new AdvCalculator();
+	AdvCalculatorprog advCalculator = new AdvCalculatorprog();
 	advCalculator.evenNumbers(10,15);
 	advCalculator.divisibleBy(10,30);
 	advCalculator.multidivide3And5(5,18);
