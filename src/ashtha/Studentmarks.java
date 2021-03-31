@@ -1,6 +1,6 @@
 package ashtha;
 
-class Student {
+class Strudentmarks {
 	int marks;
 	String nameOfStudent;
 	
