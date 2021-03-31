@@ -6,7 +6,6 @@ class Example8
    {
      int ans = n1 + n2;
 	 System.out.println("Addition is\n" + ans);
-	 System.out.println("Hi-----");
 	}
 public static void main(String[] args)
 {
