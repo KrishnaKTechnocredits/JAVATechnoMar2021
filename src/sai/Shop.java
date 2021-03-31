@@ -28,7 +28,7 @@ class Shop{
 		
 		if(maggieQ>=maggie){
 			maggieQ  = maggieQ - maggie;
-			System.out.println("Purchased Maggie quantity is " + maggie + " and remaining stock is " + maggieQ);
+			System.out.println("Purchased Maggie quantity is " + maggie);
 		}
 		else if(maggieQ<maggie){
 			System.out.println("We can provide only " + maggieQ + " items for maggie");
@@ -36,7 +36,7 @@ class Shop{
 		
 		if(dosaQ>=dosa){
 			dosaQ  = dosaQ - dosa;
-			System.out.println("Purchased Dosa quantity is " + dosa + " and remaining stock is " + dosaQ);
+			System.out.println("Purchased Dosa quantity is " + dosa);
 		}
 		
 		else if(dosaQ<dosa){
@@ -45,7 +45,7 @@ class Shop{
 		
 		if(pouchesQ>=pouches){
 			pouchesQ  = pouchesQ - pouches;
-			System.out.println("Purchased pouches quantity is " + pouches + " and remaining stock is " + pouchesQ);
+			System.out.println("Purchased pouches quantity is " + pouches);
 		}
 		
 		else if(pouchesQ<pouches){
@@ -54,7 +54,7 @@ class Shop{
 		
 		if(panipuriQ>=panipuri){
 			panipuriQ  = panipuriQ - panipuri;
-			System.out.println("Purchased panipuri quantity is " + panipuri + " and remaining stock is " + panipuriQ);
+			System.out.println("Purchased panipuri quantity is " + panipuri);
 		}
 		
 		else if(panipuriQ<panipuri){
@@ -63,7 +63,7 @@ class Shop{
 		
 		if(masalaQ>=masala){
 			masalaQ  = masalaQ - masala;
-			System.out.println("Purchased masala quantity is " + masala + " and remaining stock is " + masalaQ);
+			System.out.println("Purchased masala quantity is " + masala);
 		}
 		
 		else if(masalaQ<masala){
@@ -91,10 +91,20 @@ class Shop{
 		
 	}
 	
+	void availableStock(){
+		System.out.println("Available maggie stock is " + maggieQ);
+		System.out.println("Available dosa stock is " + dosaQ);
+		System.out.println("Available pouches stock is " + pouchesQ);
+		System.out.println("Available panipuri stock is " + panipuriQ);
+		System.out.println("Available masala stock is " + masalaQ);
+	}
+		
+	
 	public static void main(String[] args){
 		Shop shop = new Shop();
 		shop.quantity(10,43,39,43,73);
 		shop.quantityReq(10,41,40,34,50);
 		shop.outOfStock();
+		shop.availableStock();
 	}
 }
