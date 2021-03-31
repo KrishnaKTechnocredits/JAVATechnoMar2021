@@ -1,6 +1,5 @@
 package priyanka_Kamble;
 
-
 //WAP Calulator
 class Calculator{
 	int X=20,Y=5;

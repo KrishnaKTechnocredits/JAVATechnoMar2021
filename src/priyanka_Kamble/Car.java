@@ -1,4 +1,8 @@
 package priyanka_Kamble;
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 /**
 
 2. Create a class named Car, which contains method like below
