@@ -47,7 +47,7 @@ public class ShopInventory {
 			System.out.println("Thanks..,hope you enjoy shopping with us" );
 	}
 
-	void AvailableStock(){
+	void availableStock(){
 		if(initialStockMaggie != 0)
 			System.out.println("Stock for Maggie " +initialStockMaggie);
 		if(initialStockDosa != 0)
@@ -65,7 +65,7 @@ public class ShopInventory {
 
 
 
-	void RequestedQuantity(int reqMaggie, int reqDosa,int reqOilP,int reqPanipuriP,int reqMasalaP, boolean partialQtyAllow){
+	void requestedQuantity(int reqMaggie, int reqDosa,int reqOilP,int reqPanipuriP,int reqMasalaP, boolean partialQtyAllow){
 		if(reqMaggie <= initialStockMaggie) {
 			initialStockMaggie = initialStockMaggie - reqMaggie;
 			System.out.println("Maggie You are Requested : "+reqMaggie+" and Updated Maggie Available Stock Is: " +initialStockMaggie);
@@ -130,9 +130,9 @@ public class ShopInventory {
 	public static void main(String[] args) {
 		ShopInventory shopinventory = new ShopInventory();
 		shopinventory.setStockQuantity(5,4,3,4,7); // stock set 50,43,39,43,73
-		shopinventory.RequestedQuantity(6,4,0,6,2,true); // request stock
-		//shopinventory.outOfStock();
-		//shopinventory.AvailableStock();
+		shopinventory.requestedQuantity(6,4,0,6,2,true); // request stock
+		shopinventory.outOfStock();
+		shopinventory.availableStock();
 
 	}
 
