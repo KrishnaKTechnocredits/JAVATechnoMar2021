@@ -99,7 +99,7 @@ public class Shop {
 	public void outOfStockItem(String item,int noOfItem, boolean pAllowed) {
 		if(item.equalsIgnoreCase("Maggie")) {
 			if(noOfItem>MaggieQ)
-			System.out.println("Sorry we are running out of stock , the available stock for maggie is  "+MaggieQ +" do you want to still buy this item then say Yes");
+			System.out.println("Sorry we are running out of stock , the available stock for maggie is  "+MaggieQ +" ... do you want to still buy this item then say Yes");
 			if(pAllowed) {	
 				System.out.println("Customer still wants to buy available stock for dosa packets with quantity "+MaggieQ + " though he/she was requested quantity "+noOfItem );
 				MaggieQ=0;
@@ -108,7 +108,7 @@ public class Shop {
 		
 		if(item.equalsIgnoreCase("Dosa")) {
 			if(noOfItem>DosaQ)
-			System.out.println("Sorry we are running out of stock , the available stock for dosa is  "+DosaQ +" do you want to still buy this item then say Yes");
+			System.out.println("Sorry we are running out of stock , the available stock for dosa is  "+DosaQ +" .... do you want to still buy this item then say Yes");
 			if(pAllowed) {		
 				System.out.println("Customer still wants to buy available stock for dosa packets with quantity "+DosaQ+ " though he/she was requested quantity "+noOfItem );
 				DosaQ=0;
@@ -117,7 +117,7 @@ public class Shop {
 		
 		if(item.equalsIgnoreCase("Pouches")) {
 			if(noOfItem>pouchesQ)
-			System.out.println("Sorry we are running out of stock , the available stock for oil pouch is  "+pouchesQ +" do you want to still buy this item then say Yes");
+			System.out.println("Sorry we are running out of stock , the available stock for oil pouch is  "+pouchesQ +" ... do you want to still buy this item then say Yes");
 			if(pAllowed) {		
 				System.out.println("Customer still wants to buy available stock for oil puches with quantity "+pouchesQ+ " though he/she was requested quantity "+noOfItem );
 				pouchesQ=0;
@@ -126,7 +126,7 @@ public class Shop {
 		
 		if(item.equalsIgnoreCase("Panipuri")) {
 			if(noOfItem>panipuriQ)
-			System.out.println("Sorry we are running out of stock , the available stock for panipuri is  "+panipuriQ +" do you want to still buy this item then say Yes");
+			System.out.println("Sorry we are running out of stock , the available stock for panipuri is  "+panipuriQ +" ... do you want to still buy this item then say Yes");
 			if(pAllowed) {		
 				System.out.println("Customer still wants to buy available stock for panipuri with quantity "+panipuriQ+ " though he/she was requested quantity "+noOfItem );
 				panipuriQ=0;
@@ -135,7 +135,7 @@ public class Shop {
 		
 		if(item.equalsIgnoreCase("Masala")) {
 			if(noOfItem>masalaQ)
-			System.out.println("Sorry we are running out of stock , the available stock for masala is  "+masalaQ +" do you want to still buy this item then say Yes");
+			System.out.println("Sorry we are running out of stock , the available stock for masala is  "+masalaQ +" ... do you want to still buy this item then say Yes");
 			if(pAllowed) {			
 				System.out.println("Customer still wants to buy available stock for masala with quantity "+masalaQ+ " though he/she was requested quantity "+noOfItem );
 				masalaQ=0;
