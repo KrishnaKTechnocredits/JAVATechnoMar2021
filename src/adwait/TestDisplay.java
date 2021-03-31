@@ -14,6 +14,6 @@ public class TestDisplay {
 	public static void main(String[] args) {
 		TestDisplay testDisplay = new TestDisplay();
 		testDisplay.setName("Adwait");
-		testDisplay.displayName();		
+		testDisplay.displayName();
 	}
 }
