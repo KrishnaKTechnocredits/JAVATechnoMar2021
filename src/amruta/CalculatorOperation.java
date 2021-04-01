@@ -1,12 +1,8 @@
 package amruta;
 
 class CalculatorOperation{
-	int startindex;
-	int endindex;
 	
-	void displayevenNumber(int startno, int endno){
-		startindex = startno;
-		endindex = endno;
+	void displayevenNumber(int startindex, int endindex){
 		
 		System.out.println("Even Numbers are :");
 		
@@ -18,9 +14,7 @@ class CalculatorOperation{
 		}
 	}
 	
-	void divisiblebyFive(int startno, int endno){
-		startindex = startno;
-		endindex = endno;
+	void divisiblebyFive(int startindex, int endindex){
 		
 		System.out.println("Numbers Divisible by 5 are :");
 		
@@ -31,9 +25,7 @@ class CalculatorOperation{
 		}
 	}
 	
-	void divisiblebyFiveandThree(int startno, int endno){
-		startindex = startno;
-		endindex = endno;
+	void divisiblebyFiveandThree(int startindex, int endindex){
 		
 		System.out.println("Numbers Divisible by 5 and 3 are :");
 		
@@ -44,9 +36,8 @@ class CalculatorOperation{
 		}
 	}
 	
-	void divisiblebySevenandThirteen(int startno, int endno){
-		startindex = startno;
-		endindex = endno;
+	void divisiblebySevenandThirteen(int startindex, int endindex){
+		
 		System.out.println("Numbers Divisible by 7 and 13 are :");
 		for(startindex=1;startindex<=endindex;startindex++){
 			if(startindex%7==0 || startindex%13==0){
