@@ -60,7 +60,7 @@ public class NumInDefineRange {
 			System.out.println("Even Numbers in the defined range are : ");
 			for(int i=startNum; i<= endNum; i++) {
 				if (i%2 == 0) {
-				System.out.println(i++);
+				System.out.println(i);
 				}
 			}				
 		}	
@@ -81,7 +81,7 @@ public class NumInDefineRange {
 			System.out.println("Numbers divisible by 5 in the defined range are : ");
 			for(int i=startNum; i<= endNum; i++) {
 				if (i%5 == 0) {
-				System.out.println(i++);
+				System.out.println(i);
 				}
 			}				
 		}	
@@ -101,7 +101,7 @@ public class NumInDefineRange {
 			System.out.println("Numbers whcih are divisible by 5 & 3 in the defined range are : ");
 			for(int i=startNum; i<= endNum; i++) {
 				if ((i%5 == 0) &&(i%3 ==0)) {
-				System.out.println(i++);
+				System.out.println(i);
 				}
 			}				
 		}	
@@ -122,9 +122,9 @@ public class NumInDefineRange {
 			for(int i=startNum; i<= endNum; i++) {
 				if (i%7 ==0 || i%13 ==0) {
 					if (i%7 == 0)
-					System.out.println(i++ + " is divisible by 7");
+					System.out.println(i + " is divisible by 7");
 					if (i%13 == 0)
-					System.out.println(i++ + " is divisible by 13");
+					System.out.println(i + " is divisible by 13");
 				}
 			}				
 		}	
@@ -135,7 +135,7 @@ public class NumInDefineRange {
 		NumInDefineRange numInDefineRange = new NumInDefineRange();
 		numInDefineRange.evenNumber(10,15);
 		numInDefineRange.numDivisibleByFive(10, 30);
-		numInDefineRange.numDivisibleByFiveAndThree(5, 18);
+		numInDefineRange.numDivisibleByFiveAndThree(5, 60);
 		numInDefineRange.numDivisibleBySevenOrThirteen(5,40);
 	}
 }
