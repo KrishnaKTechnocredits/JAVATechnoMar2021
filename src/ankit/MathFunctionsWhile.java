@@ -49,13 +49,6 @@ int startIndex, endIndex;
 					}
 				index++;
 				} 
-			
-			/*
-			for(int index=startIndex; index<=endIndex; index++) {
-				if(index%5 == 0 && index%3 == 0) {
-					System.out.println("Number Divisible by 5 And 3 both : " +index);
-					}
-				} */
 			}
 		else{
 				System.out.println("Start Index is greater than End Index");
@@ -76,15 +69,6 @@ int startIndex, endIndex;
 					} 
 				index++;
 				} 
-			/*
-			for(int index=startIndex; index<=endIndex; index++) {
-				if(index%7 == 0) {
-					System.out.println("Number Divisible 7 : " +index);
-					}
-					else if ((index%13 == 0)){
-						System.out.println("Number Divisible 13 : " +index);
-					}
-				} */
 			}
 		else{
 				System.out.println("Start Index is greater than End Index");
