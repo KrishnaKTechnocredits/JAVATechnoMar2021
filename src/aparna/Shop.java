@@ -28,69 +28,70 @@ public class Shop {
 
 	void requestedQuantity(int reqMaggiePack, int reqDosaPack, int reqOilPouch, int reqPanipuriPack, int reqMasalaPack,
 			boolean partialAllowedStatus) {
-  
-		 if (totalMaggiePacks!= 0 && reqMaggiePack <= totalMaggiePacks) {
+
+		if (totalMaggiePacks != 0 && reqMaggiePack <= totalMaggiePacks) {
 			totalMaggiePacks = totalMaggiePacks - reqMaggiePack;
 		} else {
-			    if (partialAllowedStatus) {
-			System.out.println("Sorry, not sufficient Maggy Packets quantity available , So we can give you only : "
-					+ totalMaggiePacks + " Maggy Packets Only ");
-			totalMaggiePacks = 0;
-			  
-			    }else
-			System.out.println("Maggy Packets Actual Quantity is: " + totalMaggiePacks + " and requested Quantity is : "
-					+ reqMaggiePack + " So could not serve the Demand");
+			if (partialAllowedStatus) {
+				System.out.println("Sorry, not sufficient Maggy Packets quantity available , So we can give you only : "
+						+ totalMaggiePacks + " Maggy Packets Only ");
+				totalMaggiePacks = 0;
+
+			} else
+				System.out.println("Maggy Packets Actual Quantity is: " + totalMaggiePacks
+						+ " and requested Quantity is : " + reqMaggiePack + " So could not serve the Demand");
 		}
-	
-		 
-		 if (totalDosaPacks!= 0 && reqDosaPack <= totalDosaPacks) {
+
+		if (totalDosaPacks != 0 && reqDosaPack <= totalDosaPacks) {
 			totalDosaPacks = totalDosaPacks - reqDosaPack;
 		} else {
-			    if (partialAllowedStatus) {
-			System.out.println("Sorry, not sufficient Dosa Packets quantity available , So we can give you only : "
-					+ totalDosaPacks + " Dosa Packets Only ");
-			totalDosaPacks = 0;
-			    }else
-			System.out.println("Dosa Packets Actual Quantity is: " + totalDosaPacks + " and requested Quantity is : "
-					+ reqDosaPack + " So could not serve the Demand");
-		
-		}
-		
-		if (totalOilPouches!= 0 && reqOilPouch <= totalOilPouches) {
-			totalOilPouches = totalOilPouches - reqOilPouch;
-		} else {
-			   if(partialAllowedStatus) {
-			System.out.println("Sorry, not sufficient Oil Packets quantity available , So we can give you only : "
-					+ totalOilPouches + " Oil Packets Only ");
-			totalOilPouches = 0;
-			   }else
-			System.out.println("Oil Packets Actual Quantity is: " + totalOilPouches + " and requested Quantity is : "
-					+ reqOilPouch + " So could not serve the Demand");
+			if (partialAllowedStatus) {
+				System.out.println("Sorry, not sufficient Dosa Packets quantity available , So we can give you only : "
+						+ totalDosaPacks + " Dosa Packets Only ");
+				totalDosaPacks = 0;
+			} else
+				System.out.println("Dosa Packets Actual Quantity is: " + totalDosaPacks
+						+ " and requested Quantity is : " + reqDosaPack + " So could not serve the Demand");
 
 		}
-		
-	      if (totalPanipuriPacks!= 0 && reqPanipuriPack <= totalPanipuriPacks) {
+
+		if (totalOilPouches != 0 && reqOilPouch <= totalOilPouches) {
+			totalOilPouches = totalOilPouches - reqOilPouch;
+		} else {
+			if (partialAllowedStatus) {
+				System.out.println("Sorry, not sufficient Oil Packets quantity available , So we can give you only : "
+						+ totalOilPouches + " Oil Packets Only ");
+				totalOilPouches = 0;
+			} else
+				System.out.println("Oil Packets Actual Quantity is: " + totalOilPouches
+						+ " and requested Quantity is : " + reqOilPouch + " So could not serve the Demand");
+
+		}
+
+		if (totalPanipuriPacks != 0 && reqPanipuriPack <= totalPanipuriPacks) {
 			totalPanipuriPacks = totalPanipuriPacks - reqPanipuriPack;
 		} else {
-			   if(partialAllowedStatus) {
-			System.out.println("Sorry, not sufficient Panipuri Packets quantity available , So we can give you only : "
-					+ totalPanipuriPacks + " Paniputi Packets Only ");
-			totalPanipuriPacks = 0;
-			   }else
-			System.out.println("Panipuri Packets Actual Quantity is: " + totalPanipuriPacks
-					+ " and requested Quantity is : " + reqPanipuriPack + " So could not serve the Demand");
+			if (partialAllowedStatus) {
+				System.out.println(
+						"Sorry, not sufficient Panipuri Packets quantity available , So we can give you only : "
+								+ totalPanipuriPacks + " Paniputi Packets Only ");
+				totalPanipuriPacks = 0;
+			} else
+				System.out.println("Panipuri Packets Actual Quantity is: " + totalPanipuriPacks
+						+ " and requested Quantity is : " + reqPanipuriPack + " So could not serve the Demand");
 		}
-		
-		 if (totalMasalaPacks!= 0 && reqMasalaPack <= totalMasalaPacks) {
+
+		if (totalMasalaPacks != 0 && reqMasalaPack <= totalMasalaPacks) {
 			totalMasalaPacks = totalMasalaPacks - reqMasalaPack;
 		} else {
-			   if(partialAllowedStatus) {
-			System.out.println("Sorry, not sufficient Masala Packets quantity available , So we can give you only : "
-					+ totalMasalaPacks + " Masala Packets Only ");
-			totalMasalaPacks = 0;
-			   }else
-			System.out.println("Masala Packets Actual Quantity is: " + totalMasalaPacks
-					+ " and requested Quantity is : " + reqMasalaPack + " So could not serve the Demand");
+			if (partialAllowedStatus) {
+				System.out
+						.println("Sorry, not sufficient Masala Packets quantity available , So we can give you only : "
+								+ totalMasalaPacks + " Masala Packets Only ");
+				totalMasalaPacks = 0;
+			} else
+				System.out.println("Masala Packets Actual Quantity is: " + totalMasalaPacks
+						+ " and requested Quantity is : " + reqMasalaPack + " So could not serve the Demand");
 
 		}
 
@@ -116,7 +117,7 @@ public class Shop {
 		if (totalMasalaPacks == 0) {
 			System.out.println("Masala Packets are out of stock");
 		}
-		
+
 	}
 
 	void quantityAvailablInStock() {
@@ -151,8 +152,6 @@ public class Shop {
 		shop.displayOutOfStockItems();
 
 		shop.quantityAvailablInStock();
-
-	
 
 		shop.initialStocks(0, 40, 100, 90, 90);
 		shop.requestedQuantity(5, 50, 50, 80, 100, false);
