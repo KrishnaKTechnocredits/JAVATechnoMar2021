@@ -5,7 +5,7 @@ a. Initial stocks of Maggie: 50 Maggie packets
 b. Initial stocks of Dosa : 43 packets 
 c. Initial stocks of pouches : 39 oil packets 
 d. Initial stocks of panipuri : 43 packets  
-e. Initial stocks of masala’s : 73 packets.
+e. Initial stocks of masalaâ€™s : 73 packets.
 
 Expectation:
 1) Only one Customer came for shopping, he picked different items with different quantities, 
@@ -134,7 +134,6 @@ public class Shop {
 		if (masalaQuantity<=0) {
 			System.out.println("Masala");
 		}
-		
 		else System.out.println("Everything is available");
 	}
 	
