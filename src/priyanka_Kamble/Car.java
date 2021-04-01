@@ -1,8 +1,4 @@
 package priyanka_Kamble;
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 /**
 
 2. Create a class named Car, which contains method like below
@@ -31,9 +27,9 @@ package priyanka_Kamble;
 	 }
 	 
 	 void displaySpecification(){
-		 System.out.println("Company name is  		"+companyName);
-		 System.out.println("Is car Automatic?  	"+isAutomatic);
-		 System.out.println("Speed of the Car is 	"+speed);
+		 System.out.println("Company name is  "+companyName);
+		 System.out.println("Is car Automatic? "+isAutomatic);
+		 System.out.println("Speed of the Car is "+speed);
 	 }
 	 
 	 public static void main(String args[]){
