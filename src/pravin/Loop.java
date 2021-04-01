@@ -1,6 +1,5 @@
 /*Assignment 8
  *Write only one program having following methods. [4 methods in same program]
-
  *1. On user define range print all even Numbers.
 Hint : pass start and end index as a parameter.
 Input : Range -> 10 to 15
@@ -82,3 +81,4 @@ public class Loop {
 		Loop.divisableby7n13(5,40);
 	}
 }
+
