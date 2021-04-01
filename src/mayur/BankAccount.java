@@ -4,6 +4,8 @@
 //c) displayInfo() method will print username, password & bankAccountNumber
 //NOTE : consider bank account number as Integer [for example : 13164]
 
+package mayur;
+
 class BankAccount
 {
 	String username,password;
