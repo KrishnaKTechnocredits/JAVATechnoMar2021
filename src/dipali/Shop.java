@@ -99,7 +99,11 @@ public class Shop {
 	public void outOfStockItem(String item,int noOfItem, boolean pAllowed) {
 		if(item.equalsIgnoreCase("Maggie")) {
 			if(noOfItem>MaggieQ)
+
 			System.out.println("Sorry we are running out of stock , the available stock for maggie is  "+MaggieQ +" ... do you want to still buy this item then say Yes");
+
+			System.out.println("Sorry we are running out of stock , the available stock for maggie is  "+MaggieQ +" ...do you want to still buy this item then say Yes");
+
 			if(pAllowed) {	
 				System.out.println("Customer still wants to buy available stock for dosa packets with quantity "+MaggieQ + " though he/she was requested quantity "+noOfItem );
 				MaggieQ=0;
