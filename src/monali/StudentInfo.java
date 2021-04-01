@@ -1,6 +1,4 @@
-
 // Name,Middle name,Surname,BirthDate,Address,and Roll Number
- 
 package monali;
 
 class StudentInfo{

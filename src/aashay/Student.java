@@ -4,11 +4,11 @@ package aashay;
 a. studentName()
 b. gainedMark()
 Expectations:
-• If student gain mark above 90% display student name with grade A+
-• If student gain marks between 80% to 90% display name with grade A
-• If student gain marks between 70% to 80% display name with grade B+
-• If student gain marks between 60% to 70% display name with grade B
-• If student gain marks below 60% display name with grade C
+â€¢ If student gain mark above 90% display student name with grade A+
+â€¢ If student gain marks between 80% to 90% display name with grade A
+â€¢ If student gain marks between 70% to 80% display name with grade B+
+â€¢ If student gain marks between 60% to 70% display name with grade B
+â€¢ If student gain marks below 60% display name with grade C
 
 Sample input : Student name - Maulik, mark - 75
 Sample output : Maulik received grade B+
@@ -39,6 +39,7 @@ class Student{
 			totalMarks = gradeB;
 		}
 		else if(marks<60){
+			totalMarks = gradeB;
 			totalMarks = gradeC;
 		}
 	}
