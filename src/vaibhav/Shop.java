@@ -38,7 +38,7 @@ public class Shop {
 		}else if (reqMaggie <= iMaggie) {
 			iMaggie = iMaggie - reqMaggie;
 		}else {
-			System.out.println("Insufficient Maggie avaiable in stock. We can serve you only " + iMaggie + " Maggie out of " + reqMaggie );
+			System.out.println("Insufficient Maggie available in stock. We can serve you only " + iMaggie + " Maggie out of " + reqMaggie );
 			if (pAllowed)		// pAllowed == true OR pAllowed == false
 				iMaggie = 0;
 		}
@@ -49,7 +49,7 @@ public class Shop {
 		}else if (reqDosa <= iDosa) {
 			iDosa = iDosa - reqDosa;
 		}else{
-			System.out.println("Insufficient Dosa avaiable in stock. We can serve you only " + iDosa + " Dosa out of " + reqDosa);
+			System.out.println("Insufficient Dosa available in stock. We can serve you only " + iDosa + " Dosa out of " + reqDosa);
 			if (pAllowed)		// pAllowed == true OR pAllowed == false
 				iDosa = 0;
 		}
@@ -60,7 +60,7 @@ public class Shop {
 		}else if (reqPouches <= iPouches) {
 			iPouches = iPouches - reqPouches;
 		}else{
-			System.out.println("Insufficient Pouches avaiable in stock. We can serve you only " + iPouches + " Pouches out of " + reqPouches);
+			System.out.println("Insufficient Pouches available in stock. We can serve you only " + iPouches + " Pouches out of " + reqPouches);
 			if (pAllowed)		// pAllowed == true OR pAllowed == false
 				iPouches = 0;
 		}
@@ -72,7 +72,7 @@ public class Shop {
 		}else if (reqPanipuri <= iPanipuri) {
 			iPanipuri = iPanipuri - reqPanipuri;
 		}else{
-			System.out.println("Insufficient Panipuri avaiable in stock. We can serve you only " + iPanipuri + " Panipuri out of " + reqPanipuri);
+			System.out.println("Insufficient Panipuri available in stock. We can serve you only " + iPanipuri + " Panipuri out of " + reqPanipuri);
 			if (pAllowed)		// pAllowed == true OR pAllowed == false
 				iPanipuri = 0;
 		}
@@ -84,7 +84,7 @@ public class Shop {
 		}else if (reqMasala <= iMasala) {
 			iMasala = iMasala - reqMasala;
 		}else{
-			System.out.println("Insufficient Masala avaiable in stock. We can serve you only " + iMasala + " Masala out of " + reqMasala);
+			System.out.println("Insufficient Masala available in stock. We can serve you only " + iMasala + " Masala out of " + reqMasala);
 			if (pAllowed)		// pAllowed == true OR pAllowed == false
 				iMasala = 0;
 		}
