@@ -50,7 +50,7 @@ public class NumInDefineRangeWhileLoop {
 	//======================================================================//
 	
 	void evenNumber(int startNum,int endNum){
-		System.out.println("User defiend range to find even numbers is : " + startNum + " to " + endNum);
+		System.out.println("User defined range to find even numbers is : " + startNum + " to " + endNum);
 		if (startNum<0 || endNum<0) {
 			System.out.println("Please do not enter numbers less than zero");
 		}else if (startNum == 0 || endNum == 0) {
@@ -77,7 +77,7 @@ public class NumInDefineRangeWhileLoop {
 	//=====================================================================//
 		
 	void numDivisibleByFive(int startNum,int endNum){
-		System.out.println("User defiend range to find number devisible by 5 is : " + startNum + " to " + endNum);
+		System.out.println("User defined range to find number divisible by 5 is : " + startNum + " to " + endNum);
 		if (startNum<0 || endNum<0) {
 			System.out.println("Please do not enter numbers less than zero");
 		}else if (startNum == 0 || endNum == 0) {
@@ -105,7 +105,7 @@ public class NumInDefineRangeWhileLoop {
 	//=======================================================================//
 	
 	void numDivisibleByFiveAndThree(int startNum,int endNum){
-		System.out.println("User defiend range to find number devisible by 5 and 3 is : " + startNum + " to " + endNum);
+		System.out.println("User defined range to find number divisible by 5 and 3 is : " + startNum + " to " + endNum);
 		if (startNum<0 || endNum<0) {
 			System.out.println("Please do not enter numbers less than zero");
 		}else if (startNum == 0 || endNum == 0) {
@@ -115,7 +115,7 @@ public class NumInDefineRangeWhileLoop {
 		}else if( startNum > endNum) {
 			System.out.println("Define range in proper way i.e. 1st number should be smaller than 2nd number");
 		}else {
-			System.out.println("Numbers whcih are divisible by 5 & 3 in the defined range are : ");
+			System.out.println("Numbers which are divisible by 5 & 3 in the defined range are : ");
 			
 			while(startNum <= endNum) {
 				if((startNum%3 == 0) && (startNum%5 == 0)){
@@ -132,7 +132,7 @@ public class NumInDefineRangeWhileLoop {
 	//=======================================================================//
 	
 	void numDivisibleBySevenOrThirteen(int startNum,int endNum){
-		System.out.println("User defiend range to find number devisible by 7 or 13 is : " + startNum + " to " + endNum);
+		System.out.println("User defined range to find number divisible by 7 or 13 is : " + startNum + " to " + endNum);
 		if (startNum<0 || endNum<0) {
 			System.out.println("Please do not enter numbers less than zero");
 		}else if (startNum == 0 || endNum == 0) {
@@ -142,7 +142,7 @@ public class NumInDefineRangeWhileLoop {
 		}else if( startNum > endNum) {
 			System.out.println("Define range in proper way i.e. 1st number should be smaller than 2nd number");
 		}else {
-			System.out.println("Numbers whcih are divisible by 7 or 13 in the defined range are : ");
+			System.out.println("Numbers which are divisible by 7 or 13 in the defined range are : ");
 			
 			while(startNum <= endNum) {
 				if((startNum%7 == 0) || (startNum%13 == 0)){
