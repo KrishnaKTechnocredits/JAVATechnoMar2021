@@ -5,7 +5,7 @@ a. Initial stocks of Maggie: 50 Maggie packets
 b. Initial stocks of Dosa : 43 packets 
 c. Initial stocks of pouches : 39 oil packets 
 d. Initial stocks of panipuri : 43 packets  
-e. Initial stocks of masala’s : 73 packets.
+e. Initial stocks of masalaâ€™s : 73 packets.
 
 Expectation:
 1) Only one Customer came for shopping, he picked different items with different quantities, 
@@ -59,7 +59,7 @@ public class Shop {
 			}
 		}
 		
-		if (oilPouchQuantity>0) {
+		if (oilPouchPicked>0) {
 			oilPouchQuantity= oilPouchQuantity-oilPouchPicked;
 			if (oilPouchQuantity <0) {
 				System.out.println("Insufficient oil pouch stock");
@@ -69,7 +69,7 @@ public class Shop {
 			}
 		}
 		
-		if (panipuriQuantity>0) {
+		if (panipuriPicked>0) {
 			panipuriQuantity= panipuriQuantity-panipuriPicked;
 			if (panipuriQuantity <0) {
 				System.out.println("Insufficient panipuri stock");
@@ -79,7 +79,7 @@ public class Shop {
 			}
 		}
 		
-		if (masalaQuantity>0) {
+		if (masalaPicked>0) {
 			masalaQuantity= masalaQuantity-masalaPicked;
 			if (masalaQuantity <0) {
 				System.out.println("Insufficient masala stock");
@@ -134,14 +134,13 @@ public class Shop {
 		if (masalaQuantity<=0) {
 			System.out.println("Masala");
 		}
-		
-		else System.out.println("Everything is in stock");
+		else System.out.println("Everything is available");
 	}
 	
 	public static void main (String[] args) {
 		Shop shop= new Shop();
-		shop.setInitialQuantity(100,80,80,40,30);
-		shop.quantityPicked(20,20,20,20,20);
+		shop.setInitialQuantity(100,80,70,40,40);
+		shop.quantityPicked(20,0,10,30,20);
 		shop.remainingQuantity();
 		shop.outOfStock();
 	}
