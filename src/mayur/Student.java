@@ -1,3 +1,5 @@
+package mayur;
+
 class Student
 {
 	int age=22;

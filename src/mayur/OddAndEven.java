@@ -1,3 +1,5 @@
+package mayur;
+
 class OddAndEven
 {
 	int m;
