@@ -14,8 +14,7 @@ public class Ass_7 {
 				maggieStock = maggieStock - maggie;
 			}
 
-			else if (maggieStock < maggie)
-			{
+			else if (maggieStock < maggie) {
 				int pendingMaggie = maggie - maggieStock;
 				System.out
 						.println("We can deliver you " + maggieStock + " only and can't deliver you " + pendingMaggie);
@@ -27,37 +26,34 @@ public class Ass_7 {
 				dosaStock = dosaStock - dosa;
 			}
 
-			else if (dosaStock < dosa) 
-			{
+			else if (dosaStock < dosa) {
 				int pendingdosa = dosa - dosaStock;
 				System.out.println("We can deliver you " + dosaStock + " only and can't deliver you " + pendingdosa);
 				dosaStock = 0;
 			}
-			
+
 			if (pouches <= pouchesStock) {
 				System.out.println("Please collect " + pouches + " pouche packets");
 				pouchesStock = pouchesStock - pouches;
 			}
 
-			else if (pouchesStock < pouches) 
-			{
+			else if (pouchesStock < pouches) {
 				int pendingPouches = pouches - pouchesStock;
 				System.out.println("We can deliver you " + pouches + " only and can't deliver you " + pendingPouches);
 				pouchesStock = 0;
 			}
-			
+
 			if (panipuri <= panipuriStock) {
 				System.out.println("Please collect " + panipuri + " panipuri packets");
 				panipuriStock = panipuriStock - panipuri;
 			}
 
-			else if (panipuriStock < panipuri) 
-			{
+			else if (panipuriStock < panipuri) {
 				int pendingPanipuri = panipuri - panipuriStock;
 				System.out.println("We can deliver you " + panipuri + " only and can't deliver you " + pendingPanipuri);
 				panipuriStock = 0;
 			}
-			
+
 			if (masalas <= masalasStock) {
 				System.out.println("Please collect " + masalas + " masala packets");
 				masalasStock = masalasStock - masalas;
