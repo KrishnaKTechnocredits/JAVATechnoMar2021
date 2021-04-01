@@ -135,7 +135,7 @@ public class NumInDefineRange {
 		NumInDefineRange numInDefineRange = new NumInDefineRange();
 		numInDefineRange.evenNumber(10,15);
 		numInDefineRange.numDivisibleByFive(10, 30);
-		numInDefineRange.numDivisibleByFiveAndThree(5, 60);
+		numInDefineRange.numDivisibleByFiveAndThree(5, 18);
 		numInDefineRange.numDivisibleBySevenOrThirteen(5,40);
 	}
 }
