@@ -73,7 +73,7 @@ int startIndex, endIndex;
 					}
 					else if ((index%13 == 0)){
 						System.out.println("Number Divisible 13 : " +index);
-					}
+					} 
 				index++;
 				} 
 			/*
