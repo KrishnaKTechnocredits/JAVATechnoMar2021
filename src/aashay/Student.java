@@ -39,7 +39,7 @@ class Student{
 			totalMarks = gradeB;
 		}
 		else if(marks<60){
-			totalMarks = gradeB;
+			totalMarks = gradeC;
 		}
 	}
 	
