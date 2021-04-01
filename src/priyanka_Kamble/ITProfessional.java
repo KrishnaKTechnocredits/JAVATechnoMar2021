@@ -46,3 +46,4 @@ class ITProfessional{
 		 i.displayInformation();
 	 } 
 }
+
