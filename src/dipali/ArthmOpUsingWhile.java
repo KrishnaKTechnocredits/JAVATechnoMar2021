@@ -7,12 +7,15 @@ public class ArthmOpUsingWhile {
 	public void findEvenNo(int start , int end) {
 		int number;
 		int iCnt=0;
-		for (number=start;number<=end; number++) {
+		number=start;
+		while(number<=end) {
 			if(number%2==0) {
 				numbers[iCnt]=number;
 				iCnt=iCnt+1;
 			}
+			number++;
 		}
+		
 		//to print values
 		System.out.println("Even numbers are: ");
 		int arraySize=numbers.length;
@@ -32,11 +35,13 @@ public class ArthmOpUsingWhile {
 		int no=5;
 		int iCnt=0;
 		Arrays.fill(numbers, 0);
-		for (number=start;number<=end; number++) {
+		number=start;
+		while(number<=end) {
 			if(number%no==0) {
 				numbers[iCnt]=number;
 				iCnt=iCnt+1;	
 			}
+			number++;
 		}
 		
 		//to print values
@@ -58,12 +63,14 @@ public class ArthmOpUsingWhile {
 		int no1=3;
 		int no2=5;
 		int iCnt=0;
+		number=start;
 		Arrays.fill(numbers, 0);
-		for (number=start;number<=end; number++) {
+		while(number<=end) {
 			if(number%no1==0 && number%no2==0 ) {
 				numbers[iCnt]=number;
 				iCnt=iCnt+1;	
 			}
+			number++;
 		}
 		
 		//to print values
