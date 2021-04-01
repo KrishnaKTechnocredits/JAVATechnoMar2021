@@ -73,10 +73,10 @@ public class NumberSystem {
 		System.out.println("Number divisible by 7 or 13 are:");
 		while(startNumber <= endNumber) {
 			if(startNumber % 7 == 0)
-				System.out.println(startNumber);
+				System.out.println(startNumber+" is divisible by 7");
 			else {
 				if(startNumber % 13 == 0)
-					System.out.println(startNumber);
+					System.out.println(startNumber+" is divisible by 13");
 			}	
 			startNumber++;
 		}	
