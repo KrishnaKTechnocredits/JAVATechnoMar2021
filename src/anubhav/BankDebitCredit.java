@@ -35,21 +35,22 @@ public class BankDebitCredit {
 		username= uname;
 	}
 	
-	void debit (int amount){
-		while (amount<=totalBalance)
-			totalBalance= totalBalance- amount;
-			debitCount= debitCount + 1;
+	void debit (int dbAmount){
+		while (dbAmount<=totalBalance)
+			totalBalance= totalBalance- dbAmount;
+			debitCount++;
 			totalNoOfDebits++;
 	}
 	
-	void credit (int amount){
-		while (amount<=totalBalance)
-			totalBalance= totalBalance-amount;
-			creditCount= creditCount + 1;
+	void credit (int crAmount){
+		while (crAmount<=totalBalance)
+			totalBalance= totalBalance+crAmount;
+			creditCount++;
 			totalNoOfCredits++;
 	}
 	
-	void balanceCount (){
+	void printBalance (){
+		//System.out.println("Current balance for " + username + " is " + totalBalance);
 		printBalance++;
 		totalNoOfTimesPrintBalance++;
 	}
@@ -64,13 +65,13 @@ public class BankDebitCredit {
 	
 	public static void main (String[] args) {
 		BankDebitCredit bankDebitCredit1= new BankDebitCredit();
-		bankDebitCredit1.customerInfo("Rahul", 100000);
-		bankDebitCredit1.debit(10000);
-		bankDebitCredit1.credit(40000);
-		bankDebitCredit1.credit(80000);
+		bankDebitCredit1.customerInfo("Rahul", 6000);
+		bankDebitCredit1.debit(2000);
+		bankDebitCredit1.credit(4000);
+		bankDebitCredit1.credit(4000);
 		bankDebitCredit1.debit(4000);
-		bankDebitCredit1.debit(75000);
-		bankDebitCredit1.balanceCount();
+		bankDebitCredit1.debit(4000);
+		bankDebitCredit1.printBalance();
 		bankDebitCredit1.individualTransactionSummary();
 		
 		BankDebitCredit bankDebitCredit2= new BankDebitCredit();
@@ -80,8 +81,9 @@ public class BankDebitCredit {
 		bankDebitCredit2.credit(20000);
 		bankDebitCredit2.debit(5000);
 		bankDebitCredit2.credit(55000);
-		bankDebitCredit2.balanceCount();
+		bankDebitCredit2.printBalance();
 		bankDebitCredit2.individualTransactionSummary();
+		
 		
 		BankDebitCredit bankDebitCredit3= new BankDebitCredit();
 		bankDebitCredit3.customerInfo("Akshay", 200000);
@@ -90,7 +92,7 @@ public class BankDebitCredit {
 		bankDebitCredit3.credit(30000);
 		bankDebitCredit3.debit(7000);
 		bankDebitCredit3.credit(8000);
-		bankDebitCredit3.balanceCount();
+		bankDebitCredit3.printBalance();
 		bankDebitCredit3.individualTransactionSummary();
 		
 		bankDebitCredit2.allTransactionSummary();
