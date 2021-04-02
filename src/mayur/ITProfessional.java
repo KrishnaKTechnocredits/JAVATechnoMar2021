@@ -7,6 +7,7 @@
 //f. displayInformation()
 //Hint: One String, 4 boolean variable needed
 
+package mayur;
 class ITProfessional
 {
 	String empName;
