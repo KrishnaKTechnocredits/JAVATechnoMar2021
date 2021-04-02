@@ -32,7 +32,7 @@ public class Maths {
 		m.evenNumber(10,14);
 	    m.five(20,30);
 	    m.fiveAndThree(5,18);
-	    m.sevenOrThirteen(5,26);
+	    m.sevenOrThirteen(5,29);
 	}
 
 

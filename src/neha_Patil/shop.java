@@ -5,7 +5,7 @@ public class shop {
 
 	int stockofMaggie=00;
 	int stockofDosa=34;
-	int stockofOilPouches=53;
+	int stockofOilPouches=43;
 	int stockofPanipuri=32;
 	int stockofmasala=71;
 
