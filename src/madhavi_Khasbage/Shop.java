@@ -58,11 +58,11 @@ public class Shop {
 	
 	void outOfStockItem() {		
 		System.out.println("\nOut of stock items :");		
-		if(maggie <=0)System.out.println("Maggie");		
-		if(dosa <=0) System.out.println("Dosa");
-		if(pouches <=0) System.out.println("Pouches");
-		if(panipuri <=0) System.out.println("Panipuri");
-		if(masala <=0) System.out.println("Masala");		
+		if(maggie ==0)System.out.println("Maggie");		
+		if(dosa ==0) System.out.println("Dosa");
+		if(pouches ==0) System.out.println("Pouches");
+		if(panipuri ==0) System.out.println("Panipuri");
+		if(masala ==0) System.out.println("Masala");		
 	}
 	
 	void availableStock() {
