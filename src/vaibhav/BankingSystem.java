@@ -61,7 +61,7 @@ public class BankingSystem {
 					dCount++;
 					totalDCount++;
 				}else {
-					System.out.println("Debit transection is not able to perform as debit ammount (i.e. " + debitAmt+ ") is larger than available balance in account");
+					System.out.println("Debit transection is not able to perform as debit amount (i.e. " + debitAmt+ ") is larger than available balance in account");
 				}
 			}
 		}
@@ -76,7 +76,7 @@ public class BankingSystem {
 		creditAmt = cAmt;
 		
 		if (creditAmt <= 0) {
-			System.out.println("Credit transection is not able to perform as credit ammount is less than or equal to zero");
+			System.out.println("Credit transection is not able to perform as credit amount is less than or equal to zero");
 		}
 		else {
 			currentBalance = currentBalance + creditAmt;
