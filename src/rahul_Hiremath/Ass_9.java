@@ -11,9 +11,17 @@ public class Ass_9 {
 	static int sPBalCount;
 
 	void debitAmt(int dAmt) {
-		amt = amt - dAmt;
-		debCount++;
-		sDebitCount++;
+		if (dAmt <= amt) {
+			amt = amt - dAmt;
+			debCount++;
+			sDebitCount++;
+		} else {
+			System.out.println("Your balance is: " + amt + ", and you trying to debit: " + dAmt);
+			debCount++;
+			sDebitCount++;
+			debCount--;
+			sDebitCount--;
+		}
 	}
 
 	void crdAmt(int cAmt) {
