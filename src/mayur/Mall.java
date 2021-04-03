@@ -17,6 +17,8 @@
 //• If items are less than 10 and payment done using visa card, then send customer to section 1D
 //Hint: itemAddedToCart method have int parameter, paymentDoneUsing() method have String parameter, needBill() have Boolean parameter & haveCarryBag have Boolean parameter
 
+package mayur;
+
 class Mall
 {
 	String customerName,decideSection,paymentDoneUsing;
