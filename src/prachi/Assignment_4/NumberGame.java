@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_4;
 
 //Assignment_4_Program_1
 //1. Create a class named as NumberGame with following method.

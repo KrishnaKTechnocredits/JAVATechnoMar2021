@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_1;
 
 //Print all details of Student like Name, Middle name, Surname, birthdate, address,and roll number
 // Assignment_1

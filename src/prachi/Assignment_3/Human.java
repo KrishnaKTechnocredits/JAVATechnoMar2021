@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_3;
 
 //Assignment3_Program3
 //3. Create a class named Human, & that class have some behaviour(method) like name, age & canSpeak  

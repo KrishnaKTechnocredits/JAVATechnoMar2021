@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_4;
 
 //Assignment_4_Program_2
 //2. Create a class named as Student, which have methods like below.

@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_2;
 
 //Assignment_2_Program_1
 //1. WAP to find the square and cube of a number. 

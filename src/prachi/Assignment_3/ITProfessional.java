@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_3;
 
 //Assignment_3_Program_4
 //4. Create a class named as ITProfessional which contain below methods  
