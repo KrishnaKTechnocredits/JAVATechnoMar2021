@@ -1,4 +1,4 @@
-package paras;
+package paras.Practice_programs;
 
 public class Test {
 

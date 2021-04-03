@@ -9,7 +9,7 @@
 Assignment 3 - Program 2 - Program Statement : Create a class named Car, which contains method like below
 */
 
-package paras;
+package paras.Assignment_3;
 
 class Car{
 	

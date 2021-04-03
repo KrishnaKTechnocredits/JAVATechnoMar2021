@@ -5,7 +5,7 @@
 Assignment 2 - Program 1 - Program Statement : WAP to find the square and cube of a number. 
 */
 
-package paras;
+package paras.Assignment_2;
 
 class Number{
 	

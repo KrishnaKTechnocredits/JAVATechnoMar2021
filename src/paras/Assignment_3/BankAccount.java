@@ -9,7 +9,7 @@
 Assignment 3 - Program 1 - Program Statement : Create a class called BankAccount, which has 3 methods.
 */
 
-package paras;
+package paras.Assignment_3;
 
 class BankAccount{
 	

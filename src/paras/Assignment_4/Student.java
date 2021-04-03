@@ -16,7 +16,7 @@
 Assignment 4 - Program 2 - Program Statement : Create a class named as Student, which have methods like below.
 */
 
-package paras;
+package paras.Assignment_4;
 
 class Student{
 	

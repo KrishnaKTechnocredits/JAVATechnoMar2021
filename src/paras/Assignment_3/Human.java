@@ -9,7 +9,7 @@
 Assignment 3 - Program 3 - Program Statement : Create a class named Human, & that class have some behaviour(method) like name, age & canSpeak
 */
 
-package paras;
+package paras.Assignment_3;
 
 class Human{
 	

@@ -26,7 +26,7 @@
 Assignment 5 - Program 1 - Program Statement : Create a class named as Mall, which contains below methods.
 */
 
-package paras;
+package paras.Assignment_5;
 
 class Mall{
 	
