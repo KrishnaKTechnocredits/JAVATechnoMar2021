@@ -1,4 +1,4 @@
-package madhavi_Khasbage;
+package madhavi_Khasbage.IfElseLadderNested;
 
 public class Shop {	
 	int maggie = 1; 
@@ -7,7 +7,7 @@ public class Shop {
 	int panipuri =4;
 	int masala=5;	
 	
-	void TotalQuantiry()
+	void totalQuantiry()
 	{
 		System.out.println("Total quantity:");	
 		System.out.println("Maggie   :"+ maggie);	
@@ -76,7 +76,7 @@ public class Shop {
 	
 	public static void main(String[] args) {
 		Shop shop1=new Shop();
-		shop1.TotalQuantiry();
+		shop1.totalQuantiry();
 		System.out.println("========================================");	
 		shop1.shopping(1,2,2,2,2,2);
 		shop1.outOfStockItem();

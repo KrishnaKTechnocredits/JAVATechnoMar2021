@@ -12,12 +12,8 @@ package madhavi_Khasbage.MethodReturnType;
 
 public class Calculator {	
 	
-	int firstNumber,secondNumber;
-	
 	int addition(int num1, int num2){
-		int total=0;
-		firstNumber=num1;
-		secondNumber=num2;
+		int total=0;		
 		if(num1>0 && num2>0) {
 			total=num1+num2;
 		}else {

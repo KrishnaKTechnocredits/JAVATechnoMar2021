@@ -1,4 +1,4 @@
-package madhavi_Khasbage;
+package madhavi_Khasbage.WhileLoop;
 
 public class FindNumbers {
 	void printEvenNumber(int indexStart,int indexEnd) {				
@@ -61,10 +61,10 @@ public class FindNumbers {
 	}	
 	
 	public static void main(String[] args) {
-		RangePrint rangeprint1=new RangePrint();
-		rangeprint1.printEvenNumber(10,20);
-		rangeprint1.printNumDivisibleByFive(10,40);
-		rangeprint1.printNumDivisibleByFiveAndThree(10,50);
-		rangeprint1.printNumDivisibleBySevenAndThirteen(5,40);		
+		FindNumbers findNumbers1=new FindNumbers();
+		findNumbers1.printEvenNumber(10,20);
+		findNumbers1.printNumDivisibleByFive(10,40);
+		findNumbers1.printNumDivisibleByFiveAndThree(10,50);
+		findNumbers1.printNumDivisibleBySevenAndThirteen(5,40);		
 	}
 }
