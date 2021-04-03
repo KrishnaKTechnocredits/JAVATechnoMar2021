@@ -37,7 +37,7 @@ Output : Divisible by 7 or 13, numbers are:
 		 39 is divisible by 13
 
  */
-package ravindra_J;
+package ravindra_J.Assignment_No_6;
 public class FindNumbers {
 	int startNum, endNum;
 

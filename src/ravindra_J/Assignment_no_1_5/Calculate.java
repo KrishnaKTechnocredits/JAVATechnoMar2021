@@ -2,7 +2,7 @@
 /*	WAP to find the square and cube of a number. 
 	NOTE : one method to calculate square and another for cube.
  */
-package ravindra_J;
+package ravindra_J.Assignment_no_1_5;
 class Calculate{
 	void square(int num1){
 		int a = num1;

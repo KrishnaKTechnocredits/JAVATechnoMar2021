@@ -15,7 +15,7 @@ Expectation:
 
 NOTE : Please create separate branches for assignment 6 and 7.
  */
-package ravindra_J;
+package ravindra_J.Assignment_No_7;
 
 public class ShopInventory {
 	static int initialStockMaggie ;

@@ -1,7 +1,7 @@
 
 /*WAP to print student info using two methods
 */
-package ravindra_J;	
+package ravindra_J.Assignment_no_1_5;	
 class StudentInfo
 {
 

@@ -5,7 +5,7 @@
   Hint: One String, one boolean and one double variable needed. 
  */
 	
-package ravindra_J;
+package ravindra_J.Assignment_no_1_5;
 
 class Car{
 	String carName;

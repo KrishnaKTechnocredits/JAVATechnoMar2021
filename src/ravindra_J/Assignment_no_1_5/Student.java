@@ -1,6 +1,6 @@
 /*	Write a Java program to print age and name
  */
-package ravindra_J;	
+package ravindra_J.Assignment_no_1_5;	
 
 class Student{
 	int age =31;

@@ -9,7 +9,7 @@ Hint: One String, 4 boolean variable needed
 Note: In Console Print statement in a proper way.  
  */
        
-package ravindra_J;
+package ravindra_J.Assignment_no_1_5;
 
 class ITProfessional{
 	String empName;

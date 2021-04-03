@@ -6,7 +6,7 @@ Rectangle perimeter = 2*Length + 2*Width
 	   Circle area = pi*r*r, where r is radius
 	   Circle perimeter = 2*pi*r , where pi = 3.1416
  */
-package ravindra_J;  
+package ravindra_J.Assignment_no_1_5;  
 class Rectangle_Circle{
 	double pi = 3.1416;
 	void areaOfRectangle(int num1,int num2){

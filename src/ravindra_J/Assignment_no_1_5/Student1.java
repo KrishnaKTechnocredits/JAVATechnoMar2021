@@ -12,7 +12,7 @@ Sample input : Student name - Maulik, mark - 75
 Sample output : Maulik received grade B+
 From today onwards will give you comments on only Logic. If  your code is not as per points given by me then I will not going to review it.
  */
-package ravindra_J;	
+package ravindra_J.Assignment_no_1_5;	
 
 class Student1{
 	String stdName;

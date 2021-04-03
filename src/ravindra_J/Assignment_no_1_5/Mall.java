@@ -20,7 +20,7 @@ Expectations:
 Hint: itemAddedToCart method have int parameter, paymentDoneUsing() method have String parameter, needBill() have Boolean parameter & haveCarryBag have Boolean parameter
  */
 
-package ravindra_J;
+package ravindra_J.Assignment_no_1_5;
 class Mall{
 	String custName;
 	String payment;
