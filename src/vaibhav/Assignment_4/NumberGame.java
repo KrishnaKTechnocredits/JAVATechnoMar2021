@@ -24,7 +24,7 @@ add appropiate logic for b and c.
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_4;
 
 class NumberGame{
 	

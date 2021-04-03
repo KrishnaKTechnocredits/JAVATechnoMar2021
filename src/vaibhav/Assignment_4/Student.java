@@ -16,7 +16,7 @@ Sample output : Maulik received grade B+
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_4;
 
 class Student{
 	String stdName;	

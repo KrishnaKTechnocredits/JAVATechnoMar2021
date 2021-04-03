@@ -9,7 +9,7 @@ R is the rate
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_2;
 
 
 class SimpleInterest{

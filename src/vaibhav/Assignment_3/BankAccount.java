@@ -9,7 +9,7 @@ NOTE : consider bank account number as Integer [for example : 13164]
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_3;
 
 class BankAccount{
 	String userName;

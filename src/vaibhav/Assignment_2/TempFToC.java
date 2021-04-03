@@ -5,7 +5,7 @@ Celsius = (fahrenheit - 32) * 5 / 9
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_2;
 
 class TempFToC{
 	

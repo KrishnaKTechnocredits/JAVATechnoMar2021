@@ -18,7 +18,7 @@ Print all details of Student like Name, Middle name, Surname, birthdate, Address
  
  */
 
-package vaibhav;
+package vaibhav.Assignment_1;
 
 class StudentInfo{
 	String stdName = "Vaibhav";

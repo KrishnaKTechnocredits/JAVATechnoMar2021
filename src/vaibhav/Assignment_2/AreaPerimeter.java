@@ -12,7 +12,7 @@ Circle perimeter = 2*pi*r , where pi = 3.1416
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_2;
 
 class AreaPerimeter{
 		

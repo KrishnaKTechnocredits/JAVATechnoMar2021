@@ -9,7 +9,7 @@ Hint: One String, one boolean, one int variable needed.
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_3;
 
 class Human{
 	String humanName;

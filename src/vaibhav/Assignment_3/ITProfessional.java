@@ -13,7 +13,7 @@ Note: In Console Print statement in a proper way.
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_3;
 
 class ITProfessional{
 	
