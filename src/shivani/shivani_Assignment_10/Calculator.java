@@ -31,7 +31,7 @@ public class Calculator {
 
 	void printTotalAnswer(int sum, int sub, int mul, int div) {
 
-		System.out.println("Addition is : " +sum+sub+mul+div);
+		System.out.println(" value is : " +sum+sub+mul+div);
 	}
 
 	public static void main(String[] args) {
