@@ -2,7 +2,7 @@
 	Simple Interest = (P x T x R)/100 
 	Where,P is the principle amount , T is the time [year] and R is the rate
  */
-package ravindra_J;	
+package ravindra_J.Assignment_no_1_5;	
 class Simple_Interest{
 	void simpleInterest(int num1,int num2,int num3){
 		int P = num1;

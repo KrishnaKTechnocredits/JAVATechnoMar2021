@@ -2,7 +2,7 @@
  * 4. Write a Java program to convert temperature from Fahrenheit to Celsius degree.
 	 Celsius = (fahrenheit - 32) * 5 / 9
 */
-package ravindra_J;	 
+package ravindra_J.Assignment_no_1_5;	 
 class Temperature_Converter{
 	void temperatureConverter(int num1){
 		int fahrenheit = num1;

@@ -18,7 +18,7 @@ sop("a max");
 add appropiate logic for b and c.
  */
 
-package ravindra_J;
+package ravindra_J.Assignment_no_1_5;
 
 class NumberGame{
 	void findMaxNumber(double num1, double num2, double num3){

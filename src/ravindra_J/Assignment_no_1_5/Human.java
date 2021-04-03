@@ -5,7 +5,7 @@
 	d. showDetails() 
 Hint: One String, one boolean, one int variable needed. 
  */
-package ravindra_J;
+package ravindra_J.Assignment_no_1_5;
 
 class Human{
 	String hName;

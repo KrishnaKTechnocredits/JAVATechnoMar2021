@@ -1,7 +1,7 @@
 /*
  WAP to display addition ,substraction,multiplication and division of using two variables.
  */
-package ravindra_J;
+package ravindra_J.Assignment_no_1_5;
 
 class Calculator{
 	int x = 20, y=5;

@@ -37,7 +37,7 @@ Output : Divisible by 7 or 13, numbers are:
 		 35 is divisible by 7
 		 39 is divisible by 13
  */
-package ravindra_J;
+package ravindra_J.Assignment_No_8;
 public class FindNumberUsingForAndWhileLoop {
 	int startNum, endNum, index;
 

@@ -4,7 +4,7 @@
    c) displayInfo() method will print username, password & bankAccountNumber
 	NOTE : consider bank account number as Integer [for example : 13164] 
  */
-package ravindra_J;
+package ravindra_J.Assignment_no_1_5;
 
 class BankAccount{
 	String std_username;
