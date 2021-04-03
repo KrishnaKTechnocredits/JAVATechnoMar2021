@@ -41,7 +41,7 @@ Output : Divisible by 7 or 13, numbers are:
 */
 
 
-package vaibhav;
+package vaibhav.Assignment_8;
 
 public class NumInDefineRangeWhileLoop {
 	

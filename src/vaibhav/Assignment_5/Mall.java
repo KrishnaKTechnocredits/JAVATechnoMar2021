@@ -23,7 +23,7 @@ Hint: itemAddedToCart method have int parameter, paymentDoneUsing() method have 
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_5;
 
 
 class Mall{

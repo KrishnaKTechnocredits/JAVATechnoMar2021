@@ -6,7 +6,7 @@ NOTE : one method to calculate square and another for cube.
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_2;
 
 class NumOperations{
 	

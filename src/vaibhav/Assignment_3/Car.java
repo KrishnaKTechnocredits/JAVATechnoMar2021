@@ -9,7 +9,7 @@ Hint: One String, one boolean and one double variable needed.
 
  */
 
-package vaibhav;
+package vaibhav.Assignment_3;
 
 class Car{
 	

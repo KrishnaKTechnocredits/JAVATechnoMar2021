@@ -1,4 +1,4 @@
-package vaibhav;
+package vaibhav.Initial_Test_Files;
 
 public class Test_2 {
 		String stdName = "Vaibhav";

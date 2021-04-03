@@ -41,7 +41,7 @@ Output : Divisible by 7 or 13, numbers are:
 */
 
 
-package vaibhav;
+package vaibhav.Assignment_6;
 
 
 public class NumInDefineRange {

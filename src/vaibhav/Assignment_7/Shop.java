@@ -16,7 +16,7 @@ Expectation:
 
 */
 
-package vaibhav;
+package vaibhav.Assignment_7;
 
 public class Shop {
 	
