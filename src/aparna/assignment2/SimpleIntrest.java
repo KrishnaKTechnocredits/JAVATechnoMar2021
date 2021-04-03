@@ -6,7 +6,7 @@
 		T is the time [year] and 
 		R is the rate
 */
-package aparna;
+package aparna.assignment2;
 
 class SimpleIntrest {
 

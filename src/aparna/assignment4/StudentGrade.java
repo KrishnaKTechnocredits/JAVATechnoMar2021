@@ -13,7 +13,7 @@ Expectations:
 Sample input : Student name - Maulik, mark - 75
 Sample output : Maulik received grade B+
 */
-package aparna;
+package aparna.assignment4;
 
 class StudentGrade {
 	String studentName;

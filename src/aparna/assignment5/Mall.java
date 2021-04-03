@@ -25,7 +25,7 @@ Hint: itemAddedToCart method have int parameter, paymentDoneUsing() method have 
 
 
 */
-package aparna;
+package aparna.assignment5;
 
 class Mall {
 	boolean needBill, haveCarryBag;

@@ -7,7 +7,7 @@ Rectangle perimeter = 2*Length + 2*Width
 	   Circle area = pi*r*r, where r is radius
 	   Circle perimeter = 2*pi*r , where pi = 3.1416
 */
-package aparna;
+package aparna.assignment2;
 
 class AreaNPerimeter {
 
