@@ -5,6 +5,8 @@
 //d. showDetails()
 //Hint: One String, one boolean, one int variable needed.
 
+package mayur;
+
 class Human
 {
 	String humanName;

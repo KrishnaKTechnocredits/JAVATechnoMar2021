@@ -5,6 +5,8 @@
 //T is the time [year] and
 //R is the rate
 
+package mayur;
+
 class Interest
 {
 	void simpleInterest(int p, float t,float r)
