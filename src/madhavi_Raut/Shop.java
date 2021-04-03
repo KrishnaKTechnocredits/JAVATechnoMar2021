@@ -21,84 +21,69 @@ package madhavi_Raut;
 public class Shop {
 	int totalMaggieQty = 50, totalDosaQty = 43, totalOilQty = 39, totalPanipuriQty = 43, totalMasalaQty = 73;
 
-	void purchaseMaggie(int maggieRequiredQty) {
-		if (totalMaggieQty > 0) {
-			if (maggieRequiredQty > 0) {
-				if (maggieRequiredQty <= totalMaggieQty)
-					totalMaggieQty -= maggieRequiredQty;
-				else {
-					System.out.println("For Maggie, customer requested " + maggieRequiredQty + " quantity" + " but we have provided " + totalMaggieQty + " quantity which were available with us." + "\n");
-					totalMaggieQty = 0;
+	void purchaseItemName(String itemName, int itemRequiredQuantity, int itemTotalQuantity) {
+		if (itemTotalQuantity > 0) {
+			if (itemRequiredQuantity > 0) {
+				if (itemRequiredQuantity <= itemTotalQuantity) {
+					itemTotalQuantity -= itemRequiredQuantity;
+					System.out.println("We have processed the request of " + itemRequiredQuantity
+							+ " quantity successfully for " + itemName+".");
+					if (itemName.equals("Maggie"))
+						totalMaggieQty = itemTotalQuantity;
+					else if (itemName.equals("Dosa"))
+						totalDosaQty = itemTotalQuantity;
+					else if (itemName.equals("Oil"))
+						totalOilQty = itemTotalQuantity;
+					else if (itemName.equals("Panipuri"))
+						totalPanipuriQty = itemTotalQuantity;
+					else
+						totalMasalaQty = itemTotalQuantity;
+				} else {
+					System.out.println("For " + itemName + ", customer requested " + itemRequiredQuantity + " quantity"
+							+ " but we have provided " + itemTotalQuantity + " quantity which were available with us.");
+					itemTotalQuantity = 0;
+					if (itemName.equals("Maggie"))
+						totalMaggieQty = itemTotalQuantity;
+					else if (itemName.equals("Dosa"))
+						totalDosaQty = itemTotalQuantity;
+					else if (itemName.equals("Oil"))
+						totalOilQty = itemTotalQuantity;
+					else if (itemName.equals("Panipuri"))
+						totalPanipuriQty = itemTotalQuantity;
+					else
+						totalMasalaQty = itemTotalQuantity;
 				}
+				if (itemTotalQuantity == 0)
+					System.out.println(itemName + " is out of stock after processing the request successfully.");
 			} else
-				System.out.println("Please enter correct quantity for Maggie." + "\n");
+				System.out.println("Please enter correct quantity for " + itemName + ".");
 		} else
-			System.out.println("Maggie running out of stock!" + "\n");
+			System.out.println("We cannot process your request of " + itemRequiredQuantity
+					+ " quantity as we are out of stock for " + itemName + ".");
+	}
+
+	void purchaseMaggie(int maggieRequiredQty) {
+		purchaseItemName("Maggie", maggieRequiredQty, totalMaggieQty);
 	}
 
 	void purchaseDosa(int dosaRequiredQty) {
-		if (totalDosaQty > 0) {
-			if (dosaRequiredQty > 0) {
-				if (dosaRequiredQty <= totalDosaQty)
-					totalDosaQty -= dosaRequiredQty;
-				else {
-					System.out.println(
-							"For Dosa, customer requested " + dosaRequiredQty + " quantity" + " but we have provided " + totalDosaQty + " quantity which were available with us." + "\n");
-					totalDosaQty = 0;
-				}
-			} else
-				System.out.println("Please enter correct quantity for Dosa." + "\n");
-		} else
-			System.out.println("Dosa running out of stock!" + "\n");
+		purchaseItemName("Dosa", dosaRequiredQty, totalDosaQty);
 	}
 
 	void purchaseOil(int oilRequiredQty) {
-		if (totalOilQty > 0) {
-			if (oilRequiredQty > 0) {
-				if (oilRequiredQty <= totalOilQty)
-					totalOilQty -= oilRequiredQty;
-				else {
-					System.out.println("For Oil, customer requested " + oilRequiredQty + " quantity" + " but we have provided "	+ totalOilQty + " quantity which were available with us." + "\n");
-					totalOilQty = 0;
-				}
-			} else
-				System.out.println("Please enter correct quantity for Oil." + "\n");
-		} else
-			System.out.println("Oil running out of stock!" + "\n");
+		purchaseItemName("Oil", oilRequiredQty, totalOilQty);
 	}
 
 	void purchasePanipuri(int panipuriRequiredQty) {
-		if (totalPanipuriQty > 0) {
-			if (panipuriRequiredQty > 0) {
-				if (panipuriRequiredQty <= totalPanipuriQty)
-					totalPanipuriQty -= panipuriRequiredQty;
-				else {
-					System.out.println("For Panipuri, customer requested " + panipuriRequiredQty + " quantity" + " but we have provided " + totalPanipuriQty + " quantity which were available with us." + "\n");
-					totalPanipuriQty = 0;
-				}
-			} else
-				System.out.println("Please enter correct quantity for Panipuri." + "\n");
-		} else
-			System.out.println("Panipuri running out of stock!" + "\n");
+		purchaseItemName("Panipuri", panipuriRequiredQty, totalPanipuriQty);
 	}
 
 	void purchaseMasala(int masalaRequiredQty) {
-		if (totalMasalaQty > 0) {
-			if (masalaRequiredQty > 0) {
-				if (masalaRequiredQty <= totalMasalaQty)
-					totalMasalaQty -= masalaRequiredQty;
-				else {
-					System.out.println("For Masala, customer requested " + masalaRequiredQty + " quantity" + " but we have provided " + totalMasalaQty + " quantity which were available with us." + "\n");
-					totalMasalaQty = 0;
-				}
-			} else
-				System.out.println("Please enter correct quantity for Masala." + "\n");
-		} else
-			System.out.println("Masala running out of stock!" + "\n");
+		purchaseItemName("Masala", masalaRequiredQty, totalMasalaQty);
 	}
 
 	void displayOutOfStockItems() {
-		System.out.println("Out of Stock items are: ");
+		System.out.println("\nOut of Stock items are: ");
 		if (totalMaggieQty == 0)
 			System.out.println("Maggie");
 		if (totalDosaQty == 0)
@@ -127,10 +112,14 @@ public class Shop {
 
 	public static void main(String[] args) {
 		Shop shop = new Shop();
-		shop.purchaseMaggie(60);
-		shop.purchaseDosa(20);
-		shop.purchaseOil(40);
-		shop.purchasePanipuri(-1);
+		shop.purchaseMaggie(100);
+		System.out.println();
+		shop.purchaseDosa(25);
+		System.out.println();
+		shop.purchaseOil(-1);
+		System.out.println();
+		shop.purchasePanipuri(10);
+		System.out.println();
 		shop.purchaseMasala(0);
 		shop.displayOutOfStockItems();
 		shop.displayAvailableInStockItems();

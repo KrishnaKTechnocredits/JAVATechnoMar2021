@@ -30,26 +30,50 @@ public class Shop {
 		System.out.println("Pouches: "+pouches);
 		System.out.println("Panipuri: "+panipur);
 		System.out.println("Masala: "+masala);
-		
-		maggie = maggie - magi;
-		dosa = dosa - dsa;
-		pouches = pouches - poch;
-		panipur = panipur - ppuri;
-		masala = masala - msla;
-		
+				
 		System.out.println("\nCustomer purchased following Items with respective quantity:");
-		if (magi != 0 )
-			System.out.println("Maggie: "+magi);
-		if (dsa != 0 )
-			System.out.println("Dosa: "+dsa);
-		if (poch != 0 )
-			System.out.println("Pouches: "+poch);
-		if (ppuri != 0 )
-			System.out.println("Panipuri: "+ppuri);
-		if (msla != 0 )
-			System.out.println("Masala: "+msla);
-		
-		
+		if (maggie <=magi && magi != 0 ) {
+			
+			System.out.println("Available stock of Maggie is:"+maggie +" Delivered packets: "+maggie);
+			maggie =0 ;
+		}else {
+			maggie = maggie - magi;
+			System.out.println("Available stock of Maggie is:"+maggie +" Delivered packets: "+magi);
+		}
+			
+		if (dosa <=dsa && dsa != 0 ) {
+			
+			System.out.println("Available stock of Dosa is:"+dosa +" Delivered packets: "+dosa);
+			dosa = 0 ;
+		}else {
+			dosa = dosa - dsa;
+			System.out.println("Available stock of Dosa is:"+dosa +" Delivered packets: "+dsa);
+		}
+		if (pouches<=poch && poch != 0 ) {
+			
+			System.out.println("Available stock of Pouches is:"+pouches +" Delivered packets: "+pouches);
+			pouches = 0 ;
+		}else {
+			pouches = pouches - poch;
+			System.out.println("Available stock of Pouches is:"+pouches +" Delivered packets: "+poch);
+		}
+		if (panipur<=ppuri && ppuri != 0 ) {
+			System.out.println("Available stock of Panipuri is:"+panipur +" Delivered packets: "+panipur);
+			panipur = 0 ;
+			
+		}else {
+			panipur = panipur - ppuri;
+			System.out.println("Available stock of Panipuri is:"+panipur +" Delivered packets: "+ppuri);
+		}
+		if (masala<=msla && msla != 0 ) {
+			
+			System.out.println("Available stock of Masala is:"+masala +" Delivered packets: "+masala);
+			masala =0;
+		}else {
+			masala = masala - msla ;
+			System.out.println("Available stock of Masala is:"+masala +" Delivered packets: "+msla);
+		}
+
 	}
 	void outOfStock() {
 		System.out.println("\nFollowing items are running out of stock:");
@@ -87,6 +111,10 @@ public class Shop {
 		// TODO Auto-generated method stub
 		Shop shop = new Shop();
 		shop.shoppingCart(50,43,9,0,0);
+		shop.availableStock();
+		shop.outOfStock();
+		
+		shop.shoppingCart(0,0,39,53,0);
 		shop.availableStock();
 		shop.outOfStock();
 	}
