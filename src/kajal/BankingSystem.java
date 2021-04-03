@@ -2,13 +2,13 @@ package kajal;
 
 public class BankingSystem {
 	String name;
-	int debitcount;
-	int creditcount;
+	int debitcount = 0;
+	int creditcount = 0;
 	int printcount = 0;
 	int totalbal;
-	static int totalcreditcount;
-	static int totaldebitcount;
-	static int totalprintcount;
+	static int totalcreditcount = 0;
+	static int totaldebitcount = 0;
+	static int totalprintcount = 0;
 	
 		void setData(String nm, int initAmt) {
 		name= nm;
@@ -16,9 +16,10 @@ public class BankingSystem {
 		}
 	
 		void debitAmt(int amt) {
-		debitcount=0;
 		
-		while(totalbal >= amt) {
+		if(amt > totalbal) {
+			System.out.println("You dont have sufficient balance in your Account");
+		}else {
 			totalbal = totalbal- amt;
 		 debitcount++;
 		 totaldebitcount++;
@@ -26,13 +27,11 @@ public class BankingSystem {
 		}
 	
 		void creditAmt(int amt) {
-		creditcount=0;
-		while(totalbal <= amt) {
 			totalbal = totalbal + amt;
 			creditcount++;
 			totalcreditcount++;
 		 }
-	    	}
+	    	
 		void printBal() {//current balance
 			
 		System.out.println(name + " your total current balance is:" + totalbal);
@@ -42,14 +41,11 @@ public class BankingSystem {
 		
 		void individualSummary() {
 		System.out.println(name + " : transaction summary creditcount: " + creditcount + " ,Debitcount: " + debitcount + " ,printbalancecount: " + printcount);
-				
 		}
 	
 		void AlltranSummary() {
 		System.out.println("All : transaction summary totalcreditcount: " + totalcreditcount + " ,totalDebitcount " + totaldebitcount + " ,printbalancecount : " + totalprintcount );
-		
 		}
-
 	
 		public static void main (String[]a) {
 		BankingSystem bankingsystem = new BankingSystem();
@@ -65,12 +61,17 @@ public class BankingSystem {
 		bankingsystem1.setData("Komal", 12000);
 		bankingsystem1.debitAmt(5000);
 		bankingsystem1.creditAmt(2000);
+		bankingsystem1.debitAmt(5000);
+		bankingsystem1.creditAmt(2000);
 		bankingsystem1.printBal();
-		//bankingsystem1.printBal();
+		bankingsystem1.debitAmt(5000);
+		bankingsystem1.creditAmt(2000);
+		bankingsystem1.printBal();
+		bankingsystem1.printBal();
 		bankingsystem1.individualSummary();
+		
 		bankingsystem1.AlltranSummary();
-		//bankingsystem1.printBal();
-				
+						
 		}
 
 }
