@@ -1,4 +1,4 @@
-package dhanshri;
+package dhanshri.Assignment_1;
 
 public class StudentInfo{
 

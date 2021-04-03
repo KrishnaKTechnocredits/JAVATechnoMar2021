@@ -1,4 +1,4 @@
-package dhanshri;
+package dhanshri.Assignment_6;
 
 public class NumberDivision {
 	int numbers;

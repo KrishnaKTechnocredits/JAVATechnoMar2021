@@ -1,4 +1,4 @@
-package dhanshri;
+package dhanshri.Assignment_4;
 
 public class NumberGame{
 	

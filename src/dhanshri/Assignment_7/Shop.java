@@ -1,4 +1,4 @@
-package dhanshri;
+package dhanshri.Assignment_7;
 
 public class Shop {
 
