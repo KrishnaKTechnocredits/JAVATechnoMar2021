@@ -71,7 +71,5 @@ public class BankingSystem {
 		bankingsystem1.individualSummary();
 		
 		bankingsystem1.AlltranSummary();
-						
 		}
-
 }
