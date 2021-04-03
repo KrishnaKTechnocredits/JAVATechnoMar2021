@@ -6,6 +6,8 @@
 //method should take 3 parameters and print the minimum number from given 3 numbers.
 //if all numbers are same print "Minimum number could not found, All given numbers equal numbers".
 
+package mayur;
+
 class NumberGame
 {
 	void findMaxNumber(int n1,int n2,int n3)
