@@ -1,4 +1,4 @@
-package shivani;
+package shivani.shivani_Assignment_7;
 
 public class Shop {
 	int stockOfMaggie = 50;

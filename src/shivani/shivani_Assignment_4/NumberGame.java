@@ -1,4 +1,4 @@
-package shivani;
+package shivani.shivani_Assignment_4;
 
 class NumberGame {
 

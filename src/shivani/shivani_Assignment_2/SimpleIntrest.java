@@ -1,4 +1,4 @@
-package shivani;
+package shivani.shivani_Assignment_2;
 
 class SimpleIntrest {
 

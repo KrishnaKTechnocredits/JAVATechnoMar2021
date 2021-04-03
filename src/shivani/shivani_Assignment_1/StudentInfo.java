@@ -1,4 +1,7 @@
-package shivani;
+package shivani.shivani_Assignment_1;
+
+//Print all details of Student like Name, Middle name, Surname, birthdate, address,and roll number
+//Assignment_1
 
 class StudentInfo {
 	String Name = "Shikha";
