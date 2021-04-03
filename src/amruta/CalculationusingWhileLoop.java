@@ -1,6 +1,6 @@
-// Assignment 6 : 30th March 2021  sing for Loop 
+//  Assignment : 8  Using While Loop
 
-/*
+/*  
 Write only one program having following methods. [4 methods in same program]
 
 1. On user define range print all even numbers.
@@ -39,32 +39,35 @@ Output : Divisible by 7 or 13, numbers are:
 		 28 is divisible by 7
 		 35 is divisible by 7
 		 39 is divisible by 13
-*/
+
+     */
 
 package amruta;
 
-class CalculatorOperation{
+class CalculationusingWhileLoop{
 	
 	void displayevenNumber(int startindex, int endindex){
-		
+	
 		System.out.println("Even Numbers are :");
 		
-		for(int num=startindex; num <= endindex; num++){
-			
-			if(num%2==0){
-				System.out.println(num);
+		while(startindex<=endindex){
+			if(startindex%2==0){
+				System.out.println(startindex);
 			}
+			startindex++;
 		}
 	}
 	
-	void divisiblebyFive(int startindex, int endindex){
+	void divisiblebyFive(int startindex, int endindex){	
+	
+		System.out.println("Numbers Divisible by 5 are :");	
 		
-		System.out.println("Numbers Divisible by 5 are :");
-		
-		for(int num=startindex; num <= endindex; num++){
-			if(num%5==0){
-				System.out.println(num);
+		while(startindex<=endindex){
+			if(startindex%5==0){
+				System.out.println(startindex);
+				
 			}
+			startindex++;
 		}
 	}
 	
@@ -72,28 +75,38 @@ class CalculatorOperation{
 		
 		System.out.println("Numbers Divisible by 5 and 3 are :");
 		
-		for(int num=startindex; num <= endindex; num++){
-			if(num%5==0 || num%3==0){
-				System.out.println(num);
+		while(startindex<=endindex){
+			if(startindex%5==0 || startindex%3==0){
+				System.out.println(startindex);
+				
 			}
+			startindex++;
 		}
 	}
 	
 	void divisiblebySevenandThirteen(int startindex, int endindex){
 		
 		System.out.println("Numbers Divisible by 7 and 13 are :");
-		for(int num=startindex; num <= endindex; num++){
-			if(num%7==0 || num%13==0){
-				System.out.println(num);
+		
+		while(startindex<=endindex){
+			if(startindex%7==0 || startindex%13==0){
+				System.out.println(startindex);
+				
 			}
+			startindex++;
 		}
 	}
 	
 	public static void main(String[] args){
-	CalculatorOperation calculatoroperation = new CalculatorOperation();
-	calculatoroperation.displayevenNumber(10,15);
-	calculatoroperation.divisiblebyFive(10,30);
-	calculatoroperation.divisiblebyFiveandThree(5,18);
-	calculatoroperation.divisiblebySevenandThirteen(5,40);
+	CalculationusingWhileLoop calculation = new CalculationusingWhileLoop();
+	calculation.displayevenNumber(10,15);
+	calculation.divisiblebyFive(10,30);
+	calculation.divisiblebyFiveandThree(5,18);
+	calculation.divisiblebySevenandThirteen(5,40);
 	}
 }
+
+
+
+
+
