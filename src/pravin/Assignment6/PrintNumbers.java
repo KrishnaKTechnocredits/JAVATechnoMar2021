@@ -39,7 +39,7 @@ Output : Divisible by 7 or 13, numbers are:
 		 39 is divisible by 13*/
 
 
-package pravin;
+package pravin.Assignment6;
 
 public class PrintNumbers {
 	int numbers;

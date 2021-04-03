@@ -13,7 +13,7 @@ Expectations:
 Sample input : Student name - Maulik, mark - 75
 Sample output : Maulik received grade B+ */
 
-package pravin;
+package pravin.Assignment4;
 class Student1 {
 	String stdName;
 

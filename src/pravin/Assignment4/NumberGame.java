@@ -18,7 +18,7 @@ if(a>b && a>c)
 sop("a max");
 add appropiate logic for b and c.*/
 
-package pravin;
+package pravin.Assignment4;
 class NumberGame {
 
 	void findMaximumNumber(int a,int b,int c){

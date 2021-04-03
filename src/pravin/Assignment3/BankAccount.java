@@ -5,7 +5,7 @@ b) updatePassword(String password) method to update password
 c) displayInfo() method will print username, password & bankAccountNumber
 
 NOTE : consider bank account number as Integer [for example : 13164]*/
-package pravin; 
+package pravin.Assignment3; 
 class BankAccount {
 	String username,password;
 	int bankAccountNumber;
