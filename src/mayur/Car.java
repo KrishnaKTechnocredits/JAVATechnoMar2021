@@ -5,6 +5,8 @@
 //d. displaySpecification
 //Hint: One String, one boolean and one double variable needed.
 
+package mayur;
+
 class Car
 {
 	String companyName;

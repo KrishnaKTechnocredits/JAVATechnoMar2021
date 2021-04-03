@@ -6,7 +6,7 @@
 //Circle area = pi*r*r, where r is radius
 //Circle perimeter = 2*pi*r , where pi = 3.1416
 
-
+package mayur;
 class AreaAndPerimeter
 {
 	void rectangle(int l,int b)

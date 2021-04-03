@@ -1,4 +1,4 @@
-package rahul_hiremath;
+package rahul_Hiremath;
 
 public class Ass_7 {
 	int maggieStock = 50;

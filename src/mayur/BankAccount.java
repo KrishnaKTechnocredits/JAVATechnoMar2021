@@ -1,5 +1,7 @@
 
 
+package mayur;
+
 class BankAccount
 {
 	String username,password;
