@@ -1,11 +1,9 @@
-/*
- Assignment 02
+/*Assignment 02
  Program 01
  WAP to find the square and cube of a number.
-	NOTE : one method to calculate square and another for cube.
- */
+	NOTE : one method to calculate square and another for cube*/
 
-package madhavi_Raut;
+package madhavi_Raut.Assignment_02;
 
 class FindSquareCube {
 

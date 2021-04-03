@@ -1,5 +1,4 @@
-/*
-Assignment 07
+/*Assignment 07
 1. Create a system (Shop) which maintains each item's quantity.
 
 a. Initial stocks of Maggie: 50 Maggie packets
@@ -14,9 +13,8 @@ print "running out of stock" message if a particular item is sold out
 
 otherwise deduct requested quantity from total quantity. Partial selling is allowed.
 2) Create a method which shows only those item which is "Out of stock".
-3) Create a method which shows only those item which is "Available in stock" & respective quantities.
- */
-package madhavi_Raut;
+3) Create a method which shows only those item which is "Available in stock" & respective quantities.*/
+package madhavi_Raut.Assignment_07;
 
 public class Shop {
 	int totalMaggieQty = 50, totalDosaQty = 43, totalOilQty = 39, totalPanipuriQty = 43, totalMasalaQty = 73;

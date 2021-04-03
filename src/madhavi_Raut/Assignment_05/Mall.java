@@ -1,5 +1,4 @@
-/*
- Assignment 05
+/*Assignment 05
  Program 01
  Create a class named as Mall, which contains below methods.
 
@@ -21,9 +20,8 @@
 	• If items are more than 10 and payment done using cash, then send customer to section 1C
 	• If items are less than 10 and payment done using visa card, then send customer to section 1D
 	
-	Hint: itemAddedToCart method have int parameter, paymentDoneUsing() method have String parameter, needBill() have Boolean parameter & haveCarryBag have Boolean parameter
- */
-package madhavi_Raut;
+	Hint: itemAddedToCart method have int parameter, paymentDoneUsing() method have String parameter, needBill() have Boolean parameter & haveCarryBag have Boolean parameter*/
+package madhavi_Raut.Assignment_05;
 
 class Mall {
 

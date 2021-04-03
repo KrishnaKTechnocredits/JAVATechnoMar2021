@@ -1,6 +1,5 @@
-/*
-Assignment 06
-Write only one program having following methods. [4 methods in same program]
+/*Assignment 08
+Write only one program having following methods using While Loop. [4 methods in same program]
 
 1. On user define range print all even numbers.
 Hint : pass start and end index as a parameter.
@@ -37,50 +36,58 @@ Output : Divisible by 7 or 13, numbers are:
 26 is divisible by 13
 28 is divisible by 7
 35 is divisible by 7
-39 is divisible by 13
- */
-package madhavi_Raut;
+39 is divisible by 13*/
+package madhavi_Raut.Assignment_08;
 
-public class Math {
+public class MathUsingWhileLoop {
+
 	void displayEvenNumbers(int startIndex, int endIndex) {
 		System.out.println("Even numbers are: ");
-		for (int index = startIndex; index <= endIndex; index++) {
+		int index = startIndex; 
+		while (index <= endIndex) {
 			if (index % 2 == 0)
 				System.out.println(index);
+			index++;
 		}
 	}
 
 	void displayDivisibleBy5(int startIndex, int endIndex) {
 		System.out.println("Divisble by 5, numbers are: ");
-		for (int index = startIndex; index <= endIndex; index++) {
+		int index = startIndex; 
+		while (index <= endIndex) {
 			if (index % 5 == 0)
 				System.out.println(index);
+			index++;
 		}
 	}
 
 	void displayDivisibleBy5and3(int startIndex, int endIndex) {
 		System.out.println("Divisible by 5 & 3, numbers are: ");
-		for (int index = startIndex; index <= endIndex; index++) {
+		int index = startIndex; 
+		while (index <= endIndex) {
 			if ((index % 3 == 0) && (index % 5 == 0))
 				System.out.println(index);
+			index++;
 		}
 	}
 
 	void displayDivisibleBy7or13(int startIndex, int endIndex) {
 		System.out.println("Divisible by 7 or 13, numbers are: ");
-		for (int index = startIndex; index <= endIndex; index++) {
+		int index = startIndex; 
+		while (index <= endIndex) {
 			if (index % 7 == 0)
 				System.out.println(index + " is divisible by " + 7);
 			if (index % 13 == 0)
 				System.out.println(index + " is divisible by " + 13);
+			index++;
 		}
 	}
 
 	public static void main(String[] args) {
-		Math math = new Math();
-		math.displayEvenNumbers(10, 15);
-		math.displayDivisibleBy5(10, 30);
-		math.displayDivisibleBy5and3(5, 18);
-		math.displayDivisibleBy7or13(5, 40);
+		MathUsingWhileLoop mathUsingWhileLoop = new MathUsingWhileLoop();
+		mathUsingWhileLoop.displayEvenNumbers(10, 15);
+		mathUsingWhileLoop.displayDivisibleBy5(10, 30);
+		mathUsingWhileLoop.displayDivisibleBy5and3(5, 18);
+		mathUsingWhileLoop.displayDivisibleBy7or13(5, 40);
 	}
 }

@@ -1,14 +1,12 @@
-/*
- Assignment 03
+/*Assignment 03
  Program 03
  Create a class named Human, & that class have some behaviour(method) like name, age & canSpeak
 	a. humanName()
 	b. canSpeak()
 	c. humanAge()
 	d. showDetails()
-	Hint: One String, one boolean, one int variable needed.
-	 */
-package madhavi_Raut;
+	Hint: One String, one boolean, one int variable needed*/
+package madhavi_Raut.Assignment_03;
 
 class Human {
 
