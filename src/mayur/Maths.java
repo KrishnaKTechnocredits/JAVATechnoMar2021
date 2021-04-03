@@ -43,6 +43,7 @@ package mayur;
 
 public class Maths {
 	int index, startIndex, endIndex;
+
 	void evenNumber(int startIndex, int endIndex) {
 		for(int index = startIndex;index <= endIndex;index++) 
 			if(index%2 ==0)
@@ -75,5 +76,4 @@ public class Maths {
 	    maths.fiveAndThree(5,18);
 	    maths.sevenOrThirteen(5,40);
 	}
-
 }
