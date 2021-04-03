@@ -22,12 +22,12 @@ All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 ti
 public class BankingSystem {
 	String name;
 	int totalAmount;
-	int debitCount = 0;
-	int creditCount = 0;
-	int printBalanceCount =0;
-	static int totalDebitCount = 0;
-	static int totalCreditCount = 0;
-	static int totalPrintBalanceCount = 0;
+	int debitCount; 
+	int creditCount;
+	int printBalanceCount;
+	static int totalDebitCount;
+	static int totalCreditCount;
+	static int totalPrintBalanceCount;
 	
 	void customerDetails(String customerName,int intialAmount) {
 		name = customerName;
@@ -35,7 +35,7 @@ public class BankingSystem {
 	}
 
 	void debitAmount(int amount){
-		while (amount <= totalAmount)
+		if(amount <= totalAmount)
 		  totalAmount = totalAmount - amount;
 		  debitCount++;
 		  totalDebitCount++;
