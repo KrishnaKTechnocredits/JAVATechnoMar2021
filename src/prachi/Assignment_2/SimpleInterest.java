@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_2;
 
 //Assignment_2_Program_3
 //3. Write a Java program to compute simple interest   

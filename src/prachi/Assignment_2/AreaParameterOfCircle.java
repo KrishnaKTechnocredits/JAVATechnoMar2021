@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_2;
 
 //Assignment_2_Program_2
 //2. WAP to find the area and perimeter of Rectangle & Circle. 

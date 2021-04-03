@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_8;
 
 /*Assignment 8 : 1st Apr'2021
 WAP of Assignment 6 using While loop. */

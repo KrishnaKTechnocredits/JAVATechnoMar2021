@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_5;
 
 //Assignment5
 //1. Create a class named as Mall, which contains below methods.

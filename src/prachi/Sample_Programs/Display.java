@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Sample_Programs;
 
 public class Display {
 	

@@ -1,6 +1,6 @@
 //Assignment3_Program_1
 
-package prachi;
+package prachi.Assignment_3;
 
 //Assignment 3 : 23rd March 2021
 //1. Create a class called BankAccount, which has 3 methods.

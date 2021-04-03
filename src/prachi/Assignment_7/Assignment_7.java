@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_7;
 
 /*Assignment  7  : 30th March 2021 
 
