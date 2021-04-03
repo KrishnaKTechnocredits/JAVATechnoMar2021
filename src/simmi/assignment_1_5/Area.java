@@ -1,4 +1,12 @@
-package simmi;
+/*WAP to find the area and perimeter of Rectangle & Circle. 
+NOTE : one method to calculate area and another for perimeter.
+HINT : 
+Rectangle area = length * width
+Rectangle perimeter = 2*Length + 2*Width 
+	   Circle area = pi*r*r, where r is radius
+	   Circle perimeter = 2*pi*r , where pi = 3.1416*/
+
+package simmi.assignment_1_5;
 
 class Area
 {

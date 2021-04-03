@@ -1,4 +1,12 @@
-package simmi;
+/*Create a class named Car, which contains method like below
+ 	 a. setcompanyName  
+ 	 b. setIsCarAutomatic  
+ 	 c. setCarSpeed  
+  	d. displaySpecification   
+  Hint: One String, one boolean and one double variable needed.
+*/
+
+package simmi.assignment_1_5;
 
 class Car{
 	String companyName;
