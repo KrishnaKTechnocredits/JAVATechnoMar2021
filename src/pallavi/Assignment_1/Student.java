@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.Assignment_1;
 
 class Student{
   int age=23;

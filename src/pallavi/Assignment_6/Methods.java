@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.Assignment_6;
 
 public class Methods {
 
@@ -11,7 +11,7 @@ public class Methods {
 
 	}
 
-	void evenNumber(int start, int end) {
+	 void evenNumber(int start, int end) {
 		System.out.println("Even nubers are : ");
 		for (int i = start; i <= end; i++) {
 			if (i % 2 == 0)
@@ -19,7 +19,7 @@ public class Methods {
 		}
 	}
 	
-	void divisibleBy5(int start, int end) {
+	 void divisibleBy5(int start, int end) {
 		System.out.println("Divisible by 5 nubers are : ");
 		for(int i=start;i<=end;i++) {
 			if(i%5==0)
@@ -35,7 +35,7 @@ public class Methods {
 		}
 	}
 	
-	void divisibleBy7And13(int start, int end) {
+	public void divisibleBy7And13(int start, int end) {
 		for(int i=start;i<=end;i++) {
 			if(i%7==0) {
 				System.out.println(i + " is divisible by 7" );}

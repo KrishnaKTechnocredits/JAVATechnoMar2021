@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.Assignment_1;
 class Calculator{
    int x=20;
    int y=5;

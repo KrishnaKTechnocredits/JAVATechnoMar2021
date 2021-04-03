@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.Assignment_7;
 
 public class Shop {
 	int maggieQ;
