@@ -24,7 +24,7 @@
 Assignment 1 - Program 1 - Program Statement : Print all details of Student like Name, Middle name, Surname, birthdate, Address, and Roll number.
 */
 
-package paras;
+package paras.Assignment_1;
 
 class StudentInfo{
 	

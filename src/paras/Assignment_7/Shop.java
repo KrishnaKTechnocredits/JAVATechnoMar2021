@@ -1,4 +1,4 @@
-package paras;
+package paras.Assignment_7;
 
 public class Shop {
 	int maggieQuantity; 

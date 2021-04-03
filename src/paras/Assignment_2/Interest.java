@@ -9,7 +9,7 @@
 Assignment 2 - Program 3 - Program Statement : Write a Java program to compute simple interest.
 */
 
-package paras;
+package paras.Assignment_2;
 
 class Interest{
 	

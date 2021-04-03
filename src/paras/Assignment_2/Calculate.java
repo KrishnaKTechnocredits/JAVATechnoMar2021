@@ -10,7 +10,7 @@
 Assignment 2 - Program 2 - Program Statement : WAP to find the area and perimeter of Rectangle & Circle.
 */
 
-package paras;
+package paras.Assignment_2;
 
 class Calculate{
 

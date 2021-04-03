@@ -11,7 +11,7 @@
 Assignment 3 - Program 4 - Program Statement : Create a class named as ITProfessional which contain below methods.
 */
 
-package paras;
+package paras.Assignment_3;
 
 class ITProfessional{
 	

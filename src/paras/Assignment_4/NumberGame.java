@@ -26,7 +26,7 @@
 Assignment 4 - Program 1 - Program Statement : Create a class named as NumberGame with following method.
 */
 
-package paras;
+package paras.Assignment_4;
 
 class NumberGame{
 	

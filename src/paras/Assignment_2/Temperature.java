@@ -5,7 +5,7 @@
 Assignment 2 - Program 4 - Program Statement : Write a Java program to convert temperature from Fahrenheit to Celsius degree.
 */
 
-package paras;
+package paras.Assignment_2;
 
 class Temperature{
 
