@@ -1,4 +1,4 @@
-package prachi;
+package prachi.Assignment_9;
 
 /*Assignment 9 : 2nd April 2021
 Create a Banking System which has the following functionality.
@@ -20,12 +20,13 @@ All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 ti
 public class Assignment_9 {
 	String custName;
 	int totalAmt;
-	int creditCount = 0;
-	int debitCount = 0;
-	int balanceCount = 0;
-	static int totalDebitCount = 0;
-	static int totalCreditCount = 0;
-	static int totalPrintBalanceCount = 0;
+	int creditCount;
+	int debitCount;
+	int balanceCount;
+	static int totalDebitCount;
+	static int totalCreditCount;
+	static int totalPrintBalanceCount;
+	//Harsh's comment: No need to initialize variable values.
 
 	void customerDetails(String cName,int totalAmount) {
 		custName = cName;
@@ -39,7 +40,7 @@ public class Assignment_9 {
 	}
 
 	void debitAmountMethod(int dAmount) {
-		if(totalAmt>dAmount) {
+		if(totalAmt>=dAmount) {                     //Harsh's Inputs: = is needed.
 			totalAmt=totalAmt - dAmount;
 			debitCount++;
 			totalDebitCount++;
