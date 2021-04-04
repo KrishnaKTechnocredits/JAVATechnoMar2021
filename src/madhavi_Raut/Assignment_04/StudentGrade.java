@@ -1,5 +1,4 @@
-/*
- Assignment 04
+/*Assignment 04
  Program 02
  Create a class named as Student, which have methods like below.
 	a. studentName()
@@ -13,9 +12,8 @@
 	• If student gain marks below 60% display name with grade C
 	
 	Sample input : Student name - Maulik, mark - 75
-	Sample output : Maulik received grade B+
- */
-package madhavi_Raut;
+	Sample output : Maulik received grade B+ */
+package madhavi_Raut.Assignment_04;
 
 class StudentGrade {
 	String studentName;

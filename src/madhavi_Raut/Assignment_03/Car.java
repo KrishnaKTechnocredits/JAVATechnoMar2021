@@ -1,14 +1,12 @@
-/*
- Assignment 03
+/*Assignment 03
  Program 02
  Create a class named Car, which contains method like below
 	a. setcompanyName
 	b. setIsCarAutomatic
 	c. setCarSpeed
 	d. displaySpecification
-	Hint: One String, one boolean and one double variable needed.
- */
-package madhavi_Raut;
+	Hint: One String, one boolean and one double variable needed*/
+package madhavi_Raut.Assignment_03;
 
 class Car {
 

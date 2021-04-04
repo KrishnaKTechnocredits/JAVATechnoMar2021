@@ -1,5 +1,4 @@
-/*
-Assignment 01
+/*Assignment 01
 Program 01:
 Print all details of Student like Name, Middle name, Surname, birthdate, Address, and Roll number.
 	1. Create class called “StudentInfo”
@@ -18,10 +17,9 @@ Print all details of Student like Name, Middle name, Surname, birthdate, Address
 	Patel
 	10th Aug 1998
 	G-809, Heaven Apartment, Baner, Pune.
-	34
- */
+	34*/
 
-package madhavi_Raut;
+package madhavi_Raut.Assignment_01;
 
 class StudentInfo {
 	String firstName = "Shikha", middleName = "Amit", surname = "Patel", birthDate = "10th Aug 1998",

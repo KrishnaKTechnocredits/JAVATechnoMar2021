@@ -1,5 +1,4 @@
-/*
- Assignment 04
+/*Assignment 04
  Program 01
  Create a class named as NumberGame with following method.
 	a. findMaxNumber()
@@ -20,10 +19,9 @@
 	hint : To compare max,
 	if(a>b && a>c)
 	sop("a max");
-	add appropiate logic for b and c.
- */
+	add appropiate logic for b and c*/
 
-package madhavi_Raut;
+package madhavi_Raut.Assignment_04;
 
 class NumberGame {
 

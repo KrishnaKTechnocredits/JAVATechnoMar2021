@@ -1,15 +1,13 @@
-/*
- Assignment 2
+/*Assignment 2
  Program 03
  Write a Java program to compute simple interest
 	Simple Interest = (P x T x R)/100
 	Where,
 	P is the principle amount
 	T is the time [year] and
-	R is the rate
- */
+	R is the rate*/
 
-package madhavi_Raut;
+package madhavi_Raut.Assignment_02;
 
 class FindSimpleInterest {
 

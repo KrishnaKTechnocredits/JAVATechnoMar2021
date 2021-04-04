@@ -1,5 +1,4 @@
-/*
- Assignment 03
+/*Assignment 03
  Program 04
  Create a class named as ITProfessional which contain below methods
 	a. empName()
@@ -8,10 +7,9 @@
 	d. isAddictedToCoffee()
 	e. isAddictedToAlcohol()
 	f. displayInformation()
-	Hint: One String, 4 boolean variable needed
- */
+	Hint: One String, 4 boolean variable needed*/
 
-package madhavi_Raut;
+package madhavi_Raut.Assignment_03;
 
 class ITProfessional {
 	String empName;
