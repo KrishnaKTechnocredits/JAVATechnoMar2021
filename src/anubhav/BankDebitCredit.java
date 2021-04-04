@@ -36,21 +36,23 @@ public class BankDebitCredit {
 	}
 	
 	void debit (int dbAmount){
-		while (dbAmount<=totalBalance)
+		if (dbAmount> totalBalance) {
+			System.out.println("Insufficient funds");
+		}else {
 			totalBalance= totalBalance- dbAmount;
 			debitCount++;
 			totalNoOfDebits++;
+		} 
 	}
 	
 	void credit (int crAmount){
-		while (crAmount<=totalBalance)
 			totalBalance= totalBalance+crAmount;
 			creditCount++;
 			totalNoOfCredits++;
 	}
 	
 	void printBalance (){
-		//System.out.println("Current balance for " + username + " is " + totalBalance);
+		System.out.println("Current balance for " + username + " is " + totalBalance);
 		printBalance++;
 		totalNoOfTimesPrintBalance++;
 	}
@@ -60,6 +62,8 @@ public class BankDebitCredit {
 	}
 	
 	void allTransactionSummary() {
+		System.out.println("**************************All Transactions Count***************"
+				+ "***********");
 		System.out.println("All transaction summary : Credit - " + totalNoOfCredits + " times, Debit - " + totalNoOfDebits + " times, printBalance - " + totalNoOfTimesPrintBalance + " time");
 	}
 	
@@ -75,23 +79,23 @@ public class BankDebitCredit {
 		bankDebitCredit1.individualTransactionSummary();
 		
 		BankDebitCredit bankDebitCredit2= new BankDebitCredit();
-		bankDebitCredit2.customerInfo("Rohit", 200000);
-		bankDebitCredit2.debit(20000);
-		bankDebitCredit2.credit(80000);
-		bankDebitCredit2.credit(20000);
+		bankDebitCredit2.customerInfo("Rohit", 2000);
+		bankDebitCredit2.debit(2000);
+		bankDebitCredit2.credit(8000);
+		bankDebitCredit2.credit(2000);
 		bankDebitCredit2.debit(5000);
-		bankDebitCredit2.credit(55000);
+		bankDebitCredit2.credit(5000);
 		bankDebitCredit2.printBalance();
 		bankDebitCredit2.individualTransactionSummary();
 		
 		
 		BankDebitCredit bankDebitCredit3= new BankDebitCredit();
-		bankDebitCredit3.customerInfo("Akshay", 200000);
-		bankDebitCredit3.debit(50000);
-		bankDebitCredit3.credit(40000);
-		bankDebitCredit3.credit(30000);
-		bankDebitCredit3.debit(7000);
-		bankDebitCredit3.credit(8000);
+		bankDebitCredit3.customerInfo("Akshay", 1000);
+		bankDebitCredit3.debit(500);
+		bankDebitCredit3.credit(1000);
+		bankDebitCredit3.credit(1000);
+		bankDebitCredit3.debit(2000);
+		bankDebitCredit3.credit(1000);
 		bankDebitCredit3.printBalance();
 		bankDebitCredit3.individualTransactionSummary();
 		
