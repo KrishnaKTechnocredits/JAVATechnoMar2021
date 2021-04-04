@@ -1,4 +1,4 @@
-package ankit;
+package ankit.assignment_1_5;
 
 /*2. WAP to find the area and perimeter of Rectangle & Circle. 
 NOTE : one method to calculate area and another for perimeter.

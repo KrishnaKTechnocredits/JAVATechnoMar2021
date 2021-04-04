@@ -6,7 +6,7 @@
 Hint: One String, one boolean, one int variable needed. 
 
 */
-package ankit;
+package ankit.assignment_1_5;
 class Human{
 	
 	String humanName;

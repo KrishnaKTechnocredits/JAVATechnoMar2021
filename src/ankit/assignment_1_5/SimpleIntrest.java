@@ -6,7 +6,7 @@
 		R is the rate
        */
 	   
-package ankit;	   
+package ankit.assignment_1_5;	   
 class SimpleIntrest{
     int simpleIntrest;
 	

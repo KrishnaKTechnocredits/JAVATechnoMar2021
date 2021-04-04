@@ -1,6 +1,6 @@
-package ankit;
+package ankit.assignment_08;
 
-public class MathFunctions {
+public class MathFunctionsWhile {
 int startIndex, endIndex;
 
 	void evenNumber(int startIndex,int endIndex) {
@@ -8,11 +8,13 @@ int startIndex, endIndex;
 			System.out.println("Both numbers are same please provide a vaild range");
 		}
 		else if (startIndex < endIndex) {
-			for(int index=startIndex; index<=endIndex; index++) {
+			 int index=startIndex;
+			 while (index<=endIndex)  {
 				if(index%2 == 0) {
 					System.out.println("Even Number : " +index);
 					}
-				}
+					index++;
+				} 
 			}
 		else{
 				System.out.println("Start Index is greater than End Index");
@@ -23,11 +25,13 @@ int startIndex, endIndex;
 			System.out.println("Both numbers are same please provide a vaild range");
 		}
 		else if (startIndex < endIndex) {
-			for(int index=startIndex; index<=endIndex; index++) {
+			int index=startIndex;
+			while( index<=endIndex) {
 				if(index%5 == 0) {
 					System.out.println("Number Divisible by 5: " +index);
 					}
-				}
+				index++;
+				} 
 			}
 		else{
 				System.out.println("Start Index is greater than End Index");
@@ -38,11 +42,13 @@ int startIndex, endIndex;
 			System.out.println("Both numbers are same please provide a vaild range");
 		}
 		else if (startIndex < endIndex) {
-			for(int index=startIndex; index<=endIndex; index++) {
+			int index=startIndex; 
+			while(index<=endIndex) {
 				if(index%5 == 0 && index%3 == 0) {
 					System.out.println("Number Divisible by 5 And 3 both : " +index);
 					}
-				}
+				index++;
+				} 
 			}
 		else{
 				System.out.println("Start Index is greater than End Index");
@@ -53,30 +59,36 @@ int startIndex, endIndex;
 			System.out.println("Both numbers are same please provide a vaild range");
 		}
 		else if (startIndex < endIndex) {
-			for(int index=startIndex; index<=endIndex; index++) {
+			int index=startIndex;
+			while(index<=endIndex) {
 				if(index%7 == 0) {
 					System.out.println("Number Divisible 7 : " +index);
 					}
 					else if ((index%13 == 0)){
 						System.out.println("Number Divisible 13 : " +index);
-					}
-				}
+					} 
+				index++;
+				} 
 			}
 		else{
 				System.out.println("Start Index is greater than End Index");
 			}
 		}	
 	public static void main(String[] args) {
-		MathFunctions mathFunctions = new MathFunctions();
-		mathFunctions.evenNumber(1,5);
-		mathFunctions.divisableby5(1, 1);
-		mathFunctions.divisableby5And3(45, 30);
-		mathFunctions.divisableby7Or13(55, 50);
+		MathFunctionsWhile mathFunctions = new MathFunctionsWhile();
+		System.out.println("*****EVEN NUMBER****");
+		mathFunctions.evenNumber(1,50);
+		System.out.println("*****NUMBER DIVISIBLE BY 5****");
+		mathFunctions.divisableby5(20, 30);
+		System.out.println("*****NUMBER DIVISIBLE BY 5 & 3****");
+		mathFunctions.divisableby5And3(30, 70);
+		System.out.println("*****NUMBER DIVISIBLE BY 7 OR 13****");
+		mathFunctions.divisableby7Or13(70, 140);
 	}
 }
 
-/*Assignment 6 : 30th March 2021
-
+/*Assignment 8 : 30th March 2021
+Using While statement 
 Write only one program having following methods. [4 methods in same program]
 
 1. On user define range print all even numbers.

@@ -1,4 +1,4 @@
-package ankit;
+package ankit.assignment_09;
 
 public class Bank {
 	String custName;

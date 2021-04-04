@@ -1,4 +1,4 @@
-package ankit;
+package ankit.assignment_07;
 
 import javax.swing.plaf.synth.SynthSeparatorUI;
 

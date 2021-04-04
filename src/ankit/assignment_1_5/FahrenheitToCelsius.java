@@ -3,7 +3,7 @@
 
 Create parameterized methods if possible.
 */
-package ankit;
+package ankit.assignment_1_5;
 
 class FahrenheitToCelsius{
     int CelciusValue;

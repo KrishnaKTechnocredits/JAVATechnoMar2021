@@ -1,4 +1,4 @@
-package ankit;
+package ankit.assignment_1_5;
 class StudentInfo{
 	String name ="Shikha";
 	String middleName = "Amit";

@@ -21,7 +21,7 @@ sop("a max");
 add appropiate logic for b and c. 
 */
 
-package ankit;
+package ankit.assignment_1_5;
 class NumberGame{
 	
 	void findMaxNumber(int x, int y, int z){
