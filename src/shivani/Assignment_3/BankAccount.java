@@ -1,4 +1,4 @@
-package shivani;
+package shivani.Assignment_3;
 
 class BankAccount{
     String userName;

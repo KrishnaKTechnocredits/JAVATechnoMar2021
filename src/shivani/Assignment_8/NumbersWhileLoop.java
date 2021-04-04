@@ -1,4 +1,4 @@
-package shivani;
+package shivani.Assignment_8;
 
 public class NumbersWhileLoop {
 	

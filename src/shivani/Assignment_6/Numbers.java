@@ -1,4 +1,4 @@
-package shivani;
+package shivani.Assignment_6;
 
 public class Numbers {
 	int start;
