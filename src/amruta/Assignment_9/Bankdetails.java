@@ -21,11 +21,11 @@ package amruta.Assignment_9;
 class Bankdetails{
 	int totalbalance;
 	String name;
-	int debitcount=0;
-	int creditcount=0;
-	int printBalance=0;
-	static int totaldebitcount=0;
-	static int totalcreditcount=0;
+	int debitcount;
+	int creditcount;
+	int printBalance;
+	static int totaldebitcount;
+	static int totalcreditcount;
 	
 	
 	void setData(int initialbal, String custname, int count){
