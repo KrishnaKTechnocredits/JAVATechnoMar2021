@@ -20,7 +20,7 @@ class Number {void displayEven(int no) {
 }
 	
 	void displaydiv2(int no) {
-	for (int i = no; no <= 18; no = no+1) {
+	for (int i = no; no <= 18; no = no++) {
 		if (no%5 == 0 && no%3 ==0){
 		System.out.println("Number divisble by 5 & 3 are : " +no+ " ");
 		}
