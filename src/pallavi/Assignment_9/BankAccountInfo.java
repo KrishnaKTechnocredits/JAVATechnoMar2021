@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.Assignment_9;
 
 public class BankAccountInfo {
 	int totalBalance;

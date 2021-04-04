@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.Assignment_5;
 
 class Mall{
 	int itemAddedToCart;

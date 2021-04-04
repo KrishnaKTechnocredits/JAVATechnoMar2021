@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.test;
 
 public class Display {
 

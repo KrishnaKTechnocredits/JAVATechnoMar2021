@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.Assignment2;
 
 class Operation{
 	int num;

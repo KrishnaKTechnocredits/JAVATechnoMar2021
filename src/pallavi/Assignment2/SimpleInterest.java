@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.Assignment2;
 
 class SimpleInterest{
 	float principal;

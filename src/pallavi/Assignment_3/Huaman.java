@@ -1,4 +1,4 @@
-package pallavi;
+package pallavi.Assignment_3;
 
 class Human{
 	String name;
