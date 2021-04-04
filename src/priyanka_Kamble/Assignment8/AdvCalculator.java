@@ -1,4 +1,4 @@
-package priyanka_Kamble;
+package priyanka_Kamble.Assignment8;
 
 /*
  * Assignment 8
