@@ -35,7 +35,7 @@ public class BankDebitCredit {
 	}
 
 	void debit(int dAmount) {
-		while (dAmount<=Amount) {
+		if (dAmount<=Amount) {
 			Amount = Amount-dAmount;
 			debitCounter++;
 			totalDebitCounter++;
