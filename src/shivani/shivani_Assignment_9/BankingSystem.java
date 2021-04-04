@@ -52,16 +52,11 @@ public class BankingSystem {
 void individualTransSummary(String name) {
 
 	System.out.println(name+ " transaction summary : credit - "+creditCount +"  times"+"  debit - "+debitCount + "times" +  "print - "+printbalCount);
-
-	
 }
 
 	void allTransSummary() {
 	
 		System.out.println("Total Transaction summary : credit - "+totalCreditCount +" times"+" debit - "+totalDebitCount +"times "+ " print - "+totalPrintBalanceCount);
-		
-
-
 	}
 
 	public static void main(String[] args) {
