@@ -22,7 +22,7 @@ Expectations:
 
 Hint: itemAddedToCart method have int parameter, paymentDoneUsing() method have String parameter, needBill() have Boolean parameter & haveCarryBag have Boolean parameter
 */
-package ankit;
+package ankit.assignment_1_5;
 class Mall{
 	String cName, payVia, section;
 	int itemCount;

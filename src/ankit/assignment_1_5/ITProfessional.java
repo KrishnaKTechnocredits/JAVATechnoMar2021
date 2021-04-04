@@ -7,7 +7,7 @@
         f. displayInformation()
 Hint: One String, 4 boolean variable needed
 */
-package ankit;
+package ankit.assignment_1_5;
 class ITProfessional{
 	String empName = "Ankit";
 	boolean partyOnWeekend, addictedToTea, addictedToCoffee, addictedToAlcohol;

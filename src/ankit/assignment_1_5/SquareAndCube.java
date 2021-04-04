@@ -1,6 +1,6 @@
 //1. WAP to find the square and cube of a number. 
 //NOTE : one method to calculate square and another for cube.
-package ankit;
+package ankit.assignment_1_5;
 class SquareAndCube{
 
 	void square(int x){

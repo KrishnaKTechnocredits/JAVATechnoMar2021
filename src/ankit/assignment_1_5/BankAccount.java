@@ -1,4 +1,4 @@
-package ankit;
+package ankit.assignment_1_5;
 /*
 1. Create a class called BankAccount, which has 3 methods.
       a) setDetails() method to set username, password, bankAccountNumber.
