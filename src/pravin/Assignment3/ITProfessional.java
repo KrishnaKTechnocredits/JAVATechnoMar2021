@@ -4,7 +4,7 @@ a. empName()b. doesPartyOnWeekend()c. isAddictedToTea()d. isAddictedToCoffee()e.
 Hint: One String, 4 boolean variable needed
 Note: In Console Print statement in a proper way.*/
 
-package pravin; 
+package pravin.Assignment3; 
 
 class ITProfessional {
 	String empName;

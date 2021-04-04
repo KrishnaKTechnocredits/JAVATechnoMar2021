@@ -14,7 +14,7 @@ Expectation:
  */
 
 
-package pravin;
+package pravin.Assignment7;
 
 public class Shop {
 	String maggie;

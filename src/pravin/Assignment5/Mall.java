@@ -25,7 +25,7 @@ Hint: itemAddedToCart method have int parameter, paymentDoneUsing() method have 
 
 
 
-package pravin;
+package pravin.Assignment5;
 class Mall{
 	int noofitem;
 	String customerName;

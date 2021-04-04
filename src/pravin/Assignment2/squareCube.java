@@ -2,7 +2,7 @@
 WAP to find the square and cube of a number. 
 NOTE : one method to calculate square and another for cube */
 
-package pravin;
+package pravin.Assignment2;
 class squareCube {
 
 	void square(int Num1){

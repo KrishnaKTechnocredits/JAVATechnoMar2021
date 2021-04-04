@@ -5,7 +5,7 @@ b. setIsCarAutomatic
 c. setCarSpeed
 d. displaySpecification
 Hint: One String, one boolean and one double variable needed.*/
-package pravin; 
+package pravin.Assignment3; 
 class CarDetails {
 	String companyName;
 	boolean isCarAutomatic;

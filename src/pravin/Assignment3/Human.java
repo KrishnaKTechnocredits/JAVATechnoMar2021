@@ -2,7 +2,7 @@
 Create a class named Human, & that class have some behaviour(method) like name, age & canSpeak
 a. humanName()b. canSpeak()c. humanAge()d. showDetails()
 Hint: One String, one boolean, one int variable needed.*/
-package pravin; 
+package pravin.Assignment3; 
 class Human {
 	String Name;
 	int age;

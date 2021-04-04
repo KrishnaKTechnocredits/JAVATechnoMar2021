@@ -1,6 +1,6 @@
 /*Assignment no1*/
 
-package pravin;
+package pravin.Assignment1;
 
 class Studentinfo{
 	String Name,MiddleName,LastName,Birthdate,Address;

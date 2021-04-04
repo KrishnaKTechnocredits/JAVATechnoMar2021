@@ -38,7 +38,7 @@ Output : Divisible by 7 or 13, Numbers are:
 		 39 is divisible by 13*/
 
 
-package pravin;
+package pravin.Assignment8;
 
 public class Loop {
 

@@ -1,6 +1,6 @@
 /*Assignment no 2*/
 
-package pravin;
+package pravin.Assignment2;
 
 class Calculator{
 	int x=20;

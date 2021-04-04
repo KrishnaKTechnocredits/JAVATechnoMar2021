@@ -8,7 +8,7 @@ Rectangle area = length * width
 Circle perimeter = 2*pi*r , where pi = 3.1416*/
 
 
-package pravin;  	  
+package pravin.Assignment2;  	  
 class AreaPerimeter1 {
 	void area (int Num1,int Num2,int Num3){
 		int  length = Num1;
