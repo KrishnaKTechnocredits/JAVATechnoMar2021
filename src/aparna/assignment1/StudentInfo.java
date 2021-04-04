@@ -22,7 +22,7 @@ G-809, Heaven Apartment, Baner, Pune.
 34
 */
 
-package aparna;
+package aparna.assignment1;
 
 class StudentInfo {
 	String name = "Shikha", middleName = "Amit", surname = "Patel", birthdate = "10th August 1998",

@@ -1,7 +1,7 @@
 /*3. Create a class named Human, & that class have some behaviour(method) like name, age & canSpeak  a.humanName()  b.canSpeak()  c.humanAge()  d.showDetails() 
 Hint: One String, one boolean, one int variable needed. 
 */
-package aparna;
+package aparna.assignment3;
 
 class Human {
 

@@ -1,6 +1,6 @@
 /*4.Create a class named as ITProfessional which contain below methods a. empName()  b. doesPartyOnWeekend()  c. isAddictedToTea()  d. isAddictedToCoffee()  
 e. isAddictedToAlcohol() f. displayInformation()Hint: One String,4 boolean variable needed*/
-package aparna;
+package aparna.assignment3;
 
 class ITProfessional {
 	String employeeName;

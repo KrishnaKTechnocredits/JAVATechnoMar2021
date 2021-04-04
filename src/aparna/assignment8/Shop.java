@@ -13,7 +13,7 @@ Expectation:
 2) Create a method which shows only those item which is "Out of stock".
 3) Create a method which shows only those item which is "Available in stock" & respective quantities.
 */
-package aparna;
+package aparna.assignment8;
 
 public class Shop {
 	int totalMaggiePacks, totalDosaPacks, totalOilPouches, totalPanipuriPacks, totalMasalaPacks;

@@ -1,7 +1,7 @@
 /*2. Create a class named Car, which contains method like below a. setcompanyName b.setIsCarAutomatic c. setCarSpeed  d. displaySpecification   
   Hint: One String, one boolean and one double variable needed. 
   */
-package aparna;
+package aparna.assignment3;
 
 class Car {
 

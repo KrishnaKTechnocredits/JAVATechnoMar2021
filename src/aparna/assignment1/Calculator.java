@@ -2,7 +2,7 @@
 //add, sub,div,mul
 //2 instance variable ,x=20 and y=5.
 //1 local variable answer and print the answer in every individual method.
-package aparna;
+package aparna.assignment1;
 
 class Calculator {
 	int x = 20;

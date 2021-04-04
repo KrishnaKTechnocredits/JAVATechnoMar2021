@@ -6,7 +6,7 @@
 
 NOTE : consider bank account number as Integer [for example : 13164]
 */
-package aparna;
+package aparna.assignment3;
 
 class BankAccount {
 

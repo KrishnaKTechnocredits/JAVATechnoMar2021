@@ -20,7 +20,7 @@ if(a>b && a>c)
 sop("a max");
 add appropiate logic for b and c.
 */
-package aparna;
+package aparna.assignment4;
 
 class NumberGame {
 

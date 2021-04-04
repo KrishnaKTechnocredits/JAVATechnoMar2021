@@ -18,7 +18,7 @@ Output :
 All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 time
  */
 
-package aparna;
+package aparna.assignment9;
 
 public class BankSystem {
 	String customerName;

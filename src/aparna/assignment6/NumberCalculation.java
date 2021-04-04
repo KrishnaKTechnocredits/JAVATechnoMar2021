@@ -40,66 +40,56 @@ Output : Divisible by 7 or 13, numbers are:
 		 39 is divisible by 13
 */
 
-package aparna;
+package aparna.assignment6;
 
-public class NumberCalculationWithWhileLoop {
+public class NumberCalculation {
 
 	void printEvenNumbers(int startIndex, int endIndex) {
 		System.out.println("Even Numbers are:- ");
-
-		while (startIndex <= endIndex) {
-			if (startIndex % 2 == 0) {
-				System.out.println(startIndex);
+		for (int num = startIndex; num <= endIndex; num++) {
+			if (num % 2 == 0) {
+				System.out.println(num);
 			}
-			startIndex++;
 		}
-
 	}
 
 	void divisibleByFive(int startIndex, int endIndex) {
 
 		System.out.println("Divisible by 5, numbers are: ");
-
-		while (startIndex <= endIndex) {
-			if (startIndex % 5 == 0) {
-				System.out.println(startIndex);
+		for (int num = startIndex; num <= endIndex; num++) {
+			if (num % 5 == 0) {
+				System.out.println(num);
 			}
-			startIndex++;
 		}
 	}
 
 	void divisibleByFiveAndThree(int startIndex, int endIndex) {
 
 		System.out.println("Divisible by 5 & 3, numbers are: ");
-
-		while (startIndex <= endIndex) {
-			if (startIndex % 5 == 0 && startIndex % 3 == 0) {
-				System.out.println(startIndex);
-
+		for (int num = startIndex; num <= endIndex; num++) {
+			if (num % 5 == 0 && num % 3 == 0) {
+				System.out.println(num);
 			}
-			startIndex++;
 		}
 	}
 
 	void divisibleBySevenOrThree(int startIndex, int endIndex) {
 		System.out.println("Divisible by 7 or 13, numbers are: ");
-
-		while (startIndex <= endIndex) {
-			if (startIndex % 7 == 0) {
-				System.out.println(startIndex + " is divisible by 7");
-			} else if (startIndex % 13 == 0) {
-				System.out.println(startIndex + " is divisible by 13");
+		for (int num = startIndex; num <= endIndex; num++) {
+			if (num % 7 == 0) {
+				System.out.println(num + " is divisible by 7");
+			} else if (num % 13 == 0) {
+				System.out.println(num + " is divisible by 13");
 			}
-			startIndex++;
 		}
 	}
 
 	public static void main(String[] args) {
-		NumberCalculationWithWhileLoop numberCalculationWithWhileLoop = new NumberCalculationWithWhileLoop();
-		numberCalculationWithWhileLoop.printEvenNumbers(10, 15);
-		numberCalculationWithWhileLoop.divisibleByFive(10, 30);
-		numberCalculationWithWhileLoop.divisibleByFiveAndThree(5, 18);
-		numberCalculationWithWhileLoop.divisibleBySevenOrThree(5, 40);
+		NumberCalculation numberCalculation = new NumberCalculation();
+		numberCalculation.printEvenNumbers(10, 15);
+		numberCalculation.divisibleByFive(10, 30);
+		numberCalculation.divisibleByFiveAndThree(5, 18);
+		numberCalculation.divisibleBySevenOrThree(5, 40);
 	}
 
 }
