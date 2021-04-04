@@ -17,17 +17,17 @@ Output :
 All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 time*/
 
 public class BankingSystem {
-	
-	int totalBal=0;
-	int debitCount = 0;
-	int creditCount = 0;
-	static int totalCreditCount = 0;
-	static int totalDebitCount = 0;
-	int printbalCount=0;
-	static int totalPrintBalanceCount=0;
 
-	void debitAmount(int totalbalnce,int dAmount) {
-		totalBal=totalbalnce;
+	int totalBal;
+	int debitCount;
+	int creditCount;
+	static int totalCreditCount;
+	static int totalDebitCount;
+	int printbalCount;
+	static int totalPrintBalanceCount;
+
+	void debitAmount(int totalbalnce, int dAmount) {
+		totalBal = totalbalnce;
 		if (totalBal > dAmount) {
 			totalBal = totalBal - dAmount;
 			debitCount++;
@@ -43,39 +43,38 @@ public class BankingSystem {
 	}
 
 	void printBalance() {
-		
-		System.out.println("Current Balance for:" +totalBal );
+
+		System.out.println("Current Balance for:" + totalBal);
 		printbalCount++;
 		totalPrintBalanceCount++;
-		
+
 	}
-void individualTransSummary(String name) {
 
-	System.out.println(name+ " transaction summary : credit - "+creditCount +"  times"+"  debit - "+debitCount + "times" +  "print - "+printbalCount);
+	void individualTransSummary(String name) {
 
-	
-}
+		System.out.println(name + " transaction summary : credit - " + creditCount + "  times" + "  debit - "
+				+ debitCount + "times" + "print - " + printbalCount);
+
+	}
 
 	void allTransSummary() {
-	
-		System.out.println("Total Transaction summary : credit - "+totalCreditCount +" times"+" debit - "+totalDebitCount +"times "+ " print - "+totalPrintBalanceCount);
-		
 
+		System.out.println("Total Transaction summary : credit - " + totalCreditCount + " times" + " debit - "
+				+ totalDebitCount + "times " + " print - " + totalPrintBalanceCount);
 
 	}
 
 	public static void main(String[] args) {
 		BankingSystem bankingSystem1 = new BankingSystem();
-		bankingSystem1.debitAmount(10000,1000);
-	    bankingSystem1.creditAmount(4000);
+		bankingSystem1.debitAmount(10000, 1000);
+		bankingSystem1.creditAmount(4000);
 		bankingSystem1.creditAmount(4000);
 		bankingSystem1.printBalance();
 		bankingSystem1.individualTransSummary("user1");
-	
 
 		BankingSystem bankingSystem2 = new BankingSystem();
-		bankingSystem2.debitAmount(10000,1000);
-		bankingSystem2.debitAmount(5000,2000);
+		bankingSystem2.debitAmount(10000, 1000);
+		bankingSystem2.debitAmount(5000, 2000);
 		bankingSystem2.creditAmount(500);
 		bankingSystem2.creditAmount(500);
 		bankingSystem2.creditAmount(500);
@@ -83,7 +82,6 @@ void individualTransSummary(String name) {
 		bankingSystem2.creditAmount(500);
 		bankingSystem2.individualTransSummary("user2");
 		bankingSystem2.allTransSummary();
-		
 
 	}
 }
