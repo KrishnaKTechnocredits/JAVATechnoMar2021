@@ -1,4 +1,4 @@
-package dhanshri;
+package dhanshri.Assignment_2;
 
 public class AreaPerimeter{
  double pi = 3.1416;

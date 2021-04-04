@@ -1,4 +1,4 @@
-package dhanshri;
+package dhanshri.Assignment_8;
 
 public class DivisibleNumbers {
 

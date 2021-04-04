@@ -1,4 +1,4 @@
-package dhanshri;
+package dhanshri.Assignment_5;
 
 public class Mall{
 	int numOfCartItem;

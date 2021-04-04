@@ -1,4 +1,4 @@
-package dhanshri;
+package dhanshri.Assignment_9;
 
 public class BankDetails {
 
