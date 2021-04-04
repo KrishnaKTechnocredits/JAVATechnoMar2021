@@ -1,4 +1,8 @@
-package simmi;
+/*WAP to find the square and cube of a number. 
+NOTE : one method to calculate square and another for cube.*/
+
+
+package simmi.assignment_1_5;
 
 class Num
 {

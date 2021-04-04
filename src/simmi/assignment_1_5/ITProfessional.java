@@ -1,4 +1,13 @@
-package simmi;
+/*Create a class named as ITProfessional which contain below methods  
+        a. empName()  
+        b. doesPartyOnWeekend()  
+        c. isAddictedToTea()  
+        d. isAddictedToCoffee()  
+        e. isAddictedToAlcohol() 
+        f. displayInformation()
+Hint: One String, 4 boolean variable needed*/
+
+package simmi.assignment_1_5;
 
 class ITProfessional{
 	String empName;

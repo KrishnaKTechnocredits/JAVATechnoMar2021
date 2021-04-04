@@ -1,4 +1,25 @@
-package simmi;
+/*Create a class named as Mall, which contains below methods.
+
+a. itemAddedToCart()
+b. customerName()
+c. paymentDoneUsing()
+i. Visa Card ii. Cash
+d. displayCutomerInfo()
+e. needBill()
+f. haveCarryBag()
+g. decideSection()
+
+i.e. displayCustomerInfo() should print on console : Harsh buys 12 items and payment done using visa card in section 1B.
+Needbill - true
+Required CarryBag - false
+Expectations:
+• If items are less than 10 and payment done using cash, then send customer to section 1A
+• If items are more than 10 and payment done using visa card, then send customer to section 1B
+• If items are more than 10 and payment done using cash, then send customer to section 1C
+• If items are less than 10 and payment done using visa card, then send customer to section 1D*/
+
+
+package simmi.assignment_1_5;
 
 class Mall{
 

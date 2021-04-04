@@ -17,7 +17,7 @@ Output :
 All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 time */
 
 
-package simmi;
+package simmi.assignment_9;
 
 public class Bank {
 	

@@ -1,4 +1,12 @@
-package simmi;
+/* Create a class called BankAccount, which has 3 methods.
+      a) setDetails() method to set username, password, bankAccountNumber.
+      b) updatePassword(String password) method to update password
+      c) displayInfo() method will print username, password & bankAccountNumber
+
+NOTE : consider bank account number as Integer [for example : 13164]*/
+
+
+package simmi.assignment_1_5;
 
 class BankAccount{
 	String userName;
