@@ -1,15 +1,15 @@
-package madhavi_Khasbage;
+package madhavi_Khasbage.IfElseLadderNested;
 
-public class FindNumbers {
+public class RangePrint {	
+	
 	void printEvenNumber(int indexStart,int indexEnd) {				
-		if(indexStart>0 && indexEnd>0){
-			System.out.println("Even numbers are:\n");			
-			while(indexStart<=indexEnd){				
-				if(indexStart % 2==0) {
-					System.out.println(indexStart + "\r\n");
-				}		
-				indexStart++;
-			}			
+		if(indexStart>0 && indexEnd>0) {
+			System.out.println("Event numbers are:\n");
+			for(int i=indexStart;i<=indexEnd;i++){				
+				if(i % 2==0) {
+					System.out.println(i + "\r\n");
+				}					
+			}
 		}else{
 			System.out.println("Even Number : Please enter start and end index greater than 0.");
 		}
@@ -18,11 +18,10 @@ public class FindNumbers {
 	void printNumDivisibleByFive(int indexStart,int indexEnd) {
 		if(indexStart>0 && indexEnd>0) {
 			System.out.println("Divisible by 5, numbers are:\n");
-			while(indexStart<=indexEnd){				
-				if(indexStart % 5==0) {
-					System.out.println(indexStart + "\r\n");
-				}		
-				indexStart++;
+			for(int i=indexStart;i<=indexEnd;i++){				
+				if(i % 5==0) {
+					System.out.println(i + "\r\n");
+				}					
 			}
 		}else{
 			System.out.println("Divisible by 5 : Please enter start and end index greater than 0.");
@@ -32,12 +31,11 @@ public class FindNumbers {
 	void printNumDivisibleByFiveAndThree(int indexStart,int indexEnd) {
 		if(indexStart>0 && indexEnd>0) {
 			System.out.println("Divisible by 5 and 3, numbers are:\n");
-			while(indexStart<=indexEnd){				
-				if(indexStart % 5 == 0 && indexStart % 3 == 0){
-					System.out.println(indexStart + "\r\n");
-				}		
-				indexStart++;
-			}			
+			for(int i=indexStart;i<=indexEnd;i++){				
+				if(i % 5 == 0 && i % 3 == 0) {
+					System.out.println(i + "\r\n");
+				}					
+			}
 		}else{
 			System.out.println("Divisible by 5 and 3 : Please enter start and end index greater than 0.");
 		}
@@ -46,14 +44,13 @@ public class FindNumbers {
 	void printNumDivisibleBySevenAndThirteen(int indexStart,int indexEnd) {
 		if(indexStart>0 && indexEnd>0) {
 			System.out.println("Divisible by 7 and 13, numbers are:\n");
-			while(indexStart<=indexEnd){					
-				if(indexStart % 7 == 0) {
-					System.out.println(indexStart + " is divisible by 7 \r\n");
+			for(int i=indexStart;i<=indexEnd;i++){				
+				if(i % 7 == 0) {
+					System.out.println(i + " is divisible by 7 \r\n");
 				}	
-				if(indexStart % 13 == 0){
-					System.out.println(indexStart + " is divisible by 13 \r\n");
+				if(i % 13 == 0){
+					System.out.println(i + " is divisible by 13 \r\n");
 				}
-				indexStart++;
 			}
 		}else{
 			System.out.println("Divisible by 7 and 13 : Please enter start and end index greater than 0.");
@@ -63,7 +60,7 @@ public class FindNumbers {
 	public static void main(String[] args) {
 		RangePrint rangeprint1=new RangePrint();
 		rangeprint1.printEvenNumber(10,20);
-		rangeprint1.printNumDivisibleByFive(10,40);
+		rangeprint1.printNumDivisibleByFive(10,30);
 		rangeprint1.printNumDivisibleByFiveAndThree(10,50);
 		rangeprint1.printNumDivisibleBySevenAndThirteen(5,40);		
 	}

@@ -1,8 +1,8 @@
-package madhavi_Khasbage;
+package madhavi_Khasbage.ClassVariableMethodRun;
 
 class PerimeterRecCircle
 {
-	void CalRectangleArea(float length,float width){
+	void calRectangleArea(float length,float width){
 		float rectangleArea = length * width;
 		System.out.println("Rectangle length  = " + length);
 		System.out.println("Rectangle width  = " + width);		
@@ -10,7 +10,7 @@ class PerimeterRecCircle
 		System.out.println("====================================");
 		
 	}
-	void CalRectanglePerimeter(float length,float width){
+	void calRectanglePerimeter(float length,float width){
 		float rectanglePerimeter = 2*length + 2*width;
 		System.out.println("Rectangle length  = " + length);
 		System.out.println("Rectangle width  = " + width);		
@@ -20,13 +20,13 @@ class PerimeterRecCircle
 		System.out.println("Math.PI  = " + Math.PI );
 	}
 	
-	void CalCircleArea(double radius){
+	void calCircleArea(double radius){
 		double circleArea = Math.PI * radius * radius;
 		System.out.println("Circle radius  = " + radius );		
 		System.out.println("Circle area = " + circleArea);
 		System.out.println("====================================");
 	}
-	void CalCirclePerimeter(double radius){
+	void calCirclePerimeter(double radius){
 		double circlePerimeter = 2 *  Math.PI * radius;
 		System.out.println("Circle radius  = " + radius);		
 		System.out.println("Circle perimeter = " + circlePerimeter);
@@ -35,9 +35,9 @@ class PerimeterRecCircle
 	
 	public static void main(String[] agrs){
 		PerimeterRecCircle objPeriArea =new PerimeterRecCircle();
-		objPeriArea.CalRectangleArea(4,5);	
-		objPeriArea.CalRectanglePerimeter(9,10);	
-		objPeriArea.CalCircleArea(8);	
-		objPeriArea.CalCirclePerimeter(7);			
+		objPeriArea.calRectangleArea(4,5);	
+		objPeriArea.calRectanglePerimeter(9,10);	
+		objPeriArea.calCircleArea(8);	
+		objPeriArea.calCirclePerimeter(7);			
 	}	
 }

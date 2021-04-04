@@ -1,4 +1,4 @@
-package madhavi_Khasbage;
+package madhavi_Khasbage.IfElseLadderNested;
 
 class Student1
 {
