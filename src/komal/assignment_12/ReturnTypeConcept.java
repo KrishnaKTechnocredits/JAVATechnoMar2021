@@ -40,7 +40,7 @@ public class ReturnTypeConcept {
 		}
 
 		static boolean isEligible(double averageValue) {
-			if (averageValue > 50 || averageValue%2 == 0) {
+			if (averageValue > 50 || averageValue/2 == 0) {
 				System.out.println("Candidate is Eligible");
 				return true;
 			}else {
