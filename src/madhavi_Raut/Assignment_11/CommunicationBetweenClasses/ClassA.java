@@ -10,7 +10,7 @@ public class ClassA {
 	void m1() {
 		ClassB classB = new ClassB();
 		classB.m2();
-		System.out.println("From ClassA's m1() calling ClassB's non-static m2()");
+		System.out.println("From ClassA's non-static m1() calling ClassB's non-static m2()");
 	}
 
 	public static void main(String[] args) {
