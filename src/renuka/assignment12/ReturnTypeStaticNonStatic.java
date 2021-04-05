@@ -17,7 +17,7 @@ Sample input2 :
 Sample output2 : 
 Candidate is Eligible
 Candidate obtained A grade.
-Note : Sum method should not be called from main method, it should be called from Average method (think about code reusability).
+Note :Sum method should not be called from main method, it should be called from Average method (think about code reusability).
  */
 
 public class ReturnTypeStaticNonStatic {
