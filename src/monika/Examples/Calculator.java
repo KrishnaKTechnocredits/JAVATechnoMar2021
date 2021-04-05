@@ -1,4 +1,4 @@
-package monika;
+package monika.Examples;
 
 //Example2
 class Calculator{

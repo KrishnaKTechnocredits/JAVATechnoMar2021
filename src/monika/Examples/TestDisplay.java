@@ -1,4 +1,4 @@
-package monika;
+package monika.Examples;
 
 public class TestDisplay {
 	String name;

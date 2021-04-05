@@ -1,4 +1,4 @@
-package monika;
+package monika.Assignment3;
 
 /*Assignment3
 4. Create a class named as ITProfessional which contain below methods  

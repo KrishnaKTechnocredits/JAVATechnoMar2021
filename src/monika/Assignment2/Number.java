@@ -1,4 +1,4 @@
-package monika;
+package monika.Assignment2;
 
 /*Asignment2: 
  1. WAP to find the square and cube of a number. 

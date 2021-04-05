@@ -1,4 +1,4 @@
-package monika;
+package monika.Assignment7;
 /*
  Assignment  7  : 30th March 2021 
 

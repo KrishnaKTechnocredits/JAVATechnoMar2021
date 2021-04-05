@@ -1,4 +1,4 @@
-package monika;
+package monika.Assignment5;
 
 /*Assignment 5 : 26th Mar 2021
 1. Create a class named as Mall, which contains below methods.
