@@ -1,6 +1,6 @@
 //Assignment5 26 march
 
-package kajal;
+package kajal.Kajal_Package_Folder;
 
  class Mall {
 

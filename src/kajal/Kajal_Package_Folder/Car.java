@@ -1,6 +1,6 @@
 //assignment 3 program 2-- one string, one boolean and one double variable needed
 
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 class Car{
 	String cmpname;

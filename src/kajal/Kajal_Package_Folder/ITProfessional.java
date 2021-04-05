@@ -1,5 +1,5 @@
 //Assignment 3- program 4
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 class ITProfessional{
 	String name;
