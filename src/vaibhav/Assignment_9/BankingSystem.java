@@ -19,7 +19,7 @@ All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 ti
 */
 
 
-package vaibhav;
+package vaibhav.Assignment_9;
 
 public class BankingSystem {
 	
