@@ -1,4 +1,4 @@
-package shivani;
+package shivani.Assignment_1;
 
 class StudentInfo {
 	String Name = "Shikha";

@@ -1,4 +1,4 @@
-package shivani;
+package shivani.Assignment_5;
 
 class Mall {
 	String custName;
