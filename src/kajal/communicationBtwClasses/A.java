@@ -7,7 +7,7 @@ public class A {
 		B b = new B();
 		b.m2();
 		
-	}
+		}
 	
 	public static void main(String [] args) {
 		
