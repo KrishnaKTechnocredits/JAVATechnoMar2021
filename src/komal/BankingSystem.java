@@ -19,12 +19,12 @@ All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 ti
 public class BankingSystem {
 	String custName;
 	int totalAmt;
-	int creditCount = 0;
-	int debitCount = 0;
-	int balanceCount = 0;
-	static int totalDebitCount = 0;
-	static int totalCreditCount = 0;
-	static int totalPrintBalanceCount = 0;
+	int creditCount;
+	int debitCount;
+	int balanceCount;
+	static int totalDebitCount;
+	static int totalCreditCount;
+	static int totalPrintBalanceCount;
 
 	void customerDetails(String cName,int totalAmount) {
 		custName = cName;
