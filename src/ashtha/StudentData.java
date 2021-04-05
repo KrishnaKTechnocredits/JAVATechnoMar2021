@@ -1,6 +1,6 @@
 package ashtha;
 
-public class Student{
+public class StudentData{
 	int age=19;
 	String name = "Astha Prakash";
 	char rating = '@';
@@ -12,7 +12,7 @@ public class Student{
 }
 	   
 	public static void main (String[] a) {
-		Student s1 = new Student ();
+		StudentData s1 = new StudentData ();
 		s1.showData();
 	}
 }
