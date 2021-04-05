@@ -20,26 +20,23 @@ Bhushan Shende, Today at 14:42*/
 
 public class Calculator {
 
-	int a;
-	int b;
-	int c;
-
-	int add(int a, int b) {
+	//Harsh's inputs are implemented. No need to assign instance variable.
+	int add(int a, int b, int c) {
 		c = a+b;
 		return c;
 	}
 
-	int sub(int a, int b) {
+	int sub(int a, int b, int c) {
 		c= a-b;
 		return c;
 	}
 
-	int mul(int a, int b) {
+	int mul(int a, int b, int c) {
 		c= a*b;
 		return c;
 	}
 
-	int div(int a, int  b) {
+	int div(int a, int  b, int c) {
 		c=a/b;
 		return c;
 	}
@@ -51,10 +48,10 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		Calculator cal = new Calculator();
-		int addResult = cal.add(30,10); //40
-		int subResult = cal.sub(40,20); //20
-		int mulResult = cal.mul(5,2);   //10
-		int divResult = cal.div(20,2);  //10
+		int addResult = cal.add(30,10,0); //40
+		int subResult = cal.sub(40,20,0); //20
+		int mulResult = cal.mul(5,2,0);   //10
+		int divResult = cal.div(20,2,0);  //10
 		cal.printTotalAnswer(addResult, subResult, mulResult, divResult); //80
 	}
 }
