@@ -1,4 +1,4 @@
-package monika;
+package monika.Examples;
 // Example1
 
 class Student

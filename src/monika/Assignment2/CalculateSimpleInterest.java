@@ -1,4 +1,4 @@
-package monika;
+package monika.Assignment2;
 
 /* Asisgnment2: 
  3. Write a Java program to compute simple interest   

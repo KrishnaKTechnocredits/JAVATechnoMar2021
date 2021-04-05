@@ -1,4 +1,5 @@
-package monika;
+package monika.Assignment3;
+
 
 /*Assignment3 
 3. Create a class named Human, & that class have some behaviour(method) like name, age & canSpeak  

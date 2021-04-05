@@ -1,4 +1,4 @@
-package monika;
+package monika.Assignment4;
 
 /*Assignment 4 : 25th March 2021
 1. Create a class named as NumberGame with following method.

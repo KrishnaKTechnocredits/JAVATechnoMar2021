@@ -1,4 +1,4 @@
-package monika;
+package monika.Assignment2;
 
 /* Assignment2:
 2. WAP to find the area and perimeter of Rectangle & Circle. 

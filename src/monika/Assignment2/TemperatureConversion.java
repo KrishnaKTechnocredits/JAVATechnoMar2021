@@ -1,4 +1,4 @@
-package monika;
+package monika.Assignment2;
 
 /* Assignment 2: 
  *4. Write a Java program to convert temperature from Fahrenheit to Celsius degree.

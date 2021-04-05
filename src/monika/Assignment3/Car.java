@@ -1,4 +1,4 @@
-package monika;
+package monika.Assignment3;
 
 /*Assignment 3 : 23rd March 2021
 2. Create a class named Car, which contains method like below
