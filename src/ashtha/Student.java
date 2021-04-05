@@ -1,18 +1,33 @@
 package ashtha;
 
-public class Student{
-	int age=19;
-	String name = "Astha Prakash";
-	char rating = '@';
+class Student {
+	int marks;
+	String nameOfStudent;
 	
-	void showData(){
-	System.out.print(age);
-	System.out.print(name);
-	System.out.print(rating);
-}
-	   
-	public static void main (String[] a) {
-		Student s1 = new Student ();
-		s1.showData();
+	void studentName(String name, int studentMarks){
+		marks = studentMarks;
+		nameOfStudent = name;
+		System.out.println("Student name - "+nameOfStudent +" , marks - "+marks);
 	}
+	
+	void gainedMark(){
+		if (marks >100 && marks <0){
+			System.out.println ("Please enter valid marks");
+		}else if (marks >=90){
+			System.out.println(nameOfStudent +" recieved grade A+");
+		}else if (marks <= 90 && marks >80){
+			System.out.println(nameOfStudent +" recieved grade A");
+		}else if (marks <=80 && marks >70){
+			System.out.println(nameOfStudent +" recieved grade B+");
+		}else if (marks <=70 && marks >60){
+			System.out.println(nameOfStudent +" recieved grade B");
+		}else 
+			System.out.println(nameOfStudent +" recieved grade C");
+	}
+	
+	public static void main(String[] args){
+		Student student = new Student();
+		student.studentName("Astha",80);
+		student.gainedMark();
+	}	
 }
