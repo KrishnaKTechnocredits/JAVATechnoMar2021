@@ -53,13 +53,13 @@ public class StaticNonStaticReturn {
 	public static void main(String[] args) {
 
 		StaticNonStaticReturn candidate = new StaticNonStaticReturn();
-		double Avg = candidate.avg(20, 50, 50);
+		double Avg = candidate.avg(2, 2, 2);
 		boolean Answer = candidate.isAnswerAboveExpecation(Avg);
 		boolean eligible = candidate.isEligible(Avg);
-				if (eligible==true)
-					System.out.println("Candidate is eligible");
-				else
-					System.out.println("Candidate is eligible");
+		if (eligible == true)
+			System.out.println("Candidate is eligible");
+		else
+			System.out.println("Candidate is not eligible");
 		String grade = candidate.getYourGrade(Avg);
 		System.out.println("Candidate obtained " + grade);
 
