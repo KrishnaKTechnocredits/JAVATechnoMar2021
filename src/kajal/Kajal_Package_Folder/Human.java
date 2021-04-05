@@ -1,6 +1,6 @@
 //Assignment 3 program-3-- one string one boolean, one int variable needed.
 
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 class Human{
 	String humanname;

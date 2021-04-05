@@ -1,6 +1,6 @@
 //assignment 3 Program 1
 
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 class Bankaccount{
 	

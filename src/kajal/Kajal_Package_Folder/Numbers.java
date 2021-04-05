@@ -1,6 +1,6 @@
 //Assignment 6- 30 march 2021 even-div by..
 
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 public class Numbers {
 	int num1;

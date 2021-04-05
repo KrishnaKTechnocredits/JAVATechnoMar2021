@@ -1,6 +1,6 @@
 //Assign 2- program3-- WAP to compute simple interest
 //si- ptr/100
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 class SimpleInterest{
 	

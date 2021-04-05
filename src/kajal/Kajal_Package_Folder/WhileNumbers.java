@@ -1,4 +1,4 @@
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 public class WhileNumbers {
 	

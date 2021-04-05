@@ -1,5 +1,5 @@
 //Assign 2- pro 2--WAP to find area and perimeter of rectangle and circle
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 class areaPeri{
 double pi=3.1416;

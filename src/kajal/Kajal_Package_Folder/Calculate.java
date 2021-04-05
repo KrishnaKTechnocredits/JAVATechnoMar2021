@@ -1,6 +1,6 @@
 //Assign2- program1. WAP to find square and cube of a number note: one method to calculate square and another for cube
 
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 class Calculate{ 
 	int num1 = 4;

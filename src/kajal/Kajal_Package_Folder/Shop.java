@@ -1,6 +1,6 @@
 //assignment 7- 30 march 2021-- shop class items
 
-package kajal;
+package kajal.Kajal_Package_Folder;
 
 public class Shop {
 	int maggieQ = 50;
