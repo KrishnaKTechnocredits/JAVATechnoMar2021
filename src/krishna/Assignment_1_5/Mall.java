@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_1_5;
 class Mall{
 	int itemNum;
 	String customerName, pamentMode, billingSection;

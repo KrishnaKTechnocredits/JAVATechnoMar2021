@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_9;
 //Create a Banking System which has the following functionality.
 
 public class BankingSystem1 {

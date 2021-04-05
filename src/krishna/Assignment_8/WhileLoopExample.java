@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_8;
 
 public class WhileLoopExample {
 	

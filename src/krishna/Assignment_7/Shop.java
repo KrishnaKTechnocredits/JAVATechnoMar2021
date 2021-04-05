@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_7;
 
 public class Shop {
 	String maggie="Maggie",dosa= "Dosa",pouches = "Pouches",panipuri = "Panipuri",masala= "Masala";

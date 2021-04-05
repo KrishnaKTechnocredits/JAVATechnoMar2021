@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_1_5;
 class NumberGame{
 	
 	void findMaxNumber(int num1, int num2, int num3){
