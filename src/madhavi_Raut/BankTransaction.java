@@ -22,15 +22,18 @@ Hint : Create 3 static variables will be required.
 Output :
 All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 time*/
 public class BankTransaction {
-	double balance = 1000;
-	String customerName; 
-	int debitCountIndividual = 0, creditCountIndividual = 0, printCountIndividual = 0;
-	static int debitCountAll = 0, creditCountAll = 0, printCountAll = 0;
-	
+	double balance;
+	String customerName;
+	int debitCountIndividual, creditCountIndividual, printCountIndividual;
+	static int debitCountAll, creditCountAll, printCountAll;
+
 	void debitAmount(double debitAmt) {
-		balance -= debitAmt;
-		debitCountIndividual++;
-		debitCountAll++;
+		if (debitAmt <= balance) {
+			balance -= debitAmt;
+			debitCountIndividual++;
+			debitCountAll++;
+		} else
+			System.out.println("Requested amount is not available in account.");
 	}
 
 	void creditAmount(double creditAmt) {
@@ -40,42 +43,51 @@ public class BankTransaction {
 	}
 
 	void printBalance() {
-		System.out.println(customerName +" Current balance is: " +balance);
+		System.out.println(customerName + " Current balance is: " + balance);
 		printCountIndividual++;
 		printCountAll++;
 	}
-	
+
 	void setName(String custName) {
 		customerName = custName;
 	}
+	
+	void setBalance(double totalBalance) {
+		balance = totalBalance;
+	}
 
 	void individualTransactionSummary() {
-		System.out.println(customerName +" transaction summary: \n"+"Credit: "+creditCountIndividual+" time(s) \nDebit: "+debitCountIndividual+" time(s) \nPrintBalance: "+printCountIndividual+" time(s)");
+		System.out.println(
+				customerName + " transaction summary: \n" + "Credit: " + creditCountIndividual + " time(s) \nDebit: "
+						+ debitCountIndividual + " time(s) \nPrintBalance: " + printCountIndividual + " time(s)");
 	}
 
 	void allTransactionSummary() {
-		System.out.println("All transaction summary: \n"+"Credit: "+creditCountAll+" time(s) \nDebit: "+debitCountAll+" time(s) \nPrintBalance: "+printCountAll+" time(s)" );
+		System.out.println("All transaction summary: \n" + "Credit: " + creditCountAll + " time(s) \nDebit: "
+				+ debitCountAll + " time(s) \nPrintBalance: " + printCountAll + " time(s)");
 	}
 
 	public static void main(String[] args) {
 		BankTransaction bankTransaction1 = new BankTransaction();
+		bankTransaction1.setBalance(1000);
 		bankTransaction1.setName("Customer1");
 		bankTransaction1.creditAmount(500);
 		bankTransaction1.debitAmount(100);
 		bankTransaction1.creditAmount(500);
-		bankTransaction1.printBalance();		
-		bankTransaction1.individualTransactionSummary();		
+		bankTransaction1.printBalance();
+		bankTransaction1.individualTransactionSummary();
 		System.out.println();
-		
+
 		BankTransaction bankTransaction2 = new BankTransaction();
+		bankTransaction2.setBalance(2000);
 		bankTransaction2.setName("Customer2");
 		bankTransaction2.creditAmount(100);
 		bankTransaction2.creditAmount(200);
 		bankTransaction2.debitAmount(100);
 		bankTransaction2.creditAmount(100);
 		bankTransaction2.creditAmount(50);
-		bankTransaction2.debitAmount(100);
-		bankTransaction2.creditAmount(50);				
+		bankTransaction2.debitAmount(200);
+		bankTransaction2.creditAmount(50);
 		bankTransaction2.individualTransactionSummary();
 		System.out.println();
 		bankTransaction2.allTransactionSummary();
