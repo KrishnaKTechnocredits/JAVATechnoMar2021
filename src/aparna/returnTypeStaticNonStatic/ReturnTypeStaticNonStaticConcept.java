@@ -29,6 +29,8 @@ Note : Sum method should not be called from main method, it should be called fro
 
 package aparna.returnTypeStaticNonStatic;
 
+import returnTypeStaticNonStatic.ReturnTypeStaticNonStaticConcept;
+
 public class ReturnTypeStaticNonStaticConcept {
 
 	double sum(double number1, double number2, double number3) {
@@ -38,14 +40,15 @@ public class ReturnTypeStaticNonStaticConcept {
 	}
 
 	double average(double number1, double number2, double number3) {
-		double sumAnswer = sum(number1, number2, number3);
-		double averageAnswer = sumAnswer / 3;
+		sum(number1, number2, number3);// non static method sum() is calling directly from non static method
+										// average()in same class
+		double averageAnswer = (number1 + number2 + number3) / 3;
 		System.out.println(
 				"Average of 3 number is: " + number1 + ", " + number2 + ", " + number3 + " is : " + averageAnswer);
 		return averageAnswer;
 	}
 
-	boolean isAnswerAboveExpecation(double averageAnswer) {
+	boolean isAnswerAboveExpectation(double averageAnswer) {
 		if (averageAnswer > 50)
 			return true;
 		else
@@ -53,17 +56,24 @@ public class ReturnTypeStaticNonStaticConcept {
 	}
 
 	static boolean isEligible(double averageAnswer) {
-		if (averageAnswer > 50 || averageAnswer % 2 == 0)
+		if (averageAnswer > 50 || averageAnswer / 2 == 0) {
+			System.out.println("Candidate is Eligible");
 			return true;
-		else
+		} else {
+			System.out.println("Candidate is not Eligible");
 			return false;
+		}
 	}
 
 	static String getYourGrade(double averageAnswer) {
-		if (averageAnswer > 80)
+		if (averageAnswer > 80) {
+			System.out.println("Candidate obtained A Grade" + "\n");
 			return "A Grade";
-		else
+		} else {
+			System.out.println("Candidate obtained B Grade" + "\n");
 			return "B Grade";
+
+		}
 	}
 
 	public static void main(String[] args) {
@@ -71,31 +81,21 @@ public class ReturnTypeStaticNonStaticConcept {
 																													// Creation
 
 		double averageAnswer = returnTypeStaticNonStaticConcept.average(100, 100, 100);// average() is non static method
-		// returnTypeStaticNonStaticConcept.isAnswerAboveExpecation(averageAnswer);//
-		// isAnswerAboveExpecation() is non
-		// static method
-		boolean eligiblityCriteria = isEligible(averageAnswer);// isEligible() is static method
-		if (eligiblityCriteria == true)
-			System.out.println("Candidate is Eligible");
-		else
-			System.out.println("Candidate is not Eligible");
-
-		String grade = getYourGrade(averageAnswer);// getYourGrade() is static method
-		System.out.println("Candidate obtained " + grade + "\n");
+		returnTypeStaticNonStaticConcept.isAnswerAboveExpectation(averageAnswer);// isAnswerAboveExpecation() is non
+																					// static method
+		isEligible(averageAnswer);// isEligible() is static method
+		getYourGrade(averageAnswer);// getYourGrade() is static method
 
 		ReturnTypeStaticNonStaticConcept returnTypeStaticNonStaticConcept1 = new ReturnTypeStaticNonStaticConcept();// Another
 																													// object
 																													// creation
 
 		double averageAnswer1 = returnTypeStaticNonStaticConcept1.average(60, 60, 60);// average() is non static method
-		boolean eligiblityCriteria1 = isEligible(averageAnswer1);// isEligible() is static method
-		if (eligiblityCriteria1 == true)
-			System.out.println("Candidate is Eligible");
-		else
-			System.out.println("Candidate is not Eligible");
+		returnTypeStaticNonStaticConcept.isAnswerAboveExpectation(averageAnswer1);// isAnswerAboveExpecation() is non
+																					// static method
+		isEligible(averageAnswer1);// isEligible() is static method
+		getYourGrade(averageAnswer1);// getYourGrade() is static method
 
-		String grade1 = getYourGrade(averageAnswer1);// getYourGrade() is static method
-		System.out.println("Candidate obtained " + grade1);
 	}
 
 }
