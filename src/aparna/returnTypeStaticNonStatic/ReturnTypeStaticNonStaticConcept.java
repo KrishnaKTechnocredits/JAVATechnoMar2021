@@ -29,8 +29,6 @@ Note : Sum method should not be called from main method, it should be called fro
 
 package aparna.returnTypeStaticNonStatic;
 
-import returnTypeStaticNonStatic.ReturnTypeStaticNonStaticConcept;
-
 public class ReturnTypeStaticNonStaticConcept {
 
 	double sum(double number1, double number2, double number3) {
