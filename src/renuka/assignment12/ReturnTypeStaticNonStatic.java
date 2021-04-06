@@ -63,7 +63,7 @@ public class ReturnTypeStaticNonStatic {
 		ReturnTypeStaticNonStatic returnTypeStaticNonStatic = new ReturnTypeStaticNonStatic();
         double averageAnswer = returnTypeStaticNonStatic.average(10, 20, 30);// average() is non static method
         
-        boolean eligiblityCriteria = isEligible(averageAnswer);// isEligible() is static method
+        boolean eligiblityCriteria = isEligible(averageAnswer);//isEligible() is static method
         if (eligiblityCriteria == true)
         System.out.println("Candidate is Eligible");
         else
