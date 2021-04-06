@@ -54,7 +54,7 @@ public class ReturnTypeStaticNonStaticConcept {
 	}
 
 	static boolean isEligible(double averageAnswer) {
-		if (averageAnswer > 50 || averageAnswer / 2 == 0) {
+		if (averageAnswer > 50 || averageAnswer % 2 == 0) {
 			System.out.println("Candidate is Eligible");
 			return true;
 		} else {
