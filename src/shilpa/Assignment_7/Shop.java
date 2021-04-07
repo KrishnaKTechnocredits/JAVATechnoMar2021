@@ -2,11 +2,11 @@
 
 //Create a system (Shop) which maintains each item's quantity.
 
-package shilpa;
+package shilpa.Assignment_7;
 
 public class Shop {
 	int maggieQuantity, dosaQuantity, oilQuantity, panipuriQuantity, masalaQuantity;
-	
+
 	void Inventory(int maggie,int dosa, int oil,int panipuri,int masala ) {
 		maggieQuantity = maggie;
 		dosaQuantity = dosa;
@@ -14,13 +14,11 @@ public class Shop {
 		panipuriQuantity = panipuri;
 		masalaQuantity = masala;	
 	}
-	
 	void customer(int maggieOrder,int dosaOrder, int oilOrder,int panipuriOrder,int masalaOrder) {
 		if(maggieQuantity == 0) 
 		{
 			System.out.println("Maggie Packets running out of stock");
 		}
-		
 		else if(maggieQuantity < maggieOrder)
 		{
 			int remainingmaggy = maggieOrder - maggieQuantity;
@@ -30,8 +28,6 @@ public class Shop {
 		{
 			maggieQuantity=maggieQuantity-maggieOrder;
 		}
-	
-		
 		if(dosaQuantity == 0)
 		{
 			System.out.println("Dosa Packets running out of stock");
@@ -46,8 +42,6 @@ public class Shop {
 		{
 			dosaQuantity=dosaQuantity-dosaOrder;
 		}
-		
-
 		if(oilQuantity == 0)
 		{
 			System.out.println("Oil Packets running out of stock");
@@ -62,7 +56,6 @@ public class Shop {
 		{
 			oilQuantity=oilQuantity-oilOrder;
 		}
-		
 
 		if(panipuriQuantity == 0)
 		{
@@ -74,14 +67,12 @@ public class Shop {
 			System.out.println("Sorry we have only "+panipuriQuantity+" packets of Panipuri available, please purchase "+remainingpanipuri+" Packets later.");
 			panipuriQuantity = 0;
 		}
-		
-		
+
 		else 
 		{
 			panipuriQuantity=panipuriQuantity-panipuriOrder;
 		}
 
-		
 		if(masalaQuantity == 0)
 		{
 			System.out.println("Masala Packets running out of stock");
@@ -97,67 +88,54 @@ public class Shop {
 			masalaQuantity=masalaQuantity-masalaOrder;
 		}
 	}
-	
 	void OutOfStockItems()
 	{
-		
 		System.out.println("Out of stock items");
 		if(maggieQuantity == 0)
 		{
 			System.out.println("Maggie");
 		}
-		
 		if(dosaQuantity == 0)
 		{
 			System.out.println("Dosa Packets");
 		}
-		
 		if(oilQuantity == 0)
 		{
 			System.out.println("Oil Packets");
 		}
-		
+
 		if(panipuriQuantity == 0)
 		{
 			System.out.println("Panipuri Packets");
 		}
-		
+
 		if(masalaQuantity == 0)
 		{
 			System.out.println("Masala Packets");
 		}
-		
-	}
-	
 	void ItemsInStock() {
 		System.out.println("Items in Stock");
 		if(maggieQuantity > 0)
 		{
 			System.out.println("Maggie Packets - " +maggieQuantity);
 		}
-		
 		if(dosaQuantity > 0)
 		{
 			System.out.println("Dosa Packets - " + dosaQuantity);
 		}
-		
 		if(oilQuantity > 0)
 		{
 			System.out.println("Oil Packets - " + oilQuantity);
 		}
-		
 		if(panipuriQuantity > 0)
 		{
 			System.out.println("Panipuri Packets - "+ panipuriQuantity);
 		}
-		
 		if(masalaQuantity > 0)
 		{
 			System.out.println("Masala Packets - "+ masalaQuantity);
 		}
-		
-	}
-	
+
 	public static void main(String[] args) {
 	Shop shop = new Shop();
 	shop.Inventory(0,43,50,43,73);
@@ -166,9 +144,3 @@ public class Shop {
 	shop.OutOfStockItems();
 	System.out.println(" ");
 	shop.ItemsInStock();
-		
-	}
-			
-	
-
-}

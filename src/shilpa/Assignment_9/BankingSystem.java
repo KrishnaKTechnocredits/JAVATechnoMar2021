@@ -1,7 +1,5 @@
 /*Assignment 9 : 2nd April 2021
 
-Create a Banking System which has the following functionality.
-
 Create two object to perform below scenario.
 1) Method to debit amount
 2) Method to credit amount
@@ -19,6 +17,7 @@ All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 ti
 
 package shilpa;
 
+
 public class BankingSystem {
 	int totalbal;
 	int debitAmt;
@@ -30,13 +29,13 @@ public class BankingSystem {
 	static int totalDebitAttempt;
 	static int totalCreditAttempt;
 	static int totalPrintAttempt;
-	
+
 // ***********************Method to Credit amount*************************************	
-	
+
 	void Credit(String custname,int amount) {
 		creditAmt = amount;
 		name = custname;
-		
+
 		if(creditAmt>0)
 		{
 			totalbal=totalbal+creditAmt;
@@ -63,7 +62,7 @@ public class BankingSystem {
 		debitAttempt++;
 		totalDebitAttempt++;
 		}
-		
+
 	}
 // ***********************Method to Print Balance*************************************
 	void PrintBal() {
@@ -71,19 +70,21 @@ public class BankingSystem {
 		printAttempt++;
 		totalPrintAttempt++;
 	}
-	
+
 // ***********************Method to Print Individual Transaction Summary***************
 	void individualTransactionSummary()
 	{
 		System.out.println(name+" Transaction Summery:- "+"Credit "+creditAttempt+ " times," +"Debit "+debitAttempt+ " times,"+" Printbalance "+printAttempt+" times.");
 	}
-	
+
+
 // ***********************Method to print overall transaction Summary******************
 	void allTransactionSummary(){
 		System.out.println("All transaction Summery:- Credit "+totalCreditAttempt+ " times,"+" Debit - " +totalDebitAttempt+" times, "+"printBalance - " +totalPrintAttempt+" time");
-		
+
 	}
-	
+
+
 	public static void main(String[] args) {
 		BankingSystem bankingSystem1 = new BankingSystem();
 		BankingSystem bankingSystem2 = new BankingSystem();
@@ -93,14 +94,13 @@ public class BankingSystem {
 		bankingSystem1.Debit("Customer1",200);
 		bankingSystem1.PrintBal();
 		bankingSystem1.individualTransactionSummary();
-		
-		
+
 		bankingSystem2.Credit("Customer2", 1000);
 		bankingSystem2.Debit("Customer2", 500);
 		bankingSystem2.Debit("Customer2", 100);
 		bankingSystem2.PrintBal();
 		bankingSystem2.individualTransactionSummary();
-		
+
 		bankingSystem2.allTransactionSummary();
 	}
 
