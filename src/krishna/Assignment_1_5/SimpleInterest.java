@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_1_5;
 class SimpleInterest{
 	void interest(int principal,int time,double rate){
 		double SimpleInterest;

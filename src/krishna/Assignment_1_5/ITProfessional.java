@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_1_5;
 class ITProfessional{
 	String empName;
 	boolean weekendparty;

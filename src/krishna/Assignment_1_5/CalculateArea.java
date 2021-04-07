@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_1_5;
 class CalculateArea{
 	double pi=3.1416;
 	

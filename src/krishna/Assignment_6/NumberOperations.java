@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_6;
 
 public class NumberOperations{
 

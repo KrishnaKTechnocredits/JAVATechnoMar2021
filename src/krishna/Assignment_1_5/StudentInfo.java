@@ -1,4 +1,4 @@
-package krishna;
+package krishna.Assignment_1_5;
 class StudentInfo{
 	String name = "krishna";
 	String middle_name= "kumar";
