@@ -1,5 +1,5 @@
 //Print all details of Student like Name, Middle name, Surname, birthdate, Address, and Roll number.
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class StudentInfo {
 

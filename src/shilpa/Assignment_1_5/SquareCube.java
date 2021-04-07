@@ -1,6 +1,6 @@
 // Program to find the square and cube of a number
 
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class SquareCube{
 

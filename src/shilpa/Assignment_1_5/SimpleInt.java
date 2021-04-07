@@ -1,5 +1,5 @@
 //Write a Java program to compute simple interest  
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class SimpleInt{
 	

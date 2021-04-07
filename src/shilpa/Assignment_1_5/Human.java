@@ -4,7 +4,7 @@
 //	c. humanAge()  
 //	d. showDetails() 
 //Hint: One String, one boolean, one int variable needed. 
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class Human{
 	String Name;

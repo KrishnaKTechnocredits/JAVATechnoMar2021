@@ -2,7 +2,7 @@
 //a. studentName()
 //b. gainedMark()
 
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class Student1{
 	String name;

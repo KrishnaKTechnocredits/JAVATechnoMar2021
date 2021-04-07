@@ -1,5 +1,5 @@
 //WAP to find the area and perimeter of Rectangle & Circle
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class AreaPeri{
 	int num1 = 10;

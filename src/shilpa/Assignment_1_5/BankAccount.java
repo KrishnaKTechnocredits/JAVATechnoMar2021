@@ -1,5 +1,5 @@
 //Create a class called BankAccount, which has 3 methods.
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class BankAccount{
 	String username;

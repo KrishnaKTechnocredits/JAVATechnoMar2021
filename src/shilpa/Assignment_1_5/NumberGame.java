@@ -1,6 +1,6 @@
 //Create a class named as NumberGame with following methodmethods like findMaxNum and findMinNum
 
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class NumberGame{
 		void findMaxNum(int num1, int num2,int num3){

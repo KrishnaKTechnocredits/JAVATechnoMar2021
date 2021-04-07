@@ -1,6 +1,6 @@
 //Write a Java program to convert temperature from Fahrenheit to Celsius degree.
 
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class Conversion{
 	

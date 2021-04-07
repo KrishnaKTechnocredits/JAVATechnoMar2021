@@ -7,7 +7,7 @@
 //        f. displayInformation()
 //Hint: One String, 4 boolean variable needed
 
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class ITProfessional{
 	String EmployeeName;

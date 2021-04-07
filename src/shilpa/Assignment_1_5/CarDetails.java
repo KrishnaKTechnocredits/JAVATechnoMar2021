@@ -5,7 +5,7 @@
 //	 d. displaySpecification   
 //   Hint: One String, one boolean and one double variable needed. 
 
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class CarDetails{
 	String CompanyName;

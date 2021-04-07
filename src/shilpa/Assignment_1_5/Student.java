@@ -1,4 +1,4 @@
-package shilpa;
+package shilpa.Assignment_1_5;
 
 class Student{
 	int age = 19;
