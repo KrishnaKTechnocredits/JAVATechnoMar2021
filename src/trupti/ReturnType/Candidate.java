@@ -55,7 +55,7 @@ public class Candidate {
 	}
 
 	static boolean isEligible(double x) {
-		if(x >50 || x %2==0) {
+		if(x >50 || x/2 == 0) {
 			return true;
 		}
 		else {
@@ -64,7 +64,7 @@ public class Candidate {
 	}
 
 	static String getYourGrade(double y) {
-		if(y >80) {
+		if(y > 80) {
 			return "A Grade";
 		}
 		else {
@@ -79,7 +79,7 @@ public class Candidate {
 		boolean ans1, answer;
 		String grade;
 
-		avg1=candidate.average(10,20,30);  
+		avg1=candidate.average(100,120,100);  
 
 		ans1=candidate.isAnswerAboveExpectation(avg1);
 
