@@ -22,7 +22,7 @@ public class TestReturnType {
 	public static boolean isEligible(double answer) {
 		TestReturnType testreturntype=new TestReturnType();
 		boolean val=testreturntype.isAnswerAboveExpectation(answer);
-		if(val || (answer%2==0)) {
+		if(val || (answer/2==0)) {
 			System.out.println("Candidate is Eligible ");
 			return true;
 		}
@@ -41,6 +41,8 @@ public class TestReturnType {
 			return "B Grade";	
 		}	
 	}
+	
+	
 
 	public static void main(String[] args) {
 		TestReturnType testreturntype=new TestReturnType();
