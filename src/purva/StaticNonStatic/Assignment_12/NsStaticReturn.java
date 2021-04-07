@@ -1,4 +1,4 @@
-package purva;
+package purva.StaticNonStatic.Assignment_12;
 
 public class NsStaticReturn {
 	
