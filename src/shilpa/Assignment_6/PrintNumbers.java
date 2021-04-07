@@ -1,4 +1,4 @@
-package shilpa;
+package shilpa.Assignment_6;
 
 public class PrintNumbers{
 	void evenNumbers(int num1, int num2) {
