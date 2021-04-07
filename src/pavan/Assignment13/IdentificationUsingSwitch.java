@@ -16,24 +16,36 @@ public class IdentificationUsingSwitch {
 	
 	void printvovels(String charactor) {
 		switch (charactor) {
-			case "d":
-			case "D":
-				System.out.println("d is not vowel");
-				break;
+
+			case"A":
+			case"a":
+				System.out.println(charactor+ " is vowel");
+			break;
+			case"E":
+			case"e":
+				System.out.println(charactor +" is vowel");
+			break;
 			case"I":
-				System.out.println("I is vowel");
-				break;
 			case"i":
-				System.out.println("i is vowel");
+				System.out.println(charactor+" is vowel");
 				break;
-				
+			case"O":
+			case"o":
+				System.out.println(charactor+" is vowel");
+				break;
+			case"U":
+			case"u":
+				System.out.println(charactor+" is vowel");
+				break;
+			default:
+				System.out.println(charactor+" is not vowel");
+				break;
 		}
 	}
 	public static void main(String[] args) {
 		IdentificationUsingSwitch m1= new IdentificationUsingSwitch();
-		m1. printvovels("d");
-		m1.printvovels("I");
-		m1.printvovels("i");
+		m1. printvovels("m");
+		
 	}
 
 }
