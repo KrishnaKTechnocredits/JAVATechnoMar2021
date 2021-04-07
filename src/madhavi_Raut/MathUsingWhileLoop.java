@@ -45,43 +45,39 @@ public class MathUsingWhileLoop {
 
 	void displayEvenNumbers(int startIndex, int endIndex) {
 		System.out.println("Even numbers are: ");
-		int index = startIndex; 
-		while (index <= endIndex) {
-			if (index % 2 == 0)
-				System.out.println(index);
-			index++;
+		while (startIndex <= endIndex) {
+			if (startIndex % 2 == 0)
+				System.out.println(startIndex);
+			startIndex++;
 		}
 	}
 
 	void displayDivisibleBy5(int startIndex, int endIndex) {
 		System.out.println("Divisble by 5, numbers are: ");
-		int index = startIndex; 
-		while (index <= endIndex) {
-			if (index % 5 == 0)
-				System.out.println(index);
-			index++;
+		while (startIndex <= endIndex) {
+			if (startIndex % 5 == 0)
+				System.out.println(startIndex);
+			startIndex++;
 		}
 	}
 
 	void displayDivisibleBy5and3(int startIndex, int endIndex) {
 		System.out.println("Divisible by 5 & 3, numbers are: ");
-		int index = startIndex; 
-		while (index <= endIndex) {
-			if ((index % 3 == 0) && (index % 5 == 0))
-				System.out.println(index);
-			index++;
+		while (startIndex <= endIndex) {
+			if ((startIndex % 3 == 0) && (startIndex % 5 == 0))
+				System.out.println(startIndex);
+			startIndex++;
 		}
 	}
 
 	void displayDivisibleBy7or13(int startIndex, int endIndex) {
 		System.out.println("Divisible by 7 or 13, numbers are: ");
-		int index = startIndex; 
-		while (index <= endIndex) {
-			if (index % 7 == 0)
-				System.out.println(index + " is divisible by " + 7);
-			if (index % 13 == 0)
-				System.out.println(index + " is divisible by " + 13);
-			index++;
+		while (startIndex <= endIndex) {
+			if (startIndex % 7 == 0)
+				System.out.println(startIndex + " is divisible by " + 7);
+			if (startIndex % 13 == 0)
+				System.out.println(startIndex + " is divisible by " + 13);
+			startIndex++;
 		}
 	}
 
