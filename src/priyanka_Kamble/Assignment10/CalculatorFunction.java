@@ -31,8 +31,9 @@ public class CalculatorFunction {
 		return num1*num2;
 	}
 	int printTotalAnswer(int addition,int substaction, int division, int multiplication) {
+		System.out.println("---------- Output for Assignment 10 ---------");
 		System.out.println("\t Output of  add() method is " +addition);
-		System.out.println("\t Output of  substraction() add method is " +substaction);
+		System.out.println("\t Output of  substraction() method is " +substaction);
 		System.out.println("\t Output of  division() method is " +division);
 		System.out.println("\t Output of  multiplication() method is " +multiplication);
 		int addAllMethods = addition + substaction +division + multiplication;
