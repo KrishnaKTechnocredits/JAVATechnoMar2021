@@ -18,8 +18,9 @@ public class Calculator {
 		return (x*y);
 	}
 	
-	void printTotalAnswer() {
-		
+	int printTotalAnswer(int w,int x, int y,int z) {
+		System.out.println("Sum is "+w + " \nSubtraction is "+x+ "\nDivision is  "+y+ " \nMultiplication is " + z);;
+		return 0;
 	}
 	
 	public static void main(String[] args) {
@@ -28,6 +29,6 @@ public class Calculator {
 		int sub=calculator.sub(10, 5);
 		int div=calculator.div(10, 5);
 		int mul=calculator.mul(10, 5);
-		//calculator.printTotalAnswer(sum,sub,div,mul);
+		calculator.printTotalAnswer(sum,sub,div,mul);
 	}
 }
