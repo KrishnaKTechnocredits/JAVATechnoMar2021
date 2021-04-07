@@ -1,4 +1,4 @@
-package upasana;
+package upasana.assignment_6;
 
 public class Numbers {
 	
