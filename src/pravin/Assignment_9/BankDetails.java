@@ -1,4 +1,4 @@
-package pravin;
+package pravin.Assignment_9;
 
 public class BankDetails {
 
