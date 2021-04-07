@@ -1,3 +1,16 @@
+/*Java Assignment 13: 7th April'2021
+
+WAP to evaluate whether given character is vowel or not using switch case.
+sample input1 : d
+sample output1 : d is not a vowel
+
+sample input2 : I
+sample output2 : I is a vowel
+
+sample input3 : i
+sample output3 : i is a vowel
+*/
+
 package vaibhav.Assignment_13;
 
 public class DecideVowel {
