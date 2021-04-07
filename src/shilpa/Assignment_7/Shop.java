@@ -14,13 +14,11 @@ public class Shop {
 		panipuriQuantity = panipuri;
 		masalaQuantity = masala;	
 	}
-
 	void customer(int maggieOrder,int dosaOrder, int oilOrder,int panipuriOrder,int masalaOrder) {
 		if(maggieQuantity == 0) 
 		{
 			System.out.println("Maggie Packets running out of stock");
 		}
-
 		else if(maggieQuantity < maggieOrder)
 		{
 			int remainingmaggy = maggieOrder - maggieQuantity;
@@ -30,8 +28,6 @@ public class Shop {
 		{
 			maggieQuantity=maggieQuantity-maggieOrder;
 		}
-
-
 		if(dosaQuantity == 0)
 		{
 			System.out.println("Dosa Packets running out of stock");
@@ -46,8 +42,6 @@ public class Shop {
 		{
 			dosaQuantity=dosaQuantity-dosaOrder;
 		}
-
-
 		if(oilQuantity == 0)
 		{
 			System.out.println("Oil Packets running out of stock");
@@ -63,7 +57,6 @@ public class Shop {
 			oilQuantity=oilQuantity-oilOrder;
 		}
 
-
 		if(panipuriQuantity == 0)
 		{
 			System.out.println("Panipuri Packets running out of stock");
@@ -75,12 +68,10 @@ public class Shop {
 			panipuriQuantity = 0;
 		}
 
-
 		else 
 		{
 			panipuriQuantity=panipuriQuantity-panipuriOrder;
 		}
-
 
 		if(masalaQuantity == 0)
 		{
@@ -97,21 +88,17 @@ public class Shop {
 			masalaQuantity=masalaQuantity-masalaOrder;
 		}
 	}
-
 	void OutOfStockItems()
 	{
-
 		System.out.println("Out of stock items");
 		if(maggieQuantity == 0)
 		{
 			System.out.println("Maggie");
 		}
-
 		if(dosaQuantity == 0)
 		{
 			System.out.println("Dosa Packets");
 		}
-
 		if(oilQuantity == 0)
 		{
 			System.out.println("Oil Packets");
@@ -126,37 +113,28 @@ public class Shop {
 		{
 			System.out.println("Masala Packets");
 		}
-
-	}
-
 	void ItemsInStock() {
 		System.out.println("Items in Stock");
 		if(maggieQuantity > 0)
 		{
 			System.out.println("Maggie Packets - " +maggieQuantity);
 		}
-
 		if(dosaQuantity > 0)
 		{
 			System.out.println("Dosa Packets - " + dosaQuantity);
 		}
-
 		if(oilQuantity > 0)
 		{
 			System.out.println("Oil Packets - " + oilQuantity);
 		}
-
 		if(panipuriQuantity > 0)
 		{
 			System.out.println("Panipuri Packets - "+ panipuriQuantity);
 		}
-
 		if(masalaQuantity > 0)
 		{
 			System.out.println("Masala Packets - "+ masalaQuantity);
 		}
-
-	}
 
 	public static void main(String[] args) {
 	Shop shop = new Shop();
@@ -166,9 +144,3 @@ public class Shop {
 	shop.OutOfStockItems();
 	System.out.println(" ");
 	shop.ItemsInStock();
-
-	}
-
-
-
-}

@@ -1,5 +1,5 @@
 //Print Number range using while loop.
-package shilpa.Assignment_8;
+
 
 public class PrintNosWhileLoop{
 	void evenNumbers(int num1, int num2) {
@@ -13,8 +13,6 @@ public class PrintNosWhileLoop{
 			index++;
 		}
 
-	}
-
 	void NosDivisiblebyFive(int num1, int num2) {
 		System.out.println("Numbers divisible by 5 from given range "+num1 + "-"+num2);
 		int index=num1;
@@ -26,8 +24,6 @@ public class PrintNosWhileLoop{
 			index++;
 		}
 
-	}
-
 	void NosDivisiblebyThree_Five(int num1, int num2) {
 		System.out.println("Numbers divisible by 3 and 5  from given range "+num1 + "-"+num2);
 		int index=num1;
@@ -38,9 +34,9 @@ public class PrintNosWhileLoop{
 			} 
 			index++;
 		}
-
+		
 	}
-
+	
 	void NosDivisiblebySeven_Thirteen(int num1, int num2) {
 
 		System.out.println("Numbers divisible by 7 or 13 from given range "+num1 + "-"+num2);
@@ -55,7 +51,6 @@ public class PrintNosWhileLoop{
 			}
 			index++;
 		}
-
 	}
 	public static void main(String[] args) {
 		PrintNosWhileLoop printnumbers = new PrintNosWhileLoop();
@@ -64,4 +59,3 @@ public class PrintNosWhileLoop{
 		printnumbers.NosDivisiblebyThree_Five(5, 18);
 		printnumbers.NosDivisiblebySeven_Thirteen(5,40);
 	}
-}
