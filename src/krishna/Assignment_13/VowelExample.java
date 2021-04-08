@@ -5,26 +5,38 @@ public class VowelExample {
 	public void vowelIdentify(char ch) {
 		switch (ch) {
 		
-		case 'L':
-			System.out.println("a is the vowel");
+		case 'A':
+		case 'a':
+			System.out.println(ch+" is the vowel");
 			break;
-		case 'd':
-			System.out.println("d is not the vowel");
+		case 'E':
+		case 'e':		
+			System.out.println(ch+" is the vowel");
 			break;
-		case 'i':
-			System.out.println("i is a vowel");
+		case 'I':
+		case 'i':		
+			System.out.println(ch+" is the vowel");
 			break;
-		default :
-			System.out.println("Enter valid character");
+		case 'O':
+		case 'o':		
+			System.out.println(ch+" is the vowel");
+			break;
+		case 'U':
+		case 'u':		
+			System.out.println(ch+" is the vowel");
+			break;
 			
+		default :
+			System.out.println(ch+" is not the vowel");
 		}
 	}
 	
-	
 	public static void main(String[] args) {
 		VowelExample vowelExample = new VowelExample();
-		vowelExample.vowelIdentify('d');
+		vowelExample.vowelIdentify('A');
+		vowelExample.vowelIdentify('e');
 		vowelExample.vowelIdentify('L');
-		vowelExample.vowelIdentify('i');
+		vowelExample.vowelIdentify('1');
+		vowelExample.vowelIdentify('*');
 	}
 }
