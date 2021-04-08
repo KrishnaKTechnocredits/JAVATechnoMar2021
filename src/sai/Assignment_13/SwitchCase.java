@@ -17,39 +17,39 @@ sample output3 : i is a vowel
 
 public class SwitchCase {
 
-		void vowel(char alphabet){
-			
-			switch(alphabet){
-				case'A':
-				case'a':
-					System.out.println(alphabet + " is a vowel");
-					break;
-				case'E':
-				case'e':
-					System.out.println(alphabet + " is a vowel");
-					break;
-				case'I':
-				case'i':
-					System.out.println(alphabet + " is a vowel");
-					break;
-				case'O':
-				case'o':
-					System.out.println(alphabet + " is a vowel");
-					break;
-				case'U':
-				case'u':
-					System.out.println(alphabet + " is a vowel");
-					break;
-				default : 
-					System.out.println(alphabet + " is not a vowel");
-				
-			}
-		}
-		public static void main(String[] args){
-			SwitchCase switchCase = new SwitchCase();
-			switchCase.vowel('a');
-			switchCase.vowel('U');
-			switchCase.vowel('Z');
+	void vowel(char alphabet) {
+
+		switch (alphabet) {
+		case 'A':
+		case 'a':
+			System.out.println(alphabet + " is a vowel");
+			break;
+		case 'E':
+		case 'e':
+			System.out.println(alphabet + " is a vowel");
+			break;
+		case 'I':
+		case 'i':
+			System.out.println(alphabet + " is a vowel");
+			break;
+		case 'O':
+		case 'o':
+			System.out.println(alphabet + " is a vowel");
+			break;
+		case 'U':
+		case 'u':
+			System.out.println(alphabet + " is a vowel");
+			break;
+		default:
+			System.out.println(alphabet + " is not a vowel");
+
 		}
 	}
 
+	public static void main(String[] args) {
+		SwitchCase switchCase = new SwitchCase();
+		switchCase.vowel('a');
+		switchCase.vowel('U');
+		switchCase.vowel('Z');
+	}
+}
