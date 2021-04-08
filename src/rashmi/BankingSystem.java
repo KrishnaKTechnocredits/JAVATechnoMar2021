@@ -39,7 +39,7 @@ public class BankingSystem{
 	}
 	
 	void debtAmt(int amt){
-		while(balance>=amt){
+		if(balance>=amt){
 		balance = balance - amt;
 		debitcnt++;
 		totalDebitCnt++;
