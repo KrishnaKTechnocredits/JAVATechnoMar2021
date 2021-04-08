@@ -22,10 +22,12 @@ public class VowelsUsingScanner {
 	public static void main(String[] args) {
 		VowelsUsingScanner vowelsUsingScanner = new VowelsUsingScanner();
 		Scanner scanner =  new Scanner(System.in);
-		System.out.println("Enter the character : ");
-		String input = scanner.next();
-		char ch = input.charAt(0);
-		vowelsUsingScanner.checkVowels(ch);
+		for(int i = 0; i<3; i++) {
+			System.out.println("Enter the character : ");
+			String input = scanner.next();
+			char ch = input.charAt(0);
+			vowelsUsingScanner.checkVowels(ch);
+		}	
 	}
 
 }
