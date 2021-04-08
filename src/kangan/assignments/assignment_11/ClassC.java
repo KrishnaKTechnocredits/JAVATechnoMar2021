@@ -1,4 +1,4 @@
-package kangan.assignments.assignment11;
+package kangan.assignments.assignment_11;
 
 public class ClassC {
 

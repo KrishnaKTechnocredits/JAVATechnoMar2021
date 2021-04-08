@@ -1,4 +1,4 @@
-package kangan.assignments.assignment2;
+package kangan.assignments.assignment_2;
 
 public class SquareCube {
 
