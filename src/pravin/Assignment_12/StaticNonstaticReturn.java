@@ -65,7 +65,8 @@ Note : Sum method should not be called from main method, it should be called fro
 		}
 		public static void main (String[]args) {
 			StaticNonstaticReturn staticNonstaticReturn = new StaticNonstaticReturn();
-			double sum = staticNonstaticReturn.sum(30, 20, 20);
+
+			double sum = staticNonstaticReturn.sum(70, 90, 90);
 			double avg = staticNonstaticReturn.average(sum);
 			staticNonstaticReturn.isAnswerAboveExpecation(avg);
 			isEligible(avg);
