@@ -44,7 +44,6 @@ public class SwitchScanner {
 		public static void main(String[] args) {
 			SwitchScanner switchScan = new SwitchScanner();
 			switchScan.isVowel();
-
+			switchScan.isVowel();
 		}
-
 }
