@@ -48,8 +48,11 @@ public class StaticNonStatic {
 		}
 	}
 
+	//we need to use divisible function not modular.
+	//if value is more than 50 or divisible by 2. Eligibility will be printed in main method.
+	
 	static String isEligible(double eAnswer) {
-		if(eAnswer>50 || eAnswer%2	==0) {
+		if(eAnswer>50 || eAnswer/2	==0) { 
 			String printMessage = "The Candidate is Elligible.";
 			return printMessage;
 		}else {
