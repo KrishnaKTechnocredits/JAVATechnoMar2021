@@ -2,7 +2,7 @@
 
 package ravindra_V;
 
-class BankAccount{
+public class BankAccount{
 	String username;
 	String password;
 	int accountNumber;

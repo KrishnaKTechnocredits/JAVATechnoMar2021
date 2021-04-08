@@ -1,6 +1,21 @@
 package milind;
 
-public class Shop {
+/*
+ * 1. Create a system (Shop) which maintains each item's quantity.
+
+a. Initial stocks of Maggie: 50 Maggie packets
+b. Initial stocks of Dosa : 43 packets
+c. Initial stocks of pouches : 39 oil packets
+d. Initial stocks of panipuri : 43 packets
+e. Initial stocks of masala’s : 73 packets.
+
+Expectation:
+1) Only one Customer came for shopping, he picked different items with different quantities, print "running out of stock" message if a particular item is sold out otherwise deduct requested quantity from total quantity. Partial selling is allowed.
+2) Create a method which shows only those item which is "Out of stock".
+3) Create a method which shows only those item which is "Available in stock" & respective quantities.
+ */
+
+public class Shop  {
 	int maggie ; 
 	int dosa ; 
 	int oil_pouches ;
@@ -90,6 +105,7 @@ public class Shop {
 			System.out.println("We can provide only "+ masala + " masala packet you have request "+reqmasla);
 		}
 	}
+
 		
 		public static void main(String[] a) {
 			Shop shop=new Shop();
@@ -98,6 +114,7 @@ public class Shop {
 			shop.availableStock();
 			shop.outofStock();
 		}
+
 		
 	}
 	
@@ -105,6 +122,4 @@ public class Shop {
 
 	
 		
-
-	
 
