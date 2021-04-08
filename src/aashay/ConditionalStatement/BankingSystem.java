@@ -1,4 +1,4 @@
-package aashay.Loop_Statements;
+package aashay.ConditionalStatement;
 /*
  * Create a Banking System which has the following functionality.
 
