@@ -1,4 +1,4 @@
-package upasana;
+package upasana.assignment_7;
 
 public class Shop {
 	int maggieTQty;
