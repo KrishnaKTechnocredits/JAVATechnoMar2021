@@ -9,16 +9,16 @@ public class shop {
 	int stockofPanipuri=32;
 	int stockofmasala=71;
 
-	void requestedQ(boolean reqType,int maggieq, int dosaQ, int oilQ, int panipuriQ, int masalaQ ){ 
+	void requestedQ(int maggieq, int dosaQ, int oilQ, int panipuriQ, int masalaQ ){ 
 		if(maggieq==0) 
-			System.out.println("Sorry maggie running out of stock");
+			System.out.println("Sorry maggie packets running out of stock");
 		else 
 			  if(stockofMaggie>=maggieq) {
 				System.out.println("We served your request for maggie");
 				stockofMaggie=stockofMaggie-maggieq;
 			  }
-				else if(reqType==true) {	
-					System.out.println("We are providing partial request of maggie "+maggieq);
+				else if(stockofMaggie<maggieq) {	
+					System.out.println("We have this amount of quantity available for maggie "+maggieq);
 					maggieq=0;
 				}	
 
@@ -28,8 +28,8 @@ public class shop {
 				System.out.println("We served your request for dosa packet");
 				stockofDosa=stockofDosa-dosaQ;
 		}
-				else if(reqType==true) {	
-					System.out.println("We are providing partial request of dosa "+dosaQ);
+				else if(stockofDosa<dosaQ) {	
+					System.out.println("We have this amount of quantity available for dosa "+dosaQ);
 					dosaQ=0;
 				}
 		if(oilQ==0) 
@@ -38,18 +38,18 @@ public class shop {
 				System.out.println("We served your request for oil pouches");
 				stockofOilPouches=stockofOilPouches-oilQ;
 		}
-				else if(reqType==true) {	
-					System.out.println("We are providing partial request of oil pouches"+oilQ);
+				else if(stockofOilPouches<oilQ) {	
+					System.out.println("We have this amount of quantity available for pouches"+oilQ);
 					oilQ=0;
 				}
 		if(masalaQ==0) 
 			System.out.println("Sorry masala packets running out of stock");
-		else if(stockofmasala==masalaQ) {
+		else if(stockofmasala>=masalaQ) {
 				System.out.println("We served your request for masala packets");
 				stockofmasala=stockofmasala-masalaQ;
 		}
-				else if(reqType==true) {	
-					System.out.println("We are providing partial request of masala packets "+masalaQ);
+				else if(stockofmasala<masalaQ) {	
+					System.out.println("We have this amount of quantity available for masala packets "+masalaQ);
 					masalaQ=0;
 				}
 
@@ -59,8 +59,8 @@ public class shop {
 				System.out.println("We served your request for panipuri");
 				stockofPanipuri=stockofPanipuri-panipuriQ;
 		}
-				else if(reqType==true) {	
-					System.out.println("We are providing partial request of panipuri "+panipuriQ);
+				else if(stockofPanipuri<panipuriQ) {	
+					System.out.println("We have amount of quantity available for panipuri "+panipuriQ);
 					panipuriQ=0;
 				}
 
@@ -98,7 +98,7 @@ public class shop {
 		shop s= new shop();
 		s.avialableinStock();
 		System.out.println("Raise your request");
-		s.requestedQ(true, 62, 56, 45, 32, 55);
+		s.requestedQ( 62, 34, 45, 32, 55);
 		System.out.println("show the out of stock items");
 		s.outofStock();
 	}
