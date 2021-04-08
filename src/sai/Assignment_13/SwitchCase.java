@@ -50,7 +50,6 @@ public class SwitchCase {
 			switchCase.vowel('a');
 			switchCase.vowel('U');
 			switchCase.vowel('Z');
-			
 		}
 	}
 
