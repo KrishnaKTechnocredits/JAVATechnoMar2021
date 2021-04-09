@@ -42,7 +42,7 @@ public class Calculator {
 		System.out.println("Please enter two numbers to perform "+selection+" operation");
 		double num1 = scanner.nextDouble();
 		double num2 = scanner.nextDouble();
-		if (num2 == 0) {
+		if (selection.equalsIgnoreCase("Divide")&& num2 == 0) {
 			System.out.println("cannot divide by zero. Enter number2 again");
 			num2 = scanner.nextDouble();
 		}
