@@ -107,7 +107,7 @@ public class SwitchBank {
 
 		case "credit":
 
-			switch (bName) {
+			switch (name) {
 			case "ICICI":
 				if (amt >= 0) {
 					iBalance = iBalance + amt;
