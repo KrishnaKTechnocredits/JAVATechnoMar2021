@@ -2,7 +2,6 @@ package prachi.Assignment14;
 
 import java.util.Scanner;
 
-import prachi.Assignment_10.Calculator;
 
 /*Program 2:  Calculator program using Scanner class.*/
 
