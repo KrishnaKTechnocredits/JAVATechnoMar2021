@@ -147,7 +147,10 @@ public class ShopUserInput {
 		int reqPanipuri = sc.nextInt();
 		System.out.println("Enter required Masala Packets");
 		int reqMasala = sc.nextInt();
-		shopUserInput.reqItem(reqMaggie, reqDosa, reqPouches, reqPanipuri, reqMasala, true);
+		
+		System.out.println("");
+		boolean f=sc.nextBoolean();
+		shopUserInput.reqItem(reqMaggie, reqDosa, reqPouches, reqPanipuri, reqMasala, f);
 		shopUserInput.availabeItems();
 		shopUserInput.outOfStock();
 
