@@ -1,4 +1,4 @@
-package kangan.assignments.assignment3;
+package kangan.assignments.assignment_3;
 
 public class Car {
 

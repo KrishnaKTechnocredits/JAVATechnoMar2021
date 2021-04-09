@@ -1,4 +1,4 @@
-package kangan.assignments.assignment12;
+package kangan.assignments.assignment_12;
 
 public class StudentGrade {
 	    static double averageres1;
