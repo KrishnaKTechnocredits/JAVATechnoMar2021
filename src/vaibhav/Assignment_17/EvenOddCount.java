@@ -1,11 +1,13 @@
-package vaibhav.Assignment_17;
+/*Java Assignment 17: 10th April 2021
 
-/*Program 1: From given numbers, count the odd and even numbers.
+Program 1: From given numbers, count the odd and even numbers.
 
 input : 10,23,26,27,88,87,65
 output : even -> 3
 odd -> array.length - evenCount
 */
+
+package vaibhav.Assignment_17;
 
 public class EvenOddCount {
 

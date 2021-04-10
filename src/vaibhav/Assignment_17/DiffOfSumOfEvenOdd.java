@@ -1,15 +1,15 @@
-package vaibhav.Assignment_17;
+/*Java Assignment 17: 10th April 2021
 
-/*Program 2: return a difference between sum of even number and odd numbers.
+Program 2: return a difference between sum of even number and odd numbers.
  
 From given numbers, count the odd and even numbers.
 input : 10,23,26,27,88,87,65
 output : evenSum - oddSum
 
 int getDifference(int[] input){
-}
+}*/
 
-*/
+package vaibhav.Assignment_17;
 
 public class DiffOfSumOfEvenOdd {
 
@@ -17,7 +17,7 @@ public class DiffOfSumOfEvenOdd {
 	int evenSum, oddSum, diffEvenOdd;
 
 	int getDifference(int[] number) {
-		
+
 		for (int index = 0; index < number.length; index++) {
 			if (number[index] % 2 == 0)
 				evenSum = evenSum + number[index];
@@ -25,7 +25,7 @@ public class DiffOfSumOfEvenOdd {
 				oddSum = oddSum + number[index];
 			}
 		}
-		
+
 		diffEvenOdd = evenSum - oddSum;
 		return diffEvenOdd;
 	}
