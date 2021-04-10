@@ -8,7 +8,7 @@ output : even -> 3
 
 public class EvenOddNumbers {
 	
-	void m1(int[] numbers) {
+	void countOddEven(int[] numbers) {
 		int evenCount = 0;
 		for(int index = 0;index < numbers.length;index++){
 			if(numbers[index]% 2 == 0)
@@ -21,7 +21,7 @@ public class EvenOddNumbers {
 	public static void main(String[] args) {
 		int[] numbers = {10,23,26,27,88,87,65};
 		EvenOddNumbers evenOddNumbers = new EvenOddNumbers();
-		evenOddNumbers.m1(numbers);
+		evenOddNumbers.countOddEven(numbers);
 		
 	}
 
