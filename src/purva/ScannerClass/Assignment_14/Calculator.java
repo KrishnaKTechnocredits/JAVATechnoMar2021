@@ -33,7 +33,7 @@ public class Calculator {
 		Calculator calculator = new Calculator();
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Number1: ");
-		//String inputNumber1 = scanner.nextLine();
+		
 		int number1 = scanner.nextInt();//Integer.parseInt(inputNumber1);
 		System.out.println("Enter Number2: ");
 		String inputNumber2 = scanner.nextLine();
