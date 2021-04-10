@@ -39,7 +39,7 @@ public class BankOperations {
 					totalDebitCnt++;
 				}
 				else
-					System.out.println("Total balance is 0. Cannot debit any amount");
+					System.out.println("Insufficient Balance");
 			break;
 			
 			case "hdfc":
@@ -49,7 +49,7 @@ public class BankOperations {
 					totalDebitCnt++;
 				}
 				else
-					System.out.println("Total balance is 0. Cannot debit any amount");
+					System.out.println("Insufficient Balance");
 			break;
 			
 			case "bob":
@@ -59,7 +59,7 @@ public class BankOperations {
 					totalDebitCnt++;
 				}
 				else
-					System.out.println("Total balance is 0. Cannot debit any amount");
+					System.out.println("Insufficient Balance");
 			break;
 			
 			case "sbi":
@@ -69,9 +69,8 @@ public class BankOperations {
 					totalDebitCnt++;
 				}
 				else
-					System.out.println("Total balance is 0. Cannot debit any amount");
-			break;
-				
+					System.out.println("Insufficient Balance");
+			break;	
 			}
 		break;
 		
