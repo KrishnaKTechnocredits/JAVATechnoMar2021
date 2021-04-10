@@ -42,8 +42,7 @@ public class SwitchCase {
 		
 	}
 	
-
-	public static void main(String[] args) {
+   public static void main(String[] args) {
 		SwitchCase sc1 = new SwitchCase();
 		sc1.switchCase('d');
 		sc1.switchCase('I');
