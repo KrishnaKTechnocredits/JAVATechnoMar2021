@@ -1,6 +1,8 @@
-package rashmi;
+package rashmi.Scanner_Assignments;
 
-public class Shop {
+import java.util.Scanner;
+
+public class ShopUsingScanner {
 
 	int maggieq = 50;
 	int dosaq = 43;
@@ -125,14 +127,24 @@ public class Shop {
 
 	public static void main(String[] args) {
 
-		Shop shop = new Shop();
-
-		shop.purchase(40, 20, 29, 30, 60, false);
-		shop.availableInStock();
-		shop.outOfStock();
-		shop.purchase(80, 23, 0, 0, 74, false);
-		shop.availableInStock();
-		shop.outOfStock();
+		Scanner scanner = new Scanner(System.in);
+		ShopUsingScanner shopUsingScanner = new ShopUsingScanner();
+		System.out.println("Enter the quantity of maggie : ");
+		int magiqant = scanner.nextInt();
+		System.out.println("Enter the quantity of dosa : ");
+		int dosaqant = scanner.nextInt();
+		System.out.println("Enter the quantity of pouches : ");
+		int pouchesqant = scanner.nextInt();
+		System.out.println("Enter the quantity of panipuri : ");
+		int panipuriqant = scanner.nextInt();
+		System.out.println("Enter the quantity of masala : ");
+		int masalaqant = scanner.nextInt();
+		System.out.println("partial status : ");
+		boolean partialStatus = scanner.nextBoolean();
+		shopUsingScanner.purchase(magiqant, dosaqant, pouchesqant, panipuriqant, masalaqant, partialStatus);
+		shopUsingScanner.outOfStock();
+		shopUsingScanner.availableInStock();
+		scanner.close();
 
 	}
 }
