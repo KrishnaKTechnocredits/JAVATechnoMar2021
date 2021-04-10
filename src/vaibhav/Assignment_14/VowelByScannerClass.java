@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class VowelByScannerClass {
 
 	void decideVowel(String ch) {
-		System.out.println("");
+		// System.out.println("");
 		// System.out.println("Decision done using single exicution line");
 		switch (ch) {
 		case "A":
