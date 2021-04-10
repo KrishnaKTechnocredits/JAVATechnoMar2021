@@ -6,8 +6,8 @@ public class BankSwitch {
 	int hBalance = 5000, iBalance = 6000, sBalance = 7000, bBalance = 8000;
 	int hDebit=0, hCredit=0, iDebit=0, iCredit=0, sDebit=0, sCredit=0, bDebit=0, bCredit;
 	static int tDebit, tCredit; 
-
-	void creditDebit(String str, int amt, String bank) {
+	
+		void creditDebit(String str, int amt, String bank) {
 		switch(bank) {
 		case "HDFC" :
 			switch(str) {
