@@ -4,22 +4,23 @@ import java.util.Scanner;
 
 public class BankAccount {
 
-	String Customername;
+
 	int currentICBal, currentHDFCbal, currentBOIbal, currentSBIbal;
 	int debitHDFC, creditHDFC, debitSBI, creditSBI, debitBOI, creditBOI, debitIC, creditIC;
-	static int debitAmtCount, creditAmtCount;
+	int debitAmtCount, creditAmtCount;
 	
 	void setInitialBalance(int balICICI, int balHDFC, int balSBI, int balBOI) {
 		currentICBal=balICICI;
 		currentHDFCbal=balHDFC;
+		currentBOIbal=balBOI;
+		currentSBIbal=balSBI;
 	}
 	
 	void processDetails(String bankName, String operation, int amount) {
-		bankName=bankName.toLowerCase();
-		operation=operation.toLowerCase();
 				switch(bankName) {
 					case "hdfc":
-						switch(operation) {
+						{
+							switch(operation) {
 						case "debit":
 							if(currentHDFCbal>=amount) {
 								currentHDFCbal=currentHDFCbal-amount;
@@ -34,10 +35,13 @@ public class BankAccount {
 							creditHDFC++;
 							creditAmtCount++;
 							break;
-						}
+							}
+							break;
+						}			
 						
 					case "sbi":
-						switch(operation) {
+						{
+							switch(operation) {
 							case "debit":
 								if(currentSBIbal>=amount) {
 									currentSBIbal=currentSBIbal-amount;
@@ -52,10 +56,12 @@ public class BankAccount {
 								creditSBI++;
 								creditAmtCount++;
 								break;
+							}
+							break;
 						}
-					
 					case "boi":
-						switch(operation) {
+						{
+							switch(operation) {
 							case "debit":
 								if(currentBOIbal>=amount) {
 									currentBOIbal=currentBOIbal-amount;
@@ -69,11 +75,14 @@ public class BankAccount {
 								currentBOIbal=currentBOIbal+amount;
 								creditBOI++;
 								creditAmtCount++;
-								break;
+								break;							
+							}
+							break;
 						}
 					
 					case "icici":
-						switch(operation) {
+						{
+							switch(operation) {
 							case "debit":
 								if(currentICBal>=amount) {
 									currentICBal=currentICBal-amount;
@@ -88,6 +97,8 @@ public class BankAccount {
 								creditIC++;
 								creditAmtCount++;
 								break;
+							}
+							break;
 						}
 						
 					default:
@@ -97,13 +108,6 @@ public class BankAccount {
 	}
 	void printTotalBalance() {
 		System.out.println("Total balance is :"+(currentBOIbal+currentHDFCbal+currentSBIbal+currentICBal));
-	}
-	
-	void printTotaloperations() {
-		System.out.println("Total current balance of bank HDFC :"+currentHDFCbal);
-		System.out.println("Total current balance of bank ICICI :"+currentICBal);
-		System.out.println("Total current balance of bank BOI :"+currentBOIbal);
-		System.out.println("Total current balance of bank SBI :"+currentSBIbal);
 	}
 	
 	void totalTransactionDetails() {
@@ -132,47 +136,27 @@ public class BankAccount {
 		bankAccount.setInitialBalance(1000, 2000, 3000, 2000);
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Please enter bank name : ");
-		bankName=scanner.next();
+		bankName=scanner.next().toLowerCase();
 		System.out.println("Please enter the banking operation mode :");
-		operation=scanner.next();
-		
-		if(operation.toLowerCase().equalsIgnoreCase("debit")) {
-			System.out.println("Please enter the debit amount");
-			amount=scanner.nextInt();
-		}
-		else if(operation.toLowerCase().equalsIgnoreCase("credit")){		
-			System.out.println("Please enter the credit amount");
-			amount=scanner.nextInt();
-		}
+		operation=scanner.next().toLowerCase();
+		System.out.println("Please enter the amount :");
+		amount=scanner.nextInt();
 		bankAccount.processDetails(bankName, operation, amount);
 		bankAccount.processDetails(bankName, operation, amount);
 		
-		BankAccount bankAccount1=new BankAccount();
 		System.out.println("Please enter bank name : ");
-		bankName=scanner.next();
+		bankName=scanner.next().toLowerCase();
 		System.out.println("Please enter the banking operation mode :");
-		operation=scanner.next();
-		
-		if(operation.toLowerCase().equalsIgnoreCase("debit")) {
-			System.out.println("Please enter the debit amount");
-			amount=scanner.nextInt();
-		}
-		else if(operation.toLowerCase().equalsIgnoreCase("credit")){		
-			System.out.println("Please enter the credit amount");
-			amount=scanner.nextInt();
-		}
-		
-		bankAccount1.processDetails(bankName, operation, amount);
-		bankAccount1.processDetails(bankName, operation, amount);
-		
+		operation=scanner.next().toLowerCase();
+		System.out.println("Please enter the amount :");
+		amount=scanner.nextInt();
+		bankAccount.processDetails(bankName, operation, amount);
+		bankAccount.processDetails(bankName, operation, amount);
 		bankAccount.printTotalBalance();
-		bankAccount1.printTotalBalance();
 		bankAccount.totalTransactionDetails();
 		bankAccount.allIndividualCredits();
 		bankAccount.allIndividualDebits();
-		bankAccount1.allIndividualCredits();
-		bankAccount1.allIndividualDebits();
-		
+
 		
 	}
 }
