@@ -17,7 +17,7 @@ public class DiffOfSumOfEvenOdd {
 	int evenSum, oddSum, diffEvenOdd;
 
 	int getDifference(int[] number) {
-				
+		
 		for (int index = 0; index < number.length; index++) {
 			if (number[index] % 2 == 0)
 				evenSum = evenSum + number[index];
@@ -25,6 +25,7 @@ public class DiffOfSumOfEvenOdd {
 				oddSum = oddSum + number[index];
 			}
 		}
+		
 		diffEvenOdd = evenSum - oddSum;
 		return diffEvenOdd;
 	}

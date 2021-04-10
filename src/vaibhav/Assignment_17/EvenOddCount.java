@@ -20,14 +20,13 @@ public class EvenOddCount {
 		}
 		System.out.println("Count for Even Number form given set of numbers is : " + evenCount);
 		System.out.println("Count for Odd Number form given set of numbers is  : " + (number.length - evenCount));
-		
+
 	}
 
 	public static void main(String[] args) {
 		int[] number = { 15, 48, 16, 1, 2, 6, 48, 64 };
-		
+
 		EvenOddCount evenOddCount = new EvenOddCount();
 		evenOddCount.toFindEvenOddCount(number);
 	}
-
 }
