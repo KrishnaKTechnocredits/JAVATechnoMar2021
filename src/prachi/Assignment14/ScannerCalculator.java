@@ -7,66 +7,39 @@ import java.util.Scanner;
 
 public class ScannerCalculator {
 	
-	int add(){
+	static int add(int num1, int num2) {
+		return num1+num2;
+		}
+
+	static int sub(int num1, int num2) {
+		return num1-num2;
+		}
+
+	static int mult(int num1, int num2) {
+		return num1*num2;
+		}
+
+	static int div(int num1, int num2) {
+		return num1/num2;
+		}
+
+	public static void main(String [] args) {
+		int num,num_1;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter 1st no: ");
-		int a =scanner.nextInt();
-		System.out.println("Enter 2nd nno: ");
-		int b =scanner.nextInt();
-		int c = a+b;
-		System.out.println("Addition is: "+c);
-		return c;
-	}
 
-	int sub(){
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("-----------------------------------------------");
-		System.out.println("Enter 1st no: ");
-		int a =scanner.nextInt();
-		System.out.println("Enter 2nd nno: ");
-		int b =scanner.nextInt();
-		int c = a-b;
-		System.out.println("Subtraction is: "+c);
-		return c;
-	}
+		System.out.println("Enter 1st No.");
+		num=scanner.nextInt();
+		System.out.println("Enter 2nd No.");
+		num_1=scanner.nextInt();
 
-	int mul(){
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("-----------------------------------------------");
-		System.out.println("Enter 1st no: ");
-		int a =scanner.nextInt();
-		System.out.println("Enter 2nd nno: ");
-		int b =scanner.nextInt();
-		int c = a*b;
-		System.out.println("Multiplication is: "+c);
-		return c;
-	}
-
-	int div(){
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("-----------------------------------------------");
-		System.out.println("Enter 1st no: ");
-		int a =scanner.nextInt();
-		System.out.println("Enter 2nd nno: ");
-		int b =scanner.nextInt();
-		int c = a/b;
-		System.out.println("Division is: "+c);
-		return c;
-	}
-
-	void printTotalAnswer(int addResult, int subResult, int mulResult, int divResult) {
-		int total = addResult+subResult+mulResult+divResult;
-		System.out.println("-----------------------------------------------");
-		System.out.println("Total of all calculator operation results is: "+total);
-	}	
-
-	public static void main(String[] a){
-		ScannerCalculator calScanner  = new ScannerCalculator();
-		int addResult= calScanner.add();
-		int subResult= calScanner.sub();
-		int mulResult= calScanner.mul();
-		int divResult= calScanner.div();
-		System.out.println();
-		calScanner.printTotalAnswer(addResult, subResult, mulResult, divResult);
-	}
+		System.out.println("=================================================================");
+		System.out.println("Addition is: " + add(num,num_1));
+		System.out.println("Subtraction is: " + sub(num,num_1));
+		System.out.println("multiplication is: " + mult(num,num_1));
+		System.out.println("Division is: " + div(num,num_1));
+		System.out.println("=================================================================");
+		
+		int total = add(num,num_1) + sub(num,num_1) +  mult(num,num_1) + div(num,num_1) ;
+		System.out.println("Total of all arithmetic operations is : " + total);
+	}		
 }
