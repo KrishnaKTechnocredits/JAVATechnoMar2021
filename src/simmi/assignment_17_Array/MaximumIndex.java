@@ -7,7 +7,7 @@ package simmi.assignment_17_Array;
 public class MaximumIndex {
 	
 	int maxLength() {
-		int index1 =0;
+		int index1 = 0;
 		String[] str = {"Maulik", "Krishna", "Technocredits", "Upasana", "Harsh"};
 		String maxIndex = str[0];
 		for(int index = 1; index<str.length; index++) {
