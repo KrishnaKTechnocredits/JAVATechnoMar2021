@@ -22,26 +22,21 @@ public class Calculator {
 
 	int a;
 	int b;
-	int c;
 
 	int add(int a, int b) {
-		c = a+b;
-		return c;
+		return a+b;
 	}
 
 	int sub(int a, int b) {
-		c= a-b;
-		return c;
+		return a-b;
 	}
 
 	int mul(int a, int b) {
-		c= a*b;
-		return c;
+		return a*b;
 	}
 
 	int div(int a, int  b) {
-		c=a/b;
-		return c;
+		return a/b;
 	}
 
 	void printTotalAnswer(int addResult, int subResult, int mulResult, int divResult) {
