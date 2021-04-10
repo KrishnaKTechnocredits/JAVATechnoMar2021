@@ -10,12 +10,12 @@ positive -> 4
 package vaibhav.Assignment_17;
 
 public class NegativePositiveCount {
-	
+
 	int nCount;
 
 	void toFindNegativePositiveCount(int[] numArr) {
 
-		for (int index = 0; index<numArr.length; index++) {
+		for (int index = 0; index < numArr.length; index++) {
 			if (numArr[index] < 0) {
 				nCount++;
 			}
