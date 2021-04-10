@@ -9,33 +9,15 @@ public class ShopScanner {
 	int panipuri;
 	int masala;
 	
-	void setInitStock() {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the initial stock quantity for maggie: ");
-		maggie =scanner.nextInt();
-		System.out.println("Enter the initial stock quantity for dosa: ");
-		dosa =scanner.nextInt();
-		System.out.println("Enter the initial stock quantity for oil pouch: ");
-		oilPouch =scanner.nextInt();
-		System.out.println("Enter the initial stock quantity for panipuri: ");
-		panipuri =scanner.nextInt();
-		System.out.println("Enter the initial stock quantity for masala: ");
-		masala =scanner.nextInt();
+	void setInitStock(int maggieI, int dosaI, int oilPouchI, int panipuriI, int masalaI) {
+		maggie=maggieI;
+		dosa = dosaI;
+		oilPouch = oilPouchI;
+		panipuri = panipuriI;
+		masala = masalaI;
 	}
 	
-	void requestedQty() {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the requested quantity for maggie: ");
-		int maggieQ =sc.nextInt();
-		System.out.println("Enter the requested quantity for dosa: ");
-		int dosaQ =sc.nextInt();
-		System.out.println("Enter the requested quantity for oil pouch: ");
-		int oilPouchQ =sc.nextInt();
-		System.out.println("Enter the requested quantity for panipuri: ");
-		int panipuriQ =sc.nextInt();
-		System.out.println("Enter the requested quantity for masala: ");
-		int masalaQ =sc.nextInt();
-		
+	void requestedQty(int maggieQ, int dosaQ, int oilPouchQ, int panipuriQ, int masalaQ) {
 		if(maggieQ<=maggie) {
 			maggie = maggie-maggieQ;
 		}else{
@@ -111,13 +93,37 @@ public class ShopScanner {
 	
 	public static void main(String[] args) {
 		ShopScanner shop = new ShopScanner();
-		shop.setInitStock();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the initial stock quantity for maggie: ");
+		int maggieI =sc.nextInt();
+		System.out.println("Enter the initial stock quantity for dosa: ");
+		int dosaI =sc.nextInt();
+		System.out.println("Enter the initial stock quantity for oil pouch: ");
+		int oilPouchI =sc.nextInt();
+		System.out.println("Enter the initial stock quantity for panipuri: ");
+		int panipuriI =sc.nextInt();
+		System.out.println("Enter the initial stock quantity for masala: ");
+		int masalaI =sc.nextInt();
+		shop.setInitStock(maggieI, dosaI, oilPouchI, panipuriI, masalaI);
 		System.out.println("*****Items available in stock are: *****");
 		shop.availableInStock();
 		System.out.println();
-		shop.requestedQty();
+		
+		System.out.println("Enter the requested quantity for maggie: ");
+		int maggieQ =sc.nextInt();
+		System.out.println("Enter the requested quantity for dosa: ");
+		int dosaQ =sc.nextInt();
+		System.out.println("Enter the requested quantity for oil pouch: ");
+		int oilPouchQ =sc.nextInt();
+		System.out.println("Enter the requested quantity for panipuri: ");
+		int panipuriQ =sc.nextInt();
+		System.out.println("Enter the requested quantity for masala: ");
+		int masalaQ =sc.nextInt();
+		shop.requestedQty(maggieQ, dosaQ, oilPouchQ, panipuriQ, masalaQ);
+		
 		System.out.println("*****Items remaining after purchase are : *****");
 		shop.availableInStock();
 		shop.outOfStock();
+		sc.close();
 	}
 }
