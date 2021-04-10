@@ -154,19 +154,11 @@ public class DebitCredit {
 		sbi = scanner.nextInt();
 		System.out.println("Enter Amount for bob bank: ");
 		bob = scanner.nextInt();
-		System.out.println("Enter what operation is requited. 1:Credit   2:Debit");
-		int op = scanner.nextInt();
-		System.out.println("Enter the amount to be credited or debited");
-		int amount = scanner.nextInt();
-		System.out.println("Enter in which bank action is required. 1:icici   2:hdfc   3:sbi   4:bob");
-		int bank = scanner.nextInt();
-		debitCredit.operation(op, bank, amount);
 		
-		System.out.println("Do you want to execute more operations : Y/N");
-		String ans = scanner.next();
+		String ans = null;
 
 		do {
-			System.out.println("Enter what operation is requited. 1:Credit   2:Debit");
+			System.out.println("Enter what operation is required. 1:Credit   2:Debit");
 			int op1 = scanner.nextInt();
 			System.out.println("Enter the amount to be credited or debited");
 			int amount1 = scanner.nextInt();
@@ -174,9 +166,9 @@ public class DebitCredit {
 			int bank1 = scanner.nextInt();
 			debitCredit.operation(op1, bank1, amount1);
 			System.out.println("Do you want to execute more operations : Y/N");
-			String ans1 = scanner.next();
-			ans = ans1.toUpperCase();
-		}while (ans.equals("Y"));
+			ans = scanner.next().toUpperCase();
+			//ans = ans.toUpperCase();
+		}while(ans.equals("Y"));
 		
 		debitCredit.individualCredit();
 		debitCredit.individualDebit();
