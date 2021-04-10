@@ -3,6 +3,7 @@ package dhanshri.Assignment_14;
 import java.util.Scanner;
 
 import javax.swing.plaf.synth.SynthSeparatorUI;
+
 public class Shop {
 	int maggieQ, dosaQ, pouchesQ, masalaQ, panipuriQ;
 
@@ -111,7 +112,6 @@ public class Shop {
 		int input2 = scanner.nextInt();
 		int input3 = scanner.nextInt();
 		int input4 = scanner.nextInt();
-		// shop.setinitialQ(10, 20, 30, 40, 50);
 		shop.setinitialQ(input, input1, input2, input3, input4);
 		System.out.println("Enter required item quqntity: ");
 		int input5 = scanner.nextInt();
@@ -119,7 +119,6 @@ public class Shop {
 		int input7 = scanner.nextInt();
 		int input8 = scanner.nextInt();
 		int input9 = scanner.nextInt();
-		// shop.requestedQ(5, 12, 32, 40, 5, true);
 		shop.requestedQ(input5, input6, input7, input7, input8, true);
 		shop.outOfStockItems();
 		shop.availableStockItems();
