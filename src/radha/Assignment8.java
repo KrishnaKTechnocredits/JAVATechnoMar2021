@@ -2,44 +2,40 @@ package radha;
 
 public class Assignment8 {
 	void evenNumbers(int startIndex, int endIndex) {
-		int i = startIndex;
 		System.out.println("Even numbers between "+startIndex+ " and "+endIndex+" are: ");
-		while (i<=endIndex) {
-			if(i%2==0)
-				System.out.println(i);
-			i++;
+		while (startIndex<=endIndex) {
+			if(startIndex%2==0)
+				System.out.println(startIndex);
+			startIndex++;
 		}
 	}
 	
 	void divByFive(int startIndex, int endIndex) {
-		int i = startIndex;
 		System.out.println("Divisible by 5, Numbers between "+startIndex+ " and "+endIndex+" are: ");
-		while (i<=endIndex) {
-			if(i%5==0)
-				System.out.println(i);
-			i++;
+		while (startIndex<=endIndex) {
+			if(startIndex%5==0)
+				System.out.println(startIndex);
+			startIndex++;
 		}
 	}
 	
 	void fiveAndThree(int startIndex, int endIndex) {
-		int i = startIndex;
 		System.out.println("Divisible by 3 and 5, Numbers between "+startIndex+ " and "+endIndex+" are: ");
-		while (i<=endIndex) {
-			if(i%5==0 && i%3==0)
-				System.out.println(i);
-			i++;
+		while (startIndex<=endIndex) {
+			if(startIndex%5==0 && startIndex%3==0)
+				System.out.println(startIndex);
+			startIndex++;
 		}
 	}
 	
 	void sevenAndThirteen(int startIndex, int endIndex) {
-		int i = startIndex;
 		System.out.println("Divisible by 7 or 13, Numbers between "+startIndex+ " and "+endIndex+" are: ");
-		while (i<=endIndex) {
-			if(i%7==0)
-				System.out.println(i +" is divisible by 7");
-			else if(i%13==0)
-				System.out.println(i +" is divisible by 13");
-			i++;
+		while (startIndex<=endIndex) {
+			if(startIndex%7==0)
+				System.out.println(startIndex +" is divisible by 7");
+			else if(startIndex%13==0)
+				System.out.println(startIndex +" is divisible by 13");
+			startIndex++;
 		}
 	}
 	
