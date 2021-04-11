@@ -48,7 +48,7 @@ public class Vowels {
 		Vowels vowels = new Vowels();
 		vowels.isVowel('d');
 		vowels.isVowel('I');
-		vowels.isVowel('i');
+		vowels.isVowel('e');
 	}
 
 }
