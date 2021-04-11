@@ -14,6 +14,7 @@ import java.util.Scanner;
 
 public class FindTargetElement {
 static int size,target;
+boolean isNumFound = false;
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -22,9 +23,9 @@ static int size,target;
 		size = scanner.nextInt();
 
 		int[] input = new int[size];
-
+		
+		System.out.println("Enter the "+size+" elements of an array");
 		for(int index=0;index<size;index++) {
-			System.out.println("Enter the "+size+" elements of an array");
 			input[index]= scanner.nextInt();
 			}
 		
@@ -34,21 +35,25 @@ static int size,target;
 		FindTargetElement Findtargettlement = new FindTargetElement();
 
 		boolean flag = Findtargettlement.isNumberPresent(input, size, target);
-		System.out.println(flag);
+		if(flag) {
+			System.out.println(flag +" - number "+target+" found in given array");
+		}
+		else {
+			System.out.println(flag +" - number "+target+" not found in given array");
+		}
+		
+		scanner.close();
 	}
 
 	boolean isNumberPresent(int []input, int size, int target) {
-			boolean flag1=false, flag2 = false;
+			
 			for(int i = 0;i<size;i++) {
-				if(input[i]==target)
-					flag1 = true;
-				else
-					flag2 = false;
+				if(input[i]==target) 
+					isNumFound = true;
+					break;
 			}
-			if(flag1 == true)
-				return flag1;
-			else
-				return flag2;
+			
+			return isNumFound;
 	}
 
 }

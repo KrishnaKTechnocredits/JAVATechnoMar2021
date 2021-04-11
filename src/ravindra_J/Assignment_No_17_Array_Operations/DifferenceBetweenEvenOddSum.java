@@ -45,11 +45,11 @@ public class DifferenceBetweenEvenOddSum {
 	}
 
 	int getEvenOddSum() {
-		System.out.println("Sum of even numbers are - "+evenSum+" and \n Sum of odd numbers are - "+oddSum);
+		System.out.println("Sum of even numbers are - "+evenSum+" and \nSum of odd numbers are - "+oddSum);
 		return 0;
 	}
 	int getEvenOddCount() {
-		System.out.println("Even numbers count in a given array are - "+evenCount+" and \n Odd umbers count in a given array are - "+oddCount);
+		System.out.println("Even numbers count in a given array are - "+evenCount+" and \nOdd umbers count in a given array are - "+oddCount);
 		return 0;
 	}
 	int getDifference(){

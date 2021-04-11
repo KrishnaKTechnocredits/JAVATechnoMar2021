@@ -18,9 +18,8 @@ public class FrequencyOfTargetNumber {
 		size = scanner.nextInt();
 
 		int[] input = new int[size];
-
+		System.out.println("Enter the "+size+" elements of an array");
 		for(int index=0;index<size;index++) {
-			System.out.println("Enter the "+size+" elements of an array");
 			input[index]= scanner.nextInt();
 			}
 		
