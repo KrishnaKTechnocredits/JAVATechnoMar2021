@@ -21,16 +21,18 @@ public class DifferenceBetweenEvenOddSum {
 		int size = scanner.nextInt();
 		scanner.nextLine();
 		int[] arr = new int[size];
+		System.out.println("Eneter the "+size+" numbers");
 		for (int index=0;index<size;index++) {
-			System.out.println("Eneter the "+size+  " numbers");
 			arr[index]=Integer.parseInt(scanner.nextLine());
 			if(arr[index] % 2 == 0) {
 				evenCount++;
-				evenSum =+ arr[index];
+				evenSum = evenSum+arr[index];
+				evenSum =+ evenSum;
 			}
 			else { 
 				oddCount++;
-				oddSum =+ arr[index];
+				oddSum = oddSum+arr[index];
+				oddSum =+ oddSum;
 			}
 		}
 		scanner.close();
@@ -43,11 +45,11 @@ public class DifferenceBetweenEvenOddSum {
 	}
 
 	int getEvenOddSum() {
-		System.out.println("Sum of even numbers are - "+evenSum+" & Odd count are - "+oddSum);
+		System.out.println("Sum of even numbers are - "+evenSum+" and \n Sum of odd numbers are - "+oddSum);
 		return 0;
 	}
 	int getEvenOddCount() {
-		System.out.println("Even count are - "+evenCount+" & Odd count are - "+oddCount);
+		System.out.println("Even numbers count in a given array are - "+evenCount+" and \n Odd umbers count in a given array are - "+oddCount);
 		return 0;
 	}
 	int getDifference(){
