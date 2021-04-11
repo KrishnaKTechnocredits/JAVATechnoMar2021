@@ -5,34 +5,26 @@ import java.util.Scanner;
 public class SwitchScanner {
 		char alphabet;
 		
-		void isVowel() {
-			Scanner scanner = new Scanner(System.in);
-			System.out.println("Enter an alphabet to check if it is a vowel or not: ");
-			String str =scanner.next();
-			char input = str.charAt(0);
+		void isVowel(char input) {
+			input = Character.toUpperCase(input);
 			switch(input) {
 			case 'A':
-			case 'a':
 				System.out.println(input+" is a vowel");
 				break;
 				
 			case 'E':
-			case 'e':
 				System.out.println(input+" is a vowel");
 				break;
 				
 			case 'I':
-			case 'i':
 				System.out.println(input+" is a vowel");
 				break;
 			
 			case 'O':
-			case 'o':
 				System.out.println(input+" is a vowel");
 				break;
 				
 			case 'U':
-			case 'u':
 				System.out.println(input+" is a vowel");
 				break;
 				
@@ -43,7 +35,10 @@ public class SwitchScanner {
 		
 		public static void main(String[] args) {
 			SwitchScanner switchScan = new SwitchScanner();
-			switchScan.isVowel();
-			switchScan.isVowel();
+			Scanner scanner = new Scanner(System.in);
+			System.out.println("Enter an alphabet to check if it is a vowel or not: ");
+			char input = scanner.next().charAt(0);
+			switchScan.isVowel(input);
+			scanner.close();
 		}
 }
