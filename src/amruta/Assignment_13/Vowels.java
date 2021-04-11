@@ -49,6 +49,7 @@ public class Vowels {
 		vowels.isVowel('d');
 		vowels.isVowel('I');
 		vowels.isVowel('e');
+		
 	}
 
 }
