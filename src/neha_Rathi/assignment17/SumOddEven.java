@@ -7,7 +7,6 @@ return a difference between sum of even number and odd numbers.
 	int getDifference(int[] input){
 	
 	}
-
 */
 package neha_Rathi.assignment17;
 

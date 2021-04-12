@@ -20,6 +20,6 @@ public class MaxNumber {
 	public static void main(String[] args) {
 		MaxNumber maxNumber = new MaxNumber();
 		int[] input = { 22, 35, 65, 88, 11, 23, 45 };
-		System.out.println(maxNumber.maxNum(input));
+		System.out.println("Maximum number is "+maxNumber.maxNum(input));
 	}
 }

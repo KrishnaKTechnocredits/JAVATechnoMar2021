@@ -19,6 +19,6 @@ public class IndexOfMaxInput {
 	public static void main(String[] args) {
 		IndexOfMaxInput indexOfMaxInput = new IndexOfMaxInput();
 		String[] input = { "Maulik", "Krishna", "Technocredits", "Kangan", "Harsh" };
-		System.out.println(indexOfMaxInput.maxLenghtInput(input));
+		System.out.println("Index is "+indexOfMaxInput.maxLenghtInput(input));
 	}
 }

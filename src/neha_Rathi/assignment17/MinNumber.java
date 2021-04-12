@@ -19,6 +19,6 @@ public class MinNumber {
 	public static void main(String[] args) {
 		MinNumber minNumber = new MinNumber();
 		int[] input = { 22, 35, 65, 88, 11, 23, 45 };
-		System.out.println(minNumber.minNum(input));
+		System.out.println("Minimum number is "+minNumber.minNum(input));
 	}
 }
