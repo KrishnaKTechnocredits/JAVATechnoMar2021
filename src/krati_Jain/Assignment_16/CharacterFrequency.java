@@ -11,7 +11,6 @@ public class CharacterFrequency {
 	void inputString(String inputStr, char characterChosen) {
 
 		String inString = inputStr.toLowerCase();
-
 		
 		for(int index = 0; index < inString.length(); index++) {
 			if (inString.charAt(index) == characterChosen) 
@@ -22,7 +21,6 @@ public class CharacterFrequency {
 		}
 		
 	
-
 	public static void main(String[] args) {
 		
 		CharacterFrequency CharFre = new CharacterFrequency();
@@ -30,7 +28,9 @@ public class CharacterFrequency {
 		System.out.println("Input a String of your choice- ");
 		String inputStr = scn.nextLine();
 		System.out.println("Write down which character's frequency you want to check in your string provided?");
-		char characterChosen = scn.next().charAt(0); 
+		String character = scn.next(); 
+		character = character.toLowerCase();
+		char characterChosen = character.charAt(0);
 		CharFre.inputString(inputStr, characterChosen);
 	}
 
