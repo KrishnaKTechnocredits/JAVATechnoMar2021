@@ -1,6 +1,18 @@
 package aashay.Array;
 
-import java.lang.reflect.Array;
+/*
+ * 
+Assignment - 16 : 9th April'2021
+
+Find the frequency of character from a given String array.
+Note: Take String and character from the user.
+
+Input : technocredits
+char : e
+
+output : e -> 2
+ */
+
 import java.util.Scanner;
 
 public class FrequencyOfCharacter {
