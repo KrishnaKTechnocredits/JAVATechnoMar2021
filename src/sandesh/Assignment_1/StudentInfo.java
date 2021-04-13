@@ -1,4 +1,4 @@
-package sandesh;
+package sandesh.Assignment_1;
 
 public class StudentInfo {
 	
