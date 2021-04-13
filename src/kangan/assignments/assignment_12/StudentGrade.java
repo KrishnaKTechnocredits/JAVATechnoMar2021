@@ -52,7 +52,7 @@ public class StudentGrade {
 	public static void main(String[] args) {
 		
 		StudentGrade studentGrade1 = new StudentGrade();
-		studentGrade1.average(10,10,90);
+		studentGrade1.average(100,100,90);
 		
 		StudentGrade studentGrade2 = new StudentGrade();
 	    studentGrade2.isAnswerAboveExpecation(averageres1);
