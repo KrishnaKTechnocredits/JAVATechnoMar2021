@@ -1,4 +1,4 @@
-package upasana;
+package upasana.assignment_1_5;
 
 class Student{
 	String sName;

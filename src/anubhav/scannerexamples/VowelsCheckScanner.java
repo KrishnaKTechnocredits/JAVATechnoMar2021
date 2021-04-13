@@ -6,7 +6,7 @@ public class VowelsCheckScanner {
 
 	char ch;
 	
-	public void vowels(){
+	public void vowels(char ch){
 		switch (ch) {
 			case 'A': 
 			case 'a':
@@ -39,27 +39,27 @@ public class VowelsCheckScanner {
 		
 		String alphabet1= scanner.next();
 		char ch1= alphabet1.charAt(0);
-		vowelsCheckScanner.ch= ch1;
-		vowelsCheckScanner.vowels();
+		//vowelsCheckScanner.ch= ch1;
+		vowelsCheckScanner.vowels(ch1);
 		
 		String alphabet2= scanner.next();
 		char ch2= alphabet2.charAt(0);
 		vowelsCheckScanner.ch= ch2;
-		vowelsCheckScanner.vowels();
+		vowelsCheckScanner.vowels(ch2);
 		
 		String alphabet3= scanner.next();
 		char ch3= alphabet3.charAt(0);
 		vowelsCheckScanner.ch= ch3;
-		vowelsCheckScanner.vowels();
+		vowelsCheckScanner.vowels(ch3);
 		
 		String alphabet4= scanner.next();
 		char ch4= alphabet4.charAt(0);
 		vowelsCheckScanner.ch= ch4;
-		vowelsCheckScanner.vowels();
+		vowelsCheckScanner.vowels(ch4);
 		
 		String alphabet5= scanner.next();
 		char ch5= alphabet5.charAt(0);
 		vowelsCheckScanner.ch= ch5;
-		vowelsCheckScanner.vowels();
+		vowelsCheckScanner.vowels(ch5);
 	}	
 }
