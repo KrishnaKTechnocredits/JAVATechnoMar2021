@@ -1,4 +1,4 @@
-package krishna.CommMulClasses;
+package krishna.Assignment_11;
 
 public class CommMulClassesA {
 	void m1() {
