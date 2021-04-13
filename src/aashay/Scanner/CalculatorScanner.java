@@ -43,6 +43,7 @@ public class CalculatorScanner {
 			cal.subtraction(x,y);
 			cal.multiplication(x,y);
 			cal.division(x,y);
+			scan.close();
 			
 		}
 		
