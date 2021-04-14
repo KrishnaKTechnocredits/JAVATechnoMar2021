@@ -27,7 +27,7 @@ public class CharCount {
 		{
 			int count = 0;
 			int length = str.length();
-			for (int index = 0; index < str.length(); index++) {
+			for (int index = 0; index <= str.length(); index++) {
 				if (str.charAt(index) == targetChar)
 					count++;
 			}
