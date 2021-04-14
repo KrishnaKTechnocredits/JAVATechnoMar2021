@@ -4,16 +4,16 @@ package pallavi.Assignment_17;
 input : {"Maulik", "Krishna", "Technocredits", "Kangan", "Harsh"};
 output : 2*/
 public class MaxIndex {
-	
+
 	int findMaxLengthIndex(String[] name) {
 
 		String max = name[0];
-		int indexM=0;
+		int indexM = 0;
 		for (int index = 1; index < name.length; index++) {
 			if (max.length() < name[index].length()) {
 				max = name[index];
-				indexM=index;
-				}
+				indexM = index;
+			}
 		}
 		return indexM;
 	}

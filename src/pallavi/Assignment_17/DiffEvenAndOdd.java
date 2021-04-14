@@ -8,7 +8,7 @@ package pallavi.Assignment_17;
 public class DiffEvenAndOdd {
 
 	int getDifference(int[] array) {
-		int evenSum = 0, oddSum = 0, diff=0;
+		int evenSum = 0, oddSum = 0, diff = 0;
 
 		for (int index = 0; index < array.length; index++) {
 			if (array[index] % 2 == 0) {
@@ -17,7 +17,7 @@ public class DiffEvenAndOdd {
 				oddSum = oddSum + array[index];
 			}
 
-			 diff = evenSum - oddSum;
+			diff = evenSum - oddSum;
 		}
 		return diff;
 	}
@@ -25,8 +25,8 @@ public class DiffEvenAndOdd {
 	public static void main(String[] args) {
 
 		int[] a = { 10, 23, 26, 27, 88, 87, 65 };
-		int difference=new DiffEvenAndOdd().getDifference(a);
-		System.out.println("Diffrence between sum of even and odd numbers are: " +difference);
+		int difference = new DiffEvenAndOdd().getDifference(a);
+		System.out.println("Diffrence between sum of even and odd numbers are: " + difference);
 
 	}
 

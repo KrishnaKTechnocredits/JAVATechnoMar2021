@@ -12,7 +12,7 @@ public class MinNumber {
 	}
 
 	public static void main(String[] args) {
-		int a[] = { 22,35,65,88,11,23,45 };
+		int a[] = { 22, 35, 65, 88, 11, 23, 45 };
 		int number = new MinNumber().minNumber(a);
 		System.out.println("Minuimum no " + number);
 
