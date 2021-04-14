@@ -9,6 +9,7 @@ package madhavi_Khasbage.ArrayPrograms;
 public class CountOddEvenNumber {
 
 	int evenCount, oddCount;
+	String name;
 
 	void findCount() {
 		int[] arr = { 10, 23, 26, 27, 88, 87, 65 };
@@ -19,6 +20,9 @@ public class CountOddEvenNumber {
 				oddCount++;
 			}
 		}
+		System.out.print(name + "abc");
+		name=name+"xyz";
+		System.out.print(name);
 	}
 
 	public static void main(String[] args) {
