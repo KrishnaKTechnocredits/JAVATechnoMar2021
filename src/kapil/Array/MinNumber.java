@@ -11,7 +11,7 @@ public class MinNumber {
 			if (min > input[index])
 				min = input[index];
 		}
-		System.out.println("Maximum nuber : " + min);
+		System.out.println("Minimum number : " + min);
 	}
 
 	public static void main(String[] args) {
