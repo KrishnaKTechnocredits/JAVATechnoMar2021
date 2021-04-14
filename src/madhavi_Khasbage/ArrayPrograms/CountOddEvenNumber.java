@@ -19,10 +19,7 @@ public class CountOddEvenNumber {
 			} else {
 				oddCount++;
 			}
-		}
-		System.out.print(name + "abc");
-		name=name+"xyz";
-		System.out.print(name);
+		}		
 	}
 
 	public static void main(String[] args) {
