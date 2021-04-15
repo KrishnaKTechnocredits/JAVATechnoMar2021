@@ -1,4 +1,4 @@
-package anubhav.arrayexamples;
+package anubhav.StringOperations;
 
 /*Sum of all the digits in a string*/
 import java.util.Scanner;

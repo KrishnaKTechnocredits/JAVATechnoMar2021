@@ -1,4 +1,4 @@
-package anubhav.arrayexamples;
+package anubhav.StringOperations;
 
 import java.util.Scanner;
 
