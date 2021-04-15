@@ -36,7 +36,7 @@ public class BankingSystem {
 	
 	void individualTransactionSummery(){
 		System.out.println(name+" transaction summery:"+" Credit "+ creditCount +" Debit "+ debitCount +" Print balance "+ printCount);
-		//System.out.println("User2 transaction summery:"+" Credit "+ creditCount +" Debit "+ debitCount +" Print balance "+ printCount);
+		
 	}
 	
 	void allTransactionSummery() {

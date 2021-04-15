@@ -19,27 +19,27 @@ public class Shop {
 		if(maggi<=maggieQ){
 			maggieQ=maggieQ-maggi;
 			System.out.println("Available maggie is:" +maggieQ);
-		}else if(maggieQ<=maggi)
+		}else if(maggieQ<maggi)
 			System.out.println("maggie running out of stock");
 		if(dosa<=dosaQ) {
 			dosaQ=dosaQ-dosa;
 		System.out.println("Available dosa is:" +dosaQ);
-		}else if(dosaQ<=dosa)
+		}else if(dosaQ<dosa)
 			System.out.println("dosa running out of stock");
 		if(oil<=oilQ) {
 			oilQ=oilQ-oil;
 		System.out.println("Available oil is:" +oilQ);
-		}else if(oilQ<=oil) 
+		}else if(oilQ<oil) 
 			System.out.println("oil running out of stock");
 		if(panipuri<=panipuriQ) {
 			panipuriQ=panipuriQ-panipuri;
 		System.out.println("Available panipuri is:" +panipuriQ);
-		}else if(panipuriQ<=panipuri)
+		}else if(panipuriQ<panipuri)
 			System.out.println("panipuri running out of stock");	
 		if(masala<=masalaQ) {
 			masalaQ=masalaQ-masala;
 		System.out.println("Available masala is:" +masalaQ);
-		}else if(masalaQ<=masala)
+		}else if(masalaQ<masala)
 			System.out.println("masala running out of stock");	
 		
 	}
