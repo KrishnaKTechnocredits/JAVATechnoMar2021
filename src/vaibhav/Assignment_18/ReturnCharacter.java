@@ -1,3 +1,11 @@
+/*Java Assignment 18: 14th April 2021
+
+Program 2:  Write a method which will return character of given Ascii value.
+Hint : Method signature should be char getAsciiOfChar(int asciiValue)
+
+*/
+
+
 package vaibhav.Assignment_18;
 
 import java.util.Scanner;
