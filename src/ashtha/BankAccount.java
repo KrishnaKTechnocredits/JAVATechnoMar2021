@@ -17,7 +17,7 @@ class BankAccount {
 	}
 
 	void displayInfo(){
-		System.out.println("The bank account number is "+bankAccountNumber);
+		System.out.println("The bank account number is "+bankAccountNumber+".");
 		System.out.println("The username is "+username);
 		System.out.println("The password of the user is "+password);
 	}
