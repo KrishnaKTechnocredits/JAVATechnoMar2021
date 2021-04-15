@@ -10,18 +10,7 @@ import java.util.Scanner;
 
 public class PrintAsciiValue {
 
-	void asciiValue() {
-		Scanner scanner = new Scanner(System.in);
-
-		System.out.println("Plesae enter the starting character to find the ASCII value : ");
-		String str1 = scanner.next();
-		char firstCh = str1.charAt(0);
-
-		System.out.println("Please enter the end charater to find the ASCII Value : ");
-		String str2 = scanner.next();
-		char lastCh = str2.charAt(0);
-		scanner.close();
-
+	void asciiValue(char firstCh, char lastCh) {
 		if ((int) firstCh < (int) lastCh) {
 			for (char ch = firstCh; ch <= lastCh; ch++) {
 				System.out.println("Ascii Value of " + ch + " is : " + (int)ch);
@@ -36,6 +25,18 @@ public class PrintAsciiValue {
 
 	public static void main(String[] args) {
 		PrintAsciiValue printAsciiValue = new PrintAsciiValue();
-		printAsciiValue.asciiValue();
+		
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Plesae enter the starting character to find the ASCII value : ");
+		String str1 = scanner.next();
+		char ch1 = str1.charAt(0);
+
+		System.out.println("Please enter the end charater to find the ASCII Value : ");
+		String str2 = scanner.next();
+		char ch2 = str2.charAt(0);
+		scanner.close();
+				
+		printAsciiValue.asciiValue(ch1, ch2);
 	}
 }
