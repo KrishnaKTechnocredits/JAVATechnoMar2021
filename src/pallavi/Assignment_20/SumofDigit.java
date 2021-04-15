@@ -14,7 +14,7 @@ public class SumofDigit {
 				sum = sum + Character.getNumericValue(ch);
 			}
 		}
-		System.out.println(sum);
+		System.out.println("Sum of all digit in String is "+sum);
 	}
 
 	public static void main(String[] args) {
