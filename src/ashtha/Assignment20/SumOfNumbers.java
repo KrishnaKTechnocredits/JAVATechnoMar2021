@@ -10,7 +10,7 @@ public class SumOfNumbers {
 
 	int numberSum(String input) {
 		int sum = 0;
-		for (int index = 0; index < input.length(); index++) {
+		for (int index = 0; index < input.length();index++) {
 			char ch = input.charAt(index);
 			if (Character.isDigit(ch)) {
 				int num = Character.getNumericValue(ch);
