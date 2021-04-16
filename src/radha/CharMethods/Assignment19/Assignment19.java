@@ -10,25 +10,25 @@ package radha.CharMethods.Assignment19;
 
 public class Assignment19 {
 	
-	void getUcaseCount(String str) {
+	String getUcaseCount(String str) {
 		int upperCaseCnt = 0;
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
 			if (Character.isUpperCase(ch))
 				upperCaseCnt++;
 		}
-		if(upperCaseCnt > (str.length() - upperCaseCnt)) {
-			System.out.println("Techno");
-		}else {
-			System.out.println("Credits");
-		}
-		System.out.println("================================================================");
-		System.out.println("Uppercase character count is "+upperCaseCnt+" & Lowercase character count is "+(str.length() - upperCaseCnt));
+		if(upperCaseCnt > (str.length() - upperCaseCnt)) 
+			return "Techno";
+		else 
+			return "Credits";
+		
+		
 	}
 	
 	public static void main(String[] args) {
 		Assignment19 charCount = new Assignment19();
-		charCount.getUcaseCount("TeCHnoSessionS");
+		String str = charCount.getUcaseCount("TeCHnoSessionS");
+		System.out.println(str);
 	}
 }
 
