@@ -1,4 +1,4 @@
-package aashay;
+package aashay.Array;
 /*
  * Assignment - 17 : 10th April'2021
 
@@ -56,13 +56,13 @@ input : {"Maulik", "Krishna", "Technocredits", "Kangan", "Harsh"};
 output : 2
  */
 
-import java.util.Scanner;
+
 
 public class ArrayOddEvenNumbers {
 	
 	void oddEvenNumbers(int[] program1) {
 		int evencnt=0;
-		int oddcnt;
+		int oddcnt=0;
 		for(int i = 0; i <= program1.length-1; i++) {
 			if(program1[i]%2 == 0) {
 				evencnt++;
