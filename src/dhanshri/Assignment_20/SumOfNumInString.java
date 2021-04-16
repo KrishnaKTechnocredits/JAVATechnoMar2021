@@ -3,8 +3,7 @@ package dhanshri.Assignment_20;
 public class SumOfNumInString {
 	void sumNum(String input) {
 		int sum = 0;
-
-		for (int index = 0; index < input.length(); index++) {
+        for (int index = 0; index < input.length(); index++) {
 			char ch = input.charAt(index);
 			if (Character.isDigit(ch))
 				sum = sum + Character.getNumericValue(ch);
