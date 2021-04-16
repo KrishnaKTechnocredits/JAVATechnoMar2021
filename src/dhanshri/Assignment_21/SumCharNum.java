@@ -7,7 +7,7 @@ public class SumCharNum {
 
 		for (int index = 0; index < input.length(); index++) {
 			char ch = input.charAt(index);
-			if (ch >= 48 && ch <=57)
+			if (ch >= 48 && ch <= 57)
 				sum = sum + Character.getNumericValue(ch);
 		}
 		System.out.println("Sum of numbers in input string is :" + sum);
