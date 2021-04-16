@@ -13,6 +13,7 @@ public class ArrayMaxLengthIndex {
 		for(int index=0;index<str.length;index++) {
 			if((str[index].length())>maxStr.length()) {
 				maxIndex=index;
+				maxStr=str[index];
 			}
 		}
 		return maxIndex;
