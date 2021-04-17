@@ -24,8 +24,7 @@ public class UpperNLowerCaseCountCharacters {
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please Enter Input Name: ");
-
-		String inputName = scanner.next();
+        String inputName = scanner.next();
 		String result = upperNLowerCaseCountCharacters.upperNLowerCaseCountCharacters(inputName);
 		System.out.println("Output of Given Input Name will be : " + result);
 		scanner.close();
