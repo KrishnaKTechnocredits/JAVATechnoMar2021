@@ -4,7 +4,7 @@ package krati_Shukla.Array;
 
 import java.util.Scanner;
 
-ppublic class MaxMin {
+public class MaxMin {
 	
 	int maximum(int[] input) {
 		int max = input[0];
