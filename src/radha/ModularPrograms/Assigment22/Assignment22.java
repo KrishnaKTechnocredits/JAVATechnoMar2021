@@ -57,10 +57,11 @@ public class Assignment22 {
 	public static void main(String[] args) {
 		Assignment22 assignment22 = new Assignment22();
 		String input = "technocredits";
+		System.out.println("*****Frequency of one character*****");
 		assignment22.findFrequency(input, 'e');
-		System.out.println("=============================================");
+		System.out.println("\n*****Frequency of all characters*****");
 		assignment22.findAllCharFreq("aakanksha");
-		System.out.println("=============================================");
+		System.out.println("\n*****Frequency of all characters in each name from Array*****");
 		String []arr = {"raj", "aarya", "aavruti", "shruti"};
 		assignment22.getAllCharFreqArray(arr);
 	}
