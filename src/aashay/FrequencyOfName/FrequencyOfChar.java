@@ -22,7 +22,7 @@ public class FrequencyOfChar {
 				targetCnt++;
 			}
 		}
-		System.out.println("Target char" + targetChar + " frequency is:" + targetCnt);
+		System.out.println(targetChar + " -> " + targetCnt+" times in "+name);
 
 	}
 
