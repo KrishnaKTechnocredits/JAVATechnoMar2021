@@ -1,5 +1,6 @@
 package anubhav.arrayexamples;
 
+//Frequency Of All Characters From Each Name In Array
 import java.util.Scanner;
 
 import anubhav.StringOperations.FrequencyOfAllCharactersInAString;
@@ -36,3 +37,5 @@ public class FrequencyOfAllCharactersFromEachNameInArray{
 	}
 
 }
+
+// Hey Harsh, can you help me understand how do I initialize the array using scanner in this case, i tried but could not so provided direct user input
