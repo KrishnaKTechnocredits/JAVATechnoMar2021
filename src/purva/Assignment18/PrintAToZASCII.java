@@ -14,7 +14,7 @@ public class PrintAToZASCII {
 			for(int i = 0; i <= arr.length-1; i++) {
 				int c = arr[i];
 				
-				System.out.println("Character : "+arr[6]+" ASCII value ="+c);
+				System.out.println("Character : "+arr[i]+" ASCII value ="+c);
 			}
 		}
 
