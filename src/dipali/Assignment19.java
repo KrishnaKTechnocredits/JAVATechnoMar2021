@@ -11,10 +11,10 @@ public class Assignment19 {
 			int ascii=0;
 			for(int cnt=0;cnt<len;cnt++) {
 				ascii =ascii+(int) input.charAt(cnt);
-				if(ascii>65 || ascii==65) {
-					asciiUpper =ascii+(int) input.charAt(cnt);
+				if(ascii>=65) {
+					asciiUpper ++;
 				}else {
-					asciilower =ascii+(int) input.charAt(cnt);
+					asciilower++;
 				}	
 			}	
 		}
