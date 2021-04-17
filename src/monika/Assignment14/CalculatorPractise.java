@@ -35,7 +35,7 @@ public class CalculatorPractise {
 	public static void main(String[] args) {
 		CalculatorPractise obj = new CalculatorPractise();
 		System.out.println("Calculator program starts from here : ");
-		System.out.println("Total calculation : "+obj.div(5));
+		System.out.println("Total calculation : "+obj.div(obj.sc.nextInt()));
 		//obj.div();
 		//obj.div(5);
 	}
