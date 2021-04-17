@@ -20,8 +20,7 @@ public class UpperNLowerCaseCountCharacters {
 	public static void main(String[] args) {
 		UpperNLowerCaseCountCharacters upperNLowerCaseCountCharacters = new UpperNLowerCaseCountCharacters();
 		// String Value =upperNLowerCaseCountCharacters.upperNLowerCaseCountCharacters("TeCHnoSessionS");
-		
-        // String Value1 =upperNLowerCaseCountCharacters.upperNLowerCaseCountCharacters("TECHNOSessionS");
+		// String Value1 =upperNLowerCaseCountCharacters.upperNLowerCaseCountCharacters("TECHNOSessionS");
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please Enter Input Name: ");
