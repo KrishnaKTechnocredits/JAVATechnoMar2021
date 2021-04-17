@@ -1,35 +1,27 @@
 package kangan.assignments.assignment_12;
 
 public class StudentGrade {
-	    static double averageres1;
-	  
+	   
 	double sum(double num1, double num2, double num3) {
 		double sum = num1+num2+num3;
-		System.out.println(sum);
 		return sum;
 	}
 
 	double average(double num1, double num2, double num3) {
-		//double averageres = (num1+num2+num3)/3;
-		double result= sum(num1,num2,num3);
-		double averageres = result/3;
-		System.out.println(averageres);
-		averageres1 = averageres;
-		return averageres;
+		double avg = sum(num1,num2,num3)/3;
+		return avg;
 		
 	}
-	boolean isAnswerAboveExpecation(double averageres) {
-		if (averageres>50) {
-			System.out.println("Above expectation");
+	boolean isAnswerAboveExpecation(double avg) {
+		if (avg>50) {
 			return true;
 		}
 		else {
-			System.out.println("Below expectation");
 			return false;
 		}
 	}
-	static boolean isEligible(double averageres) {
-		if (averageres>50 || averageres%2==0) {
+	static boolean isEligible(double avg) {
+		if (avg>50 || avg%2==0) {
 			System.out.println("Eligible");
 			return true;
 		}
@@ -39,26 +31,28 @@ public class StudentGrade {
 		}
 		
 	}
-	static String getYourGrade(double averageres) {
-		if (averageres>80) {
-			System.out.println("Grade A");
+	static String getYourGrade(double avg) {
+		if (avg>80) {
 			return "A grade";
 		}
 		else {
-			System.out.println("Grade B");
 			return "B grade";
 		}
 	}
 	public static void main(String[] args) {
 		
 		StudentGrade studentGrade1 = new StudentGrade();
-		studentGrade1.average(100,100,90);
+		double finalAvg = studentGrade1.average(0,10,90);
+		System.out.println(finalAvg);
 		
-		StudentGrade studentGrade2 = new StudentGrade();
-	    studentGrade2.isAnswerAboveExpecation(averageres1);
+		StudentGrade.isEligible(finalAvg);
+		System.out.println(StudentGrade.isEligible(finalAvg));
 		
-	    StudentGrade.isEligible(averageres1);
-	    StudentGrade.getYourGrade(averageres1);
+		StudentGrade.getYourGrade(finalAvg);
+		System.out.println(StudentGrade.getYourGrade(finalAvg));
+		
+		studentGrade1.isAnswerAboveExpecation(finalAvg);
+		System.out.println(studentGrade1.isAnswerAboveExpecation(finalAvg));
 		
 	}
 }
