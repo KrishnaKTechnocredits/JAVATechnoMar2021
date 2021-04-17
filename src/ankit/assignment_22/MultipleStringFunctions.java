@@ -1,4 +1,4 @@
-package assignment_22;
+package ankit.assignment_22;
 
 public class MultipleStringFunctions {
 
