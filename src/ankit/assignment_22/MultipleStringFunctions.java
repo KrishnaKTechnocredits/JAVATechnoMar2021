@@ -61,6 +61,4 @@ c) Find all character frequency from each name given in String array.
               y -> 1 time in aarya
          ====================
          And so on....	-------------------------------
-
-Guys, please confirm assignment number - it should be 22, correct ?
  */
