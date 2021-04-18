@@ -21,12 +21,19 @@ public class FindCharFrequency {
 	}
 
 	public static void main(String[] args) {	
-		FindCharFrequency chrFreq=new FindCharFrequency();
+	/*	FindCharFrequency chrFreq=new FindCharFrequency();
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please enter string:");
 		String my_str = scanner.nextLine();
 		System.out.println("Please enter target char:");
 		char ch = scanner.nextLine().charAt(0);
-		System.out.println("Frequency of " + ch + " is: " + chrFreq.getCharFrequency(my_str,ch));
+		System.out.println("Frequency of " + ch + " is: " + chrFreq.getCharFrequency(my_str,ch));*/
+		int cnt1=0;
+		for(int i=0;i<3;i++) {			
+			for(int j=0;j<i;j++) {
+				cnt1++;
+			}
+			System.out.println(cnt1++);
+		}
 	}
 }
