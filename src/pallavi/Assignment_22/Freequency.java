@@ -18,7 +18,7 @@ public class Freequency {
 
 	void freqOfTargetChar(String word, char targetChar) {
 		int count = 0;
-		for (int index = 0; index < word.length(); index++) {
+		for (int index = 0; index < word.length(); index++) {	
 			char ch = word.charAt(index);
 			if (ch == targetChar)
 				count++;
@@ -41,7 +41,7 @@ public class Freequency {
 			System.out.println("-----------------------------------------------------------------");
 			allCharFrequency(arr[index]);
 		}
-
+		
 	}
 
 	public static void main(String[] args) {
@@ -49,9 +49,9 @@ public class Freequency {
 		String name1 = "aakanksha";
 		String arr[] = { "raj", "aarya", "aavruti", "shruti" };
 		Freequency freequency = new Freequency();
-		// freequency.freqOfTargetChar(name, 'e');
-		// freequency.allCharFrequency(name1);
-		freequency.freOfArray(arr);
+		 freequency.freqOfTargetChar(name, 'e');
+		//freequency.allCharFrequency(name1);
+		//freequency.freOfArray(arr);
 
 	}
 
