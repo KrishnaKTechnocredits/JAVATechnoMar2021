@@ -27,6 +27,7 @@ public class MaxMin {
 	public static void main(String[] a) {
 		MaxMin maxMin = new MaxMin();
 		int[] input = new int[5];
+	
 		for (int index=0; index<input.length; index++)
 		{
 			System.out.println("Enter number : "+index);

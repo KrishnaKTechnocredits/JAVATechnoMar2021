@@ -23,6 +23,7 @@ public class AllCharFreqString {
 	public static void main(String[] a) {
 		AllCharFreqString allCharFreqString = new AllCharFreqString();
 		String[] input = {"raj", "aarya", "aavruti", "shruti"};
+		
 		allCharFreqString.CheckAllNames(input);
 	}
 
