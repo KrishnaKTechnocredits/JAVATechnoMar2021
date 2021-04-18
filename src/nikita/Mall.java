@@ -16,10 +16,10 @@ public class Mall {
 	 name=nme;
 	 
  }
- void paymentDoneUsing(String paymentdone1)
+ void paymentDoneUsing(String cash, String visacard)
  {
 
-
+     
  }
  
  
@@ -50,7 +50,7 @@ void haveCarryBag(boolean carry)
 {
 carrybag=carry;
 if(carrybag==true)
-	System.out.println("Need carrubag");
+	System.out.println("Need carry4bag");
 else
 	System.out.println("Dont need CarryBag");
 }
@@ -60,12 +60,10 @@ public static void main(String args[])
 	Mall m= new Mall();
 	m.itemAddedToCart(12);
 	m.customerName("Harsh");
-	m.paymentDoneUsingVisa("visacard");
+	//m.paymentDoneUsingVisa("visacard");
 	m.needBill(true);
 	m.haveCarryBag(false);
 	m.displayCustomerInfo();
-	
-	
 	
 }
 
