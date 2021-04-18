@@ -6,7 +6,7 @@ public class SumOfDigitOfString {
 		int sum=0;
 		for (int index=0;index<str.length();index++) {
 			if (Character.isDigit(str.charAt(index)))
-				sum+=str.charAt(index)-48;
+				sum+=Character.getNumericValue(str.charAt(index));
 		}
 		System.out.println("Sum of Digits of String is "+sum);
 	}
