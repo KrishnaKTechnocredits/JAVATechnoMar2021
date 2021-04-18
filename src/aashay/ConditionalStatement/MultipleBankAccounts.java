@@ -25,7 +25,7 @@ SBI
 
  */
 
-import java.util.Scanner;
+
 
 public class MultipleBankAccounts {
 	double iciciBalance = 5000;
@@ -114,8 +114,7 @@ public class MultipleBankAccounts {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String operation = null;
-		String bankName = null;
+		 
 		MultipleBankAccounts multipleBankAccounts = new MultipleBankAccounts();
 //USe below commented code for run time user inputs
 	/*	
