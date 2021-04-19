@@ -44,7 +44,6 @@ public class ArrayCodingExam1 {
 			break;
 		}
 
-		// System.out.println("My selected arrays :" + tempArr[0] + tempArr[1]);
 		return tempArr;
 	}
 

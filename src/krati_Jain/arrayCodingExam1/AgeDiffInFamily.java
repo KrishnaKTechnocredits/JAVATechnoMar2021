@@ -18,7 +18,6 @@ public class AgeDiffInFamily {
 
 	void setData() {
 
-		AgeDiffInFamily ageDiffInFamily = new AgeDiffInFamily();
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Provide the length of the array you want to create? (should be a whole number) : ");
 		int arrLeng = scan.nextInt();
@@ -29,45 +28,31 @@ public class AgeDiffInFamily {
 			inputArr[index] = scan.nextInt();
 		}
 
-		int minAgefound = validatingMinAge(inputArr);
-		int maxAgefound = validatingMaxAge(inputArr);
+		validatingMinMaxAge(inputArr);
 
-		if (minAgefound < maxAgefound) {
-			int ageDiff = (maxAgefound - minAgefound);
-			System.out.println("Age Difference between a Younger and an elder member of the family is: " + ageDiff);
-		}
-
-		else {
-			int ageDiff = (minAgefound - maxAgefound);
-			System.out.println("Age Difference between a Younger and an elder member of the family is: " + ageDiff);
-
-			// System.out.println(minAgefound + " " + maxAgefound);
-
-		}
 	}
 
-	int validatingMinAge(int[] inputArr) {
+	void validatingMinMaxAge(int[] inputArr) {
 		int minAge = inputArr[0];
+		int maxAge = inputArr[0];
 		int index = 0;
 		int count = 0;
 		for (index = 1; index < inputArr.length; index++) {
-			if ((inputArr[index]) < minAge) {
+			if ((inputArr[index]) < minAge)
 				minAge = inputArr[index];
-			}
 
-		}
-		return minAge;
-	}
-
-	int validatingMaxAge(int[] inputArr) {
-		int maxAge = inputArr[0];
-		for (int index = 1; index < inputArr.length; index++) {
-			if ((inputArr[index]) > maxAge) {
+			else
 				maxAge = inputArr[index];
-			}
+
 		}
 
-		return maxAge;
+		if (minAge < maxAge)
+			System.out.println(
+					"Age Difference between a Younger and an elder member of the family is: " + (maxAge - minAge));
+
+		else
+			System.out.println(
+					"Age Difference between a Younger and an elder member of the family is: " + (minAge - maxAge));
 
 	}
 
