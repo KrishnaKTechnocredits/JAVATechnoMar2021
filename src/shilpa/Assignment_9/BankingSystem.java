@@ -23,58 +23,54 @@ public class BankingSystem {
 	int debitAmt;
 	int creditAmt;
 	String name;
-	int debitAttempt=0;
-	int creditAttempt=0;
-	int printAttempt=0;
+	int debitAttempt = 0;
+	int creditAttempt = 0;
+	int printAttempt = 0;
 	static int totalDebitAttempt;
 	static int totalCreditAttempt;
 	static int totalPrintAttempt;
 
-// ***********************Method to Credit amount*************************************	
+	// *******************Method to Credit amount**********************************
 
-	void Credit(String custname,int amount) {
+	void Credit(String custname, int amount) {
 		creditAmt = amount;
 		name = custname;
 
-		if(creditAmt>0)
-		{
-			totalbal=totalbal+creditAmt;
+		if (creditAmt > 0) {
+			totalbal = totalbal + creditAmt;
 			creditAttempt++;
 			totalCreditAttempt++;
-		}else 
-		{
+		} else {
 			System.out.println("credit amount cannot be 0 , please enter valid amount");
 		}
 	}
-// ***********************Method to Debit amount*************************************
-	void Debit(String custname,int amount) {
+
+	// ****************Method to Debit amount*******************************
+	void Debit(String custname, int amount) {
 		debitAmt = amount;
 		name = custname;
-		if(debitAmt==0)
-		{
+		if (debitAmt == 0) {
 			System.out.println("Debit amount cannot be 0, please enter valid Amount");
-		}else if(debitAmt>totalbal)
-		{
-			System.out.println("insufficient balance, Available balance is "+totalbal);
-		}else
-		{
-		totalbal = totalbal - debitAmt;
-		debitAttempt++;
-		totalDebitAttempt++;
+		} else if (debitAmt > totalbal) {
+			System.out.println("insufficient balance, Available balance is " + totalbal);
+		} else {
+			totalbal = totalbal - debitAmt;
+			debitAttempt++;
+			totalDebitAttempt++;
 		}
-
 	}
-// ***********************Method to Print Balance*************************************
+
+	// **********Method to PrintBalance************************
 	void PrintBal() {
-		System.out.println("Current Balance is:- "+totalbal);
+		System.out.println("Current Balance is:- " + totalbal);
 		printAttempt++;
 		totalPrintAttempt++;
 	}
 
-// ***********************Method to Print Individual Transaction Summary***************
-	void individualTransactionSummary()
-	{
-		System.out.println(name+" Transaction Summery:- "+"Credit "+creditAttempt+ " times," +"Debit "+debitAttempt+ " times,"+" Printbalance "+printAttempt+" times.");
+	// **************Method to Print Individual Transaction Summary***************
+	void individualTransactionSummary() {
+		System.out.println(name + " Transaction Summery:- " + "Credit " + creditAttempt + " times," + "Debit "
+				+ debitAttempt + " times," + " Printbalance " + printAttempt + " times.");
 	}
 
 
@@ -89,9 +85,9 @@ public class BankingSystem {
 		BankingSystem bankingSystem1 = new BankingSystem();
 		BankingSystem bankingSystem2 = new BankingSystem();
 		bankingSystem1.Credit("Customer1", 2000);
-		bankingSystem1.Debit("Customer1",500);
+		bankingSystem1.Debit("Customer1", 500);
 		bankingSystem1.Credit("Customer1", 500);
-		bankingSystem1.Debit("Customer1",200);
+		bankingSystem1.Debit("Customer1", 200);
 		bankingSystem1.PrintBal();
 		bankingSystem1.individualTransactionSummary();
 
