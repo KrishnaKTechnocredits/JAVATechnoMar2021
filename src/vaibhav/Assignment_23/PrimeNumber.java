@@ -1,6 +1,8 @@
 /*Java Assignment 23:  18th April 2021
 
-1.	Validate whether given number is prime or not.*/
+1.	Validate whether given number is prime or not.
+
+*/
 
 package vaibhav.Assignment_23;
 
