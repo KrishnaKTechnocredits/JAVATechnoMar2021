@@ -11,20 +11,24 @@ Sample Output: 55 */
 
 public class AgeDifference {
 
-	int[] age= {7,12,56,62,25};
-	int difference;
-	int outputIndex=0;
-	
-	void differenceOfAge() {
-		for(int index=0;index<age.length;index++) {
-			difference=age[3]-age[0];
+	void differenceOfAge(int[] num) {
+		
+		int min=num[0];
+		int max=num[0];
+		for(int index=1;index<num.length;index++) {
+			if(max>num[index])
+				max=num[index];
+			if(min<num[index])
+				min=num[index];
 		}
+		System.out.println("The age difference is:"+(min-max));
 	}
 	
 	public static void main(String[] args) {
+		int [] num= {7,12,56,62,25};
 		AgeDifference ad=new AgeDifference();
-		ad.differenceOfAge();
-		System.out.println("Age difference is:"+ad.difference);
+		ad.differenceOfAge(num);
+		
 	}
 }
 
