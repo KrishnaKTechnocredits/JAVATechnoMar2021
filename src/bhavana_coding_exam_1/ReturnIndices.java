@@ -11,20 +11,19 @@ Output: Because nums[0] + nums[3] == 9, we return [0, 3]*/
 
 public class ReturnIndices {
 
-	int nums[]= {2,11,15,7,4};
-	int target;
+	int nums[]= {1,2,5,8,10};
+	int target=9;
 	int output[]=new int[2];
 	int outputIndex;
 	
 	int[] indicesReturn() {
 	for(int index=0;index<nums.length;index++) {
-			if(index==0) {
-				output[outputIndex]=index;
-				outputIndex++;
+		for(int innerIndex=index+1;innerIndex<nums.length;innerIndex++) {
+			if(nums[index]+nums[innerIndex]==target) {
+				output[0]=index;
+				output[1]=innerIndex;
 			}	
-			if(index==3)
-				output[outputIndex]=index;
-	
+		}
 	}
 	
 	return output;
