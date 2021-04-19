@@ -6,7 +6,7 @@ output : c l d
 Note:  for name having even length, consider length/2-1 index is middle character.
  */
 
-package ankit.assignment_23;
+package ankit.assignment_24;
 
 public class MiddleCharInString {
 	
