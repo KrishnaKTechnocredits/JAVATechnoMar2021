@@ -36,7 +36,7 @@ public class PrintFirstFivePrimeNumber {
 
 	public static void main(String[] args) {
 		PrintFirstFivePrimeNumber printFirstFivePrimeNumber = new PrintFirstFivePrimeNumber();
-		int[] primeNumArr = printFirstFivePrimeNumber.primeNumberInRange(10, 100, 9);
+		int[] primeNumArr = printFirstFivePrimeNumber.primeNumberInRange(10, 100, 5);
 		for( int index = 0 ; index < primeNumArr.length; index++) {
 			System.out.println(primeNumArr[index]);
 		}
