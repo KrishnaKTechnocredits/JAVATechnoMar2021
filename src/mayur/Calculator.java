@@ -1,3 +1,4 @@
+package mayur;
 class Calculator
 {
 	int x=20;

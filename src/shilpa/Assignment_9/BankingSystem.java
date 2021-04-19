@@ -1,5 +1,5 @@
 /*Assignment 9 : 2nd April 2021
-Create a Banking System which has the following functionality.
+
 Create two object to perform below scenario.
 1) Method to debit amount
 2) Method to credit amount
@@ -9,12 +9,14 @@ Hint : Create 3 non static instance variable.
 Output :
 user1 transaction summary : Credit - 2 times, Debit - 1 times, printBalance - 1 time
 user2 transaction summary : Credit - 5 times, Debit - 2 times, printBalance - 0 time
+
 5) allTransactionSummary() method should show by both users total how many times debit, credit & printBalance method get called.
 Hint : Create 3 static variables will be required.
 Output :
 All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 time*/
 
-package shilpa.Assignment_9;
+package shilpa;
+
 
 public class BankingSystem {
 	int totalbal;
@@ -71,11 +73,13 @@ public class BankingSystem {
 				+ debitAttempt + " times," + " Printbalance " + printAttempt + " times.");
 	}
 
-	// ***************Method to print overall transaction Summary******************
-	void allTransactionSummary() {
-		System.out.println("All transaction Summery:- Credit " + totalCreditAttempt + " times," + " Debit - "
-				+ totalDebitAttempt + " times, " + "printBalance - " + totalPrintAttempt + " time");
+
+// ***********************Method to print overall transaction Summary******************
+	void allTransactionSummary(){
+		System.out.println("All transaction Summery:- Credit "+totalCreditAttempt+ " times,"+" Debit - " +totalDebitAttempt+" times, "+"printBalance - " +totalPrintAttempt+" time");
+
 	}
+
 
 	public static void main(String[] args) {
 		BankingSystem bankingSystem1 = new BankingSystem();
