@@ -18,9 +18,7 @@ public class Shop {
 	void customer(int maggieOrder, int dosaOrder, int oilOrder, int panipuriOrder, int masalaOrder) {
 		if (maggieQuantity == 0) {
 			System.out.println("Maggie Packets running out of stock");
-		}
-
-		else if (maggieQuantity < maggieOrder) {
+		} else if (maggieQuantity < maggieOrder) {
 			int remainingmaggy = maggieOrder - maggieQuantity;
 			System.out.println("Sorry we have only " + maggieQuantity + " packets of maggie available, please purchase "
 					+ remainingmaggy + " Packets later.");
@@ -28,7 +26,6 @@ public class Shop {
 		} else {
 			maggieQuantity = maggieQuantity - maggieOrder;
 		}
-
 		if (dosaQuantity == 0) {
 			System.out.println("Dosa Packets running out of stock");
 		} else if (dosaQuantity < dosaOrder) {
@@ -39,7 +36,6 @@ public class Shop {
 		} else {
 			dosaQuantity = dosaQuantity - dosaOrder;
 		}
-
 		if (oilQuantity == 0) {
 			System.out.println("Oil Packets running out of stock");
 		} else if (oilQuantity < oilOrder) {
@@ -77,16 +73,13 @@ public class Shop {
 	}
 
 	void OutOfStockItems() {
-
 		System.out.println("Out of stock items");
 		if (maggieQuantity == 0) {
 			System.out.println("Maggie");
 		}
-
 		if (dosaQuantity == 0) {
 			System.out.println("Dosa Packets");
 		}
-
 		if (oilQuantity == 0) {
 			System.out.println("Oil Packets");
 		}
@@ -98,7 +91,6 @@ public class Shop {
 		if (masalaQuantity == 0) {
 			System.out.println("Masala Packets");
 		}
-
 	}
 
 	void ItemsInStock() {
@@ -106,23 +98,18 @@ public class Shop {
 		if (maggieQuantity > 0) {
 			System.out.println("Maggie Packets - " + maggieQuantity);
 		}
-
 		if (dosaQuantity > 0) {
 			System.out.println("Dosa Packets - " + dosaQuantity);
 		}
-
 		if (oilQuantity > 0) {
 			System.out.println("Oil Packets - " + oilQuantity);
 		}
-
 		if (panipuriQuantity > 0) {
 			System.out.println("Panipuri Packets - " + panipuriQuantity);
 		}
-
 		if (masalaQuantity > 0) {
 			System.out.println("Masala Packets - " + masalaQuantity);
 		}
-
 	}
 
 	public static void main(String[] args) {
@@ -133,7 +120,5 @@ public class Shop {
 		shop.OutOfStockItems();
 		System.out.println(" ");
 		shop.ItemsInStock();
-
 	}
-
 }

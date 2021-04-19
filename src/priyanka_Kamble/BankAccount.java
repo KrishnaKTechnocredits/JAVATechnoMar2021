@@ -1,7 +1,5 @@
 package priyanka_Kamble;
 
-
-
 /**Assignment 3 : 23rd March 2021
 
 1. Create a class called BankAccount, which has 3 methods.

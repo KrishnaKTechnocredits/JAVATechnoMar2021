@@ -1,5 +1,4 @@
 package priyanka_Kamble;
-
 /**
 4. Create a class named as ITProfessional which contain below methods  
         a. empName()  

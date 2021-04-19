@@ -1,4 +1,3 @@
-// print all detail of student like,
 // Name,Middle name,Surname,BirthDate,Address,and Roll Number
 package monali;
 
