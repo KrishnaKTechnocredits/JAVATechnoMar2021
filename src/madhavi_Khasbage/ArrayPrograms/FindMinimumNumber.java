@@ -12,17 +12,13 @@ public class FindMinimumNumber {
 
 	int findMinimumNum(int[] arr) {
 		int temp = 0;
-		int arrLength = arr.length;
+		int min = arr[0];
 		for (int index = 0; index < arr.length; index++) {
-			for (int i = index + 1; i < arr.length; i++) {
-				if (arr[index] < arr[i]) {
-					temp = arr[index];
-					arr[index] = arr[i];
-					arr[i] = temp;
-				}
+			if (arr[index] < min) {
+				min = arr[index];
 			}
-		}
-		return arr[arrLength - 1];
+		}		
+		return min;
 	}
 
 	public static void main(String[] args) {
