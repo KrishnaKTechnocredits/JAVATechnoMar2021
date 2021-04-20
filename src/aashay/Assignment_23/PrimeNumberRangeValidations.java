@@ -1,4 +1,22 @@
 package aashay.Assignment_23;
+/*
+ * Assignment - 23 : 18th April'2021
+
+Write a program with different method to satisfy following requirement.
+1) validate whether given number is prime or not.
+2) print all the prime numbers given range.
+input : 40 to 100
+output :
+3) count all the prime numbers given range.
+input : 2 to 100
+output :
+4) sum of all the prime numbers given range.
+input : 2 to 100
+output :
+5) Average of all the prime numbers given range.
+input : 2 to 100
+output :
+ */
 
 import java.util.Scanner;
 
