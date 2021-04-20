@@ -4,10 +4,11 @@ public class MaximumDigits {
 	String getMaximumDigits(String[] arr){
 		char c;
 		String maxDigitString="";
-		int maxDigitCount=0 , count=0;
+		int maxDigitCount=0;
 		
 		for(int outIndex=0;outIndex<arr.length;outIndex++) {
 			String str = arr[outIndex];
+			int count=0;
 			for(int innIndex=0;innIndex<str.length();innIndex++) {
 				c=str.charAt(innIndex);
 				if(Character.isDigit(c)) {
