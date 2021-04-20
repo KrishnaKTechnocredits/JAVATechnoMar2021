@@ -108,7 +108,7 @@ public class PrimeNumberRangeValidations {
 		int num;
 		PrimeNumberRangeValidations primeNumberRangeValidations = new PrimeNumberRangeValidations();
 		Scanner scan = new Scanner(System.in);
-	/*	System.out.println("Enter numberto validate if it is Prime:");
+		System.out.println("Enter numberto validate if it is Prime:");
 		num =Integer.parseInt(scan.next()); 
 		primeNumberRangeValidations.primeNumber(num);
 		
@@ -126,7 +126,7 @@ public class PrimeNumberRangeValidations {
 		System.out.println("Enter max number:");
 		int max2 = Integer.parseInt(scan.next());
 		primeNumberRangeValidations.sumPrimeRange(min2,max2);
-	*/	
+		
 		System.out.println("Enter range to get average of Prime numbers:");
 		System.out.println("Enter min number:");
 		int min3 = Integer.parseInt(scan.next());
