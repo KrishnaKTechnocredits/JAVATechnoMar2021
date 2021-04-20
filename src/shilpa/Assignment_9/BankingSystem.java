@@ -15,8 +15,7 @@ Hint : Create 3 static variables will be required.
 Output :
 All transaction summary : Credit - 7 times, Debit - 3 times, printBalance - 1 time*/
 
-package shilpa;
-
+package shilpa.Assignment_9;
 
 public class BankingSystem {
 	int totalbal;
@@ -73,13 +72,13 @@ public class BankingSystem {
 				+ debitAttempt + " times," + " Printbalance " + printAttempt + " times.");
 	}
 
-
-// ***********************Method to print overall transaction Summary******************
-	void allTransactionSummary(){
-		System.out.println("All transaction Summery:- Credit "+totalCreditAttempt+ " times,"+" Debit - " +totalDebitAttempt+" times, "+"printBalance - " +totalPrintAttempt+" time");
+	// ***********************Method to print overall transaction
+	// Summary******************
+	void allTransactionSummary() {
+		System.out.println("All transaction Summery:- Credit " + totalCreditAttempt + " times," + " Debit - "
+				+ totalDebitAttempt + " times, " + "printBalance - " + totalPrintAttempt + " time");
 
 	}
-
 
 	public static void main(String[] args) {
 		BankingSystem bankingSystem1 = new BankingSystem();
