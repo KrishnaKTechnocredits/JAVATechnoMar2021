@@ -3,7 +3,7 @@ input : 10,23,23,44,23,10,23,4,23
 target number : 23         
 output : Freq of 23 is 4
 */
-package shashank_array;
+package shashank_array_17_18;
 
 public class ArrayFrequencyNum {
 

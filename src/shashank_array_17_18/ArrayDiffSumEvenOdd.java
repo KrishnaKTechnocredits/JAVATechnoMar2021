@@ -8,7 +8,7 @@
 	}
 */
 
-package shashank_array;
+package shashank_array_17_18;
 
 public class ArrayDiffSumEvenOdd {
 

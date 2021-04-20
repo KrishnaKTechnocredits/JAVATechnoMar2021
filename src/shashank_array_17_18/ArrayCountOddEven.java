@@ -4,7 +4,7 @@ output : even -> 3
       odd ->  array.length - evenCount
 */
 
-package shashank_array;
+package shashank_array_17_18;
 
 public class ArrayCountOddEven {
 
