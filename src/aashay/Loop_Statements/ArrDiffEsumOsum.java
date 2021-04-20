@@ -9,7 +9,7 @@ package aashay.Loop_Statements;
 		
 		}*/
 
-import java.util.Scanner;
+
 
 public class ArrDiffEsumOsum {
 	int evenSum, oddSum, arrDiffEsumOsum;
