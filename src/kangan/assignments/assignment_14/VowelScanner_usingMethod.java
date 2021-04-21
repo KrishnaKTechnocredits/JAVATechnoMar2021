@@ -4,30 +4,30 @@ import java.util.Scanner;
 
 public class VowelScanner_usingMethod {
 	
-	public void isVowel(char X) {
-		switch(X) {
+	public void isVowel(char x) {
+		switch(x) {
 		case 'A':
 		case 'a':
-			System.out.println(X + " is a Vowel");
+			System.out.println(x + " is a Vowel");
 			break;
 		case 'E':
 		case 'e':
-			System.out.println(X + " is a Vowel");
+			System.out.println(x + " is a Vowel");
 			break;
 		case 'I':
 		case 'i':
-			System.out.println(X + " is a Vowel");
+			System.out.println(x + " is a Vowel");
 			break;
 		case 'O':
 		case 'o':
-			System.out.println(X + " is a Vowel");
+			System.out.println(x + " is a Vowel");
 			break;
 		case 'U':
 		case 'u':
-			System.out.println(X + " is a Vowel");
+			System.out.println(x + " is a Vowel");
 			break;
 		default:
-			System.out.println(X + " is not a Vowel");
+			System.out.println(x + " is not a Vowel");
 			break;
 		}
 	}

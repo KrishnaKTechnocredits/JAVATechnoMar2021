@@ -37,6 +37,7 @@ public class VowelUsingScanner {
 		System.out.println("Enter the character:");
 		String c = scan.next();
 		vowelscanner.vowel(c);
+		scan.close();
 		
 	}
 
