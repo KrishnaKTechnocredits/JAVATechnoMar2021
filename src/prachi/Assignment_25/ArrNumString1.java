@@ -1,4 +1,4 @@
-package prachi.Assignment_23;
+package prachi.Assignment_25;
 
 /*Assignment - 25 : 18th April'2021
  * Program 2: Write a method which will return all String from given array which contains atleast one number. Main method should print the output.

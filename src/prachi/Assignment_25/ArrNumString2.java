@@ -1,4 +1,4 @@
-package prachi.Assignment_23;
+package prachi.Assignment_25;
 
 /*Program 3: Write a method which will return sum of each all numbers in each String. Main method should print the output.
 Input : {"Tech1No2Credits3", "Ha6rs8h", "Ra9dh3a", "Sha1sha5nk9","Kan3gan4", "1Sandesh3"}

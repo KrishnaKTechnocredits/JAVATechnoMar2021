@@ -1,4 +1,4 @@
-package prachi.Assignment_23;
+package prachi.Assignment_25;
 
 /*Program 1: Write a method which will return first 5 prime numbers from given range. Main method should print the output.
 Input : Start Index -> 10
