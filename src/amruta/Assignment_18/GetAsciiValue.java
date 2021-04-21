@@ -13,7 +13,7 @@ public class GetAsciiValue {
 	}
 	
 	void getasciivalue() {
-		 int ch1 = 'B';
+		 int ch1 = 'B';  // directly assigned char value to int so it will print ascii value
 		System.out.println("Ascii Value of B : "+ch1);
 	}
 		

@@ -14,8 +14,8 @@ public class GetCharacter {
 	
 	void getCharacter(){
 		
-		char ch = 122 ;		
-		System.out.println("Character for given Value : "+ch);	
+		char ch = 122 ;		// directly assigned int value to char so it will print character
+		System.out.println("Character for given Value : "+ch);
 	} 
 	
 	public static void main(String[] args) {
