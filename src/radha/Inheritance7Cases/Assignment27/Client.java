@@ -1,7 +1,6 @@
 package radha.Inheritance7Cases.Assignment27;
 
 public class Client {
-
 	public static void main(String[] args) {
 		System.out.println("*****Output of Case 1*****");
 		Parent p = new Parent();
@@ -79,8 +78,5 @@ public class Client {
 		c4.m2();
 		c4.m3();*/
 		System.out.println("Compilation error, as we are assigning parent class obj into child class reference");
-
-
 	}
-
 }
