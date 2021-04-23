@@ -12,17 +12,15 @@ public class StringMiddleChar {
 		return arr;
 	} 
 	 
-	void display(char[] arr) {
-		 for(int index=0; index<arr.length;index++) { 
-			 System.out.println(arr[index]);
-		 }
-	}
+
 	public static void main(String[] args) {
 		StringMiddleChar stringMiddleChar=new StringMiddleChar();
 		String[] arr= {"Techno", "Hello", "Credits"};
 		char[] result=new char[arr.length];
 		result=stringMiddleChar.findMiddleChar(arr);
-		stringMiddleChar.display(result);
+		 for(int index=0; index<result.length;index++) { 
+			 System.out.println(result[index]);
+		 }
 	}
 
 }
