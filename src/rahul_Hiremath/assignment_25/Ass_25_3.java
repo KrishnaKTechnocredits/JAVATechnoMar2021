@@ -17,7 +17,7 @@ public class Ass_25_3 {
 					sum = sum + num;
 				}
 			}
-			System.out.print(" " +sum);
+			System.out.print(sum + " ");
 			sum = 0;
 		}
 	}
