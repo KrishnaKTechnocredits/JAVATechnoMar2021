@@ -13,13 +13,14 @@ public class IntegerNumArray {
 	int[] getSum(int[] num) {
 		int [] arr=new int[num.length];
 		for(int index=0; index<num.length;index++) {
-			for(int innerIndex=0; innerIndex<num.length;innerIndex++) {
-				if(index!=innerIndex) {
+			for(int innerIndex=index+1; innerIndex<num.length;innerIndex++) {
+				//if(index!=innerIndex) {
 					if(num[index]+num[innerIndex]==targetNum) {
 							arr[count]=index;
+							arr[++count]=innerIndex;
 							count++;
 					}
-				}
+				//}
 			}
 		} 
 		return arr;
