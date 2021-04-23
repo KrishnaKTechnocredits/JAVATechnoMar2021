@@ -1,4 +1,3 @@
-
 package sangeeta.ScannerPrograms;
 
 import java.util.Scanner;
