@@ -17,7 +17,7 @@ public class Ass_25_1 {
 					break;
 				}
 			}
-			if (flag == true) {
+			if (flag) {
 				count++;
 				if (count <= 5)
 					System.out.println(start);
@@ -30,5 +30,4 @@ public class Ass_25_1 {
 		Ass_25_1 ass_25_1 = new Ass_25_1();
 		ass_25_1.listOfPrimeNos(10, 50);
 	}
-
 }
