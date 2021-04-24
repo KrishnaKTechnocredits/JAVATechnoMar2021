@@ -12,7 +12,7 @@ package radha.CodingTest1;
 
 public class Program2 {
 	
-	int getMaxAge(int[] num) {
+	/*int getMaxAge(int[] num) {
 		int maxAge = num[0];
 		for(int index=1; index < num.length;index++) {
 			if(maxAge < num[index]) 
@@ -28,18 +28,26 @@ public class Program2 {
 				minAge=num[index];
 		}
 		return minAge;
-	}
+	}*/
 	
-	int getAgeDifference(int minAge, int maxAge) {
+	int getAgeDifference(int[] num) {
+		int maxAge = num[0];
+		int minAge = num[0];
+		for(int index=1; index < num.length;index++) {
+			if(maxAge < num[index]) 
+				maxAge=num[index];
+		}
+		for(int index=1; index < num.length;index++) {
+			if(minAge > num[index]) 
+				minAge=num[index];
+		}
 		return maxAge-minAge;
 	}
 	
 	public static void main(String[] args) {
 		Program2 program2 = new Program2();
 		int[] age = {7,12,56,62,25};
-		int maximumAge = program2.getMaxAge(age);
-		int minimumAge = program2.getMinAge(age);
-		int ageDiff = program2.getAgeDifference(minimumAge, maximumAge);
+		int ageDiff = program2.getAgeDifference(age);
 		System.out.println("Age difference between eldest and youngest member of a family is "+ageDiff);
 	}
 }
