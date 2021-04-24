@@ -16,18 +16,15 @@ package radha.CodingTest1;
 public class Program1 {
 	
 	int[] returnIndices(int[] numArr, int targetNum) {
-		int[] output = new int [2];
-		int outputIndex=0; 
-		for(int index=numArr.length-1; index >= 0;index--) {
-			for(int innerIndex=0; innerIndex < numArr.length;innerIndex++) {
+		for(int index=0; index <= numArr.length;index++) {
+			for(int innerIndex = index+1; innerIndex < numArr.length;innerIndex++) {
 				int temp = numArr[index]+numArr[innerIndex];
 				if(temp==targetNum) {
-					output[outputIndex] = innerIndex;
-					outputIndex++;
+					return new int []{index, innerIndex};
 				}
 			}
 		}
-		return output;
+		return new int [] {};
 	}
 	
 	public static void main(String[] args) {
