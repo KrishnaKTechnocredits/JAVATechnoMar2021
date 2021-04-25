@@ -14,22 +14,22 @@ public class LogicForCharAsciiValues {
 		System.out.println(c1+d);
 		System.out.println(i+id);
 		
-		Character.getNumericValue(d);
+	//	Character.getNumericValue(d);
 		
-	//	char sum = '0';
+		int sum = 0;
 		for(int index=0;index<input.length();index++) {
-			char c = input.charAt(index);
-			if(c>=48 && c<=57) {
-				System.out.println(c);
-//				()
+			int c = input.charAt(index);
+			if(c>48 && c<=57) {
+				sum+=(c-48);
 			}
 		}
-	//	System.out.println(sum);
+		System.out.println(sum);
+		System.out.println((char)58);
 	}
 	
 	public static void main(String[] args) {
 		LogicForCharAsciiValues obj = new LogicForCharAsciiValues();
-		obj.getOutput("J7yu9y8h1h8j4b7j3jjb6");
+		obj.getOutput("A");
 	}
 	
 }

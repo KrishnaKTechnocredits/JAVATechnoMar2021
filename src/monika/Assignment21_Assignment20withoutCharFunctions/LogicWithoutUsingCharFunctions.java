@@ -45,14 +45,17 @@ public class LogicWithoutUsingCharFunctions {
 			char c = (char)i;
 			System.out.println("-------lower Alphabets : "+c);
 		}
+		int i = 'a';
+		char c = 19;
 	}
+	
 	
 	static void getOutput(String input) {
 		int digitCount = 0, letterCount = 0, upperCount = 0, lowerCount = 0, specialCharCount = 0;
 		
 		for(int index=0;index<input.length();index++) {
 			char ch = input.charAt(index);
-			if(ch >=48 && ch <=57)
+			if(ch >48 && ch <=57)
 				digitCount++;
 			else if(ch >= 65 && ch<=90 || ch>=97 && ch<=122 ) {
 				letterCount++;
