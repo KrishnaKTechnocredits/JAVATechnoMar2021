@@ -18,10 +18,14 @@ public class FindSumOfIntegersInString {
 						str2 += String.valueOf(str.charAt(innerIndex));
 						if (innerIndex == str.length() - 1) {
 							index = innerIndex;
-						}
+						} else
+							index = innerIndex - 1;
 					} else {
 						if (innerIndex < str.length() - 1) {
 							index = innerIndex;
+							flag = false;
+						} else {
+							index = innerIndex - 1;
 							flag = false;
 						}
 					}
