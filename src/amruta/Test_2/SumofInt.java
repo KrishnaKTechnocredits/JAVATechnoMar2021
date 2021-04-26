@@ -10,7 +10,7 @@ package amruta.Test_2;
 
 public class SumofInt {
 
-	int getSumofInt(String str) {
+	void getSumofInt(String str) {
 		int sum = 0;
 		String string = "";
 
@@ -24,12 +24,11 @@ public class SumofInt {
 				else {
 					string = string + str.charAt(index);
 					sum = sum + Integer.parseInt(string);		// Converting String to integer
-					string = " ";
+					string = "";
 				}
 			}
 		}
-		System.out.println("Sum of all digits from String = " + sum);
-		return sum;
+		System.out.println("Sum of all digits from String = " + sum);	
 	}
 
 	public static void main(String[] args) {
