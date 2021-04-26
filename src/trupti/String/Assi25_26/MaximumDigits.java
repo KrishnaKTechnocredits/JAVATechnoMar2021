@@ -1,5 +1,9 @@
 package trupti.String.Assi25_26;
+/*Assignment - 26 : 19th April'2021
 
+Program 1: Write a method which will return a string containing maximum digits.
+Input : {"P1u2r2va", "1K2omal", "9S4hivan4i4", "1K2r3ati", "4M4a5d5h1v1i93"}
+Output : 4M4a5d5h1v1i93 */
 public class MaximumDigits {
 	String getMaximumDigits(String[] arr){
 		char c;
