@@ -57,8 +57,6 @@ public static void main(String args[]) {
 	getYourGrade(ans);
 
 	
-	
-	
 }
 	
 			
