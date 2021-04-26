@@ -21,7 +21,7 @@ public class FindSumOfIntegersInString {
 						} else
 							index = innerIndex - 1;
 					} else {
-						if (innerIndex < str.length() - 1) {
+						if (innerIndex == str.length() - 1) {
 							index = innerIndex;
 							flag = false;
 						} else {
@@ -33,7 +33,7 @@ public class FindSumOfIntegersInString {
 						break;
 				}
 				sumOfIntegers += Integer.parseInt(str2);
-			}
+			} 
 		}
 		return sumOfIntegers;
 	}
