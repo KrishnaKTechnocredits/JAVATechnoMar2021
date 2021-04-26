@@ -7,30 +7,35 @@ WAP to do sum of all the integer from the given string
 Input: String str = "12h14i4w8sdc15"
 Output: 12+14+4+8+15 = 53
 package ravindra_J.coding_exam_2;
-*/
+ */
 public class SumOfInteger {
+	int sum, num;
+	int getSumOfInteger(String str){
+		String concateDigit = "0";
+		for (int j = 0; j < str.length(); j++) {
+			char ch = str.charAt(j);
 
-	 void getSumOfInterger(String str1){
-		int sum =0;
-		for (int index = 0; index < str1.length(); index++) {
-			char ch = str1.charAt(index);
 			if(Character.isDigit(ch)) {
-				String st = String.valueOf(ch);
-				int st1= Integer.parseInt(st);
-				
-				sum = sum+st1;
+				concateDigit = concateDigit+ch;				
+				num = Integer.parseInt(String.valueOf(concateDigit));
 			}
+			else {
+				int num = Integer.parseInt(String.valueOf(concateDigit)); 
+				sum += num;
+				concateDigit = "0";
+			}
+
 		}
-		System.out.println("Sum of integer from string is -->" +sum);
-		
+		return sum += num;
 	}
-	
-	
+
+
 	public static void main(String[] args) {
 		SumOfInteger integersum= new SumOfInteger();
 		String str = "12h14i4w8sdc15";
-		
-		integersum.getSumOfInterger(str);
+		int displaySum= integersum.getSumOfInteger(str);	
+		System.out.println(displaySum);
+
 
 	}
 
