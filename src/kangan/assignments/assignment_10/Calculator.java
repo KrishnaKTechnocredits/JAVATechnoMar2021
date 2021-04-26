@@ -1,4 +1,4 @@
-package kangan.assignments.assignment10;
+package kangan.assignments.assignment_10;
 
 public class Calculator {
 
