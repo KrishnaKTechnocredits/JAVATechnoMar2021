@@ -10,14 +10,22 @@ import java.util.Scanner;
 
 public class CodingExam2 {
 
-	void sumOfIntegersInString(String str) {
-		int digitstr = 0;
+	int sumOfIntegersInString(String str) {
+		int digitsum = 0;
+		char ch;
+		String temp = "";
 		for (int index = 0; index < str.length(); index++) {
-			if (Character.isDigit(str.charAt(index)))
-				digitstr = str.charAt(index);
+			ch = str.charAt(index);
+			boolean isDigit = Character.isDigit(ch);
+			if (isDigit)
+				temp = temp + ch;
+			else {
+				digitsum = digitsum + Integer.parseInt(temp);
+				temp = "0";
+			}
 		}
-		System.out.println("Sum of digits in a string is "+digitstr);
-
+		digitsum = digitsum + Integer.parseInt(temp);
+		return digitsum;
 	}
 
 	public static void main(String[] a) {
@@ -25,7 +33,8 @@ public class CodingExam2 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter string ");
 		String str = scanner.next();
-		codingExam2.sumOfIntegersInString(str);
+		int output = codingExam2.sumOfIntegersInString(str);
+		System.out.println("Sum of digits in a string is "+output);
 	}
 
 }
