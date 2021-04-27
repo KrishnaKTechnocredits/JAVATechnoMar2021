@@ -7,35 +7,21 @@ Output: 12+14+4+8+15 = 53*/
 public class FindSumOfIntegersInString {
 
 	int getSumOfIntegersInString(String str) {
-		int sumOfIntegers = 0;
+		String tempStr = "0";
+		int sum = 0;
 		for (int index = 0; index < str.length(); index++) {
 			char ch = str.charAt(index);
-			boolean flag = true;
 			if (Character.isDigit(ch)) {
-				String str2 = String.valueOf(ch);
-				for (int innerIndex = index + 1; innerIndex < str.length(); innerIndex++) {
-					if (Character.isDigit(str.charAt(innerIndex))) {
-						str2 += String.valueOf(str.charAt(innerIndex));
-						if (innerIndex == str.length() - 1) {
-							index = innerIndex;
-						} else
-							index = innerIndex - 1;
-					} else {
-						if (innerIndex == str.length() - 1) {
-							index = innerIndex;
-							flag = false;
-						} else {
-							index = innerIndex - 1;
-							flag = false;
-						}
-					}
-					if (flag == false)
-						break;
+				tempStr += ch;
+				if (index == str.length() - 1) {
+					sum += Integer.parseInt(tempStr);
 				}
-				sumOfIntegers += Integer.parseInt(str2);
-			} 
+			} else {
+				sum += Integer.parseInt(tempStr);
+				tempStr = "0";
+			}
 		}
-		return sumOfIntegers;
+		return sum;
 	}
 
 	public static void main(String[] args) {
