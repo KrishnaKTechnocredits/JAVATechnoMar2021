@@ -13,7 +13,7 @@ public class CodingExam2 {
 	int sumOfIntegersInString(String str) {
 		int digitsum = 0;
 		char ch;
-		String temp = "";
+		String temp = "0";
 		for (int index = 0; index < str.length(); index++) {
 			ch = str.charAt(index);
 			boolean isDigit = Character.isDigit(ch);
