@@ -21,13 +21,13 @@ public class NumberGame {
 		B = b;
 		C = c;
 		
-		if( a > b && a > c )
+		if( a > b && a > c ) {
 			System.out.println("maximum number is : " + a);
-		else if(b > a && b > c)
+		}else if(b > a && b > c) {
 			System.out.println("maximum number is : " + b);
-		else if(c > a && c > b )
+		}else if(c > a && c > b ) {
 			System.out.println("maximum number is : " + c);
-		else if(a == b && a == c && b==c)
+		}else if(a == b && a == c && b==c)
 		 System.out.println("Maximum number could not found, All given numbers are equals");
 	}
 
