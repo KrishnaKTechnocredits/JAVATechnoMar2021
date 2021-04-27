@@ -8,7 +8,7 @@ Output: 12+14+4+8+15 = 53*/
 
 public class Coding_Exam_2 {
 
-	void Sum(String input) {
+	void sumOfDigitsInString(String input) {
 		String temp = "";
 		int sum = 0;
 
@@ -32,8 +32,8 @@ public class Coding_Exam_2 {
 
 	public static void main(String[] a) {
 
-		Coding_Exam_2 digitSum = new Coding_Exam_2();
+		Coding_Exam_2 sumOfDigits = new Coding_Exam_2();
 		String str = "12h14i4w8sdc15";
-		digitSum.Sum(str);
+		sumOfDigits.sumOfDigitsInString(str);
 	}
 }
