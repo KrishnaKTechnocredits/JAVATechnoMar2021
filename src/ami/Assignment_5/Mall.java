@@ -5,15 +5,16 @@ public class Mall {
 	int item;
 	String card;
 	String section ;
-	
+
+
 	void customerName(String cutName1) {
 		 cstName = cutName1;
 	 }
-	
+
 	void itemAddedToCart(int item1) {
 		item = item1;
 	}
-	
+
 	 void paymentDoneUsing(String card1) {
 		 card = card1; 
 	}
@@ -30,7 +31,7 @@ public class Mall {
 		 }else
 	 		System.out.println("pay by any card");
 	 }
-	 
+
 	 void displayCutomerInfo() {
 			System.out.println(cstName + " buys " + item + " items and payment done using "  + card + " in section " + section);	
 	}
@@ -39,22 +40,20 @@ public class Mall {
 		Boolean	bill = bill1;
 		System.out.println("need carry bag : " + bill);	
 	}
-	
+
 	void haveCarryBag(Boolean bag1) {
 		Boolean bag = bag1;
 		System.out.println("Required CarryBag :" + bag);
 	}
-	
+
 	public static void main(String[] a) {
 		Mall mall = new Mall();
 			mall.customerName("keta");
 			mall.itemAddedToCart(5);
-			mall.paymentDoneUsing("case");
+			mall.paymentDoneUsing("cash");
 			mall.decideSection();
 			mall.displayCutomerInfo();
 			mall.needBill(true);
 			mall.haveCarryBag(false);					
 		}	
 }
-	
-

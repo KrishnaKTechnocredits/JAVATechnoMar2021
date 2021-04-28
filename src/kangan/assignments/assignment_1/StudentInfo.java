@@ -1,4 +1,4 @@
-package kangan.assignments.assignment1;
+package kangan.assignments.assignment_1;
 
 public class StudentInfo {
    String Name = "Kangan";

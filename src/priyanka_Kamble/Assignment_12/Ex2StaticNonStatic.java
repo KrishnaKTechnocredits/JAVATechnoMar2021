@@ -1,4 +1,5 @@
-package priyanka_Kamble.Assignment12;
+//package priyanka_Kamble.Assignment12;
+package priyanka_Kamble.Assignment_12;
 
 public class Ex2StaticNonStatic {
 	double N1, N2, N3;

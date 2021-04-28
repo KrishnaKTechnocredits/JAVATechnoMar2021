@@ -8,27 +8,27 @@ if all numbers are same print "Maximum number could not found, All given numbers
 b. findMinNumber()
 method should take 3 parameters and print the minimum number from given 3 numbers.
 if all numbers are same print "Minimum number could not found, All given numbers equal numbers".
-
  */
 
 public class NumberGame {
 	int A;
 	int B;
 	int C;
-	
-	void findMaxNumber(int a , int b, int c){
+
+  void findMaxNumber(int a , int b, int c){
 		A = a;
 		B = b;
 		C = c;
 		
-		if( a > b && a > c )
+		if( a > b && a > c ) {
 			System.out.println("maximum number is : " + a);
-		else if(b > a && b > c)
+		}else if(b > a && b > c) {
 			System.out.println("maximum number is : " + b);
-		else if(c > a && c > b )
+		}else if(c > a && c > b ) {
 			System.out.println("maximum number is : " + c);
-		else if(a == b && a == c && b==c)
-		 System.out.println("Maximum number could not found, All given numbers are equals");
+		}else if(a == b && a == c && b==c)
+
+		System.out.println("Maximum number could not found, All given numbers are equals");
 	}
 
 	void findMinNumber() {
@@ -41,8 +41,8 @@ public class NumberGame {
 		else if(A == B && A == C && B == C)
 		 System.out.println("Minimum number could not found, All given numbers equal numbers");
 	}
-	
-	public static void main(String[] a) {
+
+  public static void main(String[] a) {
 		NumberGame numberGame = new NumberGame();
 		numberGame.findMaxNumber(12,52,80);
 		numberGame.findMinNumber();	
