@@ -1,10 +1,10 @@
 package ami;
 
-public class Example1{
-	int empId = 10; 
+class Example1{
+	int empId = 10; // global variable // instant variable
 	
 	void updateEmpId(){
-		empId = 100;
+		empId = 100; // it's not a variable only value change // when 1st we add data type then consider as local variable
 		System.out.println(empId);
 	}
 	

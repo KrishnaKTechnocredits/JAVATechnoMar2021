@@ -11,13 +11,13 @@ f. displayInformation()
 */
 
 public class ITProfessional {
-	
+
 	String empName;
 	boolean party;
 	boolean tea;
 	boolean coffee;
 	boolean alcoho;
-	
+
 	void empName(String empName1) {
 		empName = empName1;
 	}

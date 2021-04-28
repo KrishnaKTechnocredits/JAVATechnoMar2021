@@ -26,13 +26,12 @@ public class Human {
 	void humanAge(int humanAge) {
 		hmnAge = humanAge;
 	}
-	
-	void showDetails() {
+
+  void showDetails() {
 		System.out.println("Name of Human is : " + hmnName);
 		System.out.println("Is human spea : " + hmnSpk);
 		System.out.println("Age of Human is : " + hmnAge);
 	}
-	
 	public static void main(String[] a) {
 		Human human = new Human();
 		human.humanName("Lata");
@@ -41,5 +40,4 @@ public class Human {
 		human.showDetails();
 
 	}
-
 }

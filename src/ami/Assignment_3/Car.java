@@ -1,5 +1,4 @@
 /*Create a class named Car, which contains method like below
-
 		a. setcompanyName  
  	 	b. setIsCarAutomatic  
  	 	c. setCarSpeed  
@@ -7,7 +6,6 @@
 
 
 package ami.Assignment_3;
-	
 
 public class Car {
 	String companyName;
@@ -24,12 +22,6 @@ public class Car {
 	
 	void setCarSpeed(double speed1) {
 		 speed = speed1;
-	}
-	
-	void displaySpecification() {
-		System.out.println("Your Company Name : " + companyName);
-		System.out.println("is their car mode Auto : " + CarAuto);
-		System.out.println("What is the normal speed of a car? : " + speed);
 	}
 	
 	public static void main(String[] a) {
