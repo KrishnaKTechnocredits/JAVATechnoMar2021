@@ -12,10 +12,10 @@ public class A {
 		int y = 12;
 
 		void m1() {
-			System.out.println("Class A M1 Method Called");
+			System.out.println("Class A M1 Method will Call");
 		}
 		void m2() {
-			System.out.println("Class A M2 Method Called");
+			System.out.println("Class A M2 Method will Call");
 		}
 }
 
