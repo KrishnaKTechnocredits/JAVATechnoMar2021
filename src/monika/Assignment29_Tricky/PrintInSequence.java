@@ -10,12 +10,13 @@ Hint : (45+5+111)FTTERTccde(12+56)-- 161/ 68*/
 package monika.Assignment29_Tricky;
 
 public class PrintInSequence {
-	String s = "";
-	int n = 0;
-	int sumEven = 0;
-	int sumOdd = 0;
-
-	void getSequence(String input) {
+	
+		String getSequence(String input) {
+			String s = "";
+			int n = 0;
+			int sumEven = 0;
+			int sumOdd = 0;
+			String sReturn = "";
 		for (int index = 0; index < input.length(); index++) {
 			if (Character.isDigit(input.charAt(index))) {
 				s += input.charAt(index);
@@ -29,10 +30,17 @@ public class PrintInSequence {
 						sumOdd += n;
 						s = "";
 				}
-			}
+			}if (!s.equals("")) {
+				n = Integer.parseInt(s);
+				if (n % 2 == 0) {
+					sumEven += n;
+				} else
+					sumOdd += n;
 		}
 		
-		sumOdd+""+sumEven;
+		sReturn = sumOdd+""+sumEven;
+		return sReturn;
+		}
 	}
 
 	String getLetters(String input) {
@@ -43,15 +51,17 @@ public class PrintInSequence {
 			} else if (Character.isLowerCase(input.charAt(index)))
 				d += input.charAt(index);
 		}
-		System.out.println(s + d);
 		return s + d;
 
 	}
 
 	public static void main(String[] args) {
 		PrintInSequence obj = new PrintInSequence();
-		obj.getSequence("F12TT45ERT5cc56de111");
-		// obj.getLetters("F12TT45ERT5cc56de111");
+		String s = "", d = "";
+		s = obj.getSequence("F12TT45ERT5cc56de111");
+		d = obj.getLetters("F12TT45ERT5cc56de111");
+		System.out.println(s+d);
+		
 	}
 
 }
