@@ -1,4 +1,5 @@
-package priyanka_Kamble.ExampleOfStaticNonStatic;
+//package priyanka_Kamble.ExampleOfStaticNonStatic;
+package priyanka_Kamble.Assignment_11;
 
 public class StaticNonStaticA {
 	void methodM1() {

@@ -21,31 +21,31 @@ public class ITProfessional {
 	void empName(String empName1) {
 		empName = empName1;
 	}
-
+	
 	void doesPartyOnWeekend(boolean Party1) {
 		party = Party1;
 	}
-
+	
 	void isAddictedToTea(boolean Tea1) {
 		tea = Tea1;
 	}
-
+	
 	void isAddictedToCoffee(boolean Coffee1) {
-		coffee = Coffee1;
+		 coffee = Coffee1;
 	}
-
+	
 	void isAddictedToAlcohol(boolean Alcohol) {
-		alcoho = Alcohol;
+		 alcoho = Alcohol;
 	}
-
+	
 	void displayInformation() {
 		System.out.println("Your Company Name : " + empName);
-		System.out.println("Party On Weekend : " + party);
-		System.out.println("Addicted To Tea : " + tea);
-		System.out.println("Addicted To Coffee :" + coffee);
-		System.out.println("Addicted To Alcohol :" + alcoho);
+		System.out.println("Party On Weekend :" + party);
+		System.out.println("Addicted To Tea " + tea);
+		System.out.println("Addicted To Coffee : " + coffee);
+		System.out.println("Addicted To Alcohol" + alcoho);
 	}
-
+	
 	public static void main(String[] a) {
 		ITProfessional iTProfessional = new ITProfessional();
 		iTProfessional.empName("Ami Lakkad");
