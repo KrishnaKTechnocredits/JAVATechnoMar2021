@@ -15,6 +15,7 @@ public class Ass_29_1 {
 		String temp = "";
 		int sum = 0;
 		int evenNos = 0;
+		int even = 0;
 		int oddNos = 0;
 		String uppercase = "";
 		String lowercase = "";
@@ -40,7 +41,11 @@ public class Ass_29_1 {
 				lowercase = lowercase + ch;
 		}
 		if (!temp.equals(""))
-			oddNos = oddNos + Integer.parseInt(temp);
+			even = Integer.parseInt(temp);
+			if ( even % 2 == 0)
+				evenNos = evenNos + even;
+			else
+				oddNos = oddNos + Integer.parseInt(temp);
 		String finalString = oddNos + uppercase + lowercase + evenNos;
 		return finalString;
 	}
@@ -48,7 +53,7 @@ public class Ass_29_1 {
 	public static void main(String[] args) {
 
 		Ass_29_1 ass_29_1 = new Ass_29_1();
-		String str = "F12TT45ERT5cc56de111";
+		String str = "F12TT45ERT5cc56de111r12p9d500";
 		String expString = ass_29_1.getDigits(str);
 		System.out.println("Expected string is: " + expString);
 	}
