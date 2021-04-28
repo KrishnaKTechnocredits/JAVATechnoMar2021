@@ -6,6 +6,7 @@ public class Mall {
 	String card;
 	String section ;
 
+
 	void customerName(String cutName1) {
 		 cstName = cutName1;
 	 }
@@ -49,7 +50,7 @@ public class Mall {
 		Mall mall = new Mall();
 			mall.customerName("keta");
 			mall.itemAddedToCart(5);
-			mall.paymentDoneUsing("case");
+			mall.paymentDoneUsing("cash");
 			mall.decideSection();
 			mall.displayCutomerInfo();
 			mall.needBill(true);
