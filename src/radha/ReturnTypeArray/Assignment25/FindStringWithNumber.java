@@ -9,11 +9,13 @@ public class FindStringWithNumber {
 
 	String[] findStringWithNumber(String[] str) {
 		String[] output = new String[str.length];
+		int count = 0;
 		for (int index = 0; index < str.length; index++) {
 			for (int strIndex = 0; strIndex < str[index].length(); strIndex++) {
 				char letter = str[index].charAt(strIndex);
 				if (Character.isDigit(letter)) {
-					output[index] = str[index];
+					output[count] = str[index];
+					count++;
 					break;
 				}
 			}

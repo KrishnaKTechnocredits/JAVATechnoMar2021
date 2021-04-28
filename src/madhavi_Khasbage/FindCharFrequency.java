@@ -31,6 +31,6 @@ public class FindCharFrequency {
 		System.out.print("Enter a character : ");
 		char ch = scanner.next().charAt(0);
 		System.out.println("Occurrence of character " + ch + " in the string is: " + charFeq.charFrequencyCount(str, ch));
-		scanner.close();
+		scanner.close();		
 	}
 }
