@@ -10,13 +10,12 @@ Hint : (45+5+111)FTTERTccde(12+56)-- 161/ 68*/
 package monika.Assignment29_Tricky;
 
 public class PrintInSequence {
-	
-		String getSequence(String input) {
-			String s = "";
-			int n = 0;
-			int sumEven = 0;
-			int sumOdd = 0;
-			String sReturn = "";
+	int sumEven = 0;
+	int sumOdd = 0;
+
+	void getSequence(String input) {
+		String s = "";
+		int n = 0;
 		for (int index = 0; index < input.length(); index++) {
 			if (Character.isDigit(input.charAt(index))) {
 				s += input.charAt(index);
@@ -28,18 +27,16 @@ public class PrintInSequence {
 						s = "";
 					} else
 						sumOdd += n;
-						s = "";
+					s = "";
 				}
-			}if (!s.equals("")) {
+			}
+			if (index == input.length() - 1) {
 				n = Integer.parseInt(s);
 				if (n % 2 == 0) {
 					sumEven += n;
 				} else
 					sumOdd += n;
-		}
-		
-		sReturn = sumOdd+""+sumEven;
-		return sReturn;
+			}
 		}
 	}
 
@@ -52,16 +49,12 @@ public class PrintInSequence {
 				d += input.charAt(index);
 		}
 		return s + d;
-
 	}
-
 	public static void main(String[] args) {
 		PrintInSequence obj = new PrintInSequence();
-		String s = "", d = "";
-		s = obj.getSequence("F12TT45ERT5cc56de111");
+		String d = "";
+		obj.getSequence("F12TT45ERT5cc56de111");
 		d = obj.getLetters("F12TT45ERT5cc56de111");
-		System.out.println(s+d);
-		
+		System.out.println(obj.sumOdd + d + obj.sumEven);
 	}
-
 }
