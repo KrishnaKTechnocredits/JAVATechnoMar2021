@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class FindTheFreq {
 	int count=0;
 	
-	void charFreq(String str, char ch) {
+	public void charFreq(String str, char ch) {
 		
 		String name = str.toLowerCase();
 		char letter = Character.toLowerCase(ch);
