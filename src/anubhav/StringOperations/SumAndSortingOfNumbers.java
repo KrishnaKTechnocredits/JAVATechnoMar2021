@@ -25,7 +25,6 @@ public class SumAndSortingOfNumbers { // 12,45,5,56,111
 				tempLowerString = tempLowerString + input.charAt(index);
 			}
 		}
-
 		for (int indexNew = 1; indexNew < input.length(); indexNew++) {
 			if (Character.isDigit(input.charAt(indexNew))) {
 				tempNumberString = tempNumberString + input.charAt(indexNew);
@@ -41,12 +40,12 @@ public class SumAndSortingOfNumbers { // 12,45,5,56,111
 				}
 			}
 		}
-		int number2= Integer.parseInt(tempNumberString)	;
+		int number2 = Integer.parseInt(tempNumberString);
 		if (number2 % 2 == 0) {
-				evenSum = evenSum + number2;
-			} else {
-				oddSum = oddSum + number2;
-			}
+			evenSum = evenSum + number2;
+		} else {
+			oddSum = oddSum + number2;
+		}
 		System.out.println(oddSum + tempUpperString + tempLowerString + evenSum);
 	}
 
