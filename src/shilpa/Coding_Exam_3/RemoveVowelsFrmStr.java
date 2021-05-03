@@ -7,7 +7,7 @@ package shilpa.Coding_Exam_3;
 
 public class RemoveVowelsFrmStr {
 	boolean isVowel(char ch) {
-		if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+		if (ch == 'a' || ch=='A'||ch == 'e' ||ch=='E'|| ch == 'i'||ch=='I' || ch == 'o'||ch=='O' || ch == 'u'||ch=='U') {
 			return true;
 		} else
 			return false;
@@ -24,8 +24,8 @@ public class RemoveVowelsFrmStr {
 
 	public static void main(String[] args) {
 		RemoveVowelsFrmStr removeVowelsFrmStr = new RemoveVowelsFrmStr();
-		String output = removeVowelsFrmStr.getStringWithoutVowels("globant india test automation engineer");
-		System.out.println("Output = " + output);
+		String output = removeVowelsFrmStr.getStringWithoutVowels("globant indiAa test automation engineer");
+		System.out.println("input = globant indiAa test automation engineer"+"\nOutput= " + output);
 	}
 
 }
