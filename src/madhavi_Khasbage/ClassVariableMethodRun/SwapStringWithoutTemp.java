@@ -17,6 +17,6 @@ public class SwapStringWithoutTemp {
 
 	public static void main(String[] args) {
 		SwapStringWithoutTemp swapStr=new SwapStringWithoutTemp();
-		swapStr.swapString("Java","Selenium");
+		swapStr.swapString("SQL","Agile");
 	}
 }
