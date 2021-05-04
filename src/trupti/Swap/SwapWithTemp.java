@@ -1,5 +1,7 @@
 package trupti.Swap;
-
+/*program 1: swap 2 numbers using temporary variable.
+input : x = 10 , y = 20;
+output : x = 20, y = 10*/
 public class SwapWithTemp {
 	void getSwapNum() {
 		int x=10;

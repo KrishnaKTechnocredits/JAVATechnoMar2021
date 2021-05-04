@@ -1,5 +1,7 @@
 package trupti.Swap;
-
+/*program 2: swap 2 numbers without using temporary variable.
+input : x = 10 , y = 20;
+output : x = 20, y = 10*/
 public class SwapWithoutTempVar {
 	
 	void getSwapNumWithoutTemp() {
