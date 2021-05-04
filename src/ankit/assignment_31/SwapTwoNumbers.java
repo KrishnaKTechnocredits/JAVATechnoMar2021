@@ -10,8 +10,6 @@ output : x = 20, y = 10
 
 Hint : think on some arithmetic calculation.
 */
-
-
 class SwapTwoNumbers {
 
 	void swapNumbers(int x , int y){
@@ -30,11 +28,8 @@ class SwapTwoNumbers {
 		x = x+y;
 		y=x-y;
 		x=x-y;
-		System.out.println("New values of X :"+x+" and Y: "+y);
-		
+		System.out.println("New values of X :"+x+" and Y: "+y);		
 	}
-
-
 
 public static void main(String[] args){
 	SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
