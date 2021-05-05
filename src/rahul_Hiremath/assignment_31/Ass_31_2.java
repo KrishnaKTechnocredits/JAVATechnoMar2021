@@ -7,10 +7,11 @@ package rahul_Hiremath.assignment_31;
 public class Ass_31_2 {
 
 	void swap(int x, int y) {
+		System.out.println("Actual X: " + x + " and Y: " + y);
 		x = x + y;
 		y = x - y;
 		x = x - y;
-		System.out.println("X: " + x + " Y: " + y);
+		System.out.println("Swapped X: " + x + " and Y: " + y);
 	}
 
 	public static void main(String[] args) {

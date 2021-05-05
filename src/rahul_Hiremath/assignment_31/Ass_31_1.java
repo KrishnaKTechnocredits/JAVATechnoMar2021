@@ -8,10 +8,11 @@ public class Ass_31_1 {
 	int temp;
 
 	void swap(int x, int y) {
+		System.out.println("Actual X: " + x + " and Y: " + y);
 		temp = x;
 		x = y;
 		y = temp;
-		System.out.println("value of X: " + x + " and value of Y: " + y);
+		System.out.println("Swapped X: " + x + " and Y: " + y);
 	}
 
 	public static void main(String[] args) {
