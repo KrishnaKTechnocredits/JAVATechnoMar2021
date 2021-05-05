@@ -1,5 +1,10 @@
 package madhavi_Khasbage.ClassVariableMethodRun;
 
+/*program 2: swap 2 numbers without using temporary variable.
+input : x = 10 , y = 20;
+output : x = 20, y = 10
+*/
+
 public class SwapTwoNum1 {
 	void swapNum(int num1, int num2) {
 		System.out.println("Input:x=" + num1 + ",y=" + num2);
