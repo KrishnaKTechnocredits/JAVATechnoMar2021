@@ -37,7 +37,6 @@ public class StringOperation {
 					}
 				}
 			}
-
 			if(Character.isUpperCase(c))
 				upperCase+=c;
 			else if(Character.isLowerCase(c))
