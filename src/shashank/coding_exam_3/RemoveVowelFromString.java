@@ -1,4 +1,4 @@
-package shashank_coding_exam_3;
+package shashank.coding_exam_3;
 
 public class RemoveVowelFromString {
 
