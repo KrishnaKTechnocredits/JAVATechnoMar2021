@@ -17,10 +17,10 @@ public class CharFreq {
 		CharFreq charFreq = new CharFreq();
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter String:- ");
-		//String input = scanner.next();
-		String str = scanner.nextLine();
+		String str = scanner.next();
+		//String str = scanner.nextLine();
 		System.out.println("Enter Character you want to check occurance");
-		String str1 = scanner.nextLine();
+		String str1 = scanner.next();
 		char ch = str1.charAt(0);
 		charFreq.getCharFreq(str, ch);
 		scanner.close();
