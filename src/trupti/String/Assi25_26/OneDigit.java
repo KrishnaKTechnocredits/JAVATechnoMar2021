@@ -1,5 +1,7 @@
 package trupti.String.Assi25_26;
-
+/*Program 2: Write a method which will return all String from given array which contains atleast one number. Main method should print the output.
+Input : {"TechnoCredits", "HP1w", "Pd3R4K9", "Krishna", "Aashvi25"}
+Output : HP1w Pd3R4K9 Aashvi25*/
 public class OneDigit {
 
 	String getDigit (String str) {

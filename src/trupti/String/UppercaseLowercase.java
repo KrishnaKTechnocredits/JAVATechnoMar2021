@@ -1,5 +1,9 @@
 package trupti.String;
-
+/* Assignment 19:  14th April'2021
+Program 1: Write a method which will return "Techno" if Uppercase character count is higher then LowerCase character count, otherwise 
+return "Credits". Print output in main method.
+input : TeCHnoSessionS
+output : Credits*/
 import java.util.Scanner;
 
 public class UppercaseLowercase {
