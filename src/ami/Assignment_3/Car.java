@@ -7,8 +7,6 @@
 
 package ami.Assignment_3;
 
-import assignment_3.Car;
-
 public class Car {
 	String companyName;
 	boolean CarAuto;
