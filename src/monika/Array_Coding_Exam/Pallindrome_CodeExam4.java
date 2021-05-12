@@ -28,9 +28,12 @@ public class Pallindrome_CodeExam4 {
 	}
 
 	public static void main(String[] args) {
-		String[] arr = new String[5];
+		String[] arr;
 		arr = getPallindrome("Hi MAM hello NamaN techno");
-		System.out.println(arr[0] + " " + arr[1]);
+		for(int index = 0;index<arr.length;index++) {
+			if(arr[index]!= null)
+			System.out.println(arr[index]);
+		}
 	}
 
 }
