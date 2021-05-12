@@ -11,7 +11,6 @@ public class CheckPalindrome {
 	}
 
 	private boolean checkPalindromeWord(String word) {
-		boolean flag   = false;
 		StringBuffer sb = new StringBuffer(word);
 		sb.reverse();
 
