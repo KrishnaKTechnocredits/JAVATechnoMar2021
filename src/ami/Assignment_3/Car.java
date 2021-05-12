@@ -35,6 +35,6 @@ public class Car {
 		car.setcompanyName("Scoda");
 		car.setIsCarAutomatic(false);
 		car.setCarSpeed(650.5689);
-		//car.displaySpecification();
+		car.displaySpecification();
 	}
 }
