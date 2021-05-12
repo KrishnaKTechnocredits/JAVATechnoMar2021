@@ -1,5 +1,6 @@
 /*Assignment - 29 : 27th April'2021
 
+
 Write the program to generate output in below format.
 -> sum of all odd numbers + capital letter + small letter + sum of all even numbers
 input : F12TT45ERT5cc56de111
