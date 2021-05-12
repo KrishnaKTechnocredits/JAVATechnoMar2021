@@ -74,15 +74,15 @@ public class Shop {
 	}
 	
 	void outOfStock() {
-		if (maggie <= 0)
+		if (maggie != 0)
 			System.out.println("maggie Out of stock");
-		if (Dosa <= 0)
+		if (Dosa != 0)
 			System.out.println("Dosa Out of stock");
-		if (pouches <= 0)
+		if (pouches != 0)
 			System.out.println("pouches Out of stock");
-		if (panipuri <= 0)
+		if (panipuri != 0)
 			System.out.println("panipuri Out of stock");
-		if (masala <= 0)
+		if (masala != 0)
 			System.out.println("masala Out of stock");
 	}
 	
