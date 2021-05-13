@@ -13,7 +13,8 @@ public class ReverseWord {
 				temp = "";
 			}
 		}
-		System.out.print(finalstr.toString().trim());
+		StringBuffer sb1 = new StringBuffer(temp+" ");
+		System.out.println(finalstr.append(sb1.reverse()).toString());
 	}
 
 	StringBuffer reverStr(String temp) {
