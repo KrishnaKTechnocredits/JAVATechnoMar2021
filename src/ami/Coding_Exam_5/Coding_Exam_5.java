@@ -10,7 +10,7 @@ output : ih olleh woh era uoy
 package ami.Coding_Exam_5;
 
 public class Coding_Exam_5 {
-	
+
 	public void reverseWord(String str) {
 		String[] words = str.split(" ");
 		String reversedString = "";
@@ -18,7 +18,7 @@ public class Coding_Exam_5 {
 			String word = words[index];
 			String reverseWord = "";
 			for (int j = word.length() - 1; j >= 0; j--) {
-			reverseWord = reverseWord + word.charAt(j);
+				reverseWord = reverseWord + word.charAt(j);
 			}
 			reversedString = reversedString + reverseWord + " ";
 		}
@@ -32,4 +32,3 @@ public class Coding_Exam_5 {
 	}
 
 }
-
