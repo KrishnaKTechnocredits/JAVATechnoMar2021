@@ -26,12 +26,11 @@ public class ReverseStringWords {
 			String reverseWord = getReverseOfWord(strArr[index]);
 			output = output + " " + reverseWord;
 		}
-		System.out.println(output);
+		System.out.println(output.trim());
 	}
 
 	public static void main(String[] args) {
 		ReverseStringWords reverseStringWords = new ReverseStringWords();
 		reverseStringWords.reverseString("hi hello how are you");
 	}
-
 }
