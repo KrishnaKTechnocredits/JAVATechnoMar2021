@@ -18,10 +18,13 @@ public class ReverseString {
 		String []input=str.split(" ");
 		String output="";
 		for(int index=0;index<input.length;index++) {
-			String returnString=reversestring.getReverseWordString(input[index]);
-			output=output+" "+returnString;
+			System.out.println(index +" : "+input[index]); 
+			if(!input[index].equals("")) {
+				String returnString=reversestring.getReverseWordString(input[index].trim());
+				output=output+" "+returnString;
+			}
 		}
-		System.out.println("Output String is :"+output);
+		System.out.println("Output String is :"+output.trim());
 		scanner.close();
 	}
 
