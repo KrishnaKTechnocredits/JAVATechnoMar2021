@@ -15,7 +15,7 @@ output : 8
 package ankit.coding_exam_7;
 
 public class ReturnMissingNumber {
-	
+
 	int getSumofMissingNumber(int[] intArr){
 		int sumOfMissingNo = 0;
 		for(int index = 1; index <= 10 ; index++) {
@@ -51,7 +51,7 @@ public class ReturnMissingNumber {
 		}
 		return maxNum;		
 	}
-	
+
 	int sumUsingMathFunction(int[] intArr, int sRange, int eRange) {
 		int sum = (eRange*(eRange+1))/2;
 		int sumArr = 0;
@@ -59,9 +59,7 @@ public class ReturnMissingNumber {
 			sumArr +=  intArr[index];	
 		}
 		return sum-sumArr;
-		
-		
-		
+
 	}
 
 	public static void main(String[] args) {
