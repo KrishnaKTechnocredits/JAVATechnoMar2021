@@ -23,10 +23,9 @@ public class FindMissingNumbers {
 		return originalArrSum - arrSum;
 	}
 
-	int findMaxMissingNumber(int[] arr) {
-		int[] originalArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-		int maxVar = originalArr[0];
+	int findMaxMissingNumber(int[] arr) {		
 		int[] missingArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		int maxVar = missingArr[0];
 		Arrays.sort(missingArr);
 		for (int index = missingArr.length - 1; index > 0; index--) {
 			boolean flag = false;
