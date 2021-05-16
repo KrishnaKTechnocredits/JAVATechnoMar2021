@@ -32,7 +32,7 @@ public class SumOfMissingNum {
 	}
 
 	int getHigestMissNum(int[] arr) {
-		int higestNum = 0;
+		int higestNum = 1;
 		boolean isMissing = true;
 		for (int index = 1; index <= 10; index++) {
 			isMissing = true;
@@ -42,11 +42,10 @@ public class SumOfMissingNum {
 					break;
 				}
 			}
-			if (isMissing == true) {
-				if (higestNum > index) {
+			if (isMissing == true) {				
+				if (index >higestNum) {					
 					higestNum = index;
-				}
-				higestNum = index;
+				}				
 			}
 		}
 		return higestNum;
@@ -54,7 +53,7 @@ public class SumOfMissingNum {
 
 	public static void main(String[] args) {
 		SumOfMissingNum sumOfMissingNum1 = new SumOfMissingNum();
-		int[] arr = { 1, 3, 4, 7, 9, 10 };
+		int[] arr = { 1, 3, 4, 7, 9, 10};
 		System.out.println("Sum of missing number:" + sumOfMissingNum1.getSumOfNum(arr));
 		System.out.println("Highest of missing number:" + sumOfMissingNum1.getHigestMissNum(arr));
 	}
