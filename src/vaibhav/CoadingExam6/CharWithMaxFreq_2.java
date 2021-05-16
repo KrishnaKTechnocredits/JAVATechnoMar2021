@@ -18,14 +18,14 @@ public class CharWithMaxFreq_2 {
 
 	char getMaxFreqChar(String input) {
 		int maxFreq = 0;
-		char maxChar = input.charAt(0);
+		char maxChar = input.charAt(0); // globant india is hiring
 
 		while (input.length() > 0) {
-			char ch = input.charAt(0);
-			int origianlLength = input.length();
-			input = input.replaceFirst(input.valueOf(ch), "");
-			int newLength = input.length();
-			int charFreq = origianlLength - newLength;
+			char ch = input.charAt(0);		// g
+			int origianlLength = input.length(); // 23
+			input = input.replace(input.valueOf(ch), "");  // lobant india is hirin
+			int newLength = input.length();		// 21
+			int charFreq = origianlLength - newLength;	// 23 - 21 = 2
 
 			if (charFreq > maxFreq) {
 				maxFreq = charFreq;
