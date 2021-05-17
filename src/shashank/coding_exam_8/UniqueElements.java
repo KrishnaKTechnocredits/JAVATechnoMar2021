@@ -1,4 +1,5 @@
 package shashank.coding_exam_8;
+
 /*Programming Test - 8 :
 
 
@@ -10,28 +11,30 @@ Hint : Method should take int array as parameter and return an array.
 */
 public class UniqueElements {
 
-	public int [] uniqueElementsInArray(int array[]) {
-		boolean flag= false; int [] output = new int [array.length];
-		for (int index=0;index<array.length;index++) {
-			flag=false;
-			for (int innerIndex=index+1;innerIndex<array.length;innerIndex++) {
-				if (array[index]==array[innerIndex])
-					flag=true;
+	public int[] uniqueElementsInArray(int array[]) {
+		boolean flag = false;
+		int[] output = new int[array.length];
+		for (int index = 0; index < array.length; index++) {
+			flag = false;
+			for (int innerIndex = index + 1; innerIndex < array.length; innerIndex++) {
+				if (array[index] == array[innerIndex])
+					flag = true;
 			}
-			if (flag==false)
-				output[index]=array[index];
+			if (flag == false)
+				output[index] = array[index];
 		}
 		return output;
 	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr [] = {10,2,3,10,3,55,61,2};
+		int arr[] = { 10, 2, 3, 10, 3, 55, 61, 2 };
 		UniqueElements uniqueElements = new UniqueElements();
-		int uniqueArr[]=uniqueElements.uniqueElementsInArray(arr);
+		int uniqueArr[] = uniqueElements.uniqueElementsInArray(arr);
 		System.out.println("Unique Elements in given array is ");
-		for (int index=0;index<uniqueArr.length;index++) {
-			if (uniqueArr[index]!=0)
-				System.out.print(uniqueArr[index]+" ");
+		for (int index = 0; index < uniqueArr.length; index++) {
+			if (uniqueArr[index] != 0)
+				System.out.print(uniqueArr[index] + " ");
 		}
 	}
 
