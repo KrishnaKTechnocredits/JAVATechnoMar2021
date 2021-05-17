@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class PrimeGG {
 	
+	public PrimeGG() {
+		System.out.println("Hi");
+	}
+	
 	void m1(int input) {
 		boolean isPrime = true;
 		for(int i=2; i<input;i++) {

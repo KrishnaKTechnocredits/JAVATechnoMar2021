@@ -2,13 +2,18 @@ package monika.Practise1;
 
  public class Manager {
 	private int x;
+	public Manager(){
+		this.x = 1;
+		System.out.println("Hi");
+	}
 	public Manager(int i){
-		super();
+		//super();
 		this.x = i;
-		System.out.println("Value: "+x+" Parent class consructor");
+		System.out.println(this.x);
+		//System.out.println("Value: "+x+" Parent class consructor");
 	}
 	
-	protected void m1() {
+	public void m1() {
 		System.out.println("M1");
 		
 	}
