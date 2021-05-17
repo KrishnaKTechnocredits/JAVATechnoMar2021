@@ -32,6 +32,6 @@ public class MaximumFreqChar {
 	public static void main(String[] args) {
 		String input = "globant india is hiring";
 		char output = new MaximumFreqChar().maxfreq(input);
-		System.out.println("Max frequency of character from given string" + output);
+		System.out.println("Max frequency of character from given string is :" + output);
 	}
 }
