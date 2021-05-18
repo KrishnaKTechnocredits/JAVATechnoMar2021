@@ -27,6 +27,7 @@ public class Fibinacci {
 	public static void main(String[] args) {
 		Fibinacci f1=new Fibinacci();	
 		int output[]=f1.fibbonacySeries();
+		System.out.println("Fibinacci series up to 8 numbers : ");
 		for(int index=0;index<output.length;index++) {
 			System.out.println(output[index]);
 		}

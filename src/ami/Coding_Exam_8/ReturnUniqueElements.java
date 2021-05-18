@@ -21,7 +21,7 @@ public class ReturnUniqueElements {
 					flag = true;
 				}
 			}
-			if (!flag) {
+			if (flag == false) {
 				if (count < input.length) {
 					temp[count] = input[i];
 					count++;
@@ -34,6 +34,8 @@ public class ReturnUniqueElements {
 	public static void main(String[] a) {
 		ReturnUniqueElements r1 = new ReturnUniqueElements();
 		int[] output = r1.uniqNum();
+		System.out.println("input : {10,2,3,10,3,55,61,2}");
+		System.out.println("Unique elements from given array : ");
 		for (int index = 0; index < output.length && output[index] != 0; index++) {
 			System.out.println(output[index]);
 		}
