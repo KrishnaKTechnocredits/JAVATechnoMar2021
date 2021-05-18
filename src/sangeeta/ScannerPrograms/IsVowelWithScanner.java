@@ -1,4 +1,4 @@
-package sangeeta;
+package sangeeta.ScannerPrograms;
 
 import java.util.Scanner;
 
