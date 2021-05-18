@@ -4,9 +4,7 @@ public class UniqueNum {
 	static int temp = 0;
 
 	int[] uniqueNum(int[] input) {
-
 		int[] output = new int[input.length];
-		int count = 0;
 		for (int index = 0; index < input.length; index++) {
 
 			boolean isUnique = true;
