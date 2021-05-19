@@ -2,18 +2,25 @@ package ankit.coding_exam_9;
 
 public class ReverseStringInPlace {
 
+	static String reverseString(String input) {
+		String rev = "";
+		char[] chArr = input.toCharArray();
+		char temp = ' ';
+		for(int i = 0 , j = chArr.length-1 ; i<j ; i++, j--) {
+			temp = chArr[i];
+			chArr[i] = chArr[j];
+			chArr[j] = temp;
+		}
+		for(int i = 0 ; i< chArr.length ; i++) {
+			rev = rev + chArr[i];
+		}
+		return rev;
+	}
+
 	public static void main(String[] args) {
 		String input = "Techno";
-		char temp = ' ';
-		for(int i = 0 , j = input.length()-1 ; i<j ; i++, j--) {
-			temp = input.charAt(i);
-			//input.charAt(i) = input.charAt(j);
-		//	input.charAt(j) = temp;
-			//pending need to catch with Maulik
+		System.out.println("Reverse of String is : "+reverseString(input));
 		
-		}
-		}
-		
-
 	}
+}
 
