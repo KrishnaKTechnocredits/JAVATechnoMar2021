@@ -1,4 +1,4 @@
-package kangan;
+package kangan.codingExam2;
 
 /*Coding Exam - 2 : 26th April 2021
 
