@@ -1,7 +1,7 @@
 package madhavi_Raut.CodingExam.Exam_10;
 /*Programming Test - 10 : 19th May'2021 (12 mins) 
 Print the first non-repeated character of String.
-Input : abcgbca
+Input :  abcgbca
 output : g*/
 public class FindFirstUniqueCharacter {
 
