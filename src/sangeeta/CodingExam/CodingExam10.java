@@ -7,14 +7,16 @@ package sangeeta.CodingExam;
 public class CodingExam10 {
 
 	void nonRepeatedChar(String str) {
-		char repeatedChar = ' ';
+		char nonRepeatedChar = ' ';
 		for (int index = 0; index < str.length(); index++) {
 			char ch = str.charAt(index);
-			if (str.indexOf(ch) == str.lastIndexOf(ch))
-				repeatedChar = ch;
+			if (str.indexOf(ch) == str.lastIndexOf(ch)) {
+				nonRepeatedChar = ch;
+				break;
+			}
 		}
 
-		System.out.println("First non repeated character is: " + repeatedChar);
+		System.out.println("First non repeated character is: " + nonRepeatedChar);
 	}
 
 	public static void main(String[] args) {
