@@ -13,8 +13,10 @@ public class UniqueCharacterFromString {
 			if(str.indexOf(ch)!=str.lastIndexOf(ch)) {
 				isUnique=false;
 				ch=str.charAt(index);
-			}else
+			}else {
 				isUnique=true;
+				break;
+			}
 		}
 		if(isUnique) {
 			return ch;
