@@ -25,7 +25,7 @@ public class ShiftAllZerosAtEnd {
 	public static void main(String[] args) {
 
 		ShiftAllZerosAtEnd shiftAllZerosAtEnd1 = new ShiftAllZerosAtEnd();
-		int[] my_arr = { 1, 3, 0, 3, 0, 6, 0, 9, 23, 45 };		
+		int[] my_arr = { 1, 3, 0, 3, 0, 6, 0, 9, 23, 45, 0 , 0, 16, 89 };		
 		 int[] output_arry= shiftAllZerosAtEnd1.shiftallzeros(my_arr);		
 		System.out.println( Arrays.toString(output_arry));
 	}
