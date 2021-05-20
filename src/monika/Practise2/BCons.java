@@ -1,6 +1,6 @@
 package monika.Practise2;
 
-import monika.Practise1.ACOns;
+import monika.Practise1.Revision.ACOns;
 
 public class BCons extends ACOns {
 	 protected BCons() {

@@ -1,5 +1,5 @@
 package monika.Practise2;
-import monika.Practise1.VisibilityPurposeClass;
+import monika.Practise1.Revision.VisibilityPurposeClass;
 
 
 public class Calling extends VisibilityPurposeClass {

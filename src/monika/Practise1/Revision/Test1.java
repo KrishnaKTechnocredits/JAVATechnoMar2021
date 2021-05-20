@@ -1,5 +1,5 @@
-package monika.Practise1;
-import monika.Practise1.Test2;
+package monika.Practise1.Revision;
+import monika.Practise1.Revision.Test2;
 
 public class Test1 {
 
