@@ -1,23 +1,24 @@
 package anubhav.StringOperations;
 
-import java.util.Scanner;
+/*
+Number palindrome 
+ */
 
 public class NumberPalindrome {
 
 	void numPal(int input) {
-		int sum = 0;
-		int temp = input;
+		int reverseNum = 0;
+		int inputNum = input;
 
-		while (temp != 0) {
-			int remainder = temp % 10;
-			temp = temp / 10;
-			sum = temp * 10 + remainder;
+		while (inputNum != 0) {
+			int remainder = inputNum % 10;
+			inputNum = inputNum / 10;
+			reverseNum = reverseNum * 10 + remainder;
 		}
-		if (sum == input) {
-			System.out.println("Number " + input + " is a palindrome");
-		} else {
-			System.out.println("Number " + input + " is not a palindrome");
-		}
+		if (reverseNum == input)
+			System.out.println(input + " is a palindrome");
+		else
+			System.out.println(input + " is not a palindrome");
 	}
 
 	public static void main(String[] args) {
