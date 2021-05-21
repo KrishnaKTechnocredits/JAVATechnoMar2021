@@ -1,4 +1,4 @@
-package monika.Practise1;
+package monika.Practise1.Revision;
 
 /*Assignment - 31 : 4th May'2021
 program 1: swap 2 numbers using temporary variable.

@@ -1,4 +1,4 @@
-package monika.Practise1;
+package monika.Practise1.Revision;
 
 /*Assignment - 30 : 4th May'2021
 WAP to find Second max from given array

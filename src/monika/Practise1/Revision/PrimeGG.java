@@ -1,8 +1,12 @@
-package monika.Practise1;
+package monika.Practise1.Revision;
 
 import java.util.Scanner;
 
 public class PrimeGG {
+	
+	public PrimeGG() {
+		System.out.println("Hi");
+	}
 	
 	void m1(int input) {
 		boolean isPrime = true;

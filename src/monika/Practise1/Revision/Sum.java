@@ -1,4 +1,4 @@
-package monika.Practise1;
+package monika.Practise1.Revision;
 
 public class Sum {
 	final int a = 1, b = 10;
