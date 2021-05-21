@@ -1,9 +1,7 @@
 package prachi.Coding_Exam_4;
 
-
-
 /*String input = "Hi MAM hello NamaN techno";
-	output : MAM NamaN*/
+output : MAM NamaN*/
 
 public class PalindromeString {
 	static String input = "Hi MAM hellolleh NamaN techno";
@@ -28,6 +26,6 @@ public class PalindromeString {
 				output = output + " " + arr[index];
 			}
 		}
-		System.out.println("Output :" + output);
+		System.out.println("String Array Palindrome Elements are:" + output);
 	}
 }

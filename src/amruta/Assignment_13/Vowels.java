@@ -13,7 +13,45 @@ sample output3 : i is a vowel
 
 package amruta.Assignment_13;
 
+
+
+
 public class Vowels {
+
+	static void Vowels(char ch) {
+		ch = Character.toUpperCase(ch);
+		switch (ch) {
+		case 'A':
+			System.out.println(ch + " is a vowel");
+			break;
+		case 'E':
+			System.out.println(ch + " is a vowel");
+			break;
+		case 'I':
+			System.out.println(ch + " is a vowel");
+			break;
+		case 'O':
+			System.out.println(ch + " is a vowel");
+			break;
+		case 'U':
+			System.out.println(ch + " is a vowel");
+			break;
+		default:
+			System.out.println(ch + " is not a vowel");
+		}
+	}
+
+	public static void main(String[] a) {
+		Vowels('d');
+		Vowels('I');
+		Vowels('i');
+	}
+}
+
+
+
+
+/*public class Vowels {
 	
 	void isVowel(char ch) {
 
@@ -52,4 +90,4 @@ public class Vowels {
 		
 	}
 
-}
+}  */

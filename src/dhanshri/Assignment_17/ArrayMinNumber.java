@@ -19,8 +19,6 @@ public class ArrayMinNumber {
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("enter array lenth:");
-
-		// n represents the length of an array
 		int n = scanner.nextInt();
 		int[] array = new int[n];
 		System.out.println("enter elements of an  array");

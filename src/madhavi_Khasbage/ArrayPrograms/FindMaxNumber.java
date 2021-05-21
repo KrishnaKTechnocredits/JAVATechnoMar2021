@@ -9,18 +9,13 @@ output : 88
 public class FindMaxNumber {
 
 	int findMaximumNum(int[] arr) {
-		int temp = 0;
-		int arrLength = arr.length;
+		int max = arr[0];
 		for (int index = 0; index < arr.length; index++) {
-			for (int i = index + 1; i < arr.length; i++) {
-				if (arr[index] > arr[i]) {
-					temp = arr[index];
-					arr[index] = arr[i];
-					arr[i] = temp;
-				}
+			if (arr[index] > max) {
+				max = arr[index];
 			}
-		}
-		return arr[arrLength - 1];
+		}	
+		return max;
 	}
 
 	public static void main(String[] args) {

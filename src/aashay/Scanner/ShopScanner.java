@@ -134,6 +134,7 @@ public class ShopScanner {
 			shop.shoppingCart(magi,dsa,poch,ppuri,msla);
 			shop.availableStock();
 			shop.outOfStock();
+			scan.close();
 			
 		
 		}
