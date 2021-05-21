@@ -19,9 +19,9 @@ public class FindPalindromeNum {
 			temp = temp + newNum;
 		}
 		if (num1 == Integer.valueOf(temp))
-			System.out.println("Palindrom");
+			System.out.println(num1+" is Palindrom number");
 		else
-			System.out.println("Not palindrome");
+			System.out.println(num1+" is Not palindrome number");
 	}
 
 	public static void main(String[] args) {
