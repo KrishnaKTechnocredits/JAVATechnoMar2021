@@ -3,7 +3,7 @@ package prachi.Coding_Exam_4;
 /*String input = "Hi MAM hello NamaN techno";
 output : MAM NamaN*/
 
-public class PalindromeString {
+public class GetPalindromeStringElements {
 	static String input = "Hi MAM hellolleh NamaN techno";
 
 	boolean isPalindrome(String str) {
@@ -18,7 +18,7 @@ public class PalindromeString {
 	}
 
 	public static void main(String[] args) {
-		PalindromeString gps = new PalindromeString();
+		GetPalindromeStringElements gps = new GetPalindromeStringElements();
 		String[] arr = input.split(" ");
 		String output = "";
 		for (int index = 0; index < arr.length; index++) {
@@ -26,6 +26,6 @@ public class PalindromeString {
 				output = output + " " + arr[index];
 			}
 		}
-		System.out.println("String Array Palindrome Elements are:" + output);
+		System.out.println("Output :" + output);
 	}
 }
