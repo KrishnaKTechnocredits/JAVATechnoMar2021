@@ -12,7 +12,7 @@ public class ArrayListNumberDivisible {
 	ArrayList<Integer> getDisvisibleArray(ArrayList<Integer> arr){
 		ArrayList<Integer> output=new ArrayList<Integer>();
 		for(int index=0;index<arr.size();index++){
-			if(arr.get(index)%3==0 || arr.get(index)%5==0 || (arr.get(index)%3==0 && arr.get(index)%5==0)){
+			if(arr.get(index)%3==0 || arr.get(index)%5==0){
 				output.add(arr.get(index));
 			}
 		}
