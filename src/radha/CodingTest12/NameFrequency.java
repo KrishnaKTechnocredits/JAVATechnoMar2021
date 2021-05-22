@@ -13,7 +13,6 @@ Hint : contains, indexOf, set
 package radha.CodingTest12;
 
 import java.util.ArrayList;
-import java.util.jar.Attributes.Name;
 
 public class NameFrequency {
 	int countName(ArrayList<String> arr, String targetName) {
