@@ -26,7 +26,7 @@ public class ReplaceName {
 		String target = "Aashay";
 		System.out.println("Input : " + input);
 		int answer = replaceName.countName(input, target);
-		System.out.println("The count of target name in the arraylist : " + answer);
+		System.out.println("The count of target name ("+target+") in the arraylist : " + answer);
 		System.out.println("Output : " + input);
 	}
 }

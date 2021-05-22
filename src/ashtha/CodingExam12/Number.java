@@ -24,8 +24,8 @@ public class Number {
 		input.add(15);
 		input.add(44);
 		input.add(32);
-		System.out.println("Input : " + input);
+		System.out.println("Input numbers : " + input);
 		ArrayList<Integer> output = number.findNumber(input);
-		System.out.println("Output : " + output);
+		System.out.println("Output numbers : " + output);
 	}
 }
