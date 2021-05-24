@@ -9,8 +9,10 @@ public class Example1 {
 		ArrayList<Object> names = new ArrayList<Object>();
 
 		//****************************************************************//
-		//**************** boolean add(Object e) ************************//
+		//**************** boolean add(Object obj) ***********************//
+		//**************** Object get (int index) ************************//
 		//****************************************************************//
+		
 		
 		boolean b = names.add("Vaibhav");
 		names.add("Pooja");
