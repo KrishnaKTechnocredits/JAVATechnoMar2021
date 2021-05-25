@@ -7,7 +7,7 @@ Hint : Method signature should be char getAsciiOfChar(int asciiValue)
 package ami.Assignment_18;
 
 public class ReturnChartoAscii {
-	
+
 	char getAsciiOfChar(int asciiValue) {
 		char ch = (char) asciiValue;
 		return ch;
@@ -17,6 +17,6 @@ public class ReturnChartoAscii {
 		ReturnChartoAscii Returnchar = new ReturnChartoAscii();
 		String asciiValue = null;
 		char ch = Returnchar.getAsciiOfChar(Integer.parseInt("50"));
-		System.out.println("Character value is: "+ ch);
+		System.out.println("Character value is: " + ch);
 	}
 }

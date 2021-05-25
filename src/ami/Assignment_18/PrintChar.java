@@ -10,7 +10,7 @@ public class PrintChar {
 
 	void printCharValue() {
 		for (int value = 97; value <= 122; value++) {
-			char ch = (char)value;
+			char ch = (char) value;
 			System.out.println("Character value of ASCII " + value + " is " + ch);
 		}
 	}
@@ -19,5 +19,5 @@ public class PrintChar {
 		PrintChar asciiCharacter = new PrintChar();
 		asciiCharacter.printCharValue();
 	}
-	
+
 }
