@@ -12,8 +12,8 @@ public class Puppy extends Dog {
 		System.out.println(a);
 
 	}
-/*	public String toString() {
+	public String toString() {
 		return breed;
-	}*/
+	}
 
 }
