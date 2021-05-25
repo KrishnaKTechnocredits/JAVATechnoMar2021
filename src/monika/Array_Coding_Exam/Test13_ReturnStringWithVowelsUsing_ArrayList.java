@@ -1,5 +1,4 @@
 package monika.Array_Coding_Exam;
-
 import java.util.ArrayList;
 
 /*2. Return all the words having more than two vowels from given array.
