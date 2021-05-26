@@ -13,10 +13,9 @@ public class Division {
 	
 	public ArrayList<Integer> filterNumber(ArrayList<Integer> numbers){
 		ArrayList<Integer> resultedArray = new ArrayList<Integer>();
-		for(int index = 0; index <numbers.size();index++) {
-			int num = numbers.get(index);
+		for(int num : numbers) {
 			if(num % 3 == 0 || num% 5 == 0 || (num % 3 == 0 && num% 5 == 0))
-					resultedArray.add(numbers.get(index));			
+					resultedArray.add(num);			
 		}
 		return resultedArray;
 	}
