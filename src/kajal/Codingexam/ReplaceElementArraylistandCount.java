@@ -6,37 +6,39 @@ output : ["Vaibhav", "Technocredits", "Prashant", "Technocredits", "Technocredit
 output : 3  
 */
 package kajal.Codingexam;
+
 import java.util.ArrayList;
 
 public class ReplaceElementArraylistandCount {
-	int cnt=0;
-	ArrayList<String> replaceandCnt(ArrayList<String> input){
-		
-		int index=0;
-		while(index<input.size()) {
-			if(input.contains("Vicky")) {
-				index=input.indexOf("Vicky");
-					input.set(index, "Technocredits");
-				index++;
-				cnt++;
-				//System.out.println(cnt);
+	int cnt = 0;
+
+	ArrayList<String> replaceandCnt(ArrayList<String> input) {
+
+		int index = 0;
+		while (index < input.size()) {
+			if (input.contains("Vicky")) {
+				index = input.indexOf("Vicky");
+				input.set(index, "Technocredits");
 			}
-			
-		}System.out.println(cnt);
+			index++;
+			cnt++;
+
+		}
+		System.out.println(cnt);
 		return input;
 	}
 
 	public static void main(String[] args) {
-		ReplaceElementArraylistandCount replace=new ReplaceElementArraylistandCount();
-		ArrayList<String> input= new ArrayList<String>();
+		ReplaceElementArraylistandCount replace = new ReplaceElementArraylistandCount();
+		ArrayList<String> input = new ArrayList<String>();
 		input.add("Vaibhav");
 		input.add("Vicky");
 		input.add("Prashant");
 		input.add("Vicky");
 		input.add("Vicky");
 		input.add("Anubhav");
-		
-		ArrayList<String> ans=replace.replaceandCnt(input);
+
+		ArrayList<String> ans = replace.replaceandCnt(input);
 		System.out.println(ans);
 
 	}
