@@ -14,15 +14,15 @@ import java.util.ArrayList;
 
 public class ArmStrongNumber {
 
-	ArrayList<Integer> getArmStrongNumber(int[] number) { // { 153, 279, 371, 303, 407 }
+	public ArrayList<Integer> getArmStrongNumber(int[] number) { // { 153, 279, 371, 303, 407 }
 
 		ArrayList<Integer> outputArrList = new ArrayList<Integer>();
 
 		for (int index = 0; index < number.length; index++) {
 
-			int num = number[index];	// 153
+			int num = number[index]; // 153
 			int ans = 0;
-			while (num != 0) { 
+			while (num != 0) {
 				int temp = num % 10; // 3 // 5
 				num = num / 10; // 15 // 1
 				ans = ans + (temp * temp * temp);
