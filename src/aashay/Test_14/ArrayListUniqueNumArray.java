@@ -17,10 +17,9 @@ public class ArrayListUniqueNumArray {
 		ArrayList<Integer> output = new ArrayList<Integer>();
 
 		for (int index = 0; index < words.length; index++) {
-			int temp = words[index];
-			if(!output.contains(words[index]))
+			if (!output.contains(words[index]))
 				output.add(words[index]);
-		} 
+		}
 		return output;
 	}
 
