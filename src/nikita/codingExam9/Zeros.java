@@ -30,7 +30,6 @@ public class Zeros {
 public static void main(String[] args) {
 	
 	int[] input= {1,3,0,3,0,6,0,9,23,45};
-	//Zeros z=new Zeros();
 	int [] output= new Zeros().sortZero(input);
 	for(int index=0;index<input.length;index++)
 		System.out.println(output[index] + " ");
