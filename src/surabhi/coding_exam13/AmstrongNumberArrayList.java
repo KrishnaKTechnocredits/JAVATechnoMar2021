@@ -13,10 +13,12 @@ public ArrayList<Integer> getArmStrongNumber(int numbser[]){
 public class AmstrongNumberArrayList {
 	static boolean isAmstrong(int num) {
 		int temp=num;
-		int r=0, sum=0;
+		String tempStr=String.valueOf(temp);
+		int power=tempStr.length();
+		int sum=0, r=0;
 		while(temp!=0) {
 			r=temp%10;
-			sum=sum+(int)Math.pow(r, 3);
+			sum=sum+(int)Math.pow(r, power);
 			temp=temp/10;
 		}
 		if(num==sum) {
@@ -40,7 +42,7 @@ public class AmstrongNumberArrayList {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AmstrongNumberArrayList amstrongNumberArrayList=new AmstrongNumberArrayList(); 
-		int [] arr= {153,279,371,303,407};
+		int [] arr= {1634, 153,279,371,303,407};
 		ArrayList output=amstrongNumberArrayList.getArmStrongNumber(arr);
 		System.out.println(output);
 	}
