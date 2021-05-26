@@ -51,7 +51,7 @@ public class CountAndReplace {
 		System.out.println("ArrayList Before replace operation : ");
 		System.out.println(inputList);
 		int count = countAndReplace.countNameAndReplace(inputList, targetName, replaceWith);
-		System.out.println("");
+		System.out.println(" ");
 		System.out.println("ArrayList After replace operation : ");
 		System.out.println("In given ArrayList " + targetName + " count is : " + count);
 		System.out.println(inputList);
