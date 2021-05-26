@@ -18,11 +18,10 @@ public class ReplaceValue {
 	int count = 0;
 	
 	public ArrayList<String> getNames(ArrayList<String> nameList,String targetName){
-		for(int index = 0;index<nameList.size();index++) {
-			if(nameList.get(index).equals("Aashay")) {
-				nameList.set(index, "Technocredits");
-				count++;
-			}	
+		while(nameList.contains("Aashay")) {
+			int index = nameList.indexOf("Aashay");
+			nameList.set(index, "Technocredits");
+			count++;				
 		}
 		return nameList;
 	}
