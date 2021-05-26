@@ -1,29 +1,21 @@
 package meenu.coding_exam_14;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 
-/*2. Return all the duplicate numbers from given array.
+/*2. Return all the unique numbers from given array.
 input: [1,8,6,3,4,5,2,3,6,9,8,4]
-output: [8,6,3,4,]
+output: [1,8,6,3,4,5,2,9]]
 */
 
 public class DuplicateNumbers {
 	
-	public ArrayList<Integer> getDuplicateNum(ArrayList<Integer> numList){
-		ArrayList<Integer> duplicateNumList = new ArrayList<Integer>();
-		for(int index = 0;index<numList.size();index++) {
-			int count = 1;
-			for(int innerIndex = index+1;innerIndex<=numList.size()-1;innerIndex++) {
-				if(numList.get(index)== numList.get(innerIndex)) {
-					count++;	
-					break;
-				}
-			}
-			if(count == 2) {
-				duplicateNumList.add(numList.get(index));
-			}
+	public LinkedHashSet<Integer> getDuplicateNum(ArrayList<Integer> numList){
+		LinkedHashSet<Integer> uniqueNumList = new LinkedHashSet<Integer>();
+		for(int numbers : numList) {
+			uniqueNumList.add(numbers);			
 		}
-		return duplicateNumList;
+		return uniqueNumList;
 	}
 
 	public static void main(String[] args) {

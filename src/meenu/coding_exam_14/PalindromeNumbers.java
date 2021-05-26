@@ -11,8 +11,8 @@ public class PalindromeNumbers {
 
 	public ArrayList<Integer> getPalindromeNum(ArrayList<Integer> numbers){
 		ArrayList<Integer> PalidromeNumList = new ArrayList<Integer>();
-		for(int index = 0;index<numbers.size();index++) {
-			int tempNum = numbers.get(index);
+		for(int numList : numbers) {
+			int tempNum = numList;
 			int r = 0;
 			int outputNum = 0;
 			while(tempNum>0){
@@ -20,8 +20,8 @@ public class PalindromeNumbers {
 				outputNum = (outputNum*10)+r; 
 				tempNum = tempNum/10;				
 			}
-			if(outputNum == numbers.get(index))
-				PalidromeNumList.add(numbers.get(index));
+			if(outputNum == numList)
+				PalidromeNumList.add(outputNum);
 		}
 		return PalidromeNumList;
 	}
