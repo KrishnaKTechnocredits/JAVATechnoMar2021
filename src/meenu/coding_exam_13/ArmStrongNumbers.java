@@ -10,8 +10,8 @@ public class ArmStrongNumbers {
 	
 	public ArrayList<Integer> getArmStrongNum(ArrayList<Integer> numberList){
 		ArrayList<Integer> ArmStrongNumList = new ArrayList<Integer>();
-		for(int index = 0;index<numberList.size();index++) {
-			int tempNum = numberList.get(index);
+		for(int numbers : numberList) {
+			int tempNum = numbers;
 			int r = 0;
 			int outputNum = 0;
 			while(tempNum>0){
@@ -19,8 +19,8 @@ public class ArmStrongNumbers {
 				outputNum = outputNum +(r*r*r);
 				tempNum = tempNum/10;				
 			}
-			if(outputNum == numberList.get(index))
-				ArmStrongNumList.add(numberList.get(index));
+			if(outputNum == numbers)
+				ArmStrongNumList.add(numbers);
 		}	
 		return ArmStrongNumList;
 	}
