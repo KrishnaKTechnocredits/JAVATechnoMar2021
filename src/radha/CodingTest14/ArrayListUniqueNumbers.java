@@ -13,18 +13,18 @@ import java.util.ArrayList;
 
 public class ArrayListUniqueNumbers {
 
-	public ArrayList<Integer> getUniqueNumbers(int digit[]) {
+	public ArrayList<Integer> getUniqueNumbers(int words[]) {
 		ArrayList<Integer> uniqueArr = new ArrayList<Integer>();
-		for (int index = 0; index < digit.length; index++) {
+		for (int index = 0; index < words.length; index++) {
 			boolean isUnique = false;
 			for (int innerIndex = 0; innerIndex < index; innerIndex++) {
-				if (digit[index] == digit[innerIndex]) {
+				if (words[index] == words[innerIndex]) {
 					isUnique = true;
 					break;
 				}
 			}
 			if (!isUnique) {
-				uniqueArr.add(digit[index]);
+				uniqueArr.add(words[index]);
 			}
 		}
 		return uniqueArr;
