@@ -22,7 +22,7 @@ public class ReturnUniqueNums {
 		}
 		return newArr;
 	}
-
+	
 	public static void main(String[] args) {
 		ArrayList<Integer> output = ReturnUniqueNums.getUniqueNumbers(arr);
 		System.out.println("Output: "+output);

@@ -4,7 +4,7 @@ package prachi.Coding_Exam_14;
 input: [123,121,989,1221,951]
 output: [121,989,1221]
 
-public ArrayList<Integer> getPalindrome(int numbser[]){
+public ArrayList<Integer> getPalindrome(int numbers[]){
         //write your logic
 }*/
 
