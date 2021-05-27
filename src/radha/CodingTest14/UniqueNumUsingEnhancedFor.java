@@ -17,7 +17,7 @@ public class UniqueNumUsingEnhancedFor {
 		UniqueNumUsingEnhancedFor uniq = new UniqueNumUsingEnhancedFor();
 		int[] input = { 1, 8, 6, 3, 4, 5, 2, 3, 6, 9, 8, 4 };
 		ArrayList<Integer> uniqOut = uniq.getUniqueNumbers(input);
-		System.out.println("Unique number from array : " + uniqOut);
+		System.out.println("Output " + uniqOut);
 	}
 
 }
