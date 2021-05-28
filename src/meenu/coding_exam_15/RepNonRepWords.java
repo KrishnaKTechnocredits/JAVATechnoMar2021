@@ -11,13 +11,13 @@ public class RepNonRepWords {
 		boolean nonRepWord = false;
 
 		for (String name : list) {
-			if (list.indexOf(name) != list.lastIndexOf(name) && nonRepWord == false) {
-				outputStr = outputStr + name + " ";
-				nonRepWord = true;
-			}
-			if (list.indexOf(name) == list.lastIndexOf(name) && repWord == false) {
+			if (list.indexOf(name) != list.lastIndexOf(name) && repWord == false) {
 				outputStr = outputStr + name + " ";
 				repWord = true;
+			}
+			if (list.indexOf(name) == list.lastIndexOf(name) && nonRepWord == false) {
+				outputStr = outputStr + name + " ";
+				nonRepWord = true;
 			}
 		}
 		return outputStr;
