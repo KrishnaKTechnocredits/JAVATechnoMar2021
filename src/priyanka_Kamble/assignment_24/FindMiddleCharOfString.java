@@ -1,5 +1,4 @@
 package priyanka_Kamble.assignment_24;
-import java.util.*;
 /*Assignment - 24 : 18th April'2021
 
 Create a method which will return middle character of each String. Print output in main method.
@@ -29,8 +28,6 @@ public class FindMiddleCharOfString {
 	public static void main(String[] args) {
 		// new FindMiddleCharOfString()
 		String[] array = { "Techno", "Hello", "Credits" };
-		//System.out.println("Given Array = "  + Arrays.toString(array));
-		System.out.println("Given Array = "  + Arrays.asList(array));
 		new FindMiddleCharOfString().findMiddleChar(array);
 	}
 }
