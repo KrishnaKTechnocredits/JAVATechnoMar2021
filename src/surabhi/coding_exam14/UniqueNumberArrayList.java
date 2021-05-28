@@ -6,12 +6,13 @@ output: [1,8,6,3,4,5,2,9]*/
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class UniqueNumberArrayList {
 	
 	public static ArrayList<Integer> getUniqueNumbers(int numbers[]){
-		HashSet<Integer> uniqueSetArray=new HashSet<Integer>();
+		Set<Integer> uniqueSetArray=new LinkedHashSet<Integer>();
 		for(Integer arr: numbers) {
 			uniqueSetArray.add(arr);
 		}
