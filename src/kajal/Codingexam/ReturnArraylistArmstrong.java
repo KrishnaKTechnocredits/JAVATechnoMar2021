@@ -1,0 +1,39 @@
+/*1. return all the arm-strong number from given array.
+	input: [153,279,371,303,407]
+	output: [153,371,407]                   
+ */
+package kajal.Codingexam;
+
+import java.util.ArrayList;
+
+public class ReturnArraylistArmstrong {
+
+	ArrayList<Integer> getArmStrongNum(ArrayList<Integer> numberList) {
+		ArrayList<Integer> ArmStrongNumList = new ArrayList<Integer>();
+		for (int index = 0; index < numberList.size(); index++) {
+			int tempNum = numberList.get(index);
+			int r = 0;
+			int outputNum = 0;
+			while (tempNum > 0) {
+				r = tempNum % 10;
+				outputNum = outputNum + (r * r * r);
+				tempNum = tempNum / 10;
+			}
+			if (outputNum == numberList.get(index))
+				ArmStrongNumList.add(numberList.get(index));
+		}
+		return ArmStrongNumList;
+	}
+
+	public static void main(String[] args) {
+		ArrayList<Integer> numberList = new ArrayList<Integer>();
+		numberList.add(153);
+		numberList.add(279);
+		numberList.add(371);
+		numberList.add(303);
+		numberList.add(407);
+
+		ReturnArraylistArmstrong ans = new ReturnArraylistArmstrong();
+		System.out.println(ans.getArmStrongNum(numberList));
+	}
+}
