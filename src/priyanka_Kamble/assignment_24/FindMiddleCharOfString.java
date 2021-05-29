@@ -1,4 +1,4 @@
-package priyanka_Panat.assignment24;
+package priyanka_Kamble.assignment_24;
 /*Assignment - 24 : 18th April'2021
 
 Create a method which will return middle character of each String. Print output in main method.
