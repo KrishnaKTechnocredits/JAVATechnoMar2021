@@ -104,12 +104,9 @@ public class Practice_Collections {
 		hashSetNew1.add("Monika");
 		hashSetNew1.add('d');
 		hashSetNew1.add(12);
-		hashSetNew1.
+
+
 		Systemskype.out.println(hashSetNew1);//unique elements + order
-		
-		
-		
-		
 	}
 
 }

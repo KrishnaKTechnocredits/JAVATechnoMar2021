@@ -1,4 +1,4 @@
-package pavan.PavanB_coding_exam_10;
+package pavan.PavanB_Coding_exam_10;
 
 import java.util.Scanner;
 
