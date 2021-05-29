@@ -8,7 +8,7 @@ public class CharacterFreqInWord {
 		char[] wordCharArr = word.toCharArray();
 		HashMap<Character, Integer> wordHM = new HashMap<Character,Integer>();
 
-		for(char ch: wordCharArr) {
+		for(char ch: wordCharArr){
 			if(wordHM.containsKey(ch)) {
 				wordHM.put(ch, wordHM.get(ch)+1);
 			}else {
