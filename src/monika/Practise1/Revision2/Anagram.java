@@ -1,7 +1,9 @@
 package monika.Practise1.Revision2;
 
+import monika.Practise1.Revision.Accessmodifer_Testing;
+
 // input LISTEN , SILENT - YES
-public class Anagram {
+public class Anagram extends Accessmodifer_Testing {
 
 	void isanagram(String string1, String string2) {
 
@@ -29,8 +31,13 @@ public class Anagram {
 	}
 
 	public static void main(String[] args) {
+		
+		System.out.println(Accessmodifer_Testing.x);
+		Accessmodifer_Testing obj = new Accessmodifer_Testing();
+		System.out.println(obj.x);
+		
 		Anagram anagram = new Anagram();
-		anagram.isanagram("LISTEN", "silent");
+		//anagram.isanagram("LISTEN", "silent");
 
 	}
 
