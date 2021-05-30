@@ -35,6 +35,7 @@ public class FindNumMaxFrq {
 	public static void main(String[] args) {
 		FindNumMaxFrq objFrq = new FindNumMaxFrq();
 		int[] arr = { 6,2,6,6,6,6,3,4,15,3,3,5,5,12,13,17,12 };
+		System.out.println("Input: { 6,2,6,6,6,6,3,4,15,3,3,5,5,12,13,17,12 } ");
 		String strOutput = objFrq.getMaxFrqNum(arr);
 		System.out.println(strOutput);
 	}

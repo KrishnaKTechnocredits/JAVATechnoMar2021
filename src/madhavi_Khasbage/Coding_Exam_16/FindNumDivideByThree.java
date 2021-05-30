@@ -28,8 +28,9 @@ public class FindNumDivideByThree {
 	public static void main(String[] args) {
 		FindNumDivideByThree objFrq = new FindNumDivideByThree();
 		int[] arr = { 6, 2, 6, 6, 3, 4, 15, 3, 3, 5, 5, 12, 13, 17, 12 };
+		System.out.println("Input:{ 6, 2, 6, 6, 3, 4, 15, 3, 3, 5, 5, 12, 13, 17, 12 }" );
 		HashMap<Integer, Integer> hmap = objFrq.getNumFreqDivideByThree(arr);
-		System.out.println(hmap);
+		System.out.println("Frequency of numbers which is divided by 3:" + hmap);
 	}
 
 }

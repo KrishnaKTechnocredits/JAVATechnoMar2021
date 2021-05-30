@@ -20,8 +20,9 @@ public class FindFreqNumUsingMap {
 
 	public static void main(String[] args) {
 		FindFreqNumUsingMap objFrq = new FindFreqNumUsingMap();
+		System.out.println("Input: { 1, 2, 1, 1, 3, 4, 5, 3, 3, 4, 5, 5, 2 } ");
 		int[] arr = { 1, 2, 1, 1, 3, 4, 5, 3, 3, 4, 5, 5, 2 };
 		HashMap<Integer, Integer> hmap = objFrq.getNumFreqDivideByThree(arr);
-		System.out.println(hmap);
+		System.out.println("Number and their frequency: " + hmap);
 	}
 }
