@@ -25,6 +25,6 @@ public class CodingExam16_P2 {
 		CodingExam16_P2 codingExam16_P2 = new CodingExam16_P2();
 		int [] arr = {6,2,6,6,3,4,15,3,3,5,5,12,13,17,12};
 		HashMap<Integer, Integer> output = codingExam16_P2.getFreqOfDigitsDivBy3(arr);
-		System.out.println("Digits divided by 3 are "+output);
+		System.out.println("Frequency of digits divided by 3 are "+output);
 	}
 }
