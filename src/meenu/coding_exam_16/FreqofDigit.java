@@ -24,5 +24,4 @@ public class FreqofDigit {
 		FreqofDigit freqofDigit = new FreqofDigit();
 		freqofDigit.getFreqOfDigit(arrOfNum);
 	}
-
 }
