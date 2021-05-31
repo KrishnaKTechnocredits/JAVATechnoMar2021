@@ -7,8 +7,6 @@ public ArrayList<Integer> getArmStrongNumber(int number[]){
 	//write your logic
 }
 
-
-
  */
  package rupali.codingexam;
  import java.util.ArrayList;
