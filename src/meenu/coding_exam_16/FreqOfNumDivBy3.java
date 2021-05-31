@@ -18,7 +18,7 @@ public class FreqOfNumDivBy3 {
 					digitFreq.put(arr[index], 1);
 			}
 		}
-		System.out.println(digitFreq);
+		System.out.println("Frequency of digit which are divisible by 3: "+digitFreq);
 	}
 
 	public static void main(String[] args) {

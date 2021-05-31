@@ -16,7 +16,7 @@ public class FreqofDigit {
 			else
 				digitFreq.put(arr[index], 1);
 		}
-		System.out.println(digitFreq);
+		System.out.println("Frequency of each digit: "+digitFreq);
 	}
 
 	public static void main(String[] args) {
