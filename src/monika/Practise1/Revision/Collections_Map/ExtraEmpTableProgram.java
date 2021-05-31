@@ -3,7 +3,7 @@ package monika.Practise1.Revision.Collections_Map;
 import java.util.HashMap;
 import java.util.Set;
 
-public class EmpTableProgram {
+public class ExtraEmpTableProgram {
 	
 	static void m1() {
 		HashMap<Integer,String> hm = new HashMap<Integer,String>();

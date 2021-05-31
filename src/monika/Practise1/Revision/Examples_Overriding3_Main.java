@@ -4,7 +4,7 @@ package monika.Practise1.Revision;
 public class Examples_Overriding3_Main {
 
 	public static void main(String[] args) {
-		Examples_Overriding1 o1 = new Examples_Overriding1();
+		ExtraExamples_Overriding1 o1 = new ExtraExamples_Overriding1();
 		System.out.println("Calling parent class object with all vars");
 		System.out.println(o1.x2);
 		System.out.println(o1.x3);
@@ -28,7 +28,7 @@ public class Examples_Overriding3_Main {
 		o2.m6(); // unique method of child class
 
 		System.out.println("***********************************");
-		Examples_Overriding1 o = new Examples_Overriding2();
+		ExtraExamples_Overriding1 o = new Examples_Overriding2();
 		System.out.println("Calling parent class object with all vars");
 		System.out.println(o.x2); // parent class
 		System.out.println(o.x3); // parent class

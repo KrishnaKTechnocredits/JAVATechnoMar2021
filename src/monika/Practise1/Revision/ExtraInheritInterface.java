@@ -2,17 +2,18 @@ package monika.Practise1.Revision;
 
 import monika.Practise1.Revision2.FirstInterface;
 
-public class InheritInterface implements FirstInterface{
+public class ExtraInheritInterface extends ExtraTest1 implements FirstInterface{
 	
-
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
 		//System.out.println(InheritInterface.y);
-		InheritInterface obj = new InheritInterface();
+		ExtraInheritInterface obj = new ExtraInheritInterface();
 		FirstInterface.sub(); // static - inetrface
-		InheritInterface.sub();
+		ExtraInheritInterface.sub();
 		obj.mul(); // abstract
 		obj.sum(); // abst
+		
 		//obj.sub();//interface
 		//System.out.println(obj.y);
 	}

@@ -1,6 +1,6 @@
 package monika.Practise1.Revision;
 
-public abstract class PracticeAbstractClass {
+public abstract class ExtraPracticeAbstractClass {
 
 	
 	public static void main(String[] args) {

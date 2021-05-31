@@ -1,6 +1,6 @@
 package monika.Practise1.Revision;
 
-public class Examples_Overriding1 {
+public class ExtraExamples_Overriding1 {
 	private String x1 = "over1 x1";
 			String x2 = "over1 x2";
 	protected String x3 = "over1 x3";

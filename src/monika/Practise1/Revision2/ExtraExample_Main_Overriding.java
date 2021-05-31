@@ -1,8 +1,8 @@
 package monika.Practise1.Revision2;
 
-import monika.Practise1.Revision.Examples_Overriding1;
+import monika.Practise1.Revision.ExtraExamples_Overriding1;
 
-public class Example_Main_Overriding extends Examples_Overriding1{
+public class ExtraExample_Main_Overriding extends ExtraExamples_Overriding1{
 	
 
 	

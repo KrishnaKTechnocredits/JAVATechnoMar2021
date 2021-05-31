@@ -2,9 +2,9 @@ package monika.Practise1.Revision2;
 
 import java.util.HashMap;
 
-import monika.Practise1.Revision.Examples_Overriding1;
+import monika.Practise1.Revision.ExtraExamples_Overriding1;
 
-public class Child_Examples_Overriding extends Examples_Overriding1{
+public class Child_Examples_Overriding extends ExtraExamples_Overriding1{
 
 	private String x1 = "over2 x1";
 	String x2 = "over2 x2";
@@ -36,11 +36,11 @@ public class Child_Examples_Overriding extends Examples_Overriding1{
 	
 	static public void m11() {
 	System.out.println("start of m11");
-	Examples_Overriding1 p = new Examples_Overriding1(); //parent class object created
+	ExtraExamples_Overriding1 p = new ExtraExamples_Overriding1(); //parent class object created
 //Child_Examples_Overriding c1 = (Child_Examples_Overriding)p; //parent class var assign to child class var
 		
 		//Child_Examples_Overriding c2 = p; //CE -> Parent class var assign to child class var
-		Child_Examples_Overriding c3 = (Child_Examples_Overriding)new Examples_Overriding1(); //- NO CE but RE
+		Child_Examples_Overriding c3 = (Child_Examples_Overriding)new ExtraExamples_Overriding1(); //- NO CE but RE
 		System.out.println("End of m11");
 	
 	}
