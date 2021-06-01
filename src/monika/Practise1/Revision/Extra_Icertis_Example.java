@@ -1,16 +1,7 @@
 package monika.Practise1.Revision;
 
-public class HashSet {
+public class Extra_Icertis_Example {
 
-	private HashSet(){
-		System.out.println(" private constructor of HaashSet class");
-	}
-	
-	public static HashSet m1() {
-		return new HashSet();
-		
-	}
-	
 	
 /*	static String replaceWords(String str) {
 		for(int index=0;index<str.length();index++) {
