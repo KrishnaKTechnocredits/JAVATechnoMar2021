@@ -152,7 +152,7 @@ public class BankTransaction {
 	public static void main(String[] args) {
 		BankTransaction bankTransaction = new BankTransaction();
 		// To set customer name
-		bankTransaction.setCutomerName("Daniel");
+		bankTransaction.setCutomerName("Maulik");
 		// To set balance in respective bank
 		bankTransaction.setBalance(1000, "HDFC");
 		bankTransaction.setBalance(2000, "ICICI");
