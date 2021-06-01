@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Example3_DuplicateByArrayList {
+public class Example3_DuplicateByArrayList_1 {
 
 	static ArrayList<String> replaceWord(ArrayList<String> wordList, String word) {
 
