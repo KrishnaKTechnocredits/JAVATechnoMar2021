@@ -9,7 +9,7 @@ class Example1{
 	}
 	
 	void showEmpId(){
-		System.out.println(empId);
+		System.out.println(  empId);
 	}
 	
 	public static void main(String[] a){
