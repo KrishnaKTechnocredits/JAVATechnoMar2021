@@ -25,7 +25,7 @@ public class UniqueListClient {
 		stdUniqueList.add(s4);
 		stdUniqueList.add(s5);
 
-		System.out.println("Duplicate Elements from Student List\n");
+		System.out.println("Unique List Of Students\n");
 		for (UniqueListStudent obj : stdUniqueList) {
 			stdUniqueSet.add(obj);
 		}
