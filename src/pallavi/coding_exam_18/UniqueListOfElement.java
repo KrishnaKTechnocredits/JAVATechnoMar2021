@@ -20,14 +20,14 @@ public class UniqueListOfElement {
 	public boolean equals(Object obj) {
 		UniqueListOfElement emp = (UniqueListOfElement) obj;
 		if (this.rollNo == emp.rollNo && this.firstName.equals(emp.firstName))
-			return false;
+			return true;
 		else
 			return false;
 	}
-	
+
 	public int hashCode() {
 		return this.rollNo;
-		
+
 	}
 
 	@Override
@@ -45,6 +45,7 @@ public class UniqueListOfElement {
 		detailsOfStudents.add(stu1);
 		detailsOfStudents.add(stu2);
 		detailsOfStudents.add(stu3);
+		detailsOfStudents.add(stu4);
 		System.out.println(detailsOfStudents);
 
 	}
