@@ -16,14 +16,14 @@ public class ArrayListSorting {
 		Student s2=new Student(222,"Dipali","Zagade","Kothrud, Pune");
 		Student s3=new Student(111,"Smita","Sambare","Hadapsar, Pune");
 		Student s4=new Student(333,"Anuja","Magar", "Magarpatta, Pune");
-		
 		arrList.add(s1);
 		arrList.add(s2);
 		arrList.add(s3);
-		arrList.add(s4);
-		
+		arrList.add(s4);		
+		System.out.println("Input:");
+		System.out.println(arrList + "\n");		
+		System.out.println("Output:");
 		Collections.sort(arrList);
 		System.out.println(arrList);
 	}
-
 }
