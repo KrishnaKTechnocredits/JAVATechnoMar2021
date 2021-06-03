@@ -28,7 +28,6 @@ public class TripletwithMaxSum {
 
 	public static void main(String[] args) {
 		int[] arr = { 1, 10, 2, 3, 1, 11, 4, 2, 1 };
-		TripletwithMaxSum tripletWithMaxSum = new TripletwithMaxSum();
 		System.out.println("Triplet with Maximum Sum is : " + new TripletwithMaxSum().getTripletwithMaxSum(arr));
 	}
 }
