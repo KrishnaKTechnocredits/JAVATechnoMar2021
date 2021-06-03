@@ -10,6 +10,8 @@
 package neha_Rathi.assignment22;
 
 public class AllCharFrequency {
+	int temp=0;
+	int cnt = 0;
 	void charFreq(String input) {
 
 		for (int index = 0; index < input.length(); index++) {
@@ -20,11 +22,12 @@ public class AllCharFrequency {
 	}
 
 	void frequencyOfChar(String input, char ch1) {
-		int cnt = 0;
+		
+	
 		for (int index = 0; index < input.length(); index++) {
-			if (ch1 == input.charAt(index))
+			if (ch1 == input.charAt(index)) {
 				cnt++;
-		}
+		}}
 		System.out.println(ch1 + " -> " + cnt + " time in " + input);
 	}
 
@@ -37,9 +40,9 @@ public class AllCharFrequency {
 
 	public static void main(String[] args) {
 		AllCharFrequency allCharFrequency = new AllCharFrequency();
-		String input = "aakanksha";
-		allCharFrequency.charFreq(input);
-		// String[] input = { "aakanksha" };
-		// allCharFrequency.validateAllString(input);
+		//String input = "aakanksha";
+		//allCharFrequency.charFreq("globant india is hiring");
+		String[] input1 = { "aakanksha" ,"neha"};
+		allCharFrequency.validateAllString(input1);
 	}
 }
