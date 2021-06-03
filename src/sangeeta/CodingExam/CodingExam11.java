@@ -15,9 +15,9 @@ public class CodingExam11 {
 		int num = inputnum;
 		int ans = 0;
 		while (num > 0) {
-			int Remainder = num % 10;
+			int Reminder = num % 10;
 			num = num / 10;
-			ans = ans * 10 + Remainder;
+			ans = ans * 10 + Reminder;
 		}
 		System.out.println("Input number is " + inputnum);
 		System.out.println("Reversed number is " + ans);
