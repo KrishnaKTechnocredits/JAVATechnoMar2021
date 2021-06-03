@@ -27,9 +27,9 @@ public class NumbDivby3 {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 1, 2, 4,6,12,24,36};
+		int[] arr = { 1, 2, 4, 6, 12, 24, 36 };
 		NumbDivby3 numbDivby3 = new NumbDivby3();
-		int frequency =numbDivby3.getNumDivByThree(arr);
+		int frequency = numbDivby3.getNumDivByThree(arr);
 		System.out.println(frequency);
 
 	}
