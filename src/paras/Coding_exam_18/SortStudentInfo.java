@@ -32,7 +32,7 @@ public class SortStudentInfo implements Comparable<SortStudentInfo> {
 	
 	@Override
 	public String toString() {
-		return "SortStudentInfo[rNo="+rNo+",firstName="+firstName+",lastName"+lastName+",address="+address+"]";
+		return "SortStudentInfo[rNo="+rNo+",firstName="+firstName+",lastName"+lastName+",address="+address+"]\n";
 	}
 	
 	public static void main(String[] args) {

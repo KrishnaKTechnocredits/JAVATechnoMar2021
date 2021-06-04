@@ -38,7 +38,7 @@ public class UniqueListOfStudent {
 	
 	@Override
 	public String toString() {
-		return "UniqueListOfStudent[rNo="+rNo+",firstName="+firstName+",lastName"+lastName+",address="+address+"]";
+		return "UniqueListOfStudent[rNo="+rNo+",firstName="+firstName+",lastName"+lastName+",address="+address+"]\n";
 	}
 	
 	public static void main(String[] args) {
@@ -46,7 +46,7 @@ public class UniqueListOfStudent {
 		UniqueListOfStudent Student1 = new UniqueListOfStudent(5, "Akshay", "Rokad", "Rajkot");
 		UniqueListOfStudent Student2 = new UniqueListOfStudent(1, "Paras", "Rokad", "Rajkot");
 		UniqueListOfStudent Student3 = new UniqueListOfStudent(8, "Kishan", "Patel", "Ahmedabad");
-		UniqueListOfStudent Student4 = new UniqueListOfStudent(8, "Akshay", "Rokad", "Rajkot");
+		UniqueListOfStudent Student4 = new UniqueListOfStudent(5, "Akshay", "Rokad", "Rajkot");
 		
 		uniqueStudent.add(Student1);
 		uniqueStudent.add(Student2);
