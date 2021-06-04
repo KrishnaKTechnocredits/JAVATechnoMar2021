@@ -1,5 +1,5 @@
 
-package vaibhav.Practive.Collections;
+package vaibhav.Practive.Collections.List;
 
 import java.util.ArrayList;
 import java.util.Arrays;

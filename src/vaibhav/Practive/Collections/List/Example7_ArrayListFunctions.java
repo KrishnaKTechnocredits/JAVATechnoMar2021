@@ -2,7 +2,7 @@
 // *********************** Functions on ArrayList ***********************//
 // **********************************************************************//
 
-package vaibhav.Practive.Collections;
+package vaibhav.Practive.Collections.List;
 
 import java.util.ArrayList;
 

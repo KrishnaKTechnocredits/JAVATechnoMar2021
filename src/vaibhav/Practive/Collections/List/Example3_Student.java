@@ -1,4 +1,4 @@
-package vaibhav.Practive.Collections;
+package vaibhav.Practive.Collections.List;
 
 public class Example3_Student {
 
