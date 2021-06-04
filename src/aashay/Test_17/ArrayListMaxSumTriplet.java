@@ -1,4 +1,10 @@
 package aashay.Test_17;
+/*
+ * Test - 17 :
+Program 1 : return arrayList of triplet having maximum sum, index overlapping is not allowed.
+input : [1,10,2,3,1,11,4,2,1] --> 8 --> length - 2, index = index+3
+output : 3,1,11 -> 15
+ */
 
 import java.util.ArrayList;
 

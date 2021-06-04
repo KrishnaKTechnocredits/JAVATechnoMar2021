@@ -1,5 +1,10 @@
 package aashay.Test_17;
+/*
+ * Program 2 : triplet having maximum sum, index overlapping is allowed.
+input : [1,10,2,3,1,11,4,2,1]
+output : 11,4,2 -> 17
 
+ */
 import java.util.ArrayList;
 
 public class ArrayListMaxripletNoOverlap {
