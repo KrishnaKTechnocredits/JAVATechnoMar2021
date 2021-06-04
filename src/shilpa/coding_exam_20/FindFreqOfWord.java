@@ -1,4 +1,9 @@
-/*Program 1:  Return the line having max freq of word techno.*/
+/*Program 2:  find freq of each word from ListOfWordFile to inputFile.
+output:  techno -> 2
+             credits -> 0.
+             march -> 1
+             batch -> 2
+*/
 package shilpa.coding_exam_20;
 
 import java.io.BufferedReader;
