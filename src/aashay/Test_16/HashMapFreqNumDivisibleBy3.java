@@ -1,0 +1,33 @@
+package aashay.Test_16;
+/*
+ * program 2 : find freq of only numbers div by 3
+int[] arr = {6,2,6,6,3,4,15,3,3,5,5,12,13,17,12};
+ */
+
+import java.util.HashMap;
+
+public class HashMapFreqNumDivisibleBy3 {
+
+	public HashMap<Integer, Integer> frequencyDivisibleBy3(int[] input) {
+		HashMap<Integer, Integer> output = new HashMap<Integer, Integer>();
+		for (int index = 0; index < input.length; index++) {
+			int tempNum = input[index];
+			if (tempNum % 3 == 0) {
+				if (output.containsKey(tempNum))
+					output.put(tempNum, output.get(tempNum) + 1);
+				else
+					output.put(tempNum, 1);
+			}
+		}
+		return output;
+	}
+
+	public static void main(String[] args) {
+		HashMapFreqNumDivisibleBy3 hashMapFreqNumDivisibleBy3 = new HashMapFreqNumDivisibleBy3();
+		int[] input = { 6, 2, 6, 6, 3, 4, 15, 3, 3, 5, 5, 12, 13, 17, 12 };
+		HashMap<Integer, Integer> output = hashMapFreqNumDivisibleBy3.frequencyDivisibleBy3(input);
+		System.out.println(output);
+
+	}
+
+}
