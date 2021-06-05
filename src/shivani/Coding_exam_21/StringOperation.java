@@ -5,15 +5,15 @@ String str2="th"
 Expected Output : hTis is hte htread htat given
 */
 public class StringOperation {
-
+static String output="";
 	static String reverseWord(String input, String target) {
-		String output = "";
+ 
 		if (input.contains(target)) {
 			output = input.replaceAll(target, "ht");
 
 		}
-		if (input.contains("Th")) {
-			output = input.replaceAll("Th", "hT");
+		if (output.contains("Th")) {
+			output = output.replace("Th", "hT");
 		}
 
 		return output;
