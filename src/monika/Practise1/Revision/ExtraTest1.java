@@ -1,15 +1,16 @@
 package monika.Practise1.Revision;
 import monika.Practise1.Revision.Test2;
 
-public class Test1 {
+public class ExtraTest1 {
 
 	 int i;
 
-	Test1() {
+	ExtraTest1() {
 		this.i = 1;
+		System.out.println(i);
 	}
 
-	Test1(int i) {
+	ExtraTest1(int i) {
 		this.i = i;
 	}
 	void indexOf() {
@@ -28,13 +29,13 @@ public class Test1 {
 
 
 	public static void main(String[] args) {
-		Test1 t = new Test1();
+		ExtraTest1 t = new ExtraTest1();
 		// m1(new Manager());
 		// m5();
 		
 		System.out.println("Value of t " + t);
 		System.out.println(t.i);
-		Test1 t1 = new Test1(10);
+		ExtraTest1 t1 = new ExtraTest1(10);
 		System.out.println("Value of t1 " + t1);
 		System.out.println(t.i);
 		System.out.println("--------------");
