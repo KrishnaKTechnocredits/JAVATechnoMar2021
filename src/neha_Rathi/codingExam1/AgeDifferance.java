@@ -1,4 +1,9 @@
-package neha_Rathi.test;
+//Program 2 :
+//WAP to provide the difference between a Younger and an elder member of the family. 
+//Age is provided in the form of an array.
+//Sample Input: 7 12 56 62 25
+//Sample Output: 55
+package neha_Rathi.codingExam1;
 
 public class AgeDifferance {
 
