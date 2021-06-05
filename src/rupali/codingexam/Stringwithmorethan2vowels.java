@@ -1,4 +1,15 @@
+/*codingexam 14
+2. Return all the words having more than two vowels from given array.
+input: ["aashay","sandesh","madhavi","ankit","ami","priyanka"]
+output: ["aashay","madhavi","priyanka"]
+
+public ArrayList<String> getVowels(String words[]){
+	//write your logic
+}
+*/
 package rupali.codingexam;
+
+
 
 import java.util.ArrayList;
 
