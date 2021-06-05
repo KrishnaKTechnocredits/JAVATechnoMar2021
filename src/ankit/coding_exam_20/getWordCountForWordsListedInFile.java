@@ -37,7 +37,7 @@ public class getWordCountForWordsListedInFile {
 		while(scInputFile.hasNext()) {
 			String line = scInputFile.nextLine();
 			System.out.println("For Target Line  :"+ line);
-			Scanner scWordFile = new Scanner(new File(wordListFilePath));
+			Scanner scWordFile = new Scanner(new File(wordListFilePath));//seperate method
 			while(scWordFile.hasNext()){
 				String targetWord = scWordFile.nextLine();
 				System.out.println(getCountOfTagret(line , targetWord));
@@ -45,6 +45,5 @@ public class getWordCountForWordsListedInFile {
 			scWordFile.close();
 		}
 		scInputFile.close();
-	}
-	
+	}	
 }
