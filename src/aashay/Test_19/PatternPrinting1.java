@@ -48,7 +48,8 @@ public class PatternPrinting1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String input = "globant";
-		//PatternPrinting1.globantPrint(input);
+		PatternPrinting1.globantPrint(input);
+		System.out.println();
 		PatternPrinting1.globantReversePrint(input);
 		
 
