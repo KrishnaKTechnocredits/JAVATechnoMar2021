@@ -1,24 +1,29 @@
-package sai.codingexam2;
+package sai.codingExam2;
 
 public class SumOfInt {
 
-	static int sum(String input) {
-		String temp = "";
-		int sum = 0;
-		for (int index = 0; index < input.length(); index++) {
-			char ch = input.charAt(index);
-			if (Character.isDigit(ch))
-				temp += ch;
-			else {
-				sum += Integer.parseInt(temp);
-				temp = "0";
-			}
-		}
-		return sum += Integer.parseInt(temp);
+	public static void main(String[] args) {
+
+		SumOfInt SumOfInt = new SumOfInt();
+		SumOfInt.getSum("12h14i4w8sdc15");
+
 	}
 
-	public static void main(String[] args) {
-		String str = "12h14i4w8sdc15";
-		System.out.println("Sum of integers in a given string is " + sum(str));
+	void getSum(String name) {
+		int sum = 0;
+		for (int index = 0; index < name.length(); index++) {
+			char ch = name.charAt(index);
+			if (Character.isDigit(ch)) {
+				if (index < (name.length() - 1) && Character.isDigit(name.charAt(index + 1))) {
+					sum = sum + Character.getNumericValue(name.charAt(index)) * 10
+							+ Character.getNumericValue(name.charAt(index + 1));
+					index = index + 1;
+				} else {
+					sum = sum + Character.getNumericValue(name.charAt(index));
+				}
+			}
+		}
+		System.out.println(sum);
 	}
+
 }
