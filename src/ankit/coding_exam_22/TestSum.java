@@ -4,13 +4,13 @@ public class TestSum {
 	
 	private static int getSumOfNumberOtherThanBetween6And9(int[] input) {
 		int sum = 0;
-		for(int index = 0; index < input.length ; index++) {//0//1//2//4//5
-			if(input[index] != 6) {//2//1//6//11//
-				sum = sum+ input[index];//2//3	//11
+		for(int index = 0; index < input.length ; index++) {
+			if(input[index] != 6) {
+				sum = sum+ input[index];
 			}
 			else {
-				while(input[index] != 9) {//3//6
-					index= index+1 ;//4//7//8
+				while(input[index] != 9) {
+					index= index+1 ;
 				}
 			}
 		}
