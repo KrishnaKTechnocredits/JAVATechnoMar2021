@@ -35,11 +35,13 @@ public class CountDifferentContentTypes {
 		for(int index=0; index<inputLength; index++) {
 			ch[index] = inp.charAt(index);
 		}
-		countContent(ch, inputLength);
+		//countContent(ch, inputLength);
+		countContent(ch);
 	}
 	
-	void countContent(char [] arg, int length) {
-		for(int i=0; i<length; i++) {
+	//void countContent(char [] arg, int length) {
+	void countContent(char [] arg) {
+		for(int i=0; i<arg.length; i++) {
 			if((int)arg[i]>=48 && (int)arg[i]<=57) {
 				digitCount++;
 			}else if(((int)arg[i]>=32 && (int)arg[i]<=47) || ((int)arg[i]>=58 && (int)arg[i]<=64) || ((int)arg[i]>=91 && (int)arg[i]<=96) || ((int)arg[i]>=123 && (int)arg[i]<=126)) {

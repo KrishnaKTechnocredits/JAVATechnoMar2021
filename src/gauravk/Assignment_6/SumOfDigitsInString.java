@@ -13,27 +13,24 @@ import java.util.Scanner;
 
 public class SumOfDigitsInString {
 	String inp = "";
-	int inputLength = 0;
 	char [] ch = new char[inp.length()];
 	int digitSum = 0;
 		
 	void inputKeystrokes() {
 		Scanner sc = new Scanner(System.in);
 		String inp = sc.nextLine();
-		inputLength = inp.length();
-		ch = new char [inputLength];
+		ch = new char [inp.length()];
 		
-		for(int index=0; index<inputLength; index++) {
+		for(int index=0; index<inp.length(); index++) {
 			ch[index] = inp.charAt(index);
 		}
-		countContent(ch, inputLength);
+		countContent(ch);
 	}
 	
-	void countContent(char [] arg, int length) {
-		for(int i=0; i<length; i++) {
+	void countContent(char [] arg) {
+		for(int i=0; i<arg.length; i++) {
 			if((int)arg[i]>=48 && (int)arg[i]<=57) {
-				int a = arg[i] - '0';
-				digitSum = digitSum + a;
+				digitSum = digitSum + Character.getNumericValue(arg[i]);
 			}
 		}
 		displayDigitSum();
