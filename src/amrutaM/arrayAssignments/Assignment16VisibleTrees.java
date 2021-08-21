@@ -15,7 +15,7 @@ public class Assignment16VisibleTrees {
 				max = treeHeights[index];
 			}
 		}
-		System.out.println(visibleTreeCount);
+		System.out.println("Total number of visible tress are ->"+visibleTreeCount);
 	}
 
 	public static void main(String[] args) {
