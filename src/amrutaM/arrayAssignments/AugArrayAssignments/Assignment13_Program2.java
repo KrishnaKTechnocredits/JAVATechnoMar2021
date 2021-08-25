@@ -1,4 +1,4 @@
-package arrayAssignmentsAugust;
+package amrutaM.arrayAssignments.AugArrayAssignments;
 
 /* program 2 : count number of zero's in given array.
  * int[] input = {1,-11,0,0,55,0,-23,0};  
