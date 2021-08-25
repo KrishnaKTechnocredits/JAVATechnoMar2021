@@ -1,4 +1,4 @@
-package arrayAssignmentsAugust;
+package amrutaM.arrayAssignments.AugArrayAssignments;
 
 /*program 1 : return count of positive numbers from given array. 
 int[] input = {1,-11,-44,23,55,-99,-23,-22}; 

@@ -1,4 +1,4 @@
-package arrayAssignmentsAugust;
+package amrutaM.arrayAssignments.AugArrayAssignments;
 
 /* program 3 : 
  * write a method which returns 5 smaller numbers of the given number. 
