@@ -61,9 +61,12 @@ public class Assignment44_ArrayList {
 		String[] names = { "Techno", "Chandni", "Amruta", "Parthav", "Mayur", "Amruta", "Credits", "Amruta" };
 		ArrayList<String> namesList = new ArrayList<String>(Arrays.asList(names));
 		ArrayList<Integer> input = new ArrayList<>(Arrays.asList(numbers));
-		// getMaxNumber(input, 2);
-		// getMaxWithoutCollection(numbers);
+		getMaxNumber(input, 2);
+		System.out.println("---- Without collction------");
+		getMaxWithoutCollection(numbers);
+		System.out.println("----- Remove Amruta Method 1 ----");
 		removeAmruta(namesList);
+		System.out.println("----- Remove Amruta Method 2 ----");
 		removeAmrutaMethod2(namesList);
 	}
 }
